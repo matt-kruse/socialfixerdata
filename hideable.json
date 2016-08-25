@@ -1,0 +1,146 @@
+{
+	"hideables" : [
+		{
+			"id":1
+			,"name":"Right-Column People You May Know"
+			,"selector":".ego_column a.uiHeaderActions[href^=\"/l.php?u=%2Ffind-friends%2Fbrowser%2F%3Fref%3Dpsa\"]"
+			,"parent":".pagelet"
+		}
+		,
+		{
+			"id":2
+			,"name":"Right-Column Suggested Pages"
+			,"selector":".ego_column a.uiHeaderActions[href^=\"/l.php?u=%2Fpages%2F%3Fcategory%3Dtop\"]"
+			,"parent":".pagelet"
+		}
+		,
+		{
+			"id":3
+			,"name":"Right-Column Sponsored Pagelet"
+			,"selector":".ego_column .adsCategoryTitleLink"
+			,"parent":".pagelet"
+		}
+		,
+		{
+			"id":4
+			,"name":"Right-Column Footer"
+			,"selector":"#pagelet_rhc_footer"
+		}
+		,
+		{
+			"id":5
+			,"name":"Right-Column Trending Pagelet"
+			,"selector":"#pagelet_trending_tags_and_topics"
+		}
+		,
+		{
+			"id":6
+			,"name":"Right-Column Reminders"
+			,"selector":"#pagelet_reminders"
+		}
+		,
+		{
+			"id":7
+			,"name":"Right-Column Games Pagelet"
+			,"selector":"#pagelet_games_rhc"
+		}
+		,
+		{
+			"id":8
+			,"name":"Left-Column Favorites"
+			,"selector":"#pinnedNav"
+		}
+		,
+		{
+			"id":9
+			,"name":"Left-Column Pages"
+			,"selector":"#pagesNav"
+		}
+		,
+		{
+			"id":10
+			,"name":"Left-Column Groups"
+			,"selector":"#groupsNav"
+		}
+		,
+		{
+			"id":11
+			,"name":"Left-Column Apps"
+			,"selector":"#appsNav"
+		}
+		,
+		{
+			"id":12
+			,"name":"Left-Column Lists"
+			,"selector":"#listsNav"
+		}
+		,
+		{
+			"id":13
+			,"name":"Left-Column Interests"
+			,"selector":"#interestsNav"
+		}
+		,
+		{
+			"id":14
+			,"name":"Left-Column Events"
+			,"selector":"#eventsNav"
+		}
+		,
+		{
+			"id":15
+			,"name":"Left-Column Developer"
+			,"selector":"#developerNav"
+		}
+		,
+		{
+			"id":16
+			,"name":"Left-Column Payments"
+			,"selector":"#paymentsNav"
+		}
+		,
+		{
+			"id":17
+			,"name":"Left-Column Welcome Box"
+			,"selector":"#pagelet_welcome_box"
+		}
+		,
+		{
+			"id":18
+			,"name":"Left-Column Fundraisers"
+			,"selector":"#fundraisersNav"
+		}
+		,
+		{
+			"id":19
+			,"name":"Daily Dialogue"
+			,"selector":"#dd_lw_card"
+		}
+		,
+		{
+			"id":20
+			,"name":"Right-Column Suggested Groups"
+			,"selector":"#pagelet_ego_pane div[id^=\"GroupSuggestionCard\"]"
+			,"parent":".pagelet"
+		}
+		,
+		{
+			"id":21
+			,"name":"Right-Column Group Suggestions"
+			,"selector":"#GroupsRHCSuggestionSection"
+		}
+		,
+		{
+			"id":22
+			,"name":"Chat Dock"
+			,"selector":"#BuddylistPagelet"
+		}
+		,
+		{
+			"id":23
+			,"name":"Viewing Most Recent Banner"
+			,"selector":"span.uiIconText ~ a[href=\"/?sk=h_nor\"]"
+			,"parent":"div.mvm"
+		}
+	]
+}

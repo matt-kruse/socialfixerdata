@@ -7,19 +7,20 @@
 					"target" : "content",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "trump|pence|hillary|bernie|election|republican|democrat|politic"
+						"text" : "trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|politic"
 					},
 					"match_partial_words" : true
 				}
 			],
 			"actions" : [{
 					"action" : "move-to-tab",
-					"tab" : "Election 2016"
+					"tab" : "Politics"
 				}
 			],
 			"configurable_actions" : true,
-			"title" : "Election 2016",
-			"description" : "Tab any posts related to the 2016 U.S. Election"
+			"title" : "Election/Politics 2016",
+			"description" : "Filter any posts related to the 2016 U.S. Election or Politics",
+			"stop_on_match" : true
 		}, {
 			"id" : 2,
 			"match" : "ANY",
@@ -52,7 +53,8 @@
 			],
 			"configurable_actions" : true,
 			"title" : "Hide Sponsored/Suggested Posts",
-			"description" : "Hide all sponsored and suggested posts from the news feed"
+			"description" : "Hide all sponsored and suggested posts from the news feed",
+			"stop_on_match" : true
 		}, {
 			"id" : 3,
 			"match" : "ALL",
@@ -201,8 +203,44 @@
 			],
 			"configurable_actions" : true,
 			"title" : "Hide \"People You May Know\"",
-			"description" : "The the \"People You May Know\" story that appears in the News Feed occasionally."
+			"description" : "Filter the \"People You May Know\" story that appears in the News Feed occasionally."
+		}, {
+			"id" : 11,
+			"match" : "ALL",
+			"enabled" : true,
+			"rules" : [{
+					"target" : "action",
+					"operator" : "contains",
+					"condition" : {
+						"text" : "commented on this|was mentioned in a post|was live|liked this|was tagged in|replied to a comment"
+					}
+				}
+			],
+			"actions" : [{
+					"action" : "move-to-tab",
+					"tab" : "Friend Activity"
+				}
+			],
+			"title" : "Friend Activity Stories",
+			"description" : "Filter stories about things your friends liked, were tagged in, etc, but which they didn't actually create."
+		}, {
+			"id":12,
+			"match" : "ALL",
+			"enabled" : true,
+			"rules" : [{
+					"target" : "any",
+					"operator" : "contains_selector",
+					"condition" : {
+						"text" : "a[href^=\"/saved/?cref\"]"
+					}
+				}
+			],
+			"actions" : [{
+					"action" : "hide"
+				}
+			],
+			"title" : "Saved Posts Reminder",
+			"description" : "Hide posts in the news feed that higlight things you've recently Saved to Facebook, which they are reminding you about."
 		}
-
 	]
 }

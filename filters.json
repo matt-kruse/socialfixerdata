@@ -4,7 +4,7 @@
 			"match" : "ALL",
 			"enabled" : true,
 			"rules" : [{
-					"target" : "content",
+					"target" : "any",
 					"operator" : "contains",
 					"condition" : {
 						"text" : "trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|politic"

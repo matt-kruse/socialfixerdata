@@ -1,7 +1,6 @@
 {
 	"tweaks" :
-	[
-		{
+	[{
 			"id" : 2,
 			"title" : "Hide \"Related\" Stories and Pages",
 			"description" : "When you click a link from the news feed or Like a page post, Facebook inserts a block of other things you might like. Enable this Tweak to hide those blocks.",
@@ -16,7 +15,12 @@
 			"title" : "Force Chat Popup To Default Colors",
 			"description" : "Chat colors can be customized by people in the chat, causing the popups to be different colors. This tweak restores all chat popup panels to the default blue color.",
 			"css" : ".fbDockChatTabFlyout .titlebar {color:#4080ff !important;}\n.fbDockChatTabFlyout .conversation div[style*=\"background-color\"] {background-color:#4080ff !important;}\n.fbDockChatTabFlyout .fbNubFlyoutFooter g {fill:rgb(0, 132, 255) !important;}\n.fbDockChatTabFlyout .fbNubFlyoutFooter path {fill:#0084ff !important;}"
+		}, {
+			"id" : 6,
+			"title" : "Lock left column",
+			"description" : "Force the left column to stay in place and not scroll with the screen.",
+			"enabled" : true,
+			"css" : "#leftCol {position:fixed !important;}"
 		}
-
 	]
 }

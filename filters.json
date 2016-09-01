@@ -221,6 +221,7 @@
 					"tab" : "Friend Activity"
 				}
 			],
+			"configurable_actions" : true,
 			"title" : "Friend Activity Stories",
 			"description" : "Filter stories about things your friends liked, were tagged in, etc, but which they didn't actually create."
 		}, {
@@ -239,6 +240,7 @@
 					"action" : "hide"
 				}
 			],
+			"configurable_actions" : true,
 			"title" : "Saved Posts Reminder",
 			"description" : "Hide posts in the news feed that higlight things you've recently Saved to Facebook, which they are reminding you about."
 		}

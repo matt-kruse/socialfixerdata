@@ -212,7 +212,7 @@
 					"target" : "action",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "commented on this|was mentioned in a post|was live|liked this|was tagged in|replied to a comment"
+						"text" : "(commented on this|was mentioned in a post|was live|liked this|reacted to this|was tagged in|replied to a comment)"
 					}
 				}
 			],

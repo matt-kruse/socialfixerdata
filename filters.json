@@ -7,7 +7,7 @@
 					"target" : "any",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|democratic|political|politics|politician|clinton foundation"
+						"text" : "(trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|democratic|political|politics|politician|clinton foundation)"
 					},
 					"match_partial_words" : false
 				}

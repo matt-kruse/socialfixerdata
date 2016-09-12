@@ -242,7 +242,7 @@
 			],
 			"configurable_actions" : true,
 			"title" : "Saved Posts Reminder",
-			"description" : "Hide posts in the news feed that higlight things you've recently Saved to Facebook, which they are reminding you about."
+			"description" : "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
 		}
 	]
 }

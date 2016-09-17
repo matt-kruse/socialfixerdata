@@ -185,9 +185,9 @@
 					"target" : "any",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "See all friend recommendations"
+						"text" : "See all friend (recommendations|suggestions)"
 					},
-					"match_partial_words" : false
+					"match_partial_words" : true
 				}, {
 					"target" : "any",
 					"operator" : "contains_selector",

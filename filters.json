@@ -13,8 +13,8 @@
 				}
 			],
 			"actions" : [{
-					"action" : "move-to-tab",
-					"tab" : "Politics"
+					"action" : "hide",
+					"show_note" : true
 				}
 			],
 			"configurable_actions" : true,

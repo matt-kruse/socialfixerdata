@@ -225,7 +225,7 @@
 			"title" : "Friend Activity Stories",
 			"description" : "Filter stories about things your friends liked, were tagged in, etc, but which they didn't actually create."
 		}, {
-			"id":12,
+			"id" : 12,
 			"match" : "ALL",
 			"enabled" : true,
 			"rules" : [{
@@ -243,6 +243,30 @@
 			"configurable_actions" : true,
 			"title" : "Saved Posts Reminder",
 			"description" : "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
+		}, {
+			"id" : 13,
+			"match" : "ALL",
+			"enabled" : true,
+			"stop_on_match" : true,
+			"rules" : [{
+					"target" : "any",
+					"operator" : "contains",
+					"condition" : {
+						"text" : "World Series|WorldSeries|Indians|Cubs|Cubbies|Wrigley|Progressive Field|home run|homerun|double play|inning|Bartman|joe buck|caray|schwarbersalazar|rizzo|kris bryant|baez"
+					}
+				}
+			],
+			"actions" : [{
+					"action" : "hide",
+					"show_note" : true,
+					"custom_note" : "World Series post hidden",
+					"tab" : "World Series"
+				}
+			],
+			"configurable_actions" : true,
+			"title" : "World Series Baseball 2016",
+			"description" : "Hide posts about the 2016 World Series between the Cubs and Indians"
 		}
+
 	]
 }

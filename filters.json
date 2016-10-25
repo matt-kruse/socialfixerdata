@@ -63,7 +63,7 @@
 					"target" : "any",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "Pok[eé]mon.?Go"
+						"text" : "Pokemon.?Go"
 					}
 				}
 			],

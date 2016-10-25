@@ -252,7 +252,7 @@
 					"target" : "any",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "World Series|WorldSeries|Indians|Cubs|Cubbies|Wrigley|Progressive Field|home run|homerun|double play|inning|Bartman|joe buck|caray|schwarbersalazar|rizzo|kris bryant|baez"
+						"text" : "World Series|WorldSeries|Indians|Cubs|Cubbies|Wrigley|Progressive Field|home run|homerun|double play|inning|Bartman|joe buck|caray|schwarber|salazar|rizzo|kris bryant|baez"
 					}
 				}
 			],

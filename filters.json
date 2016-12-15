@@ -84,7 +84,7 @@
 					"target" : "app",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "(.*)"
+						"text" : "(.+)"
 					}
 				}
 			],
@@ -103,7 +103,7 @@
 					"target" : "author",
 					"operator" : "contains",
 					"condition" : {
-						"text" : "(.*)"
+						"text" : "(.+)"
 					}
 				}
 			],

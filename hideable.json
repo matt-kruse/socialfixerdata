@@ -142,5 +142,31 @@
 			,"selector":"span.uiIconText ~ a[href=\"/?sk=h_nor\"]"
 			,"parent":"div.mvm"
 		}
+
+		,{"id":100,"selector":"#navItem_1572366616371383","name":"Left Col: Friend Lists"}
+		,{"id":101,"selector":"#navItem_2344061033","name":"Left Col: Events"}
+		,{"id":102,"selector":"#navItem_2530096808","name":"Left Col: Pages"}
+		,{"id":103,"selector":"#navItem_1434659290104689","name":"Left Col: Groups"}
+		,{"id":104,"selector":"#navItem_2305272732","name":"Left Col: Photos"}
+		,{"id":105,"selector":"#navItem_2347471856","name":"Left Col: Notes"}
+		,{"id":106,"selector":"#navItem_586254444758776","name":"Left Col: Saved"}
+		,{"id":107,"selector":"#navItem_1567751916853788","name":"Left Col: Your Posts"}
+		,{"id":108,"selector":"#navItem_303257506544370","name":"Left Col: On This Day"}
+		,{"id":109,"selector":"#navItem_140472815972081","name":"Left Col: Pages Feed"}
+		,{"id":110,"selector":"#navItem_140332009231","name":"Left Col: Games"}
+		,{"id":111,"selector":"#navItem_183217215062060","name":"Left Col: Pokes"}
+		,{"id":112,"selector":"#navItem_1031093773624602","name":"Left Col: Live Video"}
+		,{"id":113,"selector":"#navItem_526732794016279","name":"Left Col: Offers"}
+		,{"id":114,"selector":"#navItem_285162308271788","name":"Left Col: Moments"}
+		,{"id":115,"selector":"#navItem_219124168114356","name":"Left Col: Suggest Edits"}
+		,{"id":116,"selector":"#navItem_193356651002223","name":"Left Col: Fundraisers"}
+		,{"id":117,"selector":"#navItem_261369767293002","name":"Left Col: Games Feed"}
+		,{"id":118,"selector":"#navItem_577076605805053","name":"Left Col: Recommendations"}
+		,{"id":119,"selector":"#navItem_188833664616804","name":"Left Col: Insights"}
+		,{"id":120,"selector":"#navItem_969105076459966","name":"Left Col: Payment History"}
+		,{"id":121,"selector":"#navItem_2356318349","name":"Left Col: Find Friends"}
+		,{"id":122,"selector":"#navItem_2345053339","name":"Left Col: Manage Apps"}
+		,{"id":123,"selector":"#createNav","name":"Left Col: Create"}
+
 	]
 }

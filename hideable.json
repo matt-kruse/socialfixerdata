@@ -2,112 +2,112 @@
 	"hideables" : [
 		{
 			"id":1
-			,"name":"Right-Column People You May Know"
+			,"name":"Right Col: People You May Know"
 			,"selector":".ego_column a.uiHeaderActions[href^=\"/l.php?u=%2Ffind-friends%2Fbrowser%2F%3Fref%3Dpsa\"]"
 			,"parent":".pagelet"
 		}
 		,
 		{
 			"id":2
-			,"name":"Right-Column Suggested Pages"
+			,"name":"Right Col: Suggested Pages"
 			,"selector":".ego_column a.uiHeaderActions[href^=\"/l.php?u=%2Fpages%2F%3Fcategory%3Dtop\"]"
 			,"parent":".pagelet"
 		}
 		,
 		{
 			"id":3
-			,"name":"Right-Column Sponsored Pagelet"
+			,"name":"Right Col: Sponsored Pagelet"
 			,"selector":".ego_column .adsCategoryTitleLink"
 			,"parent":".pagelet"
 		}
 		,
 		{
 			"id":4
-			,"name":"Right-Column Footer"
+			,"name":"Right Col: Footer"
 			,"selector":"#pagelet_rhc_footer"
 		}
 		,
 		{
 			"id":5
-			,"name":"Right-Column Trending Pagelet"
+			,"name":"Right Col: Trending Pagelet"
 			,"selector":"#pagelet_trending_tags_and_topics"
 		}
 		,
 		{
 			"id":6
-			,"name":"Right-Column Reminders"
+			,"name":"Right Col: Reminders"
 			,"selector":"#pagelet_reminders"
 		}
 		,
 		{
 			"id":7
-			,"name":"Right-Column Games Pagelet"
+			,"name":"Right Col: Games Pagelet"
 			,"selector":"#pagelet_games_rhc"
 		}
 		,
 		{
 			"id":8
-			,"name":"Left-Column Favorites"
+			,"name":"Left Col: Favorites"
 			,"selector":"#pinnedNav"
 		}
 		,
 		{
 			"id":9
-			,"name":"Left-Column Pages"
+			,"name":"Left Col: Pages"
 			,"selector":"#pagesNav"
 		}
 		,
 		{
 			"id":10
-			,"name":"Left-Column Groups"
+			,"name":"Left Col: Groups"
 			,"selector":"#groupsNav"
 		}
 		,
 		{
 			"id":11
-			,"name":"Left-Column Apps"
+			,"name":"Left Col: Apps"
 			,"selector":"#appsNav"
 		}
 		,
 		{
 			"id":12
-			,"name":"Left-Column Lists"
+			,"name":"Left Col: Lists"
 			,"selector":"#listsNav"
 		}
 		,
 		{
 			"id":13
-			,"name":"Left-Column Interests"
+			,"name":"Left Col: Interests"
 			,"selector":"#interestsNav"
 		}
 		,
 		{
 			"id":14
-			,"name":"Left-Column Events"
+			,"name":"Left Col: Events"
 			,"selector":"#eventsNav"
 		}
 		,
 		{
 			"id":15
-			,"name":"Left-Column Developer"
+			,"name":"Left Col: Developer"
 			,"selector":"#developerNav"
 		}
 		,
 		{
 			"id":16
-			,"name":"Left-Column Payments"
+			,"name":"Left Col: Payments"
 			,"selector":"#paymentsNav"
 		}
 		,
 		{
 			"id":17
-			,"name":"Left-Column Welcome Box"
+			,"name":"Left Col: Welcome Box"
 			,"selector":"#pagelet_welcome_box"
 		}
 		,
 		{
 			"id":18
-			,"name":"Left-Column Fundraisers"
+			,"name":"Left Col: Fundraisers"
 			,"selector":"#fundraisersNav"
 		}
 		,
@@ -119,14 +119,14 @@
 		,
 		{
 			"id":20
-			,"name":"Right-Column Suggested Groups"
+			,"name":"Right Col: Suggested Groups"
 			,"selector":"#pagelet_ego_pane div[id^=\"GroupSuggestionCard\"]"
 			,"parent":".pagelet"
 		}
 		,
 		{
 			"id":21
-			,"name":"Right-Column Group Suggestions"
+			,"name":"Right Col: Group Suggestions"
 			,"selector":"#GroupsRHCSuggestionSection"
 		}
 		,
@@ -145,164 +145,176 @@
 		,
 		{
 			"id":100
-			,"selector":"#navItem_1572366616371383"
 			,"name":"Left Col: Friend Lists"
+			,"selector":"#navItem_1572366616371383"
 		}
 		,
 		{
 			"id":101
-			,"selector":"#navItem_2344061033"
 			,"name":"Left Col: Events"
+			,"selector":"#navItem_2344061033"
 		}
 		,
 		{
 			"id":102
-			,"selector":"#navItem_2530096808"
 			,"name":"Left Col: Pages"
+			,"selector":"#navItem_2530096808"
 		}
 		,
 		{
 			"id":103
-			,"selector":"#navItem_1434659290104689"
 			,"name":"Left Col: Groups"
+			,"selector":"#navItem_1434659290104689"
 		}
 		,
 		{
 			"id":104
-			,"selector":"#navItem_2305272732"
 			,"name":"Left Col: Photos"
+			,"selector":"#navItem_2305272732"
 		}
 		,
 		{
 			"id":105
-			,"selector":"#navItem_2347471856"
 			,"name":"Left Col: Notes"
+			,"selector":"#navItem_2347471856"
 		}
 		,
 		{
 			"id":106
-			,"selector":"#navItem_586254444758776"
 			,"name":"Left Col: Saved"
+			,"selector":"#navItem_586254444758776"
 		}
 		,
 		{
 			"id":107
-			,"selector":"#navItem_1567751916853788"
 			,"name":"Left Col: Your Posts"
+			,"selector":"#navItem_1567751916853788"
 		}
 		,
 		{
 			"id":108
-			,"selector":"#navItem_303257506544370"
 			,"name":"Left Col: On This Day"
+			,"selector":"#navItem_303257506544370"
 		}
 		,
 		{
 			"id":109
-			,"selector":"#navItem_140472815972081"
 			,"name":"Left Col: Pages Feed"
+			,"selector":"#navItem_140472815972081"
 		}
 		,
 		{
 			"id":110
-			,"selector":"#navItem_140332009231"
 			,"name":"Left Col: Games"
+			,"selector":"#navItem_140332009231"
 		}
 		,
 		{
 			"id":111
-			,"selector":"#navItem_183217215062060"
 			,"name":"Left Col: Pokes"
+			,"selector":"#navItem_183217215062060"
 		}
 		,
 		{
 			"id":112
-			,"selector":"#navItem_1031093773624602"
 			,"name":"Left Col: Live Video"
+			,"selector":"#navItem_1031093773624602"
 		}
 		,
 		{
 			"id":113
-			,"selector":"#navItem_526732794016279"
 			,"name":"Left Col: Offers"
+			,"selector":"#navItem_526732794016279"
 		}
 		,
 		{
 			"id":114
-			,"selector":"#navItem_285162308271788"
 			,"name":"Left Col: Moments"
+			,"selector":"#navItem_285162308271788"
 		}
 		,
 		{
 			"id":115
-			,"selector":"#navItem_219124168114356"
 			,"name":"Left Col: Suggest Edits"
+			,"selector":"#navItem_219124168114356"
 		}
 		,
 		{
 			"id":116
-			,"selector":"#navItem_193356651002223"
 			,"name":"Left Col: Fundraisers"
+			,"selector":"#navItem_193356651002223"
 		}
 		,
 		{
 			"id":117
-			,"selector":"#navItem_261369767293002"
 			,"name":"Left Col: Games Feed"
+			,"selector":"#navItem_261369767293002"
 		}
 		,
 		{
 			"id":118
-			,"selector":"#navItem_577076605805053"
 			,"name":"Left Col: Recommendations"
+			,"selector":"#navItem_577076605805053"
 		}
 		,
 		{
 			"id":119
-			,"selector":"#navItem_188833664616804"
 			,"name":"Left Col: Insights"
+			,"selector":"#navItem_188833664616804"
 		}
 		,
 		{
 			"id":120
-			,"selector":"#navItem_969105076459966"
 			,"name":"Left Col: Payment History"
+			,"selector":"#navItem_969105076459966"
 		}
 		,
 		{
 			"id":121
-			,"selector":"#navItem_2356318349"
 			,"name":"Left Col: Find Friends"
+			,"selector":"#navItem_2356318349"
 		}
 		,
 		{
 			"id":122
-			,"selector":"#navItem_2345053339"
 			,"name":"Left Col: Manage Apps"
+			,"selector":"#navItem_2345053339"
 		}
 		,
 		{
 			"id":123
-			,"selector":"#createNav"
 			,"name":"Left Col: Create"
+			,"selector":"#createNav"
 		}
 		,
 		{
 			"id":124
-			,"selector":"#navItem_1433252076974635"
 			,"name":"Left Col: Buy and Sell Groups"
+			,"selector":"#navItem_1433252076974635"
 		}
 		,
 		{
 			"id":125
-			,"selector":"#navItem_1606854132932955"
 			,"name":"Left Col: Marketplace"
+			,"selector":"#navItem_1606854132932955"
 		}
 		,
 		{
 			"id":126
-			,"selector":"#navItem_181728832201978"
 			,"name":"Left Col: Shops"
+			,"selector":"#navItem_181728832201978"
+		}
+                ,
+		{
+			"id":127
+			,"name":"Left Col: News Feed"
+			,"selector":"#navItem_4748854339"
+		}
+                ,
+		{
+			"id":128
+			,"name":"Left Col: Messages"
+			,"selector":"#navItem_217974574879787"
 		}
 	]
 }

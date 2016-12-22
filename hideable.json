@@ -52,5 +52,8 @@
 		,{"id":126,"name":"Left Col: Shops","selector":"#navItem_181728832201978"}
 		,{"id":127,"name":"Left Col: News Feed","selector":"#navItem_4748854339"}
 		,{"id":128,"name":"Left Col: Messages","selector":"#navItem_217974574879787"}
+		,{"id":129,"name":"Left Col: Ads Manager","selector":"#navItem_6802152230"}
+		,{"id":130,"name":"Left Col: Translate Facebook","selector":"#navItem_4329892722"}
+		,{"id":131,"name":"Left Col: Games Arcade","selector":"#navItem_1320332077993895"}
 	]
 }

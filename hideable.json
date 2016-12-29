@@ -55,5 +55,6 @@
 		,{"id":129,"name":"Left Col: Ads Manager","selector":"#navItem_6802152230"}
 		,{"id":130,"name":"Left Col: Translate Facebook","selector":"#navItem_4329892722"}
 		,{"id":131,"name":"Left Col: Games Arcade","selector":"#navItem_1320332077993895"}
+		,{"id":132,"name":"Suggested Pages","selector":".ego_action.ego_like","parent":".pagelet"}
 	]
 }

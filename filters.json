@@ -45,19 +45,13 @@
 				"target": "any",
 				"operator": "contains_selector",
 				"condition": {
-					"text": "img[src*=\"facebook.com%2Fads%2Fimage%2F\"]"
-				}
-			}, {
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
 					"text": "span>a[href^=\"/about/ads\"]"
 				}
 			}, {
-				"target": "any",
+				"target": "action",
 				"operator": "contains",
 				"condition": {
-					"text": "Suggested Post"
+					"text": "(Sponsored|Suggested)\\s*($|Post|Game)"
 				}
 			}],
 			"actions": [{

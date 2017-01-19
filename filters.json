@@ -7,7 +7,7 @@
 				"target": "any",
 				"operator": "contains",
 				"condition": {
-					"text": "(trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|democratic|political|politics|politician|clinton foundation|electoral|exit polls|ben carson|chris christie|giuliani)"
+					"text": "(trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani)"
 				},
 				"match_partial_words": false
 			}],
@@ -16,8 +16,8 @@
 				"show_note": true
 			}],
 			"configurable_actions": true,
-			"title": "Election/Politics 2016",
-			"description": "Filter any posts related to the 2016 U.S. Election or Politics",
+			"title": "Election/Politics 2017",
+			"description": "Filter any posts related to U.S. Politics",
 			"stop_on_match": true
 		}, {
 			"id": 2,

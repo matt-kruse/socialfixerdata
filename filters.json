@@ -1,238 +1,259 @@
 {
 	"filters": [{
-			"id": 1,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "any",
-				"operator": "contains",
-				"condition": {
-					"text": "(trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|sean spicer|tillerson)"
-				},
-				"match_partial_words": false
-			}],
-			"actions": [{
-				"action": "hide",
-				"show_note": true
-			}],
-			"configurable_actions": true,
-			"title": "Election/Politics 2017",
-			"description": "Filter any posts related to U.S. Politics",
-			"stop_on_match": true
+		"id": 1,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(trump|pence|hillary|bernie|libertarian|gary johnson|jill stein|green party|election|republican|democrat|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|sean spicer|tillerson)"
+			},
+			"match_partial_words": false
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true
+		}],
+		"configurable_actions": true,
+		"title": "Election/Politics 2017",
+		"description": "Filter any posts related to U.S. Politics",
+		"stop_on_match": true
+
+	}, {
+		"id": 20,
+		"match": "ALL",
+		"enabled": true,
+		"stop_on_match": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "football|steelers|packers|patriots|falcons|nfl|afc|nfc|touchdown|field goal|superbow|super bowl|brady|halftime|half time|the big game"
+			},
+			"match_partial_words": true
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true
+		}],
+		"title": "Superbowl/Football 2017",
+		"description": "Hide posts about football leading up to the 2017 Superbowl",
+		"expires": 1488261600000
+
+	}, {
+		"id": 2,
+		"match": "ANY",
+		"disabled": false,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiStreamSponsoredLink"
+			}
 		}, {
-			"id": 2,
-			"match": "ANY",
-			"disabled": false,
-			"rules": [{
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": ".uiStreamSponsoredLink"
-				}
-			}, {
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": "a[href*=\"hc_ref=ADS\"]"
-				}
-			}, {
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": "a[href*=\"fb_source=ad\"]"
-				}
-			}, {
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": "span>a[href^=\"/about/ads\"]"
-				}
-			}, {
-				"target": "action",
-				"operator": "contains",
-				"condition": {
-					"text": "(Sponsored|Suggested)\\s*($|Post|Game)"
-				}
-			}],
-			"actions": [{
-				"action": "hide",
-				"show_note": true,
-				"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
-			}],
-			"configurable_actions": true,
-			"title": "Hide Sponsored/Suggested Posts",
-			"description": "Hide all sponsored and suggested posts from the news feed",
-			"stop_on_match": true
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href*=\"hc_ref=ADS\"]"
+			}
 		}, {
-			"id": 3,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "any",
-				"operator": "contains",
-				"condition": {
-					"text": "Pokemon.?Go"
-				}
-			}],
-			"actions": [{
-				"action": "move-to-tab",
-				"content": "",
-				"tab": "PokemonGo"
-			}],
-			"configurable_actions": true,
-			"title": "Pokemon Go",
-			"description": "Move posts about Pokemon Go to a tab"
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href*=\"fb_source=ad\"]"
+			}
 		}, {
-			"id": 5,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "app",
-				"operator": "contains",
-				"condition": {
-					"text": "(.+)"
-				}
-			}],
-			"actions": [{
-				"action": "copy-to-tab",
-				"tab": "$1"
-			}],
-			"title": "Create Game/App Tabs",
-			"description": "Create tabs for filtered views of posts by apps or games, but don't remove them from the News Feed"
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "span>a[href^=\"/about/ads\"]"
+			}
 		}, {
-			"id": 6,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "author",
-				"operator": "contains",
-				"condition": {
-					"text": "(.+)"
-				}
-			}],
-			"actions": [{
-				"action": "copy-to-tab",
-				"tab": "$1"
-			}],
-			"title": "Create Author Tabs",
-			"description": "Create tabs for filtered views of posts by different people, but don't remove them from the News Feed"
+			"target": "action",
+			"operator": "contains",
+			"condition": {
+				"text": "(Sponsored|Suggested)\\s*($|Post|Game)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Hide Sponsored/Suggested Posts",
+		"description": "Hide all sponsored and suggested posts from the news feed",
+		"stop_on_match": true
+	}, {
+		"id": 3,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "Pokemon.?Go"
+			}
+		}],
+		"actions": [{
+			"action": "move-to-tab",
+			"content": "",
+			"tab": "PokemonGo"
+		}],
+		"configurable_actions": true,
+		"title": "Pokemon Go",
+		"description": "Move posts about Pokemon Go to a tab"
+	}, {
+		"id": 5,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "app",
+			"operator": "contains",
+			"condition": {
+				"text": "(.+)"
+			}
+		}],
+		"actions": [{
+			"action": "copy-to-tab",
+			"tab": "$1"
+		}],
+		"title": "Create Game/App Tabs",
+		"description": "Create tabs for filtered views of posts by apps or games, but don't remove them from the News Feed"
+	}, {
+		"id": 6,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "author",
+			"operator": "contains",
+			"condition": {
+				"text": "(.+)"
+			}
+		}],
+		"actions": [{
+			"action": "copy-to-tab",
+			"tab": "$1"
+		}],
+		"title": "Create Author Tabs",
+		"description": "Create tabs for filtered views of posts by different people, but don't remove them from the News Feed"
+	}, {
+		"id": 7,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "author",
+			"operator": "contains",
+			"condition": {
+				"text": "I Fucking Love"
+			}
+		}],
+		"actions": [{
+			"action": "replace",
+			"find": "I Fucking Love",
+			"replace": "IFL"
+		}],
+		"title": "I F'ing Love ...",
+		"description": "Replace any Page names like \"I F'ing Love Science\" with \"IFL\""
+	}, {
+		"id": 8,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "spoiler"
+			},
+			"match_partial_words": true
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Spoiler Alert! Click to show/hide this post.",
+			"css": "border:1px dashed red; font-size:12px; padding: 5px; opacity:1; margin:5px 0; color:red;"
+		}],
+		"configurable_actions": true,
+		"title": "Hide Spoilers",
+		"description": "If a post contains the word \"spoiler\" anywhere in it, hide it and display a message to click to show the post."
+	}, {
+		"id": 9,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href=\"/onthisday/?source=shared_feed_story\"]"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true
+		}],
+		"configurable_actions": true,
+		"title": "Hide \"Shared Memories\"",
+		"description": "Hide re-posts of old memories in the news feed"
+	}, {
+		"id": 10,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "See all friend (recommendations|suggestions)"
+			},
+			"match_partial_words": true
 		}, {
-			"id": 7,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "author",
-				"operator": "contains",
-				"condition": {
-					"text": "I Fucking Love"
-				}
-			}],
-			"actions": [{
-				"action": "replace",
-				"find": "I Fucking Love",
-				"replace": "IFL"
-			}],
-			"title": "I F'ing Love ...",
-			"description": "Replace any Page names like \"I F'ing Love Science\" with \"IFL\""
-		}, {
-			"id": 8,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "any",
-				"operator": "contains",
-				"condition": {
-					"text": "spoiler"
-				},
-				"match_partial_words": true
-			}],
-			"actions": [{
-				"action": "hide",
-				"show_note": true,
-				"custom_note": "Spoiler Alert! Click to show/hide this post.",
-				"css": "border:1px dashed red; font-size:12px; padding: 5px; opacity:1; margin:5px 0; color:red;"
-			}],
-			"configurable_actions": true,
-			"title": "Hide Spoilers",
-			"description": "If a post contains the word \"spoiler\" anywhere in it, hide it and display a message to click to show the post."
-		}, {
-			"id": 9,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": "a[href=\"/onthisday/?source=shared_feed_story\"]"
-				}
-			}],
-			"actions": [{
-				"action": "hide",
-				"show_note": true
-			}],
-			"configurable_actions": true,
-			"title": "Hide \"Shared Memories\"",
-			"description": "Hide re-posts of old memories in the news feed"
-		}, {
-			"id": 10,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "any",
-				"operator": "contains",
-				"condition": {
-					"text": "See all friend (recommendations|suggestions)"
-				},
-				"match_partial_words": true
-			}, {
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": "a[href*=\"/friends/requests/\"]"
-				}
-			}],
-			"actions": [{
-				"action": "hide",
-				"show_note": true
-			}],
-			"configurable_actions": true,
-			"title": "Hide \"People You May Know\"",
-			"description": "Filter the \"People You May Know\" story that appears in the News Feed occasionally."
-		}, {
-			"id": 11,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "action",
-				"operator": "contains",
-				"condition": {
-					"text": "(commented on this|was mentioned in a post|was live|liked this|reacted to this|was tagged in|replied to a comment)"
-				}
-			}],
-			"actions": [{
-				"action": "move-to-tab",
-				"tab": "Friend Activity"
-			}],
-			"configurable_actions": true,
-			"title": "Friend Activity Stories",
-			"description": "Filter stories about things your friends liked, were tagged in, etc, but which they didn't actually create."
-		}, {
-			"id": 12,
-			"match": "ALL",
-			"enabled": true,
-			"rules": [{
-				"target": "any",
-				"operator": "contains_selector",
-				"condition": {
-					"text": "a[href^=\"/saved/?cref\"]"
-				}
-			}],
-			"actions": [{
-				"action": "hide"
-			}],
-			"configurable_actions": true,
-			"title": "Saved Posts Reminder",
-			"description": "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
-		}
-	]
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href*=\"/friends/requests/\"]"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true
+		}],
+		"configurable_actions": true,
+		"title": "Hide \"People You May Know\"",
+		"description": "Filter the \"People You May Know\" story that appears in the News Feed occasionally."
+	}, {
+		"id": 11,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "action",
+			"operator": "contains",
+			"condition": {
+				"text": "(commented on this|was mentioned in a post|was live|liked this|reacted to this|was tagged in|replied to a comment)"
+			}
+		}],
+		"actions": [{
+			"action": "move-to-tab",
+			"tab": "Friend Activity"
+		}],
+		"configurable_actions": true,
+		"title": "Friend Activity Stories",
+		"description": "Filter stories about things your friends liked, were tagged in, etc, but which they didn't actually create."
+	}, {
+		"id": 12,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href^=\"/saved/?cref\"]"
+			}
+		}],
+		"actions": [{
+			"action": "hide"
+		}],
+		"configurable_actions": true,
+		"title": "Saved Posts Reminder",
+		"description": "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
+	}]
 }

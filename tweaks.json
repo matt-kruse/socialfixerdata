@@ -24,7 +24,7 @@
 			"id" : 7,
 			"title": "Remove Status Background Colors",
 			"description": "Facebook recently introduced a feature to allow users to select a background color for their status updates. This tweak removes the background and returns the posts to normal.",
-			"css": ".userContent > *[style*=\"background-\"] {\n  background-image:none !important;\n  background-color:inherit !important;\n  position: static !important;\n}\n.userContent > *[style*=\"background-\"] span[aria-hidden] {\n  visibility:visible !important;\n  color:black!important;\n  font-size:inherit !important;\n  line-height:inherit !important;\n  font-weight:normal !important;\n  text-align:left !important;\n  padding:0px 12px !important;\n}\n.userContent > *[style*=\"background-\"] span[style*=\"padding-top\"] {\n  padding-top:0 !important;\n}\n.userContent > *[style*=\"background-\"] > span~span {\n  display:none !important;\n}"
+			"css": ".fbUserContent [data-ft] > *[style*=\"background-\"] {\n  background-image:none !important;\n  background-color:inherit !important;\n}\n.fbUserContent [data-ft] > *[style*=\"background-\"] span[style*="color"][role="presentation"] {\n  visibility:visible !important;\n  color:inherit !important;\n  font-size:inherit !important;\n  line-height:inherit !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding:0px 12px !important;\n}\n.fbUserContent [data-ft] > *[style*=\"background-\"] span[style*=\"padding-top\"] {\n  padding-top:0 !important;\n}\n.fbUserContent [data-ft] > *[style*=\"background-\"] span[style*="color"]:not([role="presentation"]) {\n  display:none !important;\n}"
 		}
 	]
 }

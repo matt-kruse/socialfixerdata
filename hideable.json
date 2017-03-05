@@ -57,6 +57,6 @@
 		,{"id":131,"name":"Left Col: Games Arcade","selector":"#navItem_1320332077993895"}
 		,{"id":132,"name":"Right Col: Suggested Pages","selector":".ego_action.ego_like","parent":".pagelet"}
 		,{"id":133,"name":"Left Col: Your Groups","selector":"#navItem_139518143156711"}
-		
+		,{"id":134,"name":"Left Col: Jobs","selector":"#navItem_977114232337111"}
 	]
 }

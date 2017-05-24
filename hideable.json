@@ -58,5 +58,9 @@
 		,{"id":132,"name":"Right Col: Suggested Pages","selector":".ego_action.ego_like","parent":".pagelet"}
 		,{"id":133,"name":"Left Col: Your Groups","selector":"#navItem_139518143156711"}
 		,{"id":134,"name":"Left Col: Jobs","selector":"#navItem_977114232337111"}
+		,{"id":135,"name":"Left Col: Weather","selector":"#navItem_302677536798470"}
+		,{"id":136,"name":"Left Col: Town Hall","selector":"#navItem_176339666193022"}
+		,{"id":137,"name":"Left Col: Order Food","selector":"#navItem_766859123481602"}
+		,{"id":138,"name":"Left Col: Create a Frame","selector":"#navItem_336549256737756"}
 	]
 }

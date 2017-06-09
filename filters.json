@@ -222,7 +222,6 @@
 		"description": "Filter the \"People You May Know\" story that appears in the News Feed occasionally."
 	}, {
 		"id": 11,
-		"updated_on": 1493344578822,
 		"match": "ALL",
 		"enabled": true,
 		"rules": [{

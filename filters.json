@@ -222,16 +222,19 @@
 		"description": "Filter the \"People You May Know\" story that appears in the News Feed occasionally."
 	}, {
 		"id": 11,
+		"updated_on": 1493344578822,
 		"match": "ALL",
 		"enabled": true,
 		"rules": [{
 			"target": "action",
-			"operator": "contains",
+			"operator": "matches",
 			"condition": {
-				"text": "(commented on this|was mentioned in a post|was live|liked this|reacted to this|was tagged in|replied to a comment)"
+				"text": "(.*(commented on this|was mentioned in a post|was live| likes | liked |reacted to this|was tagged in|replied to a comment).*)"
 			}
 		}],
 		"actions": [{
+			"show_note": true,
+			"custom_note": "$1",
 			"action": "move-to-tab",
 			"tab": "Friend Activity"
 		}],

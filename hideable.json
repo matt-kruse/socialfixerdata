@@ -66,5 +66,6 @@
 		,{"id":140,"name":"Right Col: Suggested Pages (3)","selector":"a[href*=\"category_pyml\"],a[data-gt*=\"category_pyml\"]","parent":"._3-96"}
 		,{"id":141,"name":"Right Col: Create a Group","selector":"a[ajaxify*=\"create_get.php\"]","parent":"._3-96"}
 		,{"id":142,"name":"Right Col: Recent Group Photos","selector":"a[href*=\"/groups/\"][href*=\"/photos\"]","parent":"._3-96"}
+		,{"id":143,"name":"Right Col: Friend Requests","selector":"a[data-gt*='\"ego_service\":\"friend_request\"']","parent":".pagelet"}
 	]
 }

@@ -19,7 +19,7 @@
 			"id" : 6,
 			"title" : "Lock left column",
 			"description" : "Force the left column to stay in place and not scroll with the screen.",
-			"css" : "#leftCol {position:fixed !important;max-height:85vh;overflow:hidden;}\n#leftCol:hover {overflow:auto;}"
+			"css" : "#XXXleftCol {position:fixed !important;max-height:85vh;overflow:hidden;}\n#XXXleftCol:hover {overflow:auto;}"
 		}, {
 			"id" : 7,
 			"title": "Remove Status Background Colors",

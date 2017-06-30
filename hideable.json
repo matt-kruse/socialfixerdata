@@ -69,5 +69,6 @@
 		,{"id":143,"name":"Right Col: Friend Requests","selector":"a[data-gt*='\"ego_service\":\"friend_request\"']","parent":".pagelet"}
 		,{"id":144,"name":"Left Col: Recent Ad Activity","selector":"#navItem_280033845760645"}
 		,{"id":145,"name":"Left Col: Flash","selector":"#navItem_135139910261129"}
+		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
 	]
 }

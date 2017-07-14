@@ -21,27 +21,6 @@
 		"stop_on_match": true
 
 	}, {
-		"id": 20,
-		"match": "ALL",
-		"enabled": true,
-		"stop_on_match": true,
-		"rules": [{
-			"target": "any",
-			"operator": "contains",
-			"condition": {
-				"text": "football|steelers|packers|patriots|falcons|nfl\\b|afc|nfc|touchdown|field goal|superbow|super bowl|brady|halftime|half time|the big game"
-			},
-			"match_partial_words": true
-		}],
-		"actions": [{
-			"action": "hide",
-			"show_note": true
-		}],
-		"title": "Superbowl/Football 2017",
-		"description": "Hide posts about football leading up to the 2017 Superbowl",
-		"expires": 1488261600000
-
-	}, {
 		"id": 2,
 		"match": "ANY",
 		"disabled": false,
@@ -86,24 +65,51 @@
 		"description": "Hide all sponsored and suggested posts from the news feed",
 		"stop_on_match": true
 	}, {
-		"id": 3,
+		"id":21,
 		"match": "ALL",
 		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "Pokemon.?Go"
+				"text": "(Game of Thrones|jon snow|lannister|targaryen|daenerys|cersei|stark|sansa|arya|theon|greyjoy|brienne|dinklage|lena|harington|emilia clarke|maisie|dragonstone|stormborn)"
+			}
+		},{
+			"target": "day",
+			"operator": "matches",
+			"condition": {
+				"text": "GoT",
+				"day_0": true,
+				"day_5": false
 			}
 		}],
 		"actions": [{
-			"action": "move-to-tab",
-			"content": "",
-			"tab": "PokemonGo"
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Game of Thrones spoiler hidden"
 		}],
 		"configurable_actions": true,
-		"title": "Pokemon Go",
-		"description": "Move posts about Pokemon Go to a tab"
+		"title": "Hide Game of Thrones Spoilers til Monday",
+		"description": "Hide posts with any mention of Game of Thrones but only on Sunday night and show a spolier warning note instead. Show them again on Monday."
+	}, {
+		"id":22,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Game of Thrones|jon snow|lannister|targaryen|daenerys|cersei|stark|sansa|arya|theon|greyjoy|brienne|dinklage|lena|harington|emilia clarke|maisie|dragonstone|stormborn)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": false,
+			"custom_note": "Game of Thrones post hidden"
+		}],
+		"configurable_actions": true,
+		"title": "Hide all posts about Game of Thrones",
+		"description": "Hide posts with any mention of Game of Thrones."
 	}, {
 		"id": 5,
 		"match": "ALL",
@@ -257,5 +263,24 @@
 		"configurable_actions": true,
 		"title": "Saved Posts Reminder",
 		"description": "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
+	}, {
+		"id": 3,
+		"match": "ALL",
+		"enabled": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "Pokemon.?Go"
+			}
+		}],
+		"actions": [{
+			"action": "move-to-tab",
+			"content": "",
+			"tab": "PokemonGo"
+		}],
+		"configurable_actions": true,
+		"title": "Pokemon Go",
+		"description": "Move posts about Pokemon Go to a tab"
 	}]
 }

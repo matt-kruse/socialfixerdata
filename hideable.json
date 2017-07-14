@@ -67,5 +67,9 @@
 		,{"id":141,"name":"Right Col: Create a Group","selector":"a[ajaxify*=\"create_get.php\"]","parent":"._3-96"}
 		,{"id":142,"name":"Right Col: Recent Group Photos","selector":"a[href*=\"/groups/\"][href*=\"/photos\"]","parent":"._3-96"}
 		,{"id":143,"name":"Right Col: Friend Requests","selector":"a[data-gt*='\"ego_service\":\"friend_request\"']","parent":".pagelet"}
+		,{"id":144,"name":"Left Col: Recent Ad Activity","selector":"#navItem_280033845760645"}
+		,{"id":145,"name":"Left Col: Flash","selector":"#navItem_135139910261129"}
+		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
+		,{"id":147,"name":"Post Editor: Background Chooser","selector":"table._23jv"}
 	]
 }

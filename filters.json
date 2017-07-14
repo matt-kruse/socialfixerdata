@@ -72,7 +72,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(Game of Thrones|jon snow|lannister|targaryen|daenerys|cersei|stark|sansa|arya|theon|greyjoy|brienne|dinklage|lena|harington|emilia clarke|maisie|dragonstone|stormborn)"
+				"text": "(Game of Thrones|jon snow|lannister|targaryen|daenerys|cersei|sansa|arya|theon|greyjoy|brienne|dinklage|harington|emilia clarke|maisie williams|dragonstone|stormborn)"
 			}
 		},{
 			"target": "day",
@@ -99,7 +99,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(Game of Thrones|jon snow|lannister|targaryen|daenerys|cersei|stark|sansa|arya|theon|greyjoy|brienne|dinklage|lena|harington|emilia clarke|maisie|dragonstone|stormborn)"
+				"text": "(Game of Thrones|jon snow|lannister|targaryen|daenerys|cersei|sansa|arya|theon|greyjoy|brienne|dinklage|harington|emilia clarke|maisie williams|dragonstone|stormborn)"
 			}
 		}],
 		"actions": [{

@@ -49,10 +49,10 @@
 				"text": "span>a[href^=\"/about/ads\"]"
 			}
 		}, {
-			"target": "action",
-			"operator": "contains",
+			"target": "any",
+			"operator": "matches",
 			"condition": {
-				"text": "(Sponsored|Suggested)\\s*($|Post|Game)"
+				"text": "^.{0,180}(Sponsored|Suggested)\\s+([A-Z][a-z]*|)\\s*\\xB7"
 			}
 		}],
 		"actions": [{

@@ -4,7 +4,7 @@
 			"id" : 2,
 			"title" : "Hide \"Related\" Stories and Pages",
 			"description" : "When you click a link from the news feed or Like a page post, Facebook inserts a block of other things you might like. Enable this Tweak to hide those blocks.",
-			"css" : "*[sfx_post] > div[data-ownerid] { display:none !important; }"
+			"css" : "*[sfx_post] > div[data-ownerid], *[sfx_post] + div[data-ownerid] { display:none !important; }"
 		}, {
 			"id" : 3,
 			"title" : "Hide Notification Bubble",

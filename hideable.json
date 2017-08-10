@@ -71,5 +71,6 @@
 		,{"id":145,"name":"Left Col: Flash","selector":"#navItem_135139910261129"}
 		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
 		,{"id":147,"name":"Post Editor: Background Chooser","selector":"table._23jv"}
+		,{"id":148,"name":"Group: Learn About This Group","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=learn_about_group']"}
 	]
 }

@@ -77,5 +77,6 @@
 		,{"id":151,"name":"Left Col: Safety Check","selector":"#navItem_765518473459969"}
 		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
 		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
+		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
 	]
 }

@@ -71,5 +71,12 @@
 		,{"id":145,"name":"Left Col: Flash","selector":"#navItem_135139910261129"}
 		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
 		,{"id":147,"name":"Post Editor: Background Chooser","selector":"table._23jv"}
+		,{"id":148,"name":"Group: Learn About This Group","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=learn_about_group']"}
+		,{"id":149,"name":"Post: Products Shown","selector":"a[href*='/commerce/products/'][ajaxify*='dialog']","parent":".mtm"}
+		,{"id":150,"name":"Left Col: Watch","selector":"#navItem_2392950137"}
+		,{"id":151,"name":"Left Col: Safety Check","selector":"#navItem_765518473459969"}
+		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
+		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
+		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
 	]
 }

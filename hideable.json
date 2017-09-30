@@ -79,5 +79,6 @@
 		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
 		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
 		,{"id":155,"name":"Left Col: Movies","selector":"#navItem_1291706757509010"}
+		,{"id":156,"name":"Right Col: Sponsored Pagelet (2)","selector":"a[href*='/campaign/landing.php?placement=e'],a[data-gt*=';ad_account_id'],a[data-gt*=';ad_id'],a[data-gt*=';ads_page_type']","parent":".pagelet"}
 	]
 }

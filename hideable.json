@@ -80,5 +80,6 @@
 		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
 		,{"id":155,"name":"Left Col: Movies","selector":"#navItem_1291706757509010"}
 		,{"id":156,"name":"Right Col: Sponsored Pagelet (2)","selector":"a[href*='/campaign/landing.php?placement=e'],a[data-gt*=';ad_account_id'],a[data-gt*=';ad_id'],a[data-gt*=';ads_page_type']","parent":".pagelet"}
+		,{"id":157,"name":"Right Col: Local Products in Marketplace","selector":".ego_section a[href*='/marketplace/']","parent":".pagelet"}
 	]
 }

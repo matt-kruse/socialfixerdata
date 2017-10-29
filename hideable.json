@@ -86,5 +86,7 @@
 		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
 		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']"}
 		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
+		,{"id":163,"name":"Left Col: Explore Feed","selector":"#navItem_605397933004645"}
+		,{"id":164,"name":"Left Col: Discover People","selector":"#navItem_645191315628772"}
 	]
 }

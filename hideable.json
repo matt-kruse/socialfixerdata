@@ -81,5 +81,10 @@
 		,{"id":155,"name":"Left Col: Movies","selector":"#navItem_1291706757509010"}
 		,{"id":156,"name":"Right Col: Sponsored Pagelet (2)","selector":"a[href*='/campaign/landing.php?placement=e'],a[data-gt*=';ad_account_id'],a[data-gt*=';ad_id'],a[data-gt*=';ads_page_type']","parent":".pagelet"}
 		,{"id":157,"name":"Right Col: Local Products in Marketplace","selector":".ego_section a[href*='/marketplace/']","parent":".pagelet"}
+		,{"id":158,"name":"Right Col: Watchlist: Latest Episodes","selector":"div#pagelet_video_home_watch_list_rhc"}
+		,{"id":159,"name":"Timeline Left Col: Intro (rotating question)","selector":"div#profile_intro_card_bio"}
+		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
+		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']"}
+		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
 	]
 }

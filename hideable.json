@@ -88,5 +88,8 @@
 		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
 		,{"id":163,"name":"Left Col: Explore Feed","selector":"#navItem_605397933004645"}
 		,{"id":164,"name":"Left Col: Discover People","selector":"#navItem_645191315628772"}
+		,{"id":165,"name":"Page Right Col: Page Type","selector":"#pages_side_column ._1c03","parent":"._4-u2"}
+		,{"id":166,"name":"Page Right Col: Community","selector":"#pages_side_column a[href*='/community/']","parent":"._4-u2"}
+		,{"id":167,"name":"Page Right Col: About","selector":"#pages_side_column a[href*='/about/']","parent":"._4-u2"}
 	]
 }

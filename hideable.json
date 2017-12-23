@@ -96,5 +96,8 @@
 		,{"id":170,"name":"Timeline Left Col: Photos","selector":"#profile_timeline_tiles_unit_pagelets_photos"}
 		,{"id":171,"name":"Timeline Left Col: Friends","selector":"#profile_timeline_tiles_unit_pagelets_friends"}
 		,{"id":172,"name":"Timeline Left Col: Featured Albums","selector":"#profile_timeline_tiles_unit_pagelets_albums"}
+		,{"id":173,"name":"Right Col: Page Owner panel","selector":"#homepage_panel_pagelet"}
+		,{"id":174,"name":"Right Col: Page Owner panel: Respond Automatically","selector":"#AYMT_page_hpp_tip_pagelet"}
+		,{"id":175,"name":"Right Col: Page Owner panel: Recent Posts","selector":"#homepage_panel_recent_posts_v2_pagelet"}
 	]
 }

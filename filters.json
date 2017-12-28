@@ -125,12 +125,19 @@
 			"condition": {
 				"text": "(.+)"
 			}
+		},{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "[sfx_id] div",
+			}
 		}],
 		"actions": [{
 			"action": "copy-to-tab",
 			"tab": "$1"
 		}],
 		"title": "Create Author Tabs",
+		"updated_on": 1514345068823,
 		"description": "Create tabs for filtered views of posts by different people, but don't remove them from the News Feed"
 	}, {
 		"id": 7,

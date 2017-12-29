@@ -129,7 +129,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[sfx_id] div",
+				"text": "[sfx_id] div"
 			}
 		}],
 		"actions": [{

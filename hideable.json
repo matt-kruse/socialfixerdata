@@ -106,5 +106,6 @@
 		,{"id":180,"name":"Page Right Col: Team Members","selector":"#pages_side_column ._1y-9","parent":"._4-u2"}
 		,{"id":181,"name":"Page Right Col: Pages liked by this Page","selector":"#pages_side_column a[href*='/fanned_pages/']","parent":"._4-u2"}
 		,{"id":182,"name":"Page Footer: Insights This Week","selector":"#pagelet_rhc_footer a[href$='/insights/']","parent":"._4-u2"}
+		,{"id":183,"name":"Left Col: Messenger Kids","selector":"#navItem_421935831521247"}
 	]
 }

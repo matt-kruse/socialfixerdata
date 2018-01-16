@@ -19,7 +19,33 @@
 		"title": "Election/Politics 2017",
 		"description": "Filter any posts related to U.S. Politics",
 		"stop_on_match": true
-
+	}, {
+		"id": 23,
+		"match": "ALL",
+		"disabled": false,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "div[id^='feed_subtitle_'] [class*='timestamp']"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"tab": "Sponsored (Exp.)",
+			"custom_note": "Sponsored Post hidden (Experimental)! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Hide Sponsored/Suggested Posts (Experimental 2018-01-15)",
+		"description": "Hide Sponsored/Suggested posts; please place ABOVE existing filter",
+		"stop_on_match": true
 	}, {
 		"id": 2,
 		"match": "ANY",

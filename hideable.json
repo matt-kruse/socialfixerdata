@@ -117,5 +117,6 @@
 		,{"id":191,"name":"Group Right Col: Tags","selector":"#groupsTagBox"}
 		,{"id":192,"name":"Group Right Col: Locations","selector":"#groupsLocationBox"}
 		,{"id":193,"name":"Group Right Col: Requests","selector":"#pagelet_group_requests_summary"}
+		,{"id":194,"name":"Left Col: Gaming Video","selector":"#navItem_285571681929755"}
 	]
 }

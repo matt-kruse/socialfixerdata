@@ -27,13 +27,13 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+				"text": "._5u5j div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
 			}
 		}, {
 			"target": "any",
 			"operator": "not_contains_selector",
 			"condition": {
-				"text": "div[id^='feed_subtitle_'] [class*='timestamp']"
+				"text": "._5u5j div[id^='feed_subtitle_'] [class*='timestamp']"
 			}
 		}],
 		"actions": [{

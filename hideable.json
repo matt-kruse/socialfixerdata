@@ -118,5 +118,6 @@
 		,{"id":192,"name":"Group Right Col: Locations","selector":"#groupsLocationBox"}
 		,{"id":193,"name":"Group Right Col: Requests","selector":"#pagelet_group_requests_summary"}
 		,{"id":194,"name":"Left Col: Gaming Video","selector":"#navItem_285571681929755"}
+		,{"id":195,"name":"Right Col: Gaming Video / Live Now in Popular Games","selector":"#pagelet_gaming_destination_rhc"}
 	]
 }

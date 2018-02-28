@@ -121,5 +121,6 @@
 		,{"id":195,"name":"Right Col: Gaming Video / Live Now in Popular Games","selector":"#pagelet_gaming_destination_rhc"}
 		,{"id":196,"name":"Right Col: Instant Games","selector":"#pagelet_instant_games_rhc"}
 		,{"id":197,"name":"Right Col: What Your Friends Are Watching","selector":"#pagelet_video_home_friends_watching_rhc"}
+		,{"id":198,"name":"Right Col: Sponsored Pagelet (3)","selector":"a[href*='/ad_campaign/'],a[href*='paid-social'],a[data-gt*='ad_account_id']","parent":".pagelet"}
 	]
 }

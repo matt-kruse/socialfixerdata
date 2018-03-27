@@ -129,5 +129,6 @@
 		,{"id":203,"name":"Right Col: Reminders: Ticker Toggle","selector":".tickerToggleWrapper"}
 		,{"id":204,"name":"Post: Add a Donate Button","selector":"a[ajaxify^='/fundraiser'],a[href^='/fundraiser']","parent":"._8fo,._2z1l"}
 		,{"id":205,"name":"Page: Friends and (name of page)","selector":"a[ajaxify^='/page_likers_and_visitors_dialog/']","parent":"._4-u2"}
+		,{"id":206,"name":"Right Col: Continue Watching / Facebook Watch","selector":"#pagelet_video_home_continue_watching_with_fallback_rhc"}
 	]
 }

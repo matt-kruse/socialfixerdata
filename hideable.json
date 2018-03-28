@@ -19,7 +19,7 @@
 		,{"id":17,"name":"Left Col: Welcome Box","selector":"#pagelet_welcome_box"}
 		,{"id":18,"name":"Left Col: Fundraisers (1)","selector":"#fundraisersNav"}
 		,{"id":19,"name":"Daily Dialogue","selector":"#dd_lw_card"}
-		,{"id":20,"name":"Right Col: Suggested Groups","selector":"div[id^=\"GroupSuggestionCard\"]","parent":"._4-u3"}
+		,{"id":20,"name":"Right Col: Suggested Groups","selector":"div[id^=\"GroupSuggestionCard\"]","parent":"._4-u3,.pagelet"}
 		,{"id":21,"name":"Right Col: Group Suggestions","selector":"#GroupsRHCSuggestionSection"}
 		,{"id":22,"name":"Chat Dock","selector":"#BuddylistPagelet"}
 		,{"id":23,"name":"Viewing Most Recent Banner","selector":"span.uiIconText ~ a[href=\"/?sk=h_nor\"]","parent":"div.mvm"}

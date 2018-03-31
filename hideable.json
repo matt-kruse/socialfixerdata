@@ -130,5 +130,25 @@
 		,{"id":204,"name":"Post: Add a Donate Button","selector":"a[ajaxify^='/fundraiser'],a[href^='/fundraiser']","parent":"._8fo,._2z1l"}
 		,{"id":205,"name":"Page: Friends and (name of page)","selector":"a[ajaxify^='/page_likers_and_visitors_dialog/']","parent":"._4-u2"}
 		,{"id":206,"name":"Right Col: Continue Watching / Facebook Watch","selector":"#pagelet_video_home_continue_watching_with_fallback_rhc"}
+		,{"id":207,"name":"Right Col: Timeline Create Page pagelet","selector":"div[id^='PageTimelineCreatePagePagelet_']"}
+		,{"id":208,"name":"Right Col: Fundraiser Campaigns pagelet","selector":"div[id^='PageFundraiserCampaignsPagelet_']"}
+		,{"id":209,"name":"Right Col: People pagelet","selector":"div[id^='PagePeoplePagelet_']"}
+		,{"id":210,"name":"Right Col: Review Needy Place Card pagelet","selector":"div[id^='PageReviewNeedyPlaceCardPagelet_']"}
+		,{"id":211,"name":"Right Col: Pages Suggested By Page Secondary pagelet","selector":"div[id^='PagesSuggestedByPageSecondaryPagelet_']"}
+		,{"id":212,"name":"Right Col: SEO Interlinking Related Element pagelet","selector":"div[id^='PageSEOInterlinkingRelatedElementPagelet_']"}
+		,{"id":213,"name":"Right Col: Seo Related Topics pagelet","selector":"div[id^='PageSeoRelatedTopicsPagelet_']"}
+		,{"id":214,"name":"Right Col: Seo Related Pages pagelet","selector":"div[id^='PageSeoRelatedPagesPagelet_']"}
+		,{"id":215,"name":"Right Col: Seo Related Groups pagelet","selector":"div[id^='PageSeoRelatedGroupsPagelet_']"}
+		,{"id":216,"name":"Right Col: Seo Related Events pagelet","selector":"div[id^='PageSeoRelatedEventsPagelet_']"}
+		,{"id":217,"name":"Right Col: Locations pagelet","selector":"div[id^='PageLocationsPagelet_']"}
+		,{"id":218,"name":"Right Col: Coupons pagelet","selector":"div[id^='PageCouponsPagelet_']"}
+		,{"id":219,"name":"Right Col: Photos Container pagelet","selector":"div[id^='PagePhotosContainerPagelet_']"}
+		,{"id":220,"name":"Right Col: Videos pagelet","selector":"div[id^='PageVideosPagelet_']"}
+		,{"id":221,"name":"Right Col: Notes Container pagelet","selector":"div[id^='PageNotesContainerPagelet_']"}
+		,{"id":222,"name":"Right Col: Reviews Container pagelet","selector":"div[id^='PageReviewsContainerPagelet_']"}
+		,{"id":223,"name":"Right Col: Graph Search pagelet","selector":"div[id^='PageGraphSearchPagelet_']"}
+		,{"id":224,"name":"Right Col: Pages Liked By Page Secondary pagelet","selector":"div[id^='PagePagesLikedByPageSecondaryPagelet_']"}
+		,{"id":225,"name":"Right Col: Related Pages Secondary pagelet","selector":"div[id^='PageRelatedPagesSecondaryPagelet_']"}
+		,{"id":226,"name":"Right Col: Popular Shares pagelet","selector":"div[id^='PagePopularSharesPagelet_']"}
 	]
 }

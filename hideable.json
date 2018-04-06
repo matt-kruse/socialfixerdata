@@ -150,5 +150,6 @@
 		,{"id":224,"name":"Right Col: Pages Liked By Page Secondary pagelet","selector":"div[id^='PagePagesLikedByPageSecondaryPagelet_']"}
 		,{"id":225,"name":"Right Col: Related Pages Secondary pagelet","selector":"div[id^='PageRelatedPagesSecondaryPagelet_']"}
 		,{"id":226,"name":"Right Col: Popular Shares pagelet","selector":"div[id^='PagePopularSharesPagelet_']"}
+		,{"id":227,"name":"News Feed: Wondering Who's Here?","selector":"._390x","parent":"._4-u2"}
 	]
 }

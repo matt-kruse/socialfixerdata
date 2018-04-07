@@ -153,5 +153,6 @@
 		,{"id":227,"name":"Group: Wondering Who's Here?","selector":"._390x","parent":"._4-u2"}
 		,{"id":228,"name":"Post: Show more information about this article","selector":"a[ajaxify*='/article_context/']","parent":"[data-hover]"}
 		,{"id":229,"name":"Left Col: Greetings","selector":"#navItem_1157621394365930"}
+		,{"id":230,"name":"Blue Bar: Account Switcher","selector":"._33s3","parent":"._4kny"}
 	]
 }

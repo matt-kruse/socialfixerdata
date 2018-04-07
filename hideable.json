@@ -10,7 +10,7 @@
 		,{"id":8,"name":"Left Col: Favorites","selector":"#pinnedNav"}
 		,{"id":9,"name":"Left Col: Pages (1)","selector":"#pagesNav"}
 		,{"id":10,"name":"Left Col: Groups (1)","selector":"#groupsNav"}
-		,{"id":11,"name":"Left Col: Apps","selector":"#appsNav"}
+		,{"id":11,"name":"Left Col: Explore","selector":"#appsNav"}
 		,{"id":12,"name":"Left Col: Lists","selector":"#listsNav"}
 		,{"id":13,"name":"Left Col: Interests","selector":"#interestsNav"}
 		,{"id":14,"name":"Left Col: Events (1)","selector":"#eventsNav"}
@@ -74,7 +74,7 @@
 		,{"id":148,"name":"Group: Learn About This Group","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=learn_about_group']"}
 		,{"id":149,"name":"Post: Products Shown","selector":"a[href*='/commerce/products/'][ajaxify*='dialog']","parent":".mtm"}
 		,{"id":150,"name":"Left Col: Watch","selector":"#navItem_2392950137"}
-		,{"id":151,"name":"Left Col: Safety Check","selector":"#navItem_765518473459969"}
+		,{"id":151,"name":"Left Col: Crisis Response","selector":"#navItem_765518473459969"}
 		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
 		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
 		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
@@ -151,5 +151,7 @@
 		,{"id":225,"name":"Right Col: Related Pages Secondary pagelet","selector":"div[id^='PageRelatedPagesSecondaryPagelet_']"}
 		,{"id":226,"name":"Right Col: Popular Shares pagelet","selector":"div[id^='PagePopularSharesPagelet_']"}
 		,{"id":227,"name":"Group: Wondering Who's Here?","selector":"._390x","parent":"._4-u2"}
+		,{"id":228,"name":"Post: Show more information about this article","selector":"a[ajaxify*='/article_context/']","parent":"[data-hover]"}
+		,{"id":229,"name":"Left Col: Greetings","selector":"#navItem_1157621394365930"}
 	]
 }

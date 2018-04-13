@@ -151,7 +151,7 @@
 		,{"id":225,"name":"Right Col: Related Pages Secondary pagelet","selector":"div[id^='PageRelatedPagesSecondaryPagelet_']"}
 		,{"id":226,"name":"Right Col: Popular Shares pagelet","selector":"div[id^='PagePopularSharesPagelet_']"}
 		,{"id":227,"name":"Group: Wondering Who's Here?","selector":"._390x","parent":"._4-u2"}
-		,{"id":228,"name":"Post: Show more information about this article","selector":"a[ajaxify*='/article_context/']","parent":"[data-hover]"}
+		,{"id":228,"name":"Post: Show more information about this article (NOTE: OPEN A SINGLE POST IN A NEW TAB BEFORE USING THIS!  See http://tiny.cc/sfx-h228)","selector":"a[ajaxify*='/article_context/']","parent":"[data-hover]"}
 		,{"id":229,"name":"Left Col: Greetings","selector":"#navItem_1157621394365930"}
 		,{"id":230,"name":"Blue Bar: Account Switcher","selector":"._33s3","parent":"._4kny"}
 		,{"id":231,"name":"Right Col: Shop for Vehicles on Marketplace","selector":"a[href*='/marketplace/'][href*='/autos/']","parent":".pagelet"}

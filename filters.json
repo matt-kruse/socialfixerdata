@@ -48,19 +48,40 @@
 		"stop_on_match": true
 	}, {
 		"id": 2,
+		"match": "ALL",
+		"disabled": false,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "._5u5j div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "._5u5j div[id^='feed_subtitle_'] [class*='timestamp']"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"tab": "Sponsored",
+			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Hide Sponsored/Suggested Posts",
+		"description": "Hide all Sponsored and Suggested posts from the news feed",
+		"stop_on_match": true
+	}, {
+		"id": 24,
 		"match": "ANY",
 		"disabled": false,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._4dcu,._8mc"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".uiStreamSponsoredLink,a[href*='hc_ref=ADS'],a[href*='fb_source=ad'],span>a[href^='/about/ads']"
+				"text": "._4dcu,._8mc,.uiStreamSponsoredLink,a[href*='hc_ref=ADS'],a[href*='fb_source=ad'],span>a[href^='/about/ads']"
 			}
 		}, {
 			"target": "any",
@@ -72,11 +93,12 @@
 		"actions": [{
 			"action": "hide",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
+			"tab": "Sponsored",
+			"custom_note": "Sponsored Post hidden (OLD)! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts",
-		"description": "Hide all sponsored and suggested posts from the news feed",
+		"title": "Hide Sponsored/Suggested Posts (OLD)",
+		"description": "Hide all Sponsored and Suggested posts from the news feed (OLD version)",
 		"stop_on_match": true
 	}, {
 		"id":21,

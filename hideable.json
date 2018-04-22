@@ -108,7 +108,7 @@
 		,{"id":182,"name":"Page Footer: Insights This Week","selector":"#pagelet_rhc_footer a[href$='/insights/']","parent":"._4-u2"}
 		,{"id":183,"name":"Left Col: Messenger Kids","selector":"#navItem_421935831521247"}
 		,{"id":184,"name":"Right Col: Suggested For You","selector":"#pagelet_video_home_suggested_for_you_rhc","parent":".pagelet"}
-		,{"id":185,"name":"Group Right Col: Add Members","selector":"._5dwa,.groupRHCAddMemberTypeaheadBox"}
+		,{"id":185,"name":"Group Right Col: Add Members","selector":".groupRHCAddMemberTypeaheadBox"}
 		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']", "parent": ".groupsRHCSectionHeader"}
 		,{"id":187,"name":"Group Right Col: Member Faces","selector":"#groupsRHCMembersFacepile"}
 		,{"id":188,"name":"Group Right Col: Welcome New Members","selector":"a[href*='/new_member_welcome/']", "parent": "._1-o8"}

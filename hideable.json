@@ -160,5 +160,6 @@
 		,{"id":234,"name":"Page post comment: Instantly send this as a message to Page","selector":"._10la ._urn"}
 		,{"id":235,"name":"Right Col: Rentals on Marketplace","selector":"#pagelet_marketplace_rental_rhc"}
 		,{"id":236,"name":"Chat: Facebook Messages online list & settings","selector":"#fbDockChatBuddylistNub"}
+		,{"id":237,"name":"Far Right Col: Chat Sidebar","selector":".fbChatSidebarBody"}
 	]
 }

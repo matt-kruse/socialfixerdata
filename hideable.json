@@ -161,5 +161,6 @@
 		,{"id":235,"name":"Right Col: Rentals on Marketplace","selector":"#pagelet_marketplace_rental_rhc,#pagelet_group_marketplace_rental_rhc"}
 		,{"id":236,"name":"Chat: Facebook Messages online list / settings","selector":"#fbDockChatBuddylistNub,.fbChatTypeahead"}
 		,{"id":237,"name":"Far Right Col: Chat Sidebar","selector":".fbChatSidebarBody"}
+		,{"id":238,"name":"Post: Turn on selling features","selector":"a[ajaxify*='/sell/_edit/']","parent":"._43wq"}
 	]
 }

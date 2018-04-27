@@ -163,5 +163,7 @@
 		,{"id":237,"name":"Far Right Col: Chat Sidebar","selector":".fbChatSidebarBody"}
 		,{"id":238,"name":"Post: Turn on selling features","selector":"a[ajaxify*='/sell/_edit/']","parent":"._43wq"}
 		,{"id":239,"name":"Right Col: Previous Search on Marketplace","selector":"#pagelet_marketplace_previous_search_rhc"}
+		,{"id":240,"name":"Chat: Create New Group","selector":"div[data-tooltip-content='Create New Group']","parent":"li._42fz"}
+		,{"id":241,"name":"Right Col: Recently Viewed on Marketplace","selector":"#pagelet_marketplace_recently_viewed_rhc"}
 	]
 }

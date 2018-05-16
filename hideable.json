@@ -165,5 +165,6 @@
 		,{"id":239,"name":"Right Col: Previous Search on Marketplace","selector":"#pagelet_marketplace_previous_search_rhc"}
 		,{"id":240,"name":"Chat: Create New Group","selector":"div[data-tooltip-content='Create New Group']","parent":"li._42fz"}
 		,{"id":241,"name":"Right Col: Recently Viewed on Marketplace","selector":"#pagelet_marketplace_recently_viewed_rhc"}
+		,{"id":242,"name":"Right Col: Still Available on Marketplace","selector":"#pagelet_marketplace_bsg_recently_viewed_rhc"}
 	]
 }

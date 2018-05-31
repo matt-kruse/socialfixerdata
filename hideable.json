@@ -167,8 +167,9 @@
 		,{"id":241,"name":"Right Col: Recently Viewed on Marketplace","selector":"#pagelet_marketplace_recently_viewed_rhc"}
 		,{"id":242,"name":"Right Col: Still Available on Marketplace","selector":"#pagelet_marketplace_bsg_recently_viewed_rhc"}
 		,{"id":243,"name":"Right Col: Featured on Facebook Watch","selector":"#pagelet_video_home_promotion_rhc"}
-		,{"id":244,"name":"Far Right Col: Instant Games","selector":"div[data-games-xout-query-type='instant-games']"}
-		,{"id":245,"name":"Far Right Col: Games Your Friends Play","selector":"div[data-games-xout-query-type='instant-games-your-friends-play']"}
+		,{"id":244,"name":"Right / Far Right Col: Instant Games","selector":"div[data-games-xout-query-type='instant-games']"}
+		,{"id":245,"name":"Right / Far Right Col: Games Your Friends Play","selector":"div[data-games-xout-query-type='instant-games-your-friends-play']"}
 		,{"id":246,"name":"Post: Recommend a place","selector":"[sfx_post] ._5ofu._1xap"}
+		,{"id":247,"name":"Right / Far Right Col: Your Games","selector":"div[data-games-xout-query-type='gyml-game-bookmarks']"}
 	]
 }

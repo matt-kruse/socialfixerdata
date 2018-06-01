@@ -171,5 +171,6 @@
 		,{"id":245,"name":"Right / Far Right Col: Games Your Friends Play","selector":"div[data-games-xout-query-type='instant-games-your-friends-play']"}
 		,{"id":246,"name":"Post: Recommend a place","selector":"[sfx_post] ._5ofu._1xap"}
 		,{"id":247,"name":"Right / Far Right Col: Your Games","selector":"div[data-games-xout-query-type='gyml-game-bookmarks']"}
+		,{"id":248,"name":"Group Right Col: Upcoming Group Events","selector":"._4-u3 a[href^='/groups/'][href$='/events/']","parent":"._4-u2"}
 	]
 }

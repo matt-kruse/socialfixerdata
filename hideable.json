@@ -172,5 +172,6 @@
 		,{"id":246,"name":"Post: Recommend a place","selector":"[sfx_post] ._5ofu._1xap"}
 		,{"id":247,"name":"Right / Far Right Col: Your Games","selector":"div[data-games-xout-query-type='gyml-game-bookmarks']"}
 		,{"id":248,"name":"Group Right Col: Upcoming Group Events","selector":"._4-u3 a[href^='/groups/'][href$='/events/']","parent":"._4-u2"}
+		,{"id":249,"name":"Group Post Feed: Search For Items","selector":"a[href^='/groups/'][href*='/for_sale_search/']","parent":"._4-u2"}
 	]
 }

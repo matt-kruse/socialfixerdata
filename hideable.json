@@ -174,5 +174,6 @@
 		,{"id":248,"name":"Group Right Col: Upcoming Group Events","selector":"._4-u3 a[href^='/groups/'][href$='/events/']","parent":"._4-u2"}
 		,{"id":249,"name":"Group Post Feed: Search For Items","selector":"a[href^='/groups/'][href*='/for_sale_search/']","parent":"._4-u2"}
 		,{"id":250,"name":"Right Col: Unified Gaming Pagelet","selector":"#pagelet_games_unified_rhc"}
+		,{"id":251,"name":"Post: Choose friends to tag","selector":"._3ho0"}
 	]
 }

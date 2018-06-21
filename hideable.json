@@ -108,7 +108,7 @@
 		,{"id":182,"name":"Page Footer: Insights This Week","selector":"#pagelet_rhc_footer a[href$='/insights/']","parent":"._4-u2"}
 		,{"id":183,"name":"Left Col: Messenger Kids","selector":"#navItem_421935831521247"}
 		,{"id":184,"name":"Right Col: Suggested For You","selector":"#pagelet_video_home_suggested_for_you_rhc","parent":".pagelet"}
-		,{"id":185,"name":"Group Right Col: Add Members","selector":".groupRHCAddMemberTypeaheadBox"}
+		 {"id":185,"name":"Group Right Col: Add Members (name entry box)","selector":".groupRHCAddMemberTypeaheadBox"}
 		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']", "parent": ".groupsRHCSectionHeader"}
 		,{"id":187,"name":"Group Right Col: Member Faces","selector":"#groupsRHCMembersFacepile"}
 		,{"id":188,"name":"Group Right Col: Welcome New Members","selector":"a[href*='/new_member_welcome/']", "parent": "._1-o8"}
@@ -175,5 +175,8 @@
 		,{"id":249,"name":"Group Post Feed: Search For Items","selector":"a[href^='/groups/'][href*='/for_sale_search/']","parent":"._4-u2"}
 		,{"id":250,"name":"Right Col: Unified Gaming Pagelet","selector":"#pagelet_games_unified_rhc"}
 		,{"id":251,"name":"Post: Choose friends to tag","selector":"._3ho0"}
+		,{"id":252,"name":"Group Right Col: Add Members (entire box)","selector":".groupRHCAddMemberTypeaheadBox", "parent":"._4-u2"}
+		,{"id":253,"name":"Group Right Col: Description","selector":"#groupsDescriptionBox"}
+		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']", "parent":"._4-u2"}
 	]
 }

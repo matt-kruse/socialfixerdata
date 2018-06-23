@@ -19,22 +19,69 @@
 		"title": "Election/Politics 2017",
 		"description": "Filter any posts related to U.S. Politics",
 		"stop_on_match": true
-
+	}, {
+		"id": 23,
+		"match": "ALL",
+		"disabled": false,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "._5u5j div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "._5u5j div[id^='feed_subtitle_'] [class*='timestamp']"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"tab": "Sponsored (Exp.)",
+			"custom_note": "Sponsored Post hidden (Experimental)! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Hide Sponsored/Suggested Posts (Experimental 2018-01-15)",
+		"description": "Hide Sponsored/Suggested posts; please place ABOVE existing filter",
+		"stop_on_match": true
 	}, {
 		"id": 2,
+		"match": "ALL",
+		"disabled": false,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "._5u5j div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "._5u5j div[id^='feed_subtitle_'] [class*='timestamp']"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"tab": "Sponsored",
+			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Hide Sponsored/Suggested Posts",
+		"description": "Hide all Sponsored and Suggested posts from the news feed",
+		"stop_on_match": true
+	}, {
+		"id": 24,
 		"match": "ANY",
 		"disabled": false,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._4dcu,._8mc"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".uiStreamSponsoredLink,a[href*='hc_ref=ADS'],a[href*='fb_source=ad'],span>a[href^='/about/ads']"
+				"text": "._4dcu,._8mc,.uiStreamSponsoredLink,a[href*='hc_ref=ADS'],a[href*='fb_source=ad'],span>a[href^='/about/ads']"
 			}
 		}, {
 			"target": "any",
@@ -46,11 +93,12 @@
 		"actions": [{
 			"action": "hide",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
+			"tab": "Sponsored",
+			"custom_note": "Sponsored Post hidden (OLD)! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts",
-		"description": "Hide all sponsored and suggested posts from the news feed",
+		"title": "Hide Sponsored/Suggested Posts (OLD)",
+		"description": "Hide all Sponsored and Suggested posts from the news feed (OLD version)",
 		"stop_on_match": true
 	}, {
 		"id":21,
@@ -125,12 +173,19 @@
 			"condition": {
 				"text": "(.+)"
 			}
+		},{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "[sfx_id] div"
+			}
 		}],
 		"actions": [{
 			"action": "copy-to-tab",
 			"tab": "$1"
 		}],
 		"title": "Create Author Tabs",
+		"updated_on": 1514345068823,
 		"description": "Create tabs for filtered views of posts by different people, but don't remove them from the News Feed"
 	}, {
 		"id": 7,

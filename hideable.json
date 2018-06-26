@@ -159,7 +159,7 @@
 		,{"id":233,"name":"Page: post-component widgets 'See All'","selector":"._1nan","parent":"._ov0"}
 		,{"id":234,"name":"Page post comment: Instantly send this as a message to Page","selector":"._10la ._urn"}
 		,{"id":235,"name":"Right Col: Rentals on Marketplace","selector":"#pagelet_marketplace_rental_rhc,#pagelet_group_marketplace_rental_rhc"}
-		,{"id":236,"name":"Chat: Facebook Messages online list / settings","selector":"#fbDockChatBuddylistNub,.fbChatTypeahead"}
+		,{"id":236,"name":"Chat: Facebook Messages online list / settings (popup when zoomed in)","selector":"#fbDockChatBuddylistNub"}
 		,{"id":237,"name":"Far Right Col: Chat Sidebar","selector":".fbChatSidebarBody"}
 		,{"id":238,"name":"Post: Turn on selling features","selector":"a[ajaxify*='/sell/_edit/']","parent":"._43wq"}
 		,{"id":239,"name":"Right Col: Previous Search on Marketplace","selector":"#pagelet_marketplace_previous_search_rhc"}
@@ -181,5 +181,6 @@
 		,{"id":255,"name":"Left Col: Oculus","selector":"#navItem_1517832211847102"}
 		,{"id":256,"name":"Left Col: Business Discovery","selector":"#navItem_151408195724475"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
+		,{"id":258,"name":"Chat: Facebook Messages online list / settings (entry box when zoomed out)","selector":"#pagelet_sidebar .fbChatTypeahead"}
 	]
 }

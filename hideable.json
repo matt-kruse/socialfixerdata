@@ -180,5 +180,6 @@
 		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']", "parent":"._4-u2"}
 		,{"id":255,"name":"Left Col: Oculus","selector":"#navItem_1517832211847102"}
 		,{"id":256,"name":"Left Col: Business Discovery","selector":"#navItem_151408195724475"}
+		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
 	]
 }

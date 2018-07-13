@@ -182,5 +182,6 @@
 		,{"id":256,"name":"Left Col: Business Discovery","selector":"#navItem_151408195724475"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
 		,{"id":258,"name":"Chat: Facebook Messages online list / settings (entry box when zoomed out)","selector":"#pagelet_sidebar .fbChatTypeahead"}
+		,{"id":259,"name":"Blue Bar: Create","selector":"#creation_hub_entrypoint","parent":"._4kny"}
 	]
 }

@@ -277,7 +277,7 @@
 			"target": "action",
 			"operator": "matches",
 			"condition": {
-				"text": "(.*(?:^(.*) commented on this\\.(?:(?!.*\\2.*$).)*$|was mentioned in a post|was live| likes | liked |reacted to this|was tagged in|replied to a comment).*)"
+				"text": "(.*(?:^(.*) commented on this\\.(?:(?! \\2 $).)*$|was mentioned in a post|was live| likes | liked |reacted to this|was tagged in|replied to a comment).*)"
 			}
 		}],
 		"actions": [{

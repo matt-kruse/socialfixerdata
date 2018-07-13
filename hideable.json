@@ -183,5 +183,9 @@
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
 		,{"id":258,"name":"Chat: Facebook Messages online list / settings (entry box when zoomed out)","selector":"#pagelet_sidebar .fbChatTypeahead"}
 		,{"id":259,"name":"Blue Bar: Create","selector":"#creation_hub_entrypoint","parent":"._4kny"}
+		,{"id":260,"name":"Left Col: Group","selector":"#navItem_230259100322928"}
+		,{"id":261,"name":"Left Col: Page","selector":"#navItem_188619144602540"}
+		,{"id":262,"name":"Left Col: Fundraiser","selector":"#navItem_1728089634133276"}
+		,{"id":263,"name":"Left Col: Event","selector":"#navItem_704148512977427"}
 	]
 }

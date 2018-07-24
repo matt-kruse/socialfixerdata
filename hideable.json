@@ -187,5 +187,6 @@
 		,{"id":261,"name":"Left Col: Page","selector":"#navItem_188619144602540"}
 		,{"id":262,"name":"Left Col: Fundraiser","selector":"#navItem_1728089634133276"}
 		,{"id":263,"name":"Left Col: Event","selector":"#navItem_704148512977427"}
+		,{"id":264,"name":"Group Post Feed: Post Your Items Publicly to Marketplace","selector":"._2rkk","parent":"._4-u2"}
 	]
 }

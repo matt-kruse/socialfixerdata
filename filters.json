@@ -234,7 +234,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[href=\"/onthisday/?source=shared_feed_story\"]"
+				"text": "a[href*='/onthisday/'][href*='shared_feed_story']"
 			}
 		}],
 		"actions": [{

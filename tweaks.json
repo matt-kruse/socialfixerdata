@@ -24,7 +24,7 @@
 			"id" : 7,
 			"title": "Remove Status Background Colors",
 			"description": "Facebook recently introduced a feature to allow users to select a background color for their status updates. This tweak removes the background and returns the posts to normal.",
-			"css": "[sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] {\n  background-image:none !important;\n  background-color:inherit !important;\n  min-height:inherit !important;\n}\n\n[sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] span[style*=\"color\"] {\n  visibility:visible !important;\n  color:inherit !important;\n  font-size:inherit !important;\n  line-height:inherit !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding:0px 12px !important;\n}\n\n[sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] span[style*=\"padding-top\"] {\n  padding-top:0 !important;\n}"
+			"css": "._6rsm, ._6rsn *, [sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] {\n  background-image:none !important;\n  background-color:inherit !important;\n  min-height:inherit !important;\n}\n\n._6rsw, [sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] span[style*=\"color\"] {\n  visibility:visible !important;\n  color:inherit !important;\n  font-size:inherit !important;\n  line-height:inherit !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding:0px 12px !important;\n}\n\n[sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] span[style*=\"padding-top\"] {\n  padding-top:0 !important;\n}"
 		}
 	]
 }

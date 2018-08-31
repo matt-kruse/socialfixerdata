@@ -189,7 +189,7 @@
 		,{"id":263,"name":"Left Col: Event","selector":"#navItem_704148512977427"}
 		,{"id":264,"name":"Group Post Feed: Post Your Items Publicly to Marketplace","selector":"._2rkk","parent":"._4-u2"}
 		,{"id":265,"name":"Right Col: Translate Facebook","selector":"a._6fbb[href*='/translations/']","parent":".pagelet"}
-		,{"id":266,"name":"Explore Live Gaming Videos","selector":"._4e3x a[href*='/videos/']","parent":"._4e3x"}
+		,{"id":266,"name":"Post: Explore Live Gaming Videos","selector":"._4e3x a[href*='/videos/']","parent":"._4e3x"}
 		,{"id":267,"name":"Left Col: Trending News","selector":"#navItem_343553122467255"}
 		,{"id":268,"name":"Left Col: Creator Studio","selector":"#navItem_2007914219485853"}
 	]

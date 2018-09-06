@@ -192,5 +192,6 @@
 		,{"id":266,"name":"Post: Explore Live Gaming Videos","selector":"._4e3x a[href*='/videos/']","parent":"._4e3x"}
 		,{"id":267,"name":"Left Col: Trending News","selector":"#navItem_343553122467255"}
 		,{"id":268,"name":"Left Col: Creator Studio","selector":"#navItem_2007914219485853"}
+		,{"id":269,"name":"Right Col: Top Picks on Marketplace","selector":"#pagelet_marketplace_new_user_top_picks_rhc"}
 	]
 }

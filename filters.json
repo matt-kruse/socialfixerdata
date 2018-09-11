@@ -2,7 +2,6 @@
 	"filters": [{
 		"id": 1,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
@@ -21,35 +20,77 @@
 		"stop_on_match": true
 	}, {
 		"id": 23,
-		"match": "ALL",
-		"disabled": false,
+		"match": "ANY",
+		"configurable_actions": true,
+		"stop_on_match": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5u5j div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
 			}
 		}, {
 			"target": "any",
-			"operator": "not_contains_selector",
+			"operator": "contains_selector",
 			"condition": {
-				"text": "._5u5j div[id^='feed_subtitle_'] [class*='timestamp']"
+				"text": ".uiContextualLayerParent>span._5-sh"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiContextualLayerParent>span:contains(^Sponsored$)"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a._5pcq[ajaxify*='ad_id=']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href*='/business/help/']:contains(^Paid)"
 			}
 		}],
 		"actions": [{
 			"action": "hide",
+			"tab": "sponsored.0909.A",
 			"show_note": true,
-			"tab": "Sponsored (Exp.)",
-			"custom_note": "Sponsored Post hidden (Experimental)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 0909.A)! Click to show/hide this ad."
 		}],
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-09 part A)",
+		"description": "please place BEFORE existing Sponsored filter(s)"
+	}, {
+		"id": 25,
+		"match": "ALL",
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (Experimental 2018-01-15)",
-		"description": "Hide Sponsored/Suggested posts; please place ABOVE existing filter",
-		"stop_on_match": true
+		"stop_on_match": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "h5 span.fcg a[data-hovercard*='/page.php']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "h5 span.fcg:contains(\\blikes{0,1}\\b)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"tab": "sponsored.0909.B",
+			"show_note": true,
+			"custom_note": "Sponsored Post hidden (Experimental 0909.B)! Click to show/hide this ad."
+		}],
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-09 part B)",
+		"description": "please place immediately AFTER part A"
 	}, {
 		"id": 2,
 		"match": "ALL",
-		"disabled": false,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
@@ -76,7 +117,6 @@
 	}, {
 		"id": 24,
 		"match": "ANY",
-		"disabled": false,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
@@ -101,9 +141,8 @@
 		"description": "Hide all Sponsored and Suggested posts from the news feed (OLD version)",
 		"stop_on_match": true
 	}, {
-		"id":21,
+		"id": 21,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
@@ -128,9 +167,8 @@
 		"title": "Hide Game of Thrones Spoilers til Monday",
 		"description": "Hide posts with any mention of Game of Thrones but only on Sunday night and show a spolier warning note instead. Show them again on Monday."
 	}, {
-		"id":22,
+		"id": 22,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
@@ -149,7 +187,6 @@
 	}, {
 		"id": 5,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "app",
 			"operator": "contains",
@@ -166,7 +203,6 @@
 	}, {
 		"id": 6,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "author",
 			"operator": "contains",
@@ -185,12 +221,10 @@
 			"tab": "$1"
 		}],
 		"title": "Create Author Tabs",
-		"updated_on": 1514345068823,
 		"description": "Create tabs for filtered views of posts by different people, but don't remove them from the News Feed"
 	}, {
 		"id": 7,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "author",
 			"operator": "contains",
@@ -208,7 +242,6 @@
 	}, {
 		"id": 8,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
@@ -229,7 +262,6 @@
 	}, {
 		"id": 9,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
@@ -247,7 +279,6 @@
 	}, {
 		"id": 10,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
@@ -272,7 +303,6 @@
 	}, {
 		"id": 11,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "action",
 			"operator": "matches",
@@ -292,7 +322,6 @@
 	}, {
 		"id": 12,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
@@ -309,7 +338,6 @@
 	}, {
 		"id": 3,
 		"match": "ALL",
-		"enabled": true,
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
@@ -319,7 +347,6 @@
 		}],
 		"actions": [{
 			"action": "move-to-tab",
-			"content": "",
 			"tab": "PokemonGo"
 		}],
 		"configurable_actions": true,

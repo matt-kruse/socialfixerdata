@@ -27,7 +27,13 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
+				"text": "a.c_1j1_sdpxqd:not(.d_1j1_sdpa56)"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {
 			"target": "any",
@@ -45,49 +51,23 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a._5pcq[ajaxify*='ad_id=']"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
 				"text": "a[href*='/business/help/']:contains(^Paid)"
 			}
-		}],
-		"actions": [{
-			"action": "hide",
-			"tab": "sponsored.0909.A",
-			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0909.A)! Click to show/hide this ad."
-		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-09 part A)",
-		"description": "please place BEFORE existing Sponsored filter(s)"
-	}, {
-		"id": 25,
-		"match": "ALL",
-		"configurable_actions": true,
-		"stop_on_match": true,
-		"rules": [{
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "h5 span.fcg a[data-hovercard*='/page.php']"
-			}
 		}, {
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "h5 span.fcg:contains(\\blikes{0,1}\\b)"
+				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
 			}
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0909.B",
+			"tab": "sponsored.0910",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0909.B)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 0910)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-09 part B)",
-		"description": "please place immediately AFTER part A"
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-10)",
+		"description": "please place BEFORE existing Sponsored filter(s)"
 	}, {
 		"id": 2,
 		"match": "ALL",

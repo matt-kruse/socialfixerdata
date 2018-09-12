@@ -27,12 +27,6 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a.c_1j1_sdpxqd:not(.d_1j1_sdpa56)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
 				"text": "a._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {
@@ -68,6 +62,32 @@
 		}],
 		"title": "Sponsored/Suggested Posts (Experimental 2018-09-10)",
 		"description": "please place BEFORE existing Sponsored filter(s)"
+	}, {
+		"id": 25,
+		"match": "ALL",
+		"configurable_actions": true,
+		"stop_on_match": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "h5 span.fcg a[data-hovercard*='/page.php']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "h5 span.fcg:contains( +likes{0,1} +)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"tab": "sponsored.0910.B",
+			"show_note": true,
+			"custom_note": "Sponsored Post hidden (Experimental 0910.B)! Click to show/hide this ad."
+		}],
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-10 part B)",
+		"description": "please place right AFTER the main Experimental 0910 filter"
 	}, {
 		"id": 2,
 		"match": "ALL",

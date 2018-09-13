@@ -27,6 +27,12 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
+				"text": ".userContentWrapper ._42b7"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
 				"text": "a._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {

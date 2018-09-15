@@ -194,5 +194,6 @@
 		,{"id":268,"name":"Left Col: Creator Studio","selector":"#navItem_2007914219485853"}
 		,{"id":269,"name":"Right Col: Top Picks on Marketplace","selector":"#pagelet_marketplace_new_user_top_picks_rhc"}
 		,{"id":270,"name":"Blue Bar: Find Friends","selector":"#findFriendsNav"}
+		,{"id":271,"name":"Group: Items for Sale","selector":"#pagelet_forsale_island"}
 	]
 }

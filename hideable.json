@@ -195,5 +195,6 @@
 		,{"id":269,"name":"Right Col: Top Picks on Marketplace","selector":"#pagelet_marketplace_new_user_top_picks_rhc"}
 		,{"id":270,"name":"Blue Bar: Find Friends","selector":"#findFriendsNav"}
 		,{"id":271,"name":"Group: Items for Sale","selector":"#pagelet_forsale_island"}
+		,{"id":272,"name":"Post: Emoji Bar","selector":"._6n_0"}
 	]
 }

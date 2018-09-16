@@ -27,12 +27,6 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".userContentWrapper ._42b7"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
 				"text": "a._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {
@@ -59,14 +53,26 @@
 			"condition": {
 				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
 			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a._42ft[ajaxify*='/offers/'],a._42ft[ajaxify*='sponsored=1'],a._42ft[ajaxify*='ad_impression_token=']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiStreamSponsoredLink,a[href*='is_sponsored'],a[href*='fb_source=ad'],a[href*='hc_ref=ADS'],._4dcu,._8mc,span>a[href^='/a'][href*='/ads'][href*='/about']"
+			}
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0910",
+			"tab": "sponsored.0915.A",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0910)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 0915.A)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-10)",
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-15 part A)",
 		"description": "please place BEFORE existing Sponsored filter(s)"
 	}, {
 		"id": 25,
@@ -88,12 +94,12 @@
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0910.B",
+			"tab": "sponsored.0915.B",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0910.B)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 0915.B)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-10 part B)",
-		"description": "please place right AFTER the main Experimental 0910 filter"
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-15 part B)",
+		"description": "please place right AFTER the main Experimental 0915 filter"
 	}, {
 		"id": 2,
 		"match": "ALL",

@@ -196,5 +196,6 @@
 		,{"id":270,"name":"Blue Bar: Find Friends","selector":"#findFriendsNav"}
 		,{"id":271,"name":"Group: Items for Sale","selector":"#pagelet_forsale_island"}
 		,{"id":272,"name":"Post: Emoji Bar","selector":"._6n_0"}
+		,{"id":273,"name":"Post: Looking for Recommendations","selector":"a[ajaxify*='/placelist/compose']","parent":"._3x-2"}
 	]
 }

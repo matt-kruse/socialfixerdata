@@ -39,12 +39,6 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a._42ft:contains(^(Download|Get Offer|!-Learn More-!|Shop Now|Sign Up)$)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
 				"text": "a._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {
@@ -86,11 +80,11 @@
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0929.A",
+			"tab": "sponsored.0930.A",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0929.A)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 0930.A)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-29 part A)",
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-30 part A)",
 		"description": "please place BEFORE existing Sponsored filter(s)"
 	}, {
 		"id": 25,
@@ -112,12 +106,12 @@
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0929.B",
+			"tab": "sponsored.0930.B",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0929.B)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 0930.B)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-29 part B)",
-		"description": "please place right AFTER the main Experimental 0929 filter"
+		"title": "Sponsored/Suggested Posts (Experimental 2018-09-30 part B)",
+		"description": "please place right AFTER the main Experimental 0930 filter"
 	}, {
 		"id": 2,
 		"match": "ALL",

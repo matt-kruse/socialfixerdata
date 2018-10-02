@@ -57,12 +57,6 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[href*='/business/help/']:contains(^Paid)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
 				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
 			}
 		}, {
@@ -80,11 +74,11 @@
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0930.A",
+			"tab": "sponsored.1002.A",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0930.A)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 1002.A)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-30 part A)",
+		"title": "Sponsored/Suggested Posts (Experimental 2018-10-02 part A)",
 		"description": "please place BEFORE existing Sponsored filter(s)"
 	}, {
 		"id": 25,
@@ -99,6 +93,12 @@
 			}
 		}, {
 			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "button.PageLikedButton"
+			}
+		}, {
+			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
 				"text": "h5 span.fcg:contains( +likes{0,1} +)"
@@ -106,12 +106,12 @@
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.0930.B",
+			"tab": "sponsored.1002.B",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 0930.B)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 1002.B)! Click to show/hide this ad."
 		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-09-30 part B)",
-		"description": "please place right AFTER the main Experimental 0930 filter"
+		"title": "Sponsored/Suggested Posts (Experimental 2018-10-02 part B)",
+		"description": "please place right AFTER the main Experimental 10-02 filter"
 	}, {
 		"id": 2,
 		"match": "ALL",

@@ -114,18 +114,54 @@
 		"description": "please place right AFTER the main Experimental 10-02 filter"
 	}, {
 		"id": 2,
-		"match": "ALL",
+		"match": "ANY",
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5u5j div[id^='feed_subtitle_'] a[class*='StreamPrivacy']"
+				"text": "s a[role='link'] span > span:contains(^.$)"
 			}
 		}, {
 			"target": "any",
-			"operator": "not_contains_selector",
+			"operator": "contains_selector",
 			"condition": {
-				"text": "._5u5j div[id^='feed_subtitle_'] [class*='timestamp']"
+				"text": "a._5pcq span:contains(^Sponsored)"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a._5pcq[ajaxify*='ad_id=']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiContextualLayerParent>span._5-sh"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiContextualLayerParent>span:contains(^Sponsored$)"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a._42ft[ajaxify*='/offers/'],a._42ft[ajaxify*='sponsored=1'],a._42ft[ajaxify*='ad_impression_token=']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiStreamSponsoredLink,a[href*='is_sponsored'],a[href*='fb_source=ad'],a[href*='hc_ref=ADS'],._4dcu,._8mc,span>a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
@@ -135,7 +171,7 @@
 			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts",
+		"title": "Hide Sponsored/Suggested Posts (2018-10-03)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
 		"stop_on_match": true
 	}, {

@@ -69,7 +69,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".uiStreamSponsoredLink,a[href*='is_sponsored'],a[href*='fb_source=ad'],a[href*='hc_ref=ADS'],._4dcu,._8mc,span>a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": ".uiStreamSponsoredLink,a[href*='is_sponsored=1'],a[href*='fb_source=ad'],a[href*='hc_ref=ADS'],._4dcu,._8mc,span>a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{

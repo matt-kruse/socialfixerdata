@@ -343,7 +343,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "See all friend (recommendations|suggestions)"
+				"text": "See [Aa]ll [Ff]riend ([Rr]ecommendations|[Ss]uggestions)"
 			},
 			"match_partial_words": true
 		}, {

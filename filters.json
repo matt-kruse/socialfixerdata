@@ -119,6 +119,12 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
+				"text": ".timestampContent:hidden-within([id*='feed_subtitle'])"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
 				"text": "s a[role='link'] span > span:contains(^.$)"
 			}
 		}, {
@@ -171,7 +177,7 @@
 			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (2018-10-03)",
+		"title": "Hide Sponsored/Suggested Posts (2018-10-24)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
 		"stop_on_match": true
 	}, {

@@ -199,5 +199,6 @@
 		,{"id":273,"name":"Post: Looking for Recommendations","selector":"a[ajaxify*='/placelist/compose']","parent":"._3x-2"}
 		,{"id":274,"name":"Group Right Col: Mentorship","selector":"._vj5 ._vj1","parent":"._4-u2"}
 		,{"id":275,"name":"Post Comment Editor: Tag Bar","selector":"._71oy ._3e18[role='article']","parent":"._71oy"}
+		,{"id":276,"name":"Left Col: 2018 Election","selector":"#navItem_300526153719870"}
 	]
 }

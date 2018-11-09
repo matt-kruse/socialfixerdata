@@ -21,13 +21,77 @@
 	}, {
 		"id": 23,
 		"match": "ANY",
+		"rules": [],
+		"actions": [{
+			"action": "hide",
+			"tab": "sponsored.1108.A",
+			"show_note": true,
+			"custom_note": "Sponsored Post hidden (Experimental 1108.A)! Click to show/hide this ad."
+		}],
 		"configurable_actions": true,
-		"stop_on_match": true,
+		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part A)",
+		"description": "please place BEFORE existing Sponsored filter(s)",
+		"stop_on_match": true
+	}, {
+		"id": 25,
+		"match": "ALL",
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "h5 span.fcg a[data-hovercard*='/page.php']"
+			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "button.PageLikedButton"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "h5 span.fcg:contains( +likes{0,1} +)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"tab": "sponsored.1108.B",
+			"show_note": true,
+			"custom_note": "Sponsored Post hidden (Experimental 1108.B)! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part B)",
+		"description": "please place right AFTER the main Experimental 11-08 A filter",
+		"stop_on_match": true
+	}, {
+		"id": 26,
+		"match": "ANY",
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
 				"text": "s a[role='link'] span > span:contains(^.$)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"tab": "sponsored.1108.risky",
+			"show_note": true,
+			"custom_note": "Sponsored Post hidden (Experimental 1108.risky)! Click to show/hide this ad."
+		}],
+		"configurable_actions": true,
+		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part 'risky')",
+		"description": "effective filter, until a recent FB change reaches you; then it marks all posts and you must disable it",
+		"stop_on_match": true
+	}, {
+		"id": 2,
+		"match": "ANY",
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".timestampContent:hidden-within([id*='feed_subtitle'])"
 			}
 		}, {
 			"target": "any",
@@ -74,110 +138,12 @@
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.1002.A",
-			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 1002.A)! Click to show/hide this ad."
-		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-10-02 part A)",
-		"description": "please place BEFORE existing Sponsored filter(s)"
-	}, {
-		"id": 25,
-		"match": "ALL",
-		"configurable_actions": true,
-		"stop_on_match": true,
-		"rules": [{
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "h5 span.fcg a[data-hovercard*='/page.php']"
-			}
-		}, {
-			"target": "any",
-			"operator": "not_contains_selector",
-			"condition": {
-				"text": "button.PageLikedButton"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "h5 span.fcg:contains( +likes{0,1} +)"
-			}
-		}],
-		"actions": [{
-			"action": "hide",
-			"tab": "sponsored.1002.B",
-			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 1002.B)! Click to show/hide this ad."
-		}],
-		"title": "Sponsored/Suggested Posts (Experimental 2018-10-02 part B)",
-		"description": "please place right AFTER the main Experimental 10-02 filter"
-	}, {
-		"id": 2,
-		"match": "ANY",
-		"rules": [{
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".timestampContent:hidden-within([id*='feed_subtitle'])"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "s a[role='link'] span > span:contains(^.$)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "a._5pcq span:contains(^Sponsored)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "a._5pcq[ajaxify*='ad_id=']"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".uiContextualLayerParent>span._5-sh"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".uiContextualLayerParent>span:contains(^Sponsored$)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".userContentWrapper>div div>span>span:contains(^Suggested Post$)"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "a._42ft[ajaxify*='/offers/'],a._42ft[ajaxify*='sponsored=1'],a._42ft[ajaxify*='ad_impression_token=']"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": ".uiStreamSponsoredLink,a[href*='is_sponsored'],a[href*='fb_source=ad'],a[href*='hc_ref=ADS'],._4dcu,._8mc,span>a[href^='/a'][href*='/ads'][href*='/about']"
-			}
-		}],
-		"actions": [{
-			"action": "hide",
 			"show_note": true,
 			"tab": "Sponsored",
 			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (2018-10-24)",
+		"title": "Hide Sponsored/Suggested Posts (2018-11-08)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
 		"stop_on_match": true
 	}, {

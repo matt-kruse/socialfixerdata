@@ -91,7 +91,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".timestampContent:hidden-within([id*='feed_subtitle'])"
+				"text": ".timestampContent:hidden-within([id*='feed'][id*='subtitle'])"
 			}
 		}, {
 			"target": "any",

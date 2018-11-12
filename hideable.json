@@ -201,5 +201,8 @@
 		,{"id":275,"name":"Post Comment Editor: Tag Bar","selector":"._71oy ._3e18[role='article']","parent":"._71oy"}
 		,{"id":276,"name":"Left Col: 2018 Election","selector":"#navItem_300526153719870"}
 		,{"id":277,"name":"Right Col: Games you might like","selector":"div[data-ego-fbid][data-gt*='games_ego'] a[href*='/games/']","parent":"._4-u2"}
+		,{"id":278,"name":"Right Col: Today's Games","selector":"#live_games_rhc"}
+		,{"id":279,"name":"Post Header: Conversation Starter Badge","selector":"a[href^='/groups/'][href*='ACTIVE_MEMBER']"}
+		,{"id":280,"name":"Post Header: New Member Badge","selector":"a[href^='/groups/'][href*='NEW_MEMBER']"}
 	]
 }

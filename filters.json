@@ -71,7 +71,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "s a[role='link'] span > span:contains(^.$)"
+				"text": "xsx a[role='link'] span > span:contains(^.$)"
 			}
 		}],
 		"actions": [{
@@ -82,7 +82,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part 'risky')",
-		"description": "effective filter, until a recent FB change reaches you; then it marks all posts and you must disable it",
+		"description": "RETIRED, PLEASE REMOVE (FB change makes it hide all posts!)  Want to tinker?  s/xsx/s/",
 		"stop_on_match": true
 	}, {
 		"id": 2,

@@ -97,6 +97,12 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
+				"text": "._5pcr ._34k3:contains(^(?:About This Partnership|Paid for))"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
 				"text": "a._5pcq span:contains(^Sponsored)"
 			}
 		}, {
@@ -143,7 +149,7 @@
 			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (2018-11-25)",
+		"title": "Hide Sponsored/Suggested Posts (2018-11-29)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
 		"stop_on_match": true
 	}, {

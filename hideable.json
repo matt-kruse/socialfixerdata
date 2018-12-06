@@ -204,5 +204,6 @@
 		,{"id":278,"name":"Right Col: Today's Games","selector":"#live_games_rhc"}
 		,{"id":279,"name":"Post Header: Conversation Starter Badge","selector":"a[href^='/groups/'][href*='ACTIVE_MEMBER']"}
 		,{"id":280,"name":"Post Header: New Member Badge","selector":"a[href^='/groups/'][href*='NEW_MEMBER']"}
+		,{"id":281,"name":"News Feed: Mentorship ad for admins","selector":"#pagelet_megaphone a[href*='mentorship_option']","parent":"#pagelet_megaphone"}
 	]
 }

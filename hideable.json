@@ -207,5 +207,7 @@
 		,{"id":281,"name":"News Feed: Mentorship ad for admins","selector":"#pagelet_megaphone a[href*='mentorship_option']","parent":"#pagelet_megaphone"}
 		,{"id":282,"name":"Friend Finder: People You May Know","selector":"#fbSearchResultsBox._30d"}
 		,{"id":283,"name":"Blue Bar: Friend Requests: People You May Know","selector":"#pagelet_bluebar .fbRequestList ~ ._3nzq"}
+		,{"id":284,"name":"Memories: Year In Review section","selector":"#goodwill_throwback_permalink_content [data-ft*='year_in_review_video']"}
+		,{"id":285,"name":"Right Col: Connect with Facebook","selector":".ego_unit a[href*='/zuck?']","parent":"._4-u2"}
 	]
 }

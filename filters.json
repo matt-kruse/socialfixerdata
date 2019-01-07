@@ -159,7 +159,37 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._4dcu,._8mc,.uiStreamSponsoredLink,a[href*='hc_ref=ADS'],a[href*='fb_source=ad'],span>a[href^='/about/ads']"
+				"text": "._4dcu"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "._8mc"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiStreamSponsoredLink"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href*='hc_ref=ADS']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "a[href*='fb_source=ad']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "span>a[href^='/about/ads']"
 			}
 		}, {
 			"target": "any",

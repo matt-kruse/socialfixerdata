@@ -209,5 +209,10 @@
 		,{"id":283,"name":"Blue Bar: Friend Requests: People You May Know","selector":"#pagelet_bluebar .fbRequestList ~ ._3nzq"}
 		,{"id":284,"name":"Memories: Year In Review section","selector":"#goodwill_throwback_permalink_content [data-ft*='year_in_review_video']"}
 		,{"id":285,"name":"Right Col: Connect with Facebook","selector":".ego_unit a[href*='/zuck?']","parent":"._4-u2"}
+		 {"id":286,"name":"Chat Sidebar: profile pic","selector":".fbChatOrderedList ._7049,.fbChatOrderedList ._44yp"}
+		,{"id":287,"name":"Chat Pop-Under: titlebar profile pic","selector":"._69pt ._6--1"}
+		,{"id":288,"name":"Chat Pop-Under: top of conversation profile pic","selector":"._4po7 ._55lt"}
+		,{"id":289,"name":"Chat Pop-Under: speaker profile pic","selector":"._4po9 ._55lt"}
+		,{"id":290,"name":"Messages: speaker profile pic","selector":"._1t_q ._4ld-"}
 	]
 }

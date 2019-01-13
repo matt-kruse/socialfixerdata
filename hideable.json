@@ -214,5 +214,6 @@
 		,{"id":288,"name":"Chat Pop-Under: top of conversation profile pic","selector":"._4po7 ._55lt"}
 		,{"id":289,"name":"Chat Pop-Under: speaker profile pic","selector":"._4po9 ._55lt"}
 		,{"id":290,"name":"Messages: speaker profile pic","selector":"._1t_q ._4ld-"}
+		,{"id":291,"name":"Left Col: Send or Request Money","selector":"#navItem_1713727008865937"}
 	]
 }

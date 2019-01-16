@@ -177,7 +177,7 @@
 		,{"id":251,"name":"Post: Choose friends to tag","selector":"._3ho0"}
 		,{"id":252,"name":"Group Right Col: Add Members (entire box)","selector":".groupRHCAddMemberTypeaheadBox", "parent":"._4-u2"}
 		,{"id":253,"name":"Group Right Col: Description","selector":"#groupsDescriptionBox"}
-		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']", "parent":"._4-u2"}
+		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']", "parent":"#rightCol ._4-u2"}
 		,{"id":255,"name":"Left Col: Oculus","selector":"#navItem_1517832211847102"}
 		,{"id":256,"name":"Left Col: Business Discovery","selector":"#navItem_151408195724475"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}

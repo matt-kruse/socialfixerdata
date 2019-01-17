@@ -215,5 +215,7 @@
 		,{"id":289,"name":"Chat Pop-Under: speaker profile pic","selector":"._4po9 ._55lt"}
 		,{"id":290,"name":"Messages: speaker profile pic","selector":"._1t_q ._4ld-"}
 		,{"id":291,"name":"Left Col: Send or Request Money","selector":"#navItem_1713727008865937"}
+		,{"id":292,"name":"Post: Click To Play button","selector":"a[ajaxify*='/games/quicksilver/'][data-ft*='\"games_instant_play\"'] ._6e7y"}
+		,{"id":293,"name":"Post: Play button","selector":"._4bl7._2q3z"}
 	]
 }

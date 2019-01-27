@@ -218,5 +218,7 @@
 		,{"id":292,"name":"Post: Click To Play button","selector":"a[ajaxify*='/games/quicksilver/'][data-ft*='\"games_instant_play\"'] ._6e7y"}
 		,{"id":293,"name":"Post: Play button","selector":"._4bl7._2q3z"}
 		,{"id":294,"name":"Left Col: Community Actions","selector":"#navItem_524434544695633"}
+		,{"id":295,"name":"Post: Start Watch Party","selector":"._1kyo a[ajaxify*='/living_room/']","parent":"._1kyo"}
+		,{"id":296,"name":"Post: Become a Supporter","selector":"._1kyo a[ajaxify*='/becomesupporter/']","parent":"._1kyo"}
 	]
 }

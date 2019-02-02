@@ -66,23 +66,29 @@
 		"stop_on_match": true
 	}, {
 		"id": 26,
-		"match": "ANY",
+		"match": "ALL",
 		"rules": [{
-			"target": "any",
-			"operator": "contains_selector",
+			"target": "page",
+			"operator": "matches",
 			"condition": {
-				"text": "xsx a[role='link'] span > span:contains(^.$)"
+				"text": "."
+			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": ".timestampContent"
 			}
 		}],
 		"actions": [{
 			"action": "hide",
-			"tab": "sponsored.1108.risky",
+			"tab": "sponsored.2019.C",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 1108.risky)! Click to show/hide this ad."
+			"custom_note": "Sponsored Post hidden (Experimental 2019.C)! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part 'risky')",
-		"description": "RETIRED, PLEASE REMOVE (FB change makes it hide all posts!)  Want to tinker?  s/xsx/s/",
+		"title": "Sponsored/Suggested Posts (Experimental 2019-02-02 part C)",
+		"description": "please place before main 2018-11-29 filter; parts A & B totally optional",
 		"stop_on_match": true
 	}, {
 		"id": 2,

@@ -88,7 +88,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental 2019-02-02 part C)",
-		"description": "please place before main 2018-11-29 filter; parts A & B totally optional",
+		"description": "please place before main 2019-02-03 filter; parts A & B totally optional",
 		"stop_on_match": true
 	}, {
 		"id": 2,
@@ -98,12 +98,6 @@
 			"operator": "contains_selector",
 			"condition": {
 				"text": ".timestampContent:hidden-within([id*='eed'][id*='itle'])"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
-				"text": "._5pcr ._34k3:contains(^(?:About This Partnership|Paid for))"
 			}
 		}, {
 			"target": "any",
@@ -155,7 +149,7 @@
 			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (2018-11-29)",
+		"title": "Hide Sponsored/Suggested Posts (2019-02-03)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
 		"stop_on_match": true
 	}, {

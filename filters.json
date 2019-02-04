@@ -79,6 +79,12 @@
 			"condition": {
 				"text": ".timestampContent"
 			}
+		}, {
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "div[id*='eed'][id*='itle']:contains([0-9]:[0-5][0-9] )"
+			}
 		}],
 		"actions": [{
 			"action": "hide",
@@ -87,7 +93,7 @@
 			"custom_note": "Sponsored Post hidden (Experimental 2019.C)! Click to show/hide this ad."
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental 2019-02-02 part C)",
+		"title": "Sponsored/Suggested Posts (Experimental 2019-02-03 part C)",
 		"description": "please place before main 2019-02-03 filter; parts A & B totally optional",
 		"stop_on_match": true
 	}, {

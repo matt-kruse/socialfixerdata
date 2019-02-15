@@ -71,7 +71,7 @@
 			"target": "page",
 			"operator": "matches",
 			"condition": {
-				"text": "."
+				"text": "(.{1,50})"
 			}
 		}, {
 			"target": "any",
@@ -90,11 +90,11 @@
 			"action": "hide",
 			"tab": "sponsored.2019.C",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 2019.C)! Click to show/hide this ad."
+			"custom_note": "Sponsored.2019.C: click to show/hide '$1'."
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental 2019-02-03 part C)",
-		"description": "please place before main 2019-02-03 filter; parts A & B totally optional",
+		"title": "Sponsored/Suggested Posts (Experimental part C, 2019-02-15)",
+		"description": "order between Sponsored filters not important; parts A/B/OLD are optional",
 		"stop_on_match": true
 	}, {
 		"id": 2,

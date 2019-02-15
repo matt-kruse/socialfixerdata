@@ -94,7 +94,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental part C, 2019-02-15)",
-		"description": "order between Sponsored filters not important; parts A/B/OLD are optional",
+		"description": "C first, other Sponsored in any order; parts A/B/OLD are optional",
 		"stop_on_match": true
 	}, {
 		"id": 2,

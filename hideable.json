@@ -221,5 +221,7 @@
 		,{"id":295,"name":"Post: Start Watch Party","selector":"._1kyo a[ajaxify*='/living_room/']","parent":"._1kyo"}
 		,{"id":296,"name":"Post: Become a Supporter","selector":"._1kyo a[ajaxify*='/becomesupporter/']","parent":"._1kyo"}
 		,{"id":297,"name":"News Feed: Save Password","selector":"._2ph_ a[ajaxify*='/login/device-based/']","parent":"._4-u2"}
+		,{"id":298,"name":"Left Col Shortcuts: events","selector":"div._2yaa [href^='/events/'],li.sideNavItem[data-type='event']"}
+		,{"id":299,"name":"Left Col: Quiet Mode","selector":"#navItem_1774424265950746"}
 	]
 }

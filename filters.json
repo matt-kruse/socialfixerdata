@@ -68,6 +68,44 @@
 		"id": 26,
 		"match": "ALL",
 		"rules": [{
+			"target": "action",
+			"operator": "not_contains",
+			"condition": {
+				"text": "[ ]shared[ ]"
+			}
+		}, {
+			"target": "page",
+			"operator": "contains",
+			"condition": {
+				"text": "(.{1,50})"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".mtm [data-ft*='*J']:contains(^(Book Now|Donate Now|Download|Get Directions|Get Offer|Get Showtimes|Get Tickets|Learn More|Like Page|Listen Now|Play Now|See Menu|Send Message|Shop Now|Sign Up|Subscribe)$)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Sponsored.2019.D: click to show/hide '$1'.",
+			"tab": "sponsored.2019.D"
+		},
+		{
+			"action": "move-to-tab",
+			"tab": "sponsored.2019.D",
+			"show_note": true,
+			"custom_note": "Sponsored.2019.D: click to show/hide '$1'."
+		}],
+		"configurable_actions": true,
+		"title": "Sponsored/Suggested Posts (Experimental part D, 2019-03-05)",
+		"description": "use this in place of part C, unless C is working for you",
+		"stop_on_match": true
+	}, {
+		"id": 27,
+		"match": "ALL",
+		"rules": [{
 			"target": "page",
 			"operator": "matches",
 			"condition": {
@@ -93,8 +131,8 @@
 			"custom_note": "Sponsored.2019.C: click to show/hide '$1'."
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental part C, 2019-02-15)",
-		"description": "C first, other Sponsored in any order; parts A/B/OLD are optional",
+		"title": "Sponsored/Suggested Posts (Experimental part C, 2019-03-05)",
+		"description": "NOT RECOMMENDED, try part D instead; see fb.com/2064075220328015",
 		"stop_on_match": true
 	}, {
 		"id": 2,

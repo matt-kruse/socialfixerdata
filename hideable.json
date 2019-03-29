@@ -224,5 +224,6 @@
 		,{"id":298,"name":"Left Col Shortcuts: events","selector":"html:not([sfx_url^='/events']) div._2yaa [href^='/events/'],li.sideNavItem[data-type='event']"}
 		,{"id":299,"name":"Left Col: Quiet Mode","selector":"#navItem_1774424265950746"}
 		,{"id":300,"name":"Right Col: Reminders: Events (2)","selector":"#custom_reminders_link","parent":".fbRemindersStory"}
+		,{"id":301,"name":"Post: More From (name of Page)","selector":"._7gg2 ~ div .uiList","parent":"._4-u2"}
 	]
 }

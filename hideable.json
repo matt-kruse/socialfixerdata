@@ -225,5 +225,6 @@
 		,{"id":299,"name":"Left Col: Quiet Mode","selector":"#navItem_1774424265950746"}
 		,{"id":300,"name":"Right Col: Reminders: Events (2)","selector":"#custom_reminders_link","parent":".fbRemindersStory"}
 		,{"id":301,"name":"Post: More From (name of Page)","selector":"._7gg2 ~ div .uiList","parent":"._4-u2"}
+		,{"id":302,"name":"News Feed: Discover Members","selector":"[sfx_post] ul a[ajaxify^='/groups/member_bio/']","parent":"[sfx_post]"}
 	]
 }

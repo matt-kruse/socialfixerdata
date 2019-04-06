@@ -83,7 +83,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".mtm [data-ft]:contains(^(Book Now|Contact Us|Donate Now|Download|Get Directions|Get Offer|Get Showtimes|Get Tickets|Learn More|Like Page|Listen Now|Play Now|See Menu|Send Message|Shop Now|Sign Up|Subscribe)$)"
+				"text": ".mtm [data-ft]:contains(^(Apply Now|Book Now|Contact Us|Donate Now|Download|Get Directions|Get Offer|Get Showtimes|Get Tickets|Learn More|Like Page|Listen Now|Order Now|Play Now|See Menu|Send Message|Shop Now|Sign Up|Subscribe)$)"
 			}
 		}],
 		"actions": [{
@@ -99,7 +99,7 @@
 			"custom_note": "Sponsored.2019.D: click to show/hide '$1'."
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental part D, 2019-03-06)",
+		"title": "Sponsored/Suggested Posts (Experimental part D, 2019-04-05)",
 		"description": "use this in place of part C, unless C is working for you",
 		"stop_on_match": true
 	}, {

@@ -373,12 +373,18 @@
 		"description": "If a post contains the word \"spoiler\" anywhere in it, hide it and display a message to click to show the post."
 	}, {
 		"id": 9,
-		"match": "ALL",
+		"match": "ANY",
 		"rules": [{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
 				"text": "a[href*='/onthisday/'][href*='shared_feed_story']"
+			}
+		}, {
+			"target": "action",
+			"operator": "contains",
+			"condition": {
+				"text": " shared a memory"
 			}
 		}],
 		"actions": [{

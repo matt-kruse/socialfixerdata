@@ -15,10 +15,41 @@
 			"show_note": true
 		}],
 		"configurable_actions": true,
-		"title": "Election/Politics 2017",
-		"description": "Filter any posts related to U.S. Politics",
+		"title": "Election/Politics 2019",
+		"description": "Filter posts related to U.S. Politics",
 		"stop_on_match": true
 	}, {
+		"id": 28,
+		"min_version": "23.0.9",
+		"match": "ALL",
+		"rules": [
+		{
+		  "target": "any",
+		  "operator": "contains_selector",
+		  "condition": {
+			"text": "._5pcp,._5pcq:has-visible-text(^Sponsored)"
+		  }
+		},
+		{
+		  "target": "page",
+		  "operator": "contains",
+		  "condition": {
+			"text": "(.{1,50})"
+		  }
+		}
+		],
+		"actions": [
+		{
+		  "action": "hide",
+		  "show_note": true,
+		  "custom_note": "Sponsored: click to show/hide post by '$1'"
+		}
+		],
+		"configurable_actions": true,
+		"title": "Hide Sponsored and Suggested Posts (SFX v24 beta)",
+		"stop_on_match": true,
+		"description": "Hide all Sponsored and Suggested posts from the news feed"
+	} , {
 		"id": 23,
 		"match": "ANY",
 		"rules": [],

@@ -21,7 +21,7 @@
 	}, {
 		"id": 28,
 		"min_version": "23.0.9",
-		"match": "ALL",
+		"match": "ANY",
 		"rules": [
 		{
 		  "target": "any",
@@ -29,20 +29,13 @@
 		  "condition": {
 			"text": "._5pcp,._5pcq:has-visible-text(^Sponsored)"
 		  }
-		},
-		{
-		  "target": "page",
-		  "operator": "contains",
-		  "condition": {
-			"text": "(.{1,50})"
-		  }
 		}
 		],
 		"actions": [
 		{
 		  "action": "hide",
 		  "show_note": true,
-		  "custom_note": "Sponsored: click to show/hide post by '$1'"
+		  "custom_note": "Sponsored: click to show/hide post by '${page:60}'"
 		}
 		],
 		"configurable_actions": true,

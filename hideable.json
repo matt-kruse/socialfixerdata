@@ -55,7 +55,7 @@
 		,{"id":129,"name":"Left Col: Ads Manager","selector":"#navItem_6802152230"}
 		,{"id":130,"name":"Left Col: Translate Facebook","selector":"#navItem_4329892722"}
 		,{"id":131,"name":"Left Col: Games Arcade","selector":"#navItem_1320332077993895"}
-		,{"id":132,"name":"Right Col: Suggested Pages (2)","selector":".ego_action.ego_like","parent":".pagelet"}
+		,{"id":132,"name":"Right Col: Suggested Pages (2)","selector":".ego_action.ego_like,.ego_section a[href*='category_pyml']","parent":".pagelet"}
 		,{"id":133,"name":"Left Col: Your Groups","selector":"#navItem_139518143156711"}
 		,{"id":134,"name":"Left Col: Jobs","selector":"#navItem_977114232337111"}
 		,{"id":135,"name":"Left Col: Weather","selector":"#navItem_302677536798470"}

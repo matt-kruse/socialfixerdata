@@ -22,27 +22,35 @@
 		"id": 28,
 		"min_version": "23.0.9",
 		"match": "ANY",
-		"rules": [
-		{
-		  "target": "any",
-		  "operator": "contains_selector",
-		  "condition": {
-			"text": "._5pcp,._5pcq:has-visible-text(^Sponsored)"
-		  }
-		}
-		],
-		"actions": [
-		{
-		  "action": "hide",
-		  "show_note": true,
-		  "custom_note": "Sponsored: click to show/hide post by '${page:60}'"
-		}
-		],
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "._5pcp,._5pcq:has-visible-text(^Sponsored)"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".uiStreamSponsoredLink"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "span>a[href^='/a'][href*='/ads'][href*='/about']"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Sponsored: click to show/hide post by '${page:60}'"
+		}],
 		"configurable_actions": true,
 		"title": "Hide Sponsored and Suggested Posts (SFX v24 beta)",
 		"stop_on_match": true,
 		"description": "Hide all Sponsored and Suggested posts from the news feed"
-	} , {
+	}, {
 		"id": 23,
 		"match": "ANY",
 		"rules": [],

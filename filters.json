@@ -31,7 +31,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(obama|trump|trumpies|trumpers|pence|hillary|bernie|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|Mitch McConnell|biden|hannity|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto|andrew yang|cory booker|julian castro|john delaney|kirsten gillibrand|john hickenlooper|jay inslee|amy klobuchar|tim ryan|tulsi gabbard|seth moulton|eric swalwell|marianne williamson|william weld)"
+				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary|bernie|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|Mitch McConnell|biden|hannity|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto|andrew yang|cory booker|julian castro|john delaney|kirsten gillibrand|john hickenlooper|jay inslee|amy klobuchar|tim ryan|tulsi gabbard|seth moulton|eric swalwell|marianne williamson|william weld)"
 			},
 			"match_partial_words": false
 		}],

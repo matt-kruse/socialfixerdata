@@ -72,7 +72,7 @@
 			"custom_note": "Sponsored: click to show/hide post by '${page:60}'"
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored and Suggested Posts (SFX v24 beta)",
+		"title": "Hide Sponsored and Suggested Posts (Social Fixer >= 24.0)",
 		"stop_on_match": true,
 		"description": "Hide all Sponsored and Suggested posts from the news feed"
 	}, {
@@ -120,6 +120,7 @@
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part B)",
 		"description": "please place right AFTER the main Experimental 11-08 A filter",
+		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {
 		"id": 26,
@@ -158,6 +159,7 @@
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental part D, 2019-04-05)",
 		"description": "use this in place of part C, unless C is working for you",
+		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {
 		"id": 27,
@@ -190,6 +192,7 @@
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental part C, 2019-03-05)",
 		"description": "NOT RECOMMENDED, try part D instead; see fb.com/2064075220328015",
+		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {
 		"id": 2,
@@ -252,6 +255,7 @@
 		"configurable_actions": true,
 		"title": "Hide Sponsored/Suggested Posts (2019-02-03)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
+		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {
 		"id": 24,
@@ -308,6 +312,7 @@
 		"configurable_actions": true,
 		"title": "Hide Sponsored/Suggested Posts (OLD)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed (OLD version)",
+		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {
 		"id": 21,

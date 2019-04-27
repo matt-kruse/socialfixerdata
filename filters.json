@@ -88,6 +88,7 @@
 		"configurable_actions": true,
 		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part A)",
 		"description": "please place BEFORE existing Sponsored filter(s)",
+		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {
 		"id": 25,

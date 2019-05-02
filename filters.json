@@ -11,7 +11,7 @@
         "condition": {
           "text": "avengers|endgame|marvel|thanos"
         },
-      "match_partial_words": true
+      "match_partial_words": false
       }
     ],
     "actions": [

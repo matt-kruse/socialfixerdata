@@ -60,7 +60,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pcp,._5pcq:has-visible-text(^Sponsored)"
+				"text": "._5pcp,._5pcq:has-visible-text(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Sponz|Χορηγ|広告|贊助|赞助))"
 			}
 		}, {
 			"target": "any",

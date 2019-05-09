@@ -84,7 +84,7 @@
 		,{"id":158,"name":"Right Col: Watchlist: Latest Episodes","selector":"div#pagelet_video_home_watch_list_rhc"}
 		,{"id":159,"name":"Timeline Left Col: Intro (rotating question)","selector":"div#profile_intro_card_bio"}
 		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
-		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']", "parent":"._3-8t"}
+		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']","parent":"._3-8t"}
 		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
 		,{"id":163,"name":"Left Col: Explore Feed","selector":"#navItem_605397933004645"}
 		,{"id":164,"name":"Left Col: Discover People","selector":"#navItem_645191315628772"}
@@ -109,11 +109,11 @@
 		,{"id":183,"name":"Left Col: Messenger Kids","selector":"#navItem_421935831521247"}
 		,{"id":184,"name":"Right Col: Suggested For You","selector":"#pagelet_video_home_suggested_for_you_rhc","parent":".pagelet"}
 		,{"id":185,"name":"Group Right Col: Add Members (name entry box)","selector":".groupRHCAddMemberTypeaheadBox"}
-		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']", "parent": ".groupsRHCSectionHeader"}
+		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']","parent":".groupsRHCSectionHeader"}
 		,{"id":187,"name":"Group Right Col: Member Faces","selector":"#groupsRHCMembersFacepile"}
-		,{"id":188,"name":"Group Right Col: Welcome New Members","selector":"a[href*='/new_member_welcome/']", "parent": "._1-o8"}
+		,{"id":188,"name":"Group Right Col: Welcome New Members","selector":"a[href*='/new_member_welcome/']","parent":"._1-o8"}
 		,{"id":189,"name":"Group Right Col: Suggested Members","selector":"li[id^=suggested_member_]","parent":"._275p"}
-		,{"id":190,"name":"Group Right Col: Group Type","selector":".groupsRHCSectionHeader", "parent":"._3-8x"}
+		,{"id":190,"name":"Group Right Col: Group Type","selector":".groupsRHCSectionHeader","parent":"._3-8x"}
 		,{"id":191,"name":"Group Right Col: Tags","selector":"#groupsTagBox"}
 		,{"id":192,"name":"Group Right Col: Locations","selector":"#groupsLocationBox"}
 		,{"id":193,"name":"Group Right Col: Requests","selector":"#pagelet_group_requests_summary"}
@@ -175,9 +175,9 @@
 		,{"id":249,"name":"Group Post Feed: Search For Items","selector":"a[href^='/groups/'][href*='/for_sale_search/']","parent":"._4-u2"}
 		,{"id":250,"name":"Right Col: Unified Gaming Pagelet","selector":"#pagelet_games_unified_rhc"}
 		,{"id":251,"name":"Post: Choose friends to tag","selector":"._3ho0"}
-		,{"id":252,"name":"Group Right Col: Add Members (entire box)","selector":".groupRHCAddMemberTypeaheadBox", "parent":"._4-u2"}
+		,{"id":252,"name":"Group Right Col: Add Members (entire box)","selector":".groupRHCAddMemberTypeaheadBox","parent":"._4-u2"}
 		,{"id":253,"name":"Group Right Col: Description","selector":"#groupsDescriptionBox"}
-		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']", "parent":"#rightCol ._4-u2"}
+		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']","parent":"#rightCol ._4-u2"}
 		,{"id":255,"name":"Left Col: Oculus","selector":"#navItem_1517832211847102"}
 		,{"id":256,"name":"Left Col: Business Discovery","selector":"#navItem_151408195724475"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
@@ -227,5 +227,7 @@
 		,{"id":301,"name":"Post: More From (name of Page)","selector":"._7gg2 ~ div .uiList","parent":"._4-u2"}
 		,{"id":302,"name":"News Feed: Discover Members","selector":"[sfx_post] ul a[ajaxify^='/groups/member_bio/']","parent":"[sfx_post]"}
 		,{"id":303,"name":"Right Col: Sponsored Pagelet (4)","selector":".ego_unit[data-ego-service] a [title] strong","parent":".pagelet"}
+		,{"id":304,"name":"Post Header: Rising Star Badge","selector":"a[href^='/groups/'][href*='RISING_STAR']"}
+		,{"id":305,"name":"Post Header: Visual Storyteller Badge","selector":"a[href^='/groups/'][href*='VISUAL_STORYTELLER']"}
 	]
 }

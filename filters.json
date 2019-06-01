@@ -471,16 +471,9 @@
 		"match": "ALL",
 		"rules": [{
 			"target": "any",
-			"operator": "contains",
-			"condition": {
-				"text": "See [Aa]ll [Ff]riend ([Rr]ecommendations|[Ss]uggestions)"
-			},
-			"match_partial_words": true
-		}, {
-			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[href*=\"/friends/requests/\"]"
+				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id]"
 			}
 		}],
 		"actions": [{

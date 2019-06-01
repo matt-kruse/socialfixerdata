@@ -23,7 +23,7 @@
       }
     ],
     "title": "Hide Avengers: Endgame Spoilers",
-    "description": "Hide spoliers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
+    "description": "Hide spoilers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
   }, {
 		"id": 1,
 		"match": "ALL",
@@ -72,7 +72,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "span>a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": "span>a[href^='/a'][href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
@@ -349,7 +349,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Hide Game of Thrones Spoilers til Monday",
-		"description": "Hide posts with any mention of Game of Thrones but only on Sunday night and show a spolier warning note instead. Show them again on Monday."
+		"description": "Hide posts with any mention of Game of Thrones but only on Sunday night and show a spoiler warning note instead. Show them again on Monday."
 	}, {
 		"id": 22,
 		"match": "ALL",
@@ -471,16 +471,9 @@
 		"match": "ALL",
 		"rules": [{
 			"target": "any",
-			"operator": "contains",
-			"condition": {
-				"text": "See [Aa]ll [Ff]riend ([Rr]ecommendations|[Ss]uggestions)"
-			},
-			"match_partial_words": true
-		}, {
-			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[href*=\"/friends/requests/\"]"
+				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id]"
 			}
 		}],
 		"actions": [{

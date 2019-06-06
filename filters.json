@@ -72,7 +72,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "span>a[href^='/a'][href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": "._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{

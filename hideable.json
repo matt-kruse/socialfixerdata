@@ -229,5 +229,7 @@
 		,{"id":303,"name":"Right Col: Sponsored Pagelet (4)","selector":".ego_unit[data-ego-service] a [title] strong","parent":".pagelet"}
 		,{"id":304,"name":"Post Header: Rising Star Badge","selector":"a[href*='/groups/'][href*='RISING_STAR']"}
 		,{"id":305,"name":"Post Header: Visual Storyteller Badge","selector":"a[href*='/groups/'][href*='VISUAL_STORYTELLER']"}
+		,{"id":306,"name":"Timeline Left Col: Intro","selector":"#profile_timeline_intro_card"}
+		,{"id":307,"name":"Timeline Left Col: Life Events","selector":"#profile_timeline_tiles_unit_pagelets_life_events"}
 	]
 }

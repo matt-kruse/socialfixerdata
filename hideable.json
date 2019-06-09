@@ -231,5 +231,6 @@
 		,{"id":305,"name":"Post Header: Visual Storyteller Badge","selector":"a[href*='/groups/'][href*='VISUAL_STORYTELLER']"}
 		,{"id":306,"name":"Timeline Left Col: Intro","selector":"#profile_timeline_intro_card"}
 		,{"id":307,"name":"Timeline Left Col: Life Events","selector":"#profile_timeline_tiles_unit_pagelets_life_events"}
+		,{"id":308,"name":"Marketplace: Sponsored","selector":"[data-testid^='marketplace'] ._6y8t[style]"}
 	]
 }

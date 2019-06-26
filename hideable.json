@@ -232,5 +232,8 @@
 		,{"id":306,"name":"Timeline Left Col: Intro","selector":"#profile_timeline_intro_card"}
 		,{"id":307,"name":"Timeline Left Col: Life Events","selector":"#profile_timeline_tiles_unit_pagelets_life_events"}
 		,{"id":308,"name":"Marketplace: Sponsored","selector":"[data-testid^='marketplace'] ._6y8t[style]"}
+		,{"id":309,"name":"Left Col: Liked Pages","selector":"#navItem_250100865708545"}
+		,{"id":310,"name":"Post: Add this photo to your story?","selector":"[data-onclick*='add_to_story']","parent":"._1kyo"}
+		,{"id":311,"name":"Post: Ask Your Community for Support","selector":"[href*='/fundraiser/with_presence/create_dialog/']","parent":"._1s31"}
 	]
 }

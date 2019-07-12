@@ -62,7 +62,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".uiStreamSponsoredLink"
+				"text": ".uiStreamSponsoredLink,._5pcr a._34k6[ajaxify*='branded_content']"
 			}
 		}, {
 			"target": "any",
@@ -74,7 +74,10 @@
 		"actions": [{
 			"action": "hide",
 			"show_note": true,
+			"tab": "Sponsored",
 			"custom_note": "Sponsored: click to show/hide post by '${page:60}'"
+		}, {
+			"tab": "Sponsored"
 		}],
 		"configurable_actions": true,
 		"title": "Hide Sponsored and Suggested Posts (Social Fixer >= 24.0)",

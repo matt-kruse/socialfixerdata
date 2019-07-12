@@ -1,30 +1,26 @@
 {
 	"filters": [{
-    "id": 29,
-    "match": "ALL",
-    "enabled": true,
-    "stop_on_match": true,
-    "rules": [
-      {
-        "target": "any",
-        "operator": "contains",
-        "condition": {
-          "text": "avengers|endgame|marvel|thanos"
-        },
-      "match_partial_words": false
-      }
-    ],
-    "actions": [
-      {
-        "action": "hide",
-        "show_note": true,
-        "custom_note": "Avengers:Endgame Spoiler Hidden! Click to view.",
-        "css": "outline:5px solid #F0A155; font-weight:bold; background-color:black; font-size:150%; color: #9A89EE; opacity:1; padding:5px; margin:3px;"
-      }
-    ],
-    "title": "Hide Avengers: Endgame Spoilers",
-    "description": "Hide spoilers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
-  }, {
+		"id": 29,
+		"match": "ALL",
+		"enabled": true,
+		"stop_on_match": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "avengers|endgame|marvel|thanos"
+			},
+			"match_partial_words": false
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Avengers:Endgame Spoiler Hidden! Click to view.",
+			"css": "outline:5px solid #F0A155; font-weight:bold; background-color:black; font-size:150%; color: #9A89EE; opacity:1; padding:5px; margin:3px;"
+		}],
+		"title": "Hide Avengers: Endgame Spoilers",
+		"description": "Hide spoilers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
+	}, {
 		"id": 1,
 		"match": "ALL",
 		"rules": [{

@@ -1,30 +1,26 @@
 {
 	"filters": [{
-    "id": 29,
-    "match": "ALL",
-    "enabled": true,
-    "stop_on_match": true,
-    "rules": [
-      {
-        "target": "any",
-        "operator": "contains",
-        "condition": {
-          "text": "avengers|endgame|marvel|thanos"
-        },
-      "match_partial_words": false
-      }
-    ],
-    "actions": [
-      {
-        "action": "hide",
-        "show_note": true,
-        "custom_note": "Avengers:Endgame Spoiler Hidden! Click to view.",
-        "css": "outline:5px solid #F0A155; font-weight:bold; background-color:black; font-size:150%; color: #9A89EE; opacity:1; padding:5px; margin:3px;"
-      }
-    ],
-    "title": "Hide Avengers: Endgame Spoilers",
-    "description": "Hide spoilers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
-  }, {
+		"id": 29,
+		"match": "ALL",
+		"enabled": true,
+		"stop_on_match": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "avengers|endgame|marvel|thanos"
+			},
+			"match_partial_words": false
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Avengers:Endgame Spoiler Hidden! Click to view.",
+			"css": "outline:5px solid #F0A155; font-weight:bold; background-color:black; font-size:150%; color: #9A89EE; opacity:1; padding:5px; margin:3px;"
+		}],
+		"title": "Hide Avengers: Endgame Spoilers",
+		"description": "Hide spoilers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
+	}, {
 		"id": 1,
 		"match": "ALL",
 		"rules": [{
@@ -66,7 +62,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".uiStreamSponsoredLink"
+				"text": ".uiStreamSponsoredLink,._5pcr a._34k6[ajaxify*='branded_content']"
 			}
 		}, {
 			"target": "any",
@@ -78,7 +74,10 @@
 		"actions": [{
 			"action": "hide",
 			"show_note": true,
+			"tab": "Sponsored",
 			"custom_note": "Sponsored: click to show/hide post by '${page:60}'"
+		}, {
+			"tab": "Sponsored"
 		}],
 		"configurable_actions": true,
 		"title": "Hide Sponsored and Suggested Posts (Social Fixer >= 24.0)",
@@ -92,10 +91,11 @@
 			"action": "hide",
 			"tab": "sponsored.1108.A",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 1108.A)! Click to show/hide this ad."
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.1108.A: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part A)",
+		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental 2018-11-08 part A)",
 		"description": "please place BEFORE existing Sponsored filter(s)",
 		"max_version": "23.99.99",
 		"stop_on_match": true
@@ -125,10 +125,11 @@
 			"action": "hide",
 			"tab": "sponsored.1108.B",
 			"show_note": true,
-			"custom_note": "Sponsored Post hidden (Experimental 1108.B)! Click to show/hide this ad."
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.1108.B: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental 2018-11-08 part B)",
+		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental 2018-11-08 part B)",
 		"description": "please place right AFTER the main Experimental 11-08 A filter",
 		"max_version": "23.99.99",
 		"stop_on_match": true
@@ -157,17 +158,19 @@
 		"actions": [{
 			"action": "hide",
 			"show_note": true,
-			"custom_note": "Sponsored.2019.D: click to show/hide '$1'.",
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.2019.D: click to show/hide '$1'",
 			"tab": "sponsored.2019.D"
 		},
 		{
 			"action": "move-to-tab",
 			"tab": "sponsored.2019.D",
 			"show_note": true,
-			"custom_note": "Sponsored.2019.D: click to show/hide '$1'."
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.2019.D: click to show/hide '$1'"
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental part D, 2019-04-05)",
+		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental part D, 2019-04-05)",
 		"description": "use this in place of part C, unless C is working for you",
 		"max_version": "23.99.99",
 		"stop_on_match": true
@@ -197,10 +200,11 @@
 			"action": "hide",
 			"tab": "sponsored.2019.C",
 			"show_note": true,
-			"custom_note": "Sponsored.2019.C: click to show/hide '$1'."
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.2019.C: click to show/hide '$1'"
 		}],
 		"configurable_actions": true,
-		"title": "Sponsored/Suggested Posts (Experimental part C, 2019-03-05)",
+		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental part C, 2019-03-05)",
 		"description": "NOT RECOMMENDED, try part D instead; see fb.com/2064075220328015",
 		"max_version": "23.99.99",
 		"stop_on_match": true
@@ -260,10 +264,11 @@
 			"action": "hide",
 			"show_note": true,
 			"tab": "Sponsored",
-			"custom_note": "Sponsored Post hidden! Click to show/hide this ad."
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.OLD-MAIN: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (2019-02-03)",
+		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Hide Sponsored/Suggested Posts (2019-02-03 OLD-MAIN)",
 		"description": "Hide all Sponsored and Suggested posts from the news feed",
 		"max_version": "23.99.99",
 		"stop_on_match": true
@@ -317,11 +322,12 @@
 			"action": "hide",
 			"show_note": true,
 			"tab": "Sponsored",
-			"custom_note": "Sponsored Post hidden (OLD)! Click to show/hide this ad."
+			"css": "background-color: #f50;",
+			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.ANCIENT: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored/Suggested Posts (OLD)",
-		"description": "Hide all Sponsored and Suggested posts from the news feed (OLD version)",
+		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Hide Sponsored/Suggested Posts (ANCIENT)",
+		"description": "Hide all Sponsored and Suggested posts from the news feed (ANCIENT version)",
 		"max_version": "23.99.99",
 		"stop_on_match": true
 	}, {

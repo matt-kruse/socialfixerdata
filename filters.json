@@ -92,7 +92,7 @@
 			"tab": "sponsored.1108.A",
 			"show_note": true,
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.1108.A: Click to show/hide this ad"
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.1108.A: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
 		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental 2018-11-08 part A)",
@@ -126,7 +126,7 @@
 			"tab": "sponsored.1108.B",
 			"show_note": true,
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.1108.B: Click to show/hide this ad"
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.1108.B: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
 		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental 2018-11-08 part B)",
@@ -159,7 +159,7 @@
 			"action": "hide",
 			"show_note": true,
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.2019.D: click to show/hide '$1'",
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.2019.D: click to show/hide '$1'",
 			"tab": "sponsored.2019.D"
 		},
 		{
@@ -167,7 +167,7 @@
 			"tab": "sponsored.2019.D",
 			"show_note": true,
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.2019.D: click to show/hide '$1'"
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.2019.D: click to show/hide '$1'"
 		}],
 		"configurable_actions": true,
 		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental part D, 2019-04-05)",
@@ -201,7 +201,7 @@
 			"tab": "sponsored.2019.C",
 			"show_note": true,
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.2019.C: click to show/hide '$1'"
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.2019.C: click to show/hide '$1'"
 		}],
 		"configurable_actions": true,
 		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored/Suggested Posts (Experimental part C, 2019-03-05)",
@@ -265,7 +265,7 @@
 			"show_note": true,
 			"tab": "Sponsored",
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.OLD-MAIN: Click to show/hide this ad"
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.OLD-MAIN: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
 		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Hide Sponsored/Suggested Posts (2019-02-03 OLD-MAIN)",
@@ -323,7 +323,7 @@
 			"show_note": true,
 			"tab": "Sponsored",
 			"css": "background-color: #f50;",
-			"custom_note": "[PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Sponsored.ANCIENT: Click to show/hide this ad"
+			"custom_note": "[From Social Fixer: <a href='http://tiny.cc/sfx-v24-spfilter' target='_blank'>PLEASE FIX YOUR FILTERS</a>] Sponsored.ANCIENT: Click to show/hide this ad"
 		}],
 		"configurable_actions": true,
 		"title": "[OBSOLETE: PLEASE SEE http://tiny.cc/sfx-v24-spfilter] Hide Sponsored/Suggested Posts (ANCIENT)",

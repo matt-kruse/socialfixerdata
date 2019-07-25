@@ -27,7 +27,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto|o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams)"
+				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams)"
 			},
 			"match_partial_words": false
 		}],

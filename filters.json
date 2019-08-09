@@ -62,7 +62,13 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".uiStreamSponsoredLink,._5pcr a._34k6[ajaxify*='branded_content']"
+				"text": ".uiStreamSponsoredLink,._5pcr ._5-sh,._5pcr a._34k6[ajaxify*='branded_content'],._5pcr a._34k6[ajaxify*='/verified_voice_context/']"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "._5pcr ._3nlk,._5pbw a,._5pbw~a:contains(^Sponsored)"
 			}
 		}, {
 			"target": "any",

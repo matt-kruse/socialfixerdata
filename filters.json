@@ -68,7 +68,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pcr ._3nlk,._5pbw a,._5pbw~a:contains(^Sponsored)"
+				"text": "._5pcr ._3nlk,._5pbw a,._5pbw~a:contains(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Sponz|Χορηγ|広告|贊助|赞助))"
 			}
 		}, {
 			"target": "any",

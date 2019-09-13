@@ -235,6 +235,7 @@
 		,{"id":309,"name":"Left Col: Liked Pages","selector":"#navItem_250100865708545"}
 		,{"id":310,"name":"Post: Add this photo to your story?","selector":"[data-onclick*='add_to_story']","parent":"._1kyo"}
 		,{"id":311,"name":"Post: Ask Your Community for Support","selector":"[href*='/fundraiser/with_presence/create_dialog/']","parent":"._1s31"}
-		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label=Keyboard Shortcut Help']"}
+		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label='Keyboard Shortcut Help']"}
+		,{"id":313,"name":"Right Col: Happening Now","selector":"#pagelet_live_destination_rhc"}
 	]
 }

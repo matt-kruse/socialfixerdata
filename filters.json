@@ -56,7 +56,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pcp,._5pcq:has-visible-text(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Sponz|Χορηγ|広告|贊助|赞助))"
+				"text": "._5pcp,._5pcq:has-visible-text(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Chart|Sponz|Χορηγ|広告|贊助|赞助))"
 			}
 		}, {
 			"target": "any",
@@ -68,7 +68,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pcr ._3nlk,._5pbw a,._5pbw~a:contains(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Sponz|Χορηγ|広告|贊助|赞助))"
+				"text": "._5pcr ._3nlk,._5pbw a,._5pbw~a:contains(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Chart|Sponz|Χορηγ|広告|贊助|赞助))"
 			}
 		}, {
 			"target": "any",
@@ -81,7 +81,7 @@
 			"action": "hide",
 			"show_note": true,
 			"tab": "Sponsored",
-			"custom_note": "Sponsored: click to show/hide post by '${page:60}'"
+			"custom_note": "Sponsored: click to show/hide post by '${author:60}'"
 		}, {
 			"tab": "Sponsored"
 		}],

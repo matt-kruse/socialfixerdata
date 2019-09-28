@@ -68,12 +68,6 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pcr ._3nlk,._5pbw a,._5pbw~a:contains(^(Спонз|Спонс|Được|Gespons|Patrocin|Реклам|Publicid|Spons|Chart|Sponz|Χορηγ|広告|贊助|赞助))"
-			}
-		}, {
-			"target": "any",
-			"operator": "contains_selector",
-			"condition": {
 				"text": "._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],

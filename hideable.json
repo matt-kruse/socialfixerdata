@@ -124,7 +124,7 @@
 		,{"id":198,"name":"Right Col: Sponsored Pagelet (3)","selector":"a[href*='/ad_campaign/'],a[href*='paid-social'],a[data-gt*='ad_account_id']","parent":".pagelet"}
 		,{"id":199,"name":"News Feed: Stories","selector":"#stories_pagelet_below_composer","parent":0}
 		,{"id":200,"name":"Right Col: Reminders: Events","selector":"#event_reminders_link,a[href*='/events/']","parent":".fbRemindersStory"}
-		,{"id":201,"name":"Right Col: Reminders: Birthdays","selector":"a[ajaxify*='/birthday/']","parent":".fbRemindersStory"}
+		,{"id":201,"name":"Right Col: Reminders: Birthdays","selector":"#home_birthdays a","parent":"#home_birthdays"}
 		,{"id":202,"name":"Right Col: Reminders: Games","selector":"form[action*='/games/']","parent":".fbRemindersStory"}
 		,{"id":203,"name":"Right Col: Reminders: Ticker Toggle","selector":".tickerToggleWrapper"}
 		,{"id":204,"name":"Post: Add a Donate Button","selector":"a[ajaxify^='/fundraiser'],a[href^='/fundraiser']","parent":"._8fo,._2z1l"}

@@ -2,7 +2,7 @@
 	"filters": [{
 		"id": 29,
 		"match": "ALL",
-		"enabled": true,
+		"enabled": false,
 		"stop_on_match": true,
 		"rules": [{
 			"target": "any",
@@ -27,7 +27,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|chris christie|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams)"
+				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney)"
 			},
 			"match_partial_words": false
 		}],
@@ -45,7 +45,7 @@
 			}
 		],
 		"configurable_actions": true,
-		"title": "Election/Politics 2019",
+		"title": "Election/Politics 2020",
 		"description": "Filter posts related to U.S. Politics",
 		"stop_on_match": true
 	}, {
@@ -80,7 +80,7 @@
 			"tab": "Sponsored"
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored and Suggested Posts (Social Fixer >= 24.0)",
+		"title": "Hide Sponsored and Suggested Posts",
 		"stop_on_match": true,
 		"description": "Hide all Sponsored and Suggested posts from the news feed"
 	}, {
@@ -526,6 +526,7 @@
 		"description": "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
 	}, {
 		"id": 3,
+		"enabled": false,
 		"match": "ALL",
 		"rules": [{
 			"target": "any",

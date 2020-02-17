@@ -22,23 +22,26 @@
 		"description": "Hide spoilers for Avengers: Endgame. Show a placeholder where the post would have been, allowing you to click and view if you wish."
 	}, {
 		"id": 1,
-		"match": "ALL",
+		"match": "ANY",
 		"rules": [{
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney)"
+				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney|oval office|limbaugh|william barr|bill barr|trump's|moscow mitch|gop|parnas|white house)"
 			},
 			"match_partial_words": false
-		}],
+			},
+			{
+			  "target": "image",
+			  "operator": "contains",
+			  "condition": {
+				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|political|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|robert mueller|bob mueller|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney|oval office|limbaugh|william barr|bill barr|trump's|moscow mitch|gop|parnas|white house)"
+			  }
+			}
+		],
 		"actions": [
 			{
 				"action": "hide",
-				"show_note": true,
-				"custom_note": "Politics Hidden ($1). Click to view.",
-				"tab": "Politics"
-			},{
-				"action": "",
 				"show_note": true,
 				"custom_note": "Politics Hidden ($1). Click to view.",
 				"tab": "Politics"

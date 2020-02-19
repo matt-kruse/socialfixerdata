@@ -237,5 +237,6 @@
 		,{"id":311,"name":"Post: Ask Your Community for Support","selector":"[href*='/fundraiser/with_presence/create_dialog/']","parent":"._1s31"}
 		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label='Keyboard Shortcut Help']"}
 		,{"id":313,"name":"Right Col: Happening Now","selector":"#pagelet_live_destination_rhc"}
+		,{"id":314,"name":"Right Col: Videos From Facebook Watch","selector":"#pagelet_video_home_rhc"}
 	]
 }

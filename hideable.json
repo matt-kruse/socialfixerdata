@@ -239,5 +239,6 @@
 		,{"id":313,"name":"Right Col: Happening Now","selector":"#pagelet_live_destination_rhc"}
 		,{"id":314,"name":"Right Col: Videos From Facebook Watch","selector":"#pagelet_video_home_rhc"}
 		,{"id":315,"name":"Group Right Col: Categorize Posts / Create Topic","selector":"#group_rhc_post_tags_list"}
+		,{"id":316,"name":"Left Col: COVID-19 Information Center","selector":"#navItem_474171183259175"}
 	]
 }

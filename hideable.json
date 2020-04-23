@@ -241,5 +241,29 @@
 		,{"id":315,"name":"Group Right Col: Categorize Posts / Create Topic","selector":"#group_rhc_post_tags_list"}
 		,{"id":316,"name":"Left Col: COVID-19 Information Center","selector":"#navItem_474171183259175"}
 		,{"id":317,"name":"Left Col: Live Videos","selector":"#navItem_1472579752766895"}
+		,{"id":318,"name":"Marketplace Post: Information about Covid-19 for buyers and sellers","selector":".userContent ~ ._717p a[href*='/covid']","parent":"._717p"}
+		,{"id":319,"name":"Page Owner: Composer Bar","selector":"#PagesComposerConsolidatedEntry"}
+		,{"id":320,"name":"Page Owner: Invite friends to like your Page","selector":"#PagesProfileHomeSecondaryColumnPagelet [href*='/friend_inviter']","parent":"._4-u2"}
+		,{"id":321,"name":"Page Owner: Our Story","selector":"#PagesProfileHomeSecondaryColumnPagelet [aria-label='Our Story']","parent":"._4-u2"}
+		,{"id":322,"name":"Page Owner: various reach / boost options","selector":"#PagesProfileHomePrimaryColumnPagelet ._1td8"}
+		,{"id":323,"name":"Page Owner: Get Started With Automated Ads","selector":"#PagesProfileHomePrimaryColumnPagelet ._6vhx"}
+		,{"id":324,"name":"Page Owner: ads-n-reach box","selector":"#PagesProfileHomePrimaryColumnPagelet ._6vhx","parent":"._4-u2"}
+		,{"id":325,"name":"Page Owner: Set Up FAQs","selector":"#pageMessagingTipCard ._hjq"}
+		,{"id":326,"name":"Page Owner: Set Up FAQ answers","selector":"#pageMessagingTipCard ._hjf"}
+		,{"id":327,"name":"Page Owner: Page Timeline Create Page","selector":"[id^=PageTimelineCreatePagePagelet]"}
+		,{"id":328,"name":"Page Owner: Page Fundraiser Campaigns","selector":"[id^=PageFundraiserCampaignsPagelet]"}
+		,{"id":329,"name":"Page Owner: Page People","selector":"[id^=PagePeoplePagelet]"}
+		,{"id":330,"name":"Page Owner: Page Review Needy Place Card","selector":"[id^=PageReviewNeedyPlaceCardPagelet]"}
+		,{"id":331,"name":"Page Owner: Page Locations","selector":"[id^=PageLocationsPagelet]"}
+		,{"id":332,"name":"Page Owner: Page Photos Container","selector":"[id^=PagePhotosContainerPagelet]"}
+		,{"id":333,"name":"Page Owner: Page Videos","selector":"[id^=PageVideosPagelet]"}
+		,{"id":334,"name":"Page Owner: Page Notes Container","selector":"[id^=PageNotesContainerPagelet]"}
+		,{"id":335,"name":"Page Owner: Page Reviews Container","selector":"[id^=PageReviewsContainerPagelet]"}
+		,{"id":336,"name":"Page Owner: Page Places People Also Visited Secondary","selector":"[id^=PagePlacesPeopleAlsoVisitedSecondaryPagelet]"}
+		,{"id":337,"name":"Page Owner: Page Related Pages Secondary","selector":"[id^=PageRelatedPagesSecondaryPagelet]"}
+		,{"id":338,"name":"Page Owner: Page Graph Search","selector":"[id^=PageGraphSearchPagelet]"}
+		,{"id":339,"name":"Page Owner: Page Pages Liked By Page Secondary","selector":"[id^=PagePagesLikedByPageSecondaryPagelet]"}
+		,{"id":340,"name":"Page Owner: Pages Suggested By Page Secondary","selector":"[id^=PagesSuggestedByPageSecondaryPagelet]"}
+		,{"id":341,"name":"Page Owner: Page SEO Interlinking Related Element","selector":"[id^=PageSEOInterlinkingRelatedElementPagelet]"}
 	]
 }

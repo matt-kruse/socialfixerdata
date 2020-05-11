@@ -265,5 +265,9 @@
 		,{"id":339,"name":"Page Owner: Page Pages Liked By Page Secondary","selector":"[id^=PagePagesLikedByPageSecondaryPagelet]"}
 		,{"id":340,"name":"Page Owner: Pages Suggested By Page Secondary","selector":"[id^=PagesSuggestedByPageSecondaryPagelet]"}
 		,{"id":341,"name":"Page Owner: Page SEO Interlinking Related Element","selector":"[id^=PageSEOInterlinkingRelatedElementPagelet]"}
+		,{"id":342,"name":"News Feed: Video Chats","selector":"#video_chats"}
+		,{"id":343,"name":"Group Right Col: Invite Members","selector":".pagelet a[ajaxify*='groups/email_plugin']","parent":"._4-u3"}
+		,{"id":344,"name":"Group Right Col: Invite Friends","selector":"._4-u2 ._i7m + div .uiScrollableArea li ._3qn7 a","parent":"._4-u2 ._i7m + div"}
+		,{"id":345,"name":"Group Right Col: Write a post to welcome new members","selector":"#groupsNewMembersLink ._1-o8"}
 	]
 }

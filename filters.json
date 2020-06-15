@@ -65,7 +65,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".uiStreamSponsoredLink,._5pcr ._5-sh,._5pcr a._34k6[ajaxify*='branded_content'],._5pcr a._34k6[ajaxify*='/verified_voice_context/']"
+				"text": ".uiStreamSponsoredLink,.uiContextualLayerParent>span._5-sh,._5pcr ._5-sh,._5pcr a._34k6[ajaxify*='branded_content'],._5pcr a._34k6[ajaxify*='/verified_voice_context/'],._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {
 			"target": "any",

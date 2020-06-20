@@ -272,5 +272,6 @@
 		,{"id":346,"name":"Chat Sidebar: Group Conversations","selector":".fbChatOrderedList div:first-of-type._55ob,.fbChatOrderedList div[id] > ul:first-of-type"}
 		,{"id":347,"name":"Chat Sidebar: More Contacts","selector":".fbChatOrderedList div:not(:first-of-type)._55ob,.fbChatOrderedList div[id] > ul:not(:first-of-type)"}
 		,{"id":348,"name":"Left Col: Facebook Pay","selector":"#navItem_2805739562851096"}
+		,{"id":349,"name":"Left Col: Lift Black Voices","selector":"#navItem_807767239627494"}
 	]
 }

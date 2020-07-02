@@ -16,11 +16,6 @@
 			"description" : "Chat colors can be customized by people in the chat, causing the popups to be different colors. This tweak restores all chat popup panels to the default blue color.",
 			"css" : ".fbDockChatTabFlyout .titlebar {color:#4080ff !important;}\n.fbDockChatTabFlyout .conversation div[style*=\"background-color\"] {background-color:#4080ff !important;}\n.fbDockChatTabFlyout .fbNubFlyoutFooter g {fill:rgb(0, 132, 255) !important;}\n.fbDockChatTabFlyout .fbNubFlyoutFooter path {fill:#0084ff !important;}"
 		}, {
-			"id" : 6,
-			"title" : "Lock left column",
-			"description" : "Force the left column to stay in place and not scroll with the screen.",
-			"css" : "#XXXleftCol {position:fixed !important;max-height:85vh;overflow:hidden;}\n#XXXleftCol:hover {overflow:auto;}"
-		}, {
 			"id" : 7,
 			"title": "Remove Status Background Colors",
 			"description": "Facebook recently introduced a feature to allow users to select a background color for their status updates. This tweak removes the background and returns the posts to normal.",

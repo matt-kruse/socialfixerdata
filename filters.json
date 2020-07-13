@@ -1,5 +1,37 @@
 {
 	"filters": [{
+		"id":20200713,
+		"match": "ANY",
+		"enabled": true,
+		"stop_on_match": true,
+		"rules": [
+			{
+				"target": "any",
+				"operator": "contains",
+				"condition": {
+					"text": "covid|coronavirus|face mask"
+				},
+				"match_partial_words": true
+			},
+			{
+				"target": "any",
+				"operator": "contains",
+				"condition": {
+					"text": "the virus|this virus|tested positive|tested negative"
+				}
+			}
+		],
+		"actions": [
+			{
+				"action": "hide",
+				"show_note": true,
+				"custom_note": "Covid-19",
+				"tab": "Covid-19"
+			}
+		],
+		"title": "Covid-19 Filter",
+		"description": "Hide posts related to Covid-19. Show a placeholder where the post would have been, allowing you to click and view if you wish."
+	}, {
 		"id": 29,
 		"match": "ALL",
 		"enabled": false,

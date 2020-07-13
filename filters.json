@@ -3,6 +3,7 @@
 		"id": 29,
 		"match": "ALL",
 		"enabled": false,
+		"max_version": "0.0.0",
 		"stop_on_match": true,
 		"rules": [{
 			"target": "any",
@@ -357,6 +358,8 @@
 			"custom_note": "Game of Thrones spoiler hidden"
 		}],
 		"configurable_actions": true,
+		"enabled": false,
+		"max_version": "0.0.0",
 		"title": "Hide Game of Thrones Spoilers til Monday",
 		"description": "Hide posts with any mention of Game of Thrones but only on Sunday night and show a spoiler warning note instead. Show them again on Monday."
 	}, {
@@ -375,6 +378,8 @@
 			"custom_note": "Game of Thrones post hidden"
 		}],
 		"configurable_actions": true,
+		"enabled": false,
+		"max_version": "0.0.0",
 		"title": "Hide all posts about Game of Thrones",
 		"description": "Hide posts with any mention of Game of Thrones."
 	}, {
@@ -530,6 +535,7 @@
 	}, {
 		"id": 3,
 		"enabled": false,
+		"max_version": "0.0.0",
 		"match": "ALL",
 		"rules": [{
 			"target": "any",

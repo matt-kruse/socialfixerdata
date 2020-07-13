@@ -9,7 +9,7 @@
 				"target": "any",
 				"operator": "contains",
 				"condition": {
-					"text": "covid|coronavirus|face mask"
+					"text": "covid[- ]?19|covid|corona ?virus|face mask|sars[- ]cov[- ]2"
 				},
 				"match_partial_words": true
 			},
@@ -25,7 +25,7 @@
 			{
 				"action": "hide",
 				"show_note": true,
-				"custom_note": "Covid-19 Post Hidden ($1). Click to view.",
+				"custom_note": "Covid-19 Post Hidden ($0). Click to view.",
 				"tab": "Covid-19"
 			}
 		],

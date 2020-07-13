@@ -25,7 +25,7 @@
 			{
 				"action": "hide",
 				"show_note": true,
-				"custom_note": "Covid-19",
+				"custom_note": "Covid-19 Post Hidden ($1). Click to view.",
 				"tab": "Covid-19"
 			}
 		],

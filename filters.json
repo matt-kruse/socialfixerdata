@@ -59,7 +59,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pcp,._5pcq:has-visible-text(^(Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|Spons|Chart|Sponz|Χορηγ|広告|贊助|赞助))"
+				"text": "._5pcp,._5pcq:has-visible-text(^(Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|Spons|Chart|Sponz|Χορηγ|広告|贊助|赞助|ממומ))"
 			}
 		}, {
 			"target": "any",

@@ -17,7 +17,7 @@
 				"target": "any",
 				"operator": "contains",
 				"condition": {
-					"text": "the virus|this virus|tested positive|tested negative"
+					"text": "the virus|this virus"
 				}
 			}
 		],

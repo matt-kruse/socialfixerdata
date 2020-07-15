@@ -29,6 +29,7 @@
 				"tab": "Covid-19"
 			}
 		],
+		"configurable_actions": true,
 		"title": "Covid-19 Filter",
 		"description": "Hide posts related to Covid-19. Show a placeholder where the post would have been, allowing you to click and view if you wish."
 	}, {

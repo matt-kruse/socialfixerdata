@@ -9,16 +9,9 @@
 				"target": "any",
 				"operator": "contains",
 				"condition": {
-					"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona ?virus|face mask|sars[- ]cov[- ]2"
+					"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2"
 				},
-				"match_partial_words": true
-			},
-			{
-				"target": "any",
-				"operator": "contains",
-				"condition": {
-					"text": "the virus|this virus"
-				}
+				"match_partial_words": false
 			}
 		],
 		"actions": [

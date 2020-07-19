@@ -279,5 +279,6 @@
 		,{"id":353,"name":"Chat Pop-Under: 'Start Video Call' button","selector":"#ChatTabsPagelet ._1iti [data-testid*=Video]"}
 		,{"id":354,"name":"Messages: 'Start Voice Call' button","selector":"#content ._6ynl [data-testid*=Voice]"}
 		,{"id":355,"name":"Messages: 'Start Video Call' button","selector":"#content ._6ynl [data-testid*=Video]"}
+		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 	]
 }

@@ -281,7 +281,7 @@
 		,{"id":355,"name":"Messages: 'Start Video Call' button","selector":"#content ._6ynl [data-testid*=Video]"}
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":357,"name":"Left Col: Voting Information Center","selector":"#navItem_567708910575385"}
-    
+
 		,{"id":2020082301,"name":"Newsfeed: Stories (New Layout)","selector":"#ssrb_stories_start","parent":"div"}
 		,{"id":2020082302,"name":"Newsfeed: Rooms (New Layout)","selector":"div[data-pagelet=\"VideoChatHomeUnit\"]","parent":"div"}
 		,{"id":2020082303,"name":"Right Column (New Layout)","selector":"div[data-pagelet=\"RightRail\"]"}
@@ -289,5 +289,8 @@
 		,{"id":2020082305,"name":"Header: Marketplace (New Layout)","selector":"div[role=\"banner\"] div[role=\"navigation\"] a[href^=\"/marketplace\"]"}
 		,{"id":2020082306,"name":"Header: Groups (New Layout)","selector":"div[role=\"banner\"] div[role=\"navigation\"] a[href^=\"/groups\"]"}
 
+		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
+		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
+		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
 	]
 }

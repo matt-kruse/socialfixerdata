@@ -289,7 +289,7 @@
 		,{"id":2020082305,"name":"Header: Marketplace (New Layout)","selector":"div[role=\"banner\"] div[role=\"navigation\"] a[href^=\"/marketplace\"]"}
 		,{"id":2020082306,"name":"Header: Groups (New Layout)","selector":"div[role=\"banner\"] div[role=\"navigation\"] a[href^=\"/groups\"]"}
 
-		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo.1q_o"}
+		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
 	]

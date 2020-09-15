@@ -294,5 +294,7 @@
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
     
 		,{"id":2020082901,"name":"Left Column (New Layout)","selector":"#ssrb_left_rail_start ~ *[role=\"navigation\"]"}
+		,{"id":2020091401,"name":"Left Col: Campus","selector":"#navItem_137793194318064"}
+		,{"id":2020091402,"name":"Left Col: Climate Science Information Center","selector":"#navItem_952641688555504"}
 	]
 }

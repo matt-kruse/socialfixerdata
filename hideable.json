@@ -297,5 +297,6 @@
 		,{"id":2020091401,"name":"Left Col: Campus","selector":"#navItem_137793194318064"}
 		,{"id":2020091402,"name":"Left Col: Climate Science Information Center","selector":"#navItem_952641688555504"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
+		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
 	]
 }

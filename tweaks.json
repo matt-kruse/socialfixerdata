@@ -9,7 +9,7 @@
 			"id" : 3,
 			"title" : "Hide Notification Bubble",
 			"description" : "When a new notification is added, it is displayed in the lower left corner. Enable this tweak to hide it.",
-			"css" : "ul[data-gt*=\"\\\"ref\\\":\\\"beeper\\\"\"] { display:none !important; }"
+			"css" : "ul[data-gt*=\"\\\"ref\\\":\\\"beeper\\\"\"], ul.poy2od1o.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn { display:none !important; }"
 		}, {
 			"id" : 5,
 			"title" : "Force Chat Popup To Default Colors",

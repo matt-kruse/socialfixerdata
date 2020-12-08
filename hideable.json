@@ -298,5 +298,11 @@
 		,{"id":2020091402,"name":"Left Col: Climate Science Information Center","selector":"#navItem_952641688555504"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
+		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] a.gs1a9yip[href='/']"}
+		,{"id":2020120702,"name":"Header: 'Search Facebook' box","selector":"[role=banner] input[type=search]","parent":"label"}
+		,{"id":2020120703,"name":"Header: 'Home' button","selector":"[role=banner] [role=navigation] a.bp9cbjyn[href='/']"}
+		,{"id":2020120704,"name":"Header: 'Gaming' button","selector":"[role=banner] [role=navigation] a[href*='/gaming/']"}
+		,{"id":2020120705,"name":"Header: 'More (Bookmarks)' button","selector":"[role=banner] [role=navigation] a[href*='/bookmarks/']"}
+		,{"id":2020120706,"name":"Header: 'My profile' button","selector":"[role=banner] [role=navigation] a[href='/me/']"}
 	]
 }

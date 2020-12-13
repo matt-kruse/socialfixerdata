@@ -304,5 +304,9 @@
 		,{"id":2020120704,"name":"Header: 'Gaming' button","selector":"[role=banner] [role=navigation] a[href*='/gaming/']"}
 		,{"id":2020120705,"name":"Header: 'More (Bookmarks)' button","selector":"[role=banner] [role=navigation] a[href*='/bookmarks/']"}
 		,{"id":2020120706,"name":"Header: 'My profile' button","selector":"[role=banner] [role=navigation] a[href='/me/']"}
+		,{"id":2020121301,"name":"Group: About box","selector":".lntdvkbv .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_'],.bexiecsf .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_']","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2020121302,"name":"Group: Popular Topics box","selector":".lntdvkbv a[href*='/groups/'][href*='/post_tags/'],.lntdvkbv a[href*='/hashtag/'],.bexiecsf a[href*='/groups/'][href*='/post_tags/'],.bexiecsf a[href*='/hashtag/']","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2020121303,"name":"Group: Recent Media box","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/']","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2020121304,"name":"Group: Events box","selector":".lntdvkbv a[href*='/events/'],.bexiecsf a[href*='/events/']","parent":".lntdvkbv,.bexiecsf"}
 	]
 }

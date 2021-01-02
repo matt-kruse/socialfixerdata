@@ -1,6 +1,7 @@
 {
 	"tweaks" :
-	[{
+	[
+		{
 			"id" : 2,
 			"title" : "Hide \"Related\" Stories and Pages",
 			"description" : "When you click a link from the news feed or Like a page post, Facebook inserts a block of other things you might like. Enable this Tweak to hide those blocks.",
@@ -18,8 +19,8 @@
 		}, {
 			"id" : 7,
 			"title": "Remove Status Background Colors",
-			"description": "Facebook recently introduced a feature to allow users to select a background color for their status updates. This tweak removes the background and returns the posts to normal.",
-			"css": "._6rsm, ._6rsn *, [sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] {\n  background-image:none !important;\n  background-color:inherit !important;\n  min-height:inherit !important;\n}\n\n._6rsw, [sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] span[style*=\"color\"] {\n  visibility:visible !important;\n  color:inherit !important;\n  font-size:inherit !important;\n  line-height:inherit !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding:12px !important;\n}\n\n[sfx_post] [data-ft*='\"K\"'] div[style*=\"background-\"] span[style*=\"padding-top\"] {\n  padding-top:0 !important;\n}"
+			"description": "Facebook users may choose a colored or image background for their posts.  This tweak removes the background and returns such posts to normal plain text.  Updated 2020-12-30, supports old & new layouts.",
+			"css": "/* Old (pre-2020) layout */\n._6rsm, ._6rsn *, [sfx_post] [data-ft*='\"K\"'] div[style*='background-'] {\n  background-image:none !important;\n  background-color:inherit !important;\n  min-height:inherit !important;\n}\n._6rsw, [sfx_post] [data-ft*='\"K\"'] div[style*='background-'] span[style*='color'] {\n  visibility:visible !important;\n  color:inherit !important;\n  font-size:inherit !important;\n  line-height:inherit !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding:12px !important;\n}\n[sfx_post] [data-ft*='\"K\"'] div[style*='background-'] span[style*='padding-top'] {\n  padding-top:0 !important;\n}\n/* New (2020) layout */\n[role=article] .jifvfom9[style*='background-'] {\n  background:none !important;\n  padding-top:10px !important;\n  padding-bottom:10px !important;\n}\n[role=article] .jifvfom9[style*='background-'] * {\n  color:var(--primary-text) !important;\n  font-size:inherit !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding-top:0px !important;\n  padding-bottom:0px !important;\n}"
 		}
 	]
 }

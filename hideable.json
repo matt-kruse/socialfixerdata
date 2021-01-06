@@ -292,7 +292,6 @@
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
-    
 		,{"id":2020082901,"name":"Left Column (New Layout)","selector":"#ssrb_left_rail_start ~ *[role=\"navigation\"]"}
 		,{"id":2020091401,"name":"Left Col: Campus","selector":"#navItem_137793194318064"}
 		,{"id":2020091402,"name":"Left Col: Climate Science Information Center","selector":"#navItem_952641688555504"}
@@ -345,5 +344,6 @@
 		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"[data-pagelet=page] [role=navigation] a[href*='/townhall/']"}
 		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[data-pagelet=page] [role=navigation] a[href*='/votinginformationcenter/']"}
 		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[data-pagelet=page] [role=navigation] a[href*='/weather/']"}
+		,{"id":2021010501,"name":"Right Rail: Sponsored item","selector":"[data-pagelet=RightRail] .l9j0dhe7 > a.myohyog2"}
 	]
 }

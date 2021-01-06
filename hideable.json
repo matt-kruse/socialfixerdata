@@ -292,7 +292,6 @@
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
-    
 		,{"id":2020082901,"name":"Left Column (New Layout)","selector":"#ssrb_left_rail_start ~ *[role=\"navigation\"]"}
 		,{"id":2020091401,"name":"Left Col: Campus","selector":"#navItem_137793194318064"}
 		,{"id":2020091402,"name":"Left Col: Climate Science Information Center","selector":"#navItem_952641688555504"}
@@ -309,5 +308,42 @@
 		,{"id":2020121303,"name":"Group: Recent Media box","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121304,"name":"Group: Events box","selector":".lntdvkbv a[href*='/events/'],.bexiecsf a[href*='/events/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020123101,"name":"Friends page: People You May Know","selector":"html[sfx_url='/friends'] .btwxx1t3.gs1a9yip > .cbu4d94t[role=navigation]"}
+		,{"id":2021010401,"name":"Left Rail: Friends","selector":"[data-pagelet=page] [role=navigation] a[href*='/friends/']"}
+		,{"id":2021010402,"name":"Left Rail: Groups","selector":"[data-pagelet=page] [role=navigation] a[href*='/groups/'][href*='ref=bookmarks']"}
+		,{"id":2021010403,"name":"Left Rail: Marketplace","selector":"[data-pagelet=page] [role=navigation] a[href*='/marketplace/']"}
+		,{"id":2021010404,"name":"Left Rail: Watch","selector":"[data-pagelet=page] [role=navigation] a[href*='/watch/']:not([href*='/live/'])"}
+		,{"id":2021010405,"name":"Left Rail: Ad Center","selector":"[data-pagelet=page] [role=navigation] a[href*='/pages/creation/']"}
+		,{"id":2021010406,"name":"Left Rail: Ads Manager","selector":"[data-pagelet=page] [role=navigation] a[href*='/ad_campaign/']"}
+		,{"id":2021010407,"name":"Left Rail: Blood Donations","selector":"[data-pagelet=page] [role=navigation] a[href*='/blooddonations/']"}
+		,{"id":2021010408,"name":"Left Rail: Buy and Sell Groups","selector":"[data-pagelet=page] [role=navigation] a[href*='/salegroups/']"}
+		,{"id":2021010409,"name":"Left Rail: Campus","selector":"[data-pagelet=page] [role=navigation] a[href*='/campus/']"}
+		,{"id":2021010410,"name":"Left Rail: Climate Science Information Center","selector":"[data-pagelet=page] [role=navigation] a[href*='/climatescienceinfo/']"}
+		,{"id":2021010411,"name":"Left Rail: Community Help","selector":"[data-pagelet=page] [role=navigation] a[href*='/community_help/']"}
+		,{"id":2021010412,"name":"Left Rail: COVID-19 Information Center","selector":"[data-pagelet=page] [role=navigation] a[href*='/coronavirus_info/']"}
+		,{"id":2021010413,"name":"Left Rail: Events","selector":"[data-pagelet=page] [role=navigation] a[href*='/events?']"}
+		,{"id":2021010414,"name":"Left Rail: Facebook Pay","selector":"[data-pagelet=page] [role=navigation] a[href*='/facebook_pay/']"}
+		,{"id":2021010415,"name":"Left Rail: Favorites","selector":"[data-pagelet=page] [role=navigation] a[href*='/?sk=favorites']"}
+		,{"id":2021010416,"name":"Left Rail: Friend Lists","selector":"[data-pagelet=page] [role=navigation] a[href*='/bookmarks/lists/']"}
+		,{"id":2021010417,"name":"Left Rail: Fundraisers","selector":"[data-pagelet=page] [role=navigation] a[href*='/fundraisers/']"}
+		,{"id":2021010418,"name":"Left Rail: Games","selector":"[data-pagelet=page] [role=navigation] a[href*='/games/']"}
+		,{"id":2021010419,"name":"Left Rail: Gaming Video","selector":"[data-pagelet=page] [role=navigation] a[href*='/gaming/']"}
+		,{"id":2021010420,"name":"Left Rail: Jobs","selector":"[data-pagelet=page] [role=navigation] a[href*='/jobs/']"}
+		,{"id":2021010421,"name":"Left Rail: Lift Black Voices","selector":"[data-pagelet=page] [role=navigation] a[href*='/liftblackvoices/']"}
+		,{"id":2021010422,"name":"Left Rail: Live Videos","selector":"[data-pagelet=page] [role=navigation] a[href*='/watch/live/']"}
+		,{"id":2021010423,"name":"Left Rail: Memories","selector":"[data-pagelet=page] [role=navigation] a[href*='/memories/']"}
+		,{"id":2021010424,"name":"Left Rail: Messenger","selector":"[data-pagelet=page] [role=navigation] a[href*='/messages/t/']"}
+		,{"id":2021010425,"name":"Left Rail: Messenger Kids","selector":"[data-pagelet=page] [role=navigation] a[href*='/messenger_kids/']"}
+		,{"id":2021010426,"name":"Left Rail: Most Recent","selector":"[data-pagelet=page] [role=navigation] a[href*='/?sk=h_chr']"}
+		,{"id":2021010427,"name":"Left Rail: Movies","selector":"[data-pagelet=page] [role=navigation] a[href*='/movies/']"}
+		,{"id":2021010428,"name":"Left Rail: Oculus","selector":"[data-pagelet=page] [role=navigation] a[href*='/270208243080697/']"}
+		,{"id":2021010429,"name":"Left Rail: Offers","selector":"[data-pagelet=page] [role=navigation] a[href*='/offers/']"}
+		,{"id":2021010430,"name":"Left Rail: Pages","selector":"[data-pagelet=page] [role=navigation] a[href*='/pages/?category=top']"}
+		,{"id":2021010431,"name":"Left Rail: Recent Ad Activity","selector":"[data-pagelet=page] [role=navigation] a[href*='/ads/activity/']"}
+		,{"id":2021010432,"name":"Left Rail: Recommendations","selector":"[data-pagelet=page] [role=navigation] a[href*='/recommendations']"}
+		,{"id":2021010433,"name":"Left Rail: Saved","selector":"[data-pagelet=page] [role=navigation] a[href*='/saved/']"}
+		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"[data-pagelet=page] [role=navigation] a[href*='/townhall/']"}
+		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[data-pagelet=page] [role=navigation] a[href*='/votinginformationcenter/']"}
+		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[data-pagelet=page] [role=navigation] a[href*='/weather/']"}
+		,{"id":2021010501,"name":"Right Rail: Sponsored item","selector":"[data-pagelet=RightRail] .l9j0dhe7 > a.myohyog2"}
 	]
 }

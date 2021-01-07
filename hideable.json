@@ -345,5 +345,6 @@
 		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[data-pagelet=page] [role=navigation] a[href*='/votinginformationcenter/']"}
 		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[data-pagelet=page] [role=navigation] a[href*='/weather/']"}
 		,{"id":2021010501,"name":"Right Rail: Sponsored item","selector":"[data-pagelet=RightRail] .l9j0dhe7 > a.myohyog2"}
+		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"[data-pagelet=page] [role=navigation] a[href*='/crisisresponse/']"}
 	]
 }

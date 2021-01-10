@@ -346,5 +346,8 @@
 		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[data-pagelet=page] [role=navigation] a[href*='/weather/']"}
 		,{"id":2021010501,"name":"Right Rail: Sponsored item","selector":"[data-pagelet=RightRail] .l9j0dhe7 > a.myohyog2"}
 		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"[data-pagelet=page] [role=navigation] a[href*='/crisisresponse/']"}
+		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[data-pagelet=page] [role=navigation] a[href*='/community_resources/']"}
+		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[data-pagelet=page] [role=navigation] a[href*='/ad_center/']"}
+		,{"id":2021011003,"name":"Left Rail: Pages (Page admin)","selector":"[data-pagelet=page] [role=navigation] a[href*='/pages/?category=your_pages']"}
 	]
 }

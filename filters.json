@@ -506,7 +506,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id]"
+				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id],a[aria-label][href*='/friends'] .lrazzd5p.q66pz984,.lrazzd5p.m9osqain:contains(^People You May Know$)"
 			}
 		}],
 		"actions": [{

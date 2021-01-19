@@ -331,7 +331,7 @@
 		,{"id":2021010421,"name":"Left Rail: Lift Black Voices","selector":"[data-pagelet=page] [role=navigation] a[href*='/liftblackvoices/']"}
 		,{"id":2021010422,"name":"Left Rail: Live Videos","selector":"[data-pagelet=page] [role=navigation] a[href*='/watch/live/']"}
 		,{"id":2021010423,"name":"Left Rail: Memories","selector":"[data-pagelet=page] [role=navigation] a[href*='/memories/']"}
-		,{"id":2021010424,"name":"Left Rail: Messenger","selector":"html:not([sfx_context_type=messages]) [data-pagelet=page] [role=navigation] a[href*='/messages/t/']"}
+		,{"id":2021010424,"name":"Left Rail: Messenger","selector":"[data-pagelet=page] [role=navigation] a[href$='/messages/t/']"}
 		,{"id":2021010425,"name":"Left Rail: Messenger Kids","selector":"[data-pagelet=page] [role=navigation] a[href*='/messenger_kids/']"}
 		,{"id":2021010426,"name":"Left Rail: Most Recent","selector":"[data-pagelet=page] [role=navigation] a[href*='/?sk=h_chr']"}
 		,{"id":2021010427,"name":"Left Rail: Movies","selector":"[data-pagelet=page] [role=navigation] a[href*='/movies/']"}

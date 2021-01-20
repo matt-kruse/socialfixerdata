@@ -349,5 +349,6 @@
 		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[data-pagelet=page] [role=navigation] a[href*='/community_resources/']"}
 		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[data-pagelet=page] [role=navigation] a[href*='/ad_center/']"}
 		,{"id":2021011003,"name":"Left Rail: Pages (Page admin)","selector":"[data-pagelet=page] [role=navigation] a[href*='/pages/?category=your_pages']"}
+		,{"id":2021011901,"name":"Groups Feed: Popular Now","selector":".aghb5jc5 .cbu4d94t a.btwxx1t3.g5ia77u1[href*='/topic/'] .fgxwclzu","parent":".aghb5jc5>div.lpgh02oy"}
 	]
 }

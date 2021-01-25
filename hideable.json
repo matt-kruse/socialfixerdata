@@ -350,5 +350,7 @@
 		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[data-pagelet=page] [role=navigation] a[href*='/ad_center/']"}
 		,{"id":2021011003,"name":"Left Rail: Pages (Page admin)","selector":"[data-pagelet=page] [role=navigation] a[href*='/pages/?category=your_pages']"}
 		,{"id":2021011901,"name":"Groups Feed: Popular Now","selector":".aghb5jc5 .cbu4d94t a.btwxx1t3.g5ia77u1[href*='/topic/'] .fgxwclzu","parent":".aghb5jc5>div.lpgh02oy"}
+		,{"id":2021012401,"name":"Right Rail: Sponsored item (2)","selector":"[data-pagelet=RightRail] [role=button] .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":".l9j0dhe7>.myohyog2"}
+		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
 	]
 }

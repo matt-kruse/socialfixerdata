@@ -344,7 +344,7 @@
 		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"[data-pagelet=LeftRail] a[href*='/townhall/']"}
 		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[data-pagelet=LeftRail] a[href*='/votinginformationcenter/']"}
 		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[data-pagelet=LeftRail] a[href*='/weather/']"}
-		,{"id":2021010501,"name":"Right Rail: Sponsored item","selector":"[data-pagelet=RightRail] [role] .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":".l9j0dhe7>.myohyog2"}
+		,{"id":2021010501,"name":"Right Rail: Sponsored item","selector":"[data-pagelet=RightRail] [role] .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"a[aria-label]"}
 		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"[data-pagelet=LeftRail] a[href*='/crisisresponse/']"}
 		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[data-pagelet=LeftRail] a[href*='/community_resources/']"}
 		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[data-pagelet=LeftRail] a[href*='/ad_center/']"}

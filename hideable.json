@@ -352,5 +352,6 @@
 		,{"id":2021011901,"name":"Groups Feed: Popular Now","selector":".aghb5jc5 .cbu4d94t a.btwxx1t3.g5ia77u1[href*='/topic/'] .fgxwclzu","parent":".aghb5jc5>div.lpgh02oy"}
 		,{"id":2021012401,"name":"(removed)","selector":"xxyyzz"}
 		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
+		,{"id":2021032201,"name":"Groups Feed: ad to join groups","selector":".aghb5jc5 .lpgh02oy .kb5gq1qc.t7l9tvuc .j83agx80 a.g5ia77u1[href*='groups/discover']","parent":".aghb5jc5>div.lpgh02oy"}
 	]
 }

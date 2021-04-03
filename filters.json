@@ -88,10 +88,16 @@
 				"text": ".uiStreamSponsoredLink,.uiContextualLayerParent>span._5-sh,._5pcr ._5-sh,._5pcr a._34k6[ajaxify*='branded_content'],._5pcr a._34k6[ajaxify*='/verified_voice_context/'],._5pcq[ajaxify*='ad_id=']"
 			}
 		}, {
+			"target": "app",
+			"operator": "equals",
+			"condition": {
+				"text": "abc$def"
+			}
+		}, {
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{

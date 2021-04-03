@@ -91,7 +91,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{

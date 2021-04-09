@@ -283,7 +283,7 @@
 		,{"id":357,"name":"Left Col: Voting Information Center","selector":"#navItem_567708910575385"}
 
 		,{"id":2020082301,"name":"Newsfeed: Stories (New Layout)","selector":"#ssrb_stories_start","parent":"div"}
-		,{"id":2020082302,"name":"Newsfeed: Rooms (New Layout)","selector":"div[data-pagelet=\"VideoChatHomeUnit\"]","parent":"div"}
+		,{"id":2020082302,"name":"Newsfeed: Rooms (New Layout)","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
 		,{"id":2020082303,"name":"Right Column (New Layout)","selector":"div[data-pagelet=\"RightRail\"]"}
 		,{"id":2020082304,"name":"Header: Watch (New Layout)","selector":"div[role=\"banner\"] div[role=\"navigation\"] a[href=\"/watch/\"]"}
 		,{"id":2020082305,"name":"Header: Marketplace (New Layout)","selector":"div[role=\"banner\"] div[role=\"navigation\"] a[href^=\"/marketplace\"]"}

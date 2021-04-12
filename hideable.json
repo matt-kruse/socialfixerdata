@@ -356,5 +356,6 @@
 		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":"#ssrb_composer_start ~.ad2k81qe img[src*=switch]","parent":"#ssrb_composer_start ~.ad2k81qe"}
 		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/survey/']","parent":"#ssrb_composer_start ~.ad2k81qe"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[data-pagelet=LeftRail] a[href*='/news/']"}
+		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[data-pagelet=LeftRail] [role=contentinfo]"}
 	]
 }

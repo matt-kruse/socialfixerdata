@@ -357,5 +357,6 @@
 		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/survey/']","parent":"#ssrb_composer_start ~.ad2k81qe"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[data-pagelet=LeftRail] a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[data-pagelet=LeftRail] [role=contentinfo]"}
+		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[data-pagelet=RightRail] [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
 	]
 }

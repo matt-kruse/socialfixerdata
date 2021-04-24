@@ -358,5 +358,6 @@
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[data-pagelet=LeftRail] a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[data-pagelet=LeftRail] [role=contentinfo]"}
 		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[data-pagelet=RightRail] [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
+		,{"id":2021042301,"name":"Post: Get Vaccine Info","selector":"[sfx_post] .hybvsw6c > a[href*='/coronavirus_info/']","parent":".discj3wi"}
 	]
 }

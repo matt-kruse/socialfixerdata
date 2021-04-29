@@ -302,7 +302,7 @@
 		,{"id":2020120703,"name":"Header: 'Home' button","selector":"[role=banner] [role=navigation] a.bp9cbjyn[href='/']"}
 		,{"id":2020120704,"name":"Header: 'Gaming' button","selector":"[role=banner] [role=navigation] a[href*='/gaming/']"}
 		,{"id":2020120705,"name":"Header: 'More (Bookmarks)' button","selector":"[role=banner] [role=navigation] a[href*='/bookmarks/']"}
-		,{"id":2020120706,"name":"Header: 'My profile' button","selector":"[role=banner] [role=navigation] a[href='/me/']"}
+		,{"id":2020120706,"name":"Header: 'My profile' button","selector":"[role=banner] [role=navigation].rl25f0pe a[href*='/me/']","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2020121301,"name":"Group: About box","selector":".lntdvkbv .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_'],.bexiecsf .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121302,"name":"Group: Popular Topics box","selector":".lntdvkbv a[href*='/groups/'][href*='/post_tags/'],.lntdvkbv a[href*='/hashtag/'],.bexiecsf a[href*='/groups/'][href*='/post_tags/'],.bexiecsf a[href*='/hashtag/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121303,"name":"Group: Recent Media box","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/']","parent":".lntdvkbv,.bexiecsf"}
@@ -359,5 +359,10 @@
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[data-pagelet=LeftRail] [role=contentinfo]"}
 		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[data-pagelet=RightRail] [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
 		,{"id":2021042301,"name":"Post: Get Vaccine Info","selector":"[sfx_post] .hybvsw6c > a[href*='/coronavirus_info/']","parent":".discj3wi"}
+		,{"id":2021042901,"name":"Header: 'Notifications' menu","selector":"[role=banner] [role=navigation].rl25f0pe [href*='/notifications'],[role=banner] [role=navigation].rl25f0pe [aria-label*=Notifications]","parent":"[role=banner] [role=navigation] > * > *"}
+		,{"id":2021042902,"name":"Header: 'Create / Menu' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Create]","parent":"[role=banner] [role=navigation] > * > *"}
+		,{"id":2021042903,"name":"Header: 'Messenger' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Messenger]","parent":"[role=banner] [role=navigation] > * > *"}
+		,{"id":2021042904,"name":"Header: 'Account' button [DISABLED]","selector":"xxx [role=banner] [role=navigation].rl25f0pe [aria-label*=Account]","parent":"[role=banner] [role=navigation] > * > *"}
+		,{"id":2021042905,"name":"Header: 'Pages' button","selector":"[role=banner] [role=navigation].rl25f0pe a[href*=your_pages],[role=banner] [role=navigation].rl25f0pe [aria-label*=Pages]","parent":"[role=banner] [role=navigation] > * > *"}
 	]
 }

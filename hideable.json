@@ -357,7 +357,7 @@
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[data-pagelet=LeftRail] a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[data-pagelet=LeftRail] [role=contentinfo]"}
 		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[data-pagelet=RightRail] [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
-		,{"id":2021042301,"name":"Post: Get Vaccine Info","selector":"[sfx_post] .hybvsw6c > a[href*='/coronavirus_info/']","parent":".discj3wi"}
+		,{"id":2021042301,"name":"Post: Get Vaccine Info","selector":"[role=article] .hybvsw6c > a[href*='/coronavirus_info/']","parent":".discj3wi"}
 		,{"id":2021042901,"name":"Header: 'Notifications' menu","selector":"[role=banner] [role=navigation].rl25f0pe [href*='/notifications'],[role=banner] [role=navigation].rl25f0pe [aria-label*=Notifications]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042902,"name":"Header: 'Create' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Create]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042903,"name":"Header: 'Messenger' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Messenger]","parent":"[role=banner] [role=navigation] > * > *"}

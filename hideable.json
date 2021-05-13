@@ -365,5 +365,6 @@
 		,{"id":2021042905,"name":"Header: 'Pages' button","selector":"[role=banner] [role=navigation] a[href*=your_pages],[role=banner] [role=navigation] [aria-label*=Pages]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042906,"name":"Header: 'Menu' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Menu]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021050101,"name":"Header: 'News' button","selector":"[role=banner] [role=navigation] a[href*='/news/'],[role=banner] [role=navigation] [aria-label=News]"}
+		,{"id":2021051301,"name":"Left Rail: Emotional Health","selector":"[data-pagelet=LeftRail] a[href*='/emotional_health/']"}
 	]
 }

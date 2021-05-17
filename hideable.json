@@ -367,7 +367,7 @@
 		,{"id":2021050101,"name":"Header: 'News' button","selector":"[role=banner] [role=navigation] a[href*='/news/'],[role=banner] [role=navigation] [aria-label=News]"}
 		,{"id":2021051301,"name":"Left Rail: Emotional Health","selector":"[data-pagelet=LeftRail] a[href*='/emotional_health/']"}
 		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":"[data-pagelet=RightRail] [href*='/events/birthdays']","parent":"[data-pagelet=RightRail] > * > *"}
-		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[data-pagelet=RightRail] [href*='/friends/requests'][href*=profile_id]"}
-		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":"[data-pagelet=RightRail] [href*='/friends/requests'][href*=profile_id]","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]"}
+		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]","parent":"[data-pagelet=RightRail] > * > *"}
 	]
 }

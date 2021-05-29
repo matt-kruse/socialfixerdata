@@ -369,5 +369,9 @@
 		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":"[data-pagelet=RightRail] [href*='/events/birthdays']","parent":"[data-pagelet=RightRail] > * > *"}
 		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]"}
 		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021052901,"name":"Group Admin: 'Admin Assist' advertisement","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .f10w8fjw a[href*='/admin_assistant']","parent":".f10w8fjw"}
+		,{"id":2021052902,"name":"Group Admin: 'Pending Posts' header","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(1) > div","parent":".hybvsw6c > .rq0escxv"}
+		,{"id":2021052903,"name":"Group Admin: Pending Posts search-by-name box","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(2) > div","parent":".hybvsw6c > .rq0escxv"}
+		,{"id":2021052904,"name":"Group Admin: Pending Posts bulk approve / decline","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(3) > div","parent":".hybvsw6c > .rq0escxv"}
 	]
 }

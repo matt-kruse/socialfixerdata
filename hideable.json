@@ -375,5 +375,6 @@
 		,{"id":2021052904,"name":"Group Admin: Pending Posts bulk approve / decline","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(3) > div","parent":".hybvsw6c > .rq0escxv"}
 		,{"id":2021060601,"name":"Group Right Col: Recent Files","selector":".lntdvkbv a[href*='/groups/'][href*='/files/'],.bexiecsf a[href*='/groups/'][href*='/files/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2021060901,"name":"Header: 'Events' button","selector":"[role=banner] [role=navigation] a[href*='/events/']"}
 	]
 }

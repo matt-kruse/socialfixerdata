@@ -304,7 +304,7 @@
 		,{"id":2020120706,"name":"Header: 'My profile' button","selector":"[role=banner] [role=navigation].rl25f0pe a[href*='/me/']","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2020121301,"name":"Group Right Col: About","selector":".lntdvkbv .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_'],.bexiecsf .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121302,"name":"Group Right Col: Popular Topics","selector":".lntdvkbv a[href*='/groups/'][href*='/post_tags/'],.lntdvkbv a[href*='/hashtag/'],.bexiecsf a[href*='/groups/'][href*='/post_tags/'],.bexiecsf a[href*='/hashtag/']","parent":".lntdvkbv,.bexiecsf"}
-		,{"id":2020121303,"name":"Group Right Col: Recent Media","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/']","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2020121303,"name":"Group Right Col: Recent Media","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/'],[data-pagelet=DiscussionRootSuccess] .lntdvkbv a[href*='/photo/'],[data-pagelet=DiscussionRootSuccess] .bexiecsf a[href*='/photo/'],[data-pagelet=DiscussionRootSuccess] .lntdvkbv a[href*='/video/'],[data-pagelet=DiscussionRootSuccess] .bexiecsf a[href*='/video/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121304,"name":"Group Right Col: Events","selector":".lntdvkbv a[href*='/events/'],.bexiecsf a[href*='/events/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020123101,"name":"Friends page: People You May Know","selector":"html[sfx_url='/friends'] .btwxx1t3.gs1a9yip > .cbu4d94t[role=navigation]"}
 		,{"id":2021010401,"name":"Left Rail: Friends","selector":"[data-pagelet=LeftRail] a[href*='/friends/']"}

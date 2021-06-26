@@ -376,5 +376,8 @@
 		,{"id":2021060601,"name":"Group Right Col: Recent Files","selector":".lntdvkbv a[href*='/groups/'][href*='/files/'],.bexiecsf a[href*='/groups/'][href*='/files/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060901,"name":"Header: 'Events' button","selector":"[role=banner] [role=navigation] a[href*='/events/']"}
+		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[data-pagelet=RightRail] a[href*='games/'][href*=rhc_discovery]","parent":"[data-pagelet=RightRail] > * >*"}
+		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[data-pagelet=RightRail] a[href*='ad_center/create'][href*=rhc_page]","parent":"[data-pagelet=RightRail] > * >*"}
+		,{"id":2021062501,"name":"News Feed: Home-Favorites-Recent bar","selector":"[role=main] > .pfnyh3mw.cbu4d94t > .lpgh02oy.rek2kq2y > *"}
 	]
 }

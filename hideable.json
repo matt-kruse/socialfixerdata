@@ -379,5 +379,6 @@
 		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[data-pagelet=RightRail] a[href*='games/'][href*=rhc_discovery]","parent":"[data-pagelet=RightRail] > * >*"}
 		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[data-pagelet=RightRail] a[href*='ad_center/create'][href*=rhc_page]","parent":"[data-pagelet=RightRail] > * >*"}
 		,{"id":2021062501,"name":"News Feed: Home-Favorites-Recent bar","selector":"[role=main] > .pfnyh3mw.cbu4d94t > .lpgh02oy.rek2kq2y > *"}
+		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":".j1vyfwqu.l9j0dhe7 a[href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 	]
 }

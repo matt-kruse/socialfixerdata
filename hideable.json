@@ -282,7 +282,7 @@
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":357,"name":"Left Col: Voting Information Center","selector":"#navItem_567708910575385"}
 
-		,{"id":2020082301,"name":"News Feed: Stories","selector":"[data-pagelet=Stories]"}
+		,{"id":2020082301,"name":"News Feed: Stories","selector":"[role=main] [data-pagelet=Stories]"}
 		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
 		,{"id":2020082303,"name":"Right Column (New Layout)","selector":"div[data-pagelet=\"RightRail\"]"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}

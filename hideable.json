@@ -381,5 +381,6 @@
 		,{"id":2021062501,"name":"News Feed: Home-Favorites-Recent bar","selector":"[role=main] > .pfnyh3mw.cbu4d94t > .lpgh02oy.rek2kq2y > *"}
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":".j1vyfwqu.l9j0dhe7 a[href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[data-pagelet=LeftRail] a[href*='/ads/create_ad']"}
+		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[data-pagelet=LeftRail] a[href*=olympics_hub]"}
 	]
 }

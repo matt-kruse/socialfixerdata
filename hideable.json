@@ -362,9 +362,9 @@
 		,{"id":2021042902,"name":"Header: 'Create' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Create]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042903,"name":"Header: 'Messenger' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Messenger]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042904,"name":"Header: 'Account' button [DISABLED]","selector":"xxx [role=banner] [role=navigation].rl25f0pe [aria-label*=Account]","parent":"[role=banner] [role=navigation] > * > *"}
-		,{"id":2021042905,"name":"Header: 'Pages' button","selector":"[role=banner] [role=navigation] a[href*=your_pages],[role=banner] [role=navigation] [aria-label*=Pages]"}
+		,{"id":2021042905,"name":"Header: 'Pages' button","selector":"[role=banner] [role=navigation] a[href*=your_pages]"}
 		,{"id":2021042906,"name":"Header: 'Menu' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Menu]","parent":"[role=banner] [role=navigation] > * > *"}
-		,{"id":2021050101,"name":"Header: 'News' button","selector":"[role=banner] [role=navigation] a[href*='/news/'],[role=banner] [role=navigation] [aria-label=News]"}
+		,{"id":2021050101,"name":"Header: 'News' button","selector":"[role=banner] [role=navigation] a[href*='/news/']"}
 		,{"id":2021051301,"name":"Left Rail: Emotional Health","selector":"[data-pagelet=LeftRail] a[href*='/emotional_health/']"}
 		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":"[data-pagelet=RightRail] [href*='/events/birthdays']","parent":"[data-pagelet=RightRail] > * > *"}
 		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]"}
@@ -382,5 +382,6 @@
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":".j1vyfwqu.l9j0dhe7 a[href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[data-pagelet=LeftRail] a[href*='/ads/create_ad']"}
 		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[data-pagelet=LeftRail] a[href*=olympics_hub]"}
+		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/settings/whatsapp']","parent":"#ssrb_composer_start ~.ad2k81qe"}
 	]
 }

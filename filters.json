@@ -2,7 +2,6 @@
 	"filters": [{
 		"id":20200713,
 		"match": "ANY",
-		"enabled": true,
 		"stop_on_match": true,
 		"rules": [
 			{
@@ -28,7 +27,6 @@
 	}, {
 		"id": 29,
 		"match": "ALL",
-		"enabled": false,
 		"max_version": "0.0.0",
 		"stop_on_match": true,
 		"rules": [{
@@ -109,9 +107,31 @@
 			"tab": "Sponsored"
 		}],
 		"configurable_actions": true,
-		"title": "Hide Sponsored and Suggested Posts",
+		"title": "Hide Sponsored Posts",
 		"stop_on_match": true,
-		"description": "Hide all Sponsored and Suggested posts from the news feed"
+		"description": "Hide Sponsored posts from the news feed"
+	}, {
+		"id": 2021082601,
+		"match": "ALL",
+		"rules": [{
+			"target": "any",
+			"operator": "startswith",
+			"condition": {
+				"text": ".{0,5}(Because you may be interested in|Because you recently viewed|You recently viewed a similar group|Post from a public group|From a group with members who like|From a group that|Suggested for you|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month))"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"tab": "Suggested Posts",
+			"custom_note": "Suggested Post spam: ${1:50}"
+		}, {
+			"tab": "Suggested Posts"
+		}],
+		"configurable_actions": true,
+		"title": "Hide Suggested Posts / Groups",
+		"stop_on_match": true,
+		"description": "Hide 'Suggested Posts' and similar things in Groups Feed (a few in News Feed).  NOTE: English-language FB only"
 	}, {
 		"id": 23,
 		"match": "ANY",
@@ -383,7 +403,6 @@
 			"custom_note": "Game of Thrones spoiler hidden"
 		}],
 		"configurable_actions": true,
-		"enabled": false,
 		"max_version": "0.0.0",
 		"title": "Hide Game of Thrones Spoilers til Monday",
 		"description": "Hide posts with any mention of Game of Thrones but only on Sunday night and show a spoiler warning note instead. Show them again on Monday."
@@ -403,7 +422,6 @@
 			"custom_note": "Game of Thrones post hidden"
 		}],
 		"configurable_actions": true,
-		"enabled": false,
 		"max_version": "0.0.0",
 		"title": "Hide all posts about Game of Thrones",
 		"description": "Hide posts with any mention of Game of Thrones."
@@ -565,7 +583,6 @@
 		"description": "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
 	}, {
 		"id": 3,
-		"enabled": false,
 		"max_version": "0.0.0",
 		"match": "ALL",
 		"rules": [{

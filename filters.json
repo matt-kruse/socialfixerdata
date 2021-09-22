@@ -109,7 +109,7 @@
 		"configurable_actions": true,
 		"title": "Hide Sponsored Posts",
 		"stop_on_match": true,
-		"description": "Hide Sponsored posts from the news feed"
+		"description": "Hide 'Sponsored' posts from the News Feed"
 	}, {
 		"id": 2021082601,
 		"match": "ALL",
@@ -117,16 +117,16 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}(Because you may be interested in|Because you recently viewed|You recently viewed a similar group|Post from a public group|From a group with members who like|From a group that|Suggested for you|Suggested Pages|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month))"
+				"text": ".{0,5}(Because you may be interested in|Because you recently viewed|You recently viewed a similar group|Post from a public group|From a group with members who like|From a group that|From a group you|Suggested for you|Suggested Pages|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month))"
 			}
 		}],
 		"actions": [{
 			"action": "hide",
 			"show_note": true,
-			"tab": "Suggested Posts",
-			"custom_note": "Suggested Post spam: ${1:50}"
+			"tab": "Suggested",
+			"custom_note": "Suggested: click to show/hide '${1:60}'"
 		}, {
-			"tab": "Suggested Posts"
+			"tab": "Suggested"
 		}],
 		"configurable_actions": true,
 		"title": "Hide Suggested Posts",
@@ -479,7 +479,7 @@
 			"replace": "IFL"
 		}],
 		"title": "I F'ing Love ...",
-		"description": "Replace any Page names like \"I F'ing Love Science\" with \"IFL\""
+		"description": "Replace any Page names like 'I F'ing Love Science' with 'IFL'"
 	}, {
 		"id": 8,
 		"match": "ALL",
@@ -499,7 +499,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Hide Spoilers",
-		"description": "If a post contains the word \"spoiler\" anywhere in it, hide it and display a message to click to show the post."
+		"description": "If a post contains the word 'spoiler' anywhere in it, hide it and display a message to click to show the post."
 	}, {
 		"id": 9,
 		"match": "ANY",
@@ -521,8 +521,8 @@
 			"show_note": true
 		}],
 		"configurable_actions": true,
-		"title": "Hide \"Shared Memories\"",
-		"description": "Hide re-posts of old memories in the news feed"
+		"title": "Hide 'Shared Memories'",
+		"description": "Hide re-posts of old memories in the News Feed"
 	}, {
 		"id": 10,
 		"match": "ANY",
@@ -544,8 +544,8 @@
 			"show_note": true
 		}],
 		"configurable_actions": true,
-		"title": "Hide \"People You May Know\"",
-		"description": "Filter the \"People You May Know\" story that appears in the News Feed occasionally."
+		"title": "Hide 'People You May Know'",
+		"description": "Filter the 'People You May Know' story that appears in the News Feed occasionally."
 	}, {
 		"id": 11,
 		"match": "ALL",
@@ -572,7 +572,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[href^=\"/saved/?cref\"]"
+				"text": "a[href^='/saved/?cref']"
 			}
 		}],
 		"actions": [{
@@ -580,7 +580,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Saved Posts Reminder",
-		"description": "Hide posts in the news feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
+		"description": "Hide posts in the News Feed that highlight things you've recently Saved to Facebook, which they are reminding you about."
 	}, {
 		"id": 3,
 		"max_version": "0.0.0",

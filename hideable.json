@@ -388,10 +388,11 @@
 		,{"id":2021092202,"name":"Games Right Col: Featured Game (1)","selector":"#pagelet_canvas_nav_content ._gu1 a[href*='context_type=SOLO']","parent":"._gu1"}
 		,{"id":2021092203,"name":"Games Right Col: Featured Game (2)","selector":"#pagelet_canvas_nav_content ._2b2u a[data-gt*=games_featured]","parent":"._2b2u"}
 		,{"id":2021092204,"name":"Games Right Col: Top Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=LTVAppQuery]","parent":"._gu1"}
-		,{"id":2021092205,"name":"Games Right Col: Instant Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=GamesAppQuery]:not([data-gt*=LTVAppQuery])","parent":"._gu1"}
+		,{"id":2021092205,"name":"Games Right Col: Instant Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=InstantGamesAppQuery]:not([data-gt*=LTVAppQuery])","parent":"._gu1"}
 		,{"id":2021092206,"name":"Games Right Col: Games Your Friends Play","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=InstantGamesYourFriends]","parent":"._gu1"}
 		,{"id":2021092207,"name":"Games Right Col: Game Category","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=InstantGamesAppCategories]","parent":"._gu1"}
 		,{"id":2021092208,"name":"Games Right Col: Your Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=GameBookmark]","parent":"._gu1"}
 		,{"id":2021092209,"name":"Games Right Col: Gaming Video","selector":"#games_video_canvas_rhc"}
+		,{"id":2021092210,"name":"Games Right Col: Recommended Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=RecommendedGamesAppQuery]","parent":"._gu1"}
 	]
 }

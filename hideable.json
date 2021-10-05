@@ -282,9 +282,9 @@
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":357,"name":"Left Col: Voting Information Center","selector":"#navItem_567708910575385"}
 
-		,{"id":2020082301,"name":"News Feed: Stories","selector":"[role=main] [data-pagelet=Stories]"}
+		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
 		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
-		,{"id":2020082303,"name":"Right Column (New Layout)","selector":"div[data-pagelet=\"RightRail\"]"}
+		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[data-pagelet=RightRail]"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}
@@ -343,7 +343,7 @@
 		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"[data-pagelet=LeftRail] a[href*='/townhall/']"}
 		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[data-pagelet=LeftRail] a[href*='/votinginformationcenter/']"}
 		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[data-pagelet=LeftRail] a[href*='/weather/']"}
-		,{"id":2021010501,"name":"Right Rail: Sponsored","selector":"[data-pagelet=RightRail] .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"[data-pagelet=RightRail] > * >*"}
+		,{"id":2021010501,"name":"Right Rail: Sponsored","selector":"[data-pagelet=RightRail] .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"[data-pagelet=RightRail] > * > *"}
 		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"[data-pagelet=LeftRail] a[href*='/crisisresponse/']"}
 		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[data-pagelet=LeftRail] a[href*='/community_resources/']"}
 		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[data-pagelet=LeftRail] a[href*='/ad_center/']"}
@@ -376,8 +376,8 @@
 		,{"id":2021060601,"name":"Group Right Col: Recent Files","selector":".lntdvkbv a[href*='/groups/'][href*='/files/'],.bexiecsf a[href*='/groups/'][href*='/files/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060901,"name":"Header: 'Events' button","selector":"[role=banner] [role=navigation] a[href*='/events/']"}
-		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[data-pagelet=RightRail] a[href*='games/'][href*=rhc_discovery]","parent":"[data-pagelet=RightRail] > * >*"}
-		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[data-pagelet=RightRail] a[href*='ad_center/create'][href*=rhc_page]","parent":"[data-pagelet=RightRail] > * >*"}
+		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[data-pagelet=RightRail] a[href*='games/'][href*=rhc_discovery]","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[data-pagelet=RightRail] a[href*='ad_center/create'][href*=rhc_page]","parent":"[data-pagelet=RightRail] > * > *"}
 		,{"id":2021062501,"name":"News Feed: Home-Favorites-Recent bar","selector":"[role=main] > .pfnyh3mw.cbu4d94t > .lpgh02oy.rek2kq2y > *"}
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":".j1vyfwqu.l9j0dhe7 a[href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[data-pagelet=LeftRail] a[href*='/ads/create_ad']"}
@@ -394,5 +394,19 @@
 		,{"id":2021092208,"name":"Games Right Col: Your Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=GameBookmark]","parent":"._gu1"}
 		,{"id":2021092209,"name":"Games Right Col: Gaming Video","selector":"#games_video_canvas_rhc"}
 		,{"id":2021092210,"name":"Games Right Col: Recommended Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=RecommendedGamesAppQuery]","parent":"._gu1"}
+		,{"id":2021100501,"name":"Right Rail: Recently Saved","selector":"[data-pagelet=RightRail] a[href*='/saved']","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021100502,"name":"Right Rail: Watch","selector":"[data-pagelet=RightRail] a[href*='/watch']","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021100503,"name":"Give Award (Post Comment)","selector":"[role=article] li span[aria-hidden=true] ~ .gs1a9yip","parent":"li"}
+		,{"id":2021100504,"name":"Right Rail (entire block) [alt]","selector":"#ssrb_rhc_start ~ div"}
+		,{"id":2021100505,"name":"Right Rail: Sponsored [alt]","selector":"#ssrb_rhc_start ~ div .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100506,"name":"Right Rail: See All Contacts [alt]","selector":"#ssrb_rhc_start ~ div [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
+		,{"id":2021100507,"name":"Right Rail: Birthdays [alt]","selector":"#ssrb_rhc_start ~ div [href*='/events/birthdays']","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100508,"name":"Right Rail: Friend Requests (list) [alt]","selector":"#ssrb_rhc_start ~ div [href*='/friends/'][href*=profile_id]"}
+		,{"id":2021100509,"name":"Right Rail: Friend Requests (entire block) [alt]","selector":"#ssrb_rhc_start ~ div [href*='/friends/'][href*=profile_id]","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100510,"name":"Right Rail: Play Games [alt]","selector":"#ssrb_rhc_start ~ div a[href*='games/'][href*=rhc_discovery]","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100511,"name":"Right Rail: Your Pages [alt]","selector":"#ssrb_rhc_start ~ div a[href*='ad_center/create'][href*=rhc_page]","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100512,"name":"Right Rail: Recently Saved [alt]","selector":"#ssrb_rhc_start ~ div a[href*='/saved']","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100513,"name":"Right Rail: Watch [alt]","selector":"#ssrb_rhc_start ~ div a[href*='/watch']","parent":"#ssrb_rhc_start ~ div > * > *"}
+		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":".io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":"#ssrb_composer_start ~ *"}
 	]
 }

@@ -7,78 +7,24 @@
 		,{"id":5,"name":"Right Col: Trending Pagelet","selector":"#pagelet_trending_tags_and_topics"}
 		,{"id":6,"name":"Right Col: Reminders (RECOMMEND: HIDE INDIVIDUAL ITEMS)","selector":"#pagelet_reminders"}
 		,{"id":7,"name":"Right Col: Games Pagelet","selector":"#pagelet_games_rhc"}
-		,{"id":8,"name":"Left Col: Favorites","selector":"#pinnedNav"}
-		,{"id":9,"name":"Left Col: Pages (1)","selector":"#pagesNav"}
-		,{"id":10,"name":"Left Col: Groups (1)","selector":"#groupsNav"}
-		,{"id":11,"name":"Left Col: Explore","selector":"#appsNav"}
-		,{"id":12,"name":"Left Col: Lists","selector":"#listsNav"}
-		,{"id":13,"name":"Left Col: Interests","selector":"#interestsNav"}
-		,{"id":14,"name":"Left Col: Events (1)","selector":"#eventsNav"}
-		,{"id":15,"name":"Left Col: Developer","selector":"#developerNav"}
-		,{"id":16,"name":"Left Col: Payments","selector":"#paymentsNav"}
-		,{"id":17,"name":"Left Col: Welcome Box","selector":"#pagelet_welcome_box"}
-		,{"id":18,"name":"Left Col: Fundraisers (1)","selector":"#fundraisersNav"}
 		,{"id":19,"name":"Daily Dialogue","selector":"#dd_lw_card"}
 		,{"id":20,"name":"Right Col: Suggested Groups","selector":"div[id^=\"GroupSuggestionCard\"]","parent":"._4-u3,.pagelet"}
 		,{"id":21,"name":"Right Col: Group Suggestions","selector":"#GroupsRHCSuggestionSection"}
 		,{"id":22,"name":"Chat: Facebook Messages pop-under conversations","selector":"#ChatTabsPagelet"}
 		,{"id":23,"name":"Viewing Most Recent Banner","selector":"span.uiIconText ~ a[href=\"/?sk=h_nor\"]","parent":"div.mvm"}
-		,{"id":100,"name":"Left Col: Friend Lists","selector":"#navItem_1572366616371383"}
-		,{"id":101,"name":"Left Col: Events (2)","selector":"#navItem_2344061033"}
-		,{"id":102,"name":"Left Col: Pages (2)","selector":"#navItem_2530096808"}
-		,{"id":103,"name":"Left Col: Groups (2)","selector":"#navItem_1434659290104689"}
-		,{"id":104,"name":"Left Col: Photos","selector":"#navItem_2305272732"}
-		,{"id":105,"name":"Left Col: Notes","selector":"#navItem_2347471856"}
-		,{"id":106,"name":"Left Col: Saved","selector":"#navItem_586254444758776"}
-		,{"id":107,"name":"Left Col: Your Posts","selector":"#navItem_1567751916853788"}
-		,{"id":108,"name":"Left Col: On This Day","selector":"#navItem_303257506544370"}
-		,{"id":109,"name":"Left Col: Pages Feed","selector":"#navItem_140472815972081"}
-		,{"id":110,"name":"Left Col: Games","selector":"#navItem_140332009231"}
-		,{"id":111,"name":"Left Col: Pokes","selector":"#navItem_183217215062060"}
-		,{"id":112,"name":"Left Col: Live Video","selector":"#navItem_1031093773624602"}
-		,{"id":113,"name":"Left Col: Offers","selector":"#navItem_526732794016279"}
-		,{"id":114,"name":"Left Col: Moments","selector":"#navItem_285162308271788"}
-		,{"id":115,"name":"Left Col: Suggest Edits","selector":"#navItem_219124168114356"}
-		,{"id":116,"name":"Left Col: Fundraisers (2)","selector":"#navItem_193356651002223"}
-		,{"id":117,"name":"Left Col: Games Feed","selector":"#navItem_261369767293002"}
-		,{"id":118,"name":"Left Col: Recommendations","selector":"#navItem_577076605805053"}
-		,{"id":119,"name":"Left Col: Insights","selector":"#navItem_188833664616804"}
-		,{"id":120,"name":"Left Col: Payment History","selector":"#navItem_969105076459966"}
-		,{"id":121,"name":"Left Col: Find Friends","selector":"#navItem_2356318349"}
-		,{"id":122,"name":"Left Col: Manage Apps","selector":"#navItem_2345053339"}
-		,{"id":123,"name":"Left Col: Create","selector":"#createNav"}
-		,{"id":124,"name":"Left Col: Buy and Sell Groups","selector":"#navItem_1433252076974635"}
-		,{"id":125,"name":"Left Col: Marketplace","selector":"#navItem_1606854132932955"}
-		,{"id":126,"name":"Left Col: Shops","selector":"#navItem_181728832201978"}
-		,{"id":127,"name":"Left Col: News Feed","selector":"#navItem_4748854339"}
-		,{"id":128,"name":"Left Col: Messages","selector":"#navItem_217974574879787"}
-		,{"id":129,"name":"Left Col: Ads Manager","selector":"#navItem_6802152230"}
-		,{"id":130,"name":"Left Col: Translate Facebook","selector":"#navItem_4329892722"}
-		,{"id":131,"name":"Left Col: Games Arcade","selector":"#navItem_1320332077993895"}
 		,{"id":132,"name":"Right Col: Suggested Pages (2)","selector":".ego_action.ego_like,.ego_section a[href*='category_pyml']","parent":".pagelet"}
-		,{"id":133,"name":"Left Col: Your Groups","selector":"#navItem_139518143156711"}
-		,{"id":134,"name":"Left Col: Jobs","selector":"#navItem_977114232337111"}
-		,{"id":135,"name":"Left Col: Weather","selector":"#navItem_302677536798470"}
-		,{"id":136,"name":"Left Col: Town Hall","selector":"#navItem_176339666193022"}
-		,{"id":137,"name":"Left Col: Order Food","selector":"#navItem_766859123481602"}
-		,{"id":138,"name":"Left Col: Create a Frame","selector":"#navItem_336549256737756"}
 		,{"id":139,"name":"Right Col: People You May Know (2)","selector":"a[href*=\"ref%3Dpymk\"],a[data-gt*=\"pymk\"]","parent":".pagelet"}
 		,{"id":140,"name":"Right Col: Suggested Pages (3)","selector":"a[href*=\"category_pyml\"],a[data-gt*=\"category_pyml\"]","parent":"._3-96"}
 		,{"id":141,"name":"Right Col: Create a Group","selector":"a[ajaxify*=\"create_get.php\"]","parent":"._3-96"}
 		,{"id":142,"name":"Right Col: Recent Group Photos","selector":"a[href*=\"/groups/\"][href*=\"/photos\"]","parent":"._3-96"}
 		,{"id":143,"name":"Right Col: Friend Requests","selector":"a[data-gt*='\"ego_service\":\"friend_request\"']","parent":".pagelet"}
-		,{"id":144,"name":"Left Col: Recent Ad Activity","selector":"#navItem_280033845760645"}
-		,{"id":145,"name":"Left Col: Flash","selector":"#navItem_135139910261129"}
 		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
 		,{"id":147,"name":"Post Editor: Background Chooser","selector":"table._2j7c"}
 		,{"id":148,"name":"Group: Learn About This Group","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=learn_about_group']"}
 		,{"id":149,"name":"Post: Products Shown","selector":"a[href*='/commerce/products/'][ajaxify*='dialog']","parent":".mtm"}
-		,{"id":150,"name":"Left Col: Watch","selector":"#navItem_2392950137"}
-		,{"id":151,"name":"Left Col: Crisis Response","selector":"#navItem_765518473459969"}
 		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
 		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
 		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
-		,{"id":155,"name":"Left Col: Movies","selector":"#navItem_1291706757509010"}
 		,{"id":156,"name":"Right Col: Sponsored Pagelet (2)","selector":"a[href*='/campaign/landing.php?placement=e'],a[data-gt*=';ad_account_id'],a[data-gt*=';ad_id'],a[data-gt*=';ads_page_type']","parent":".pagelet"}
 		,{"id":157,"name":"Right Col: Local Products in Marketplace","selector":".ego_section a[href*='/marketplace/']","parent":".pagelet"}
 		,{"id":158,"name":"Right Col: Watchlist: Latest Episodes","selector":"div#pagelet_video_home_watch_list_rhc"}
@@ -86,13 +32,10 @@
 		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
 		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']","parent":"._3-8t"}
 		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
-		,{"id":163,"name":"Left Col: Explore Feed","selector":"#navItem_605397933004645"}
-		,{"id":164,"name":"Left Col: Discover People","selector":"#navItem_645191315628772"}
 		,{"id":165,"name":"Page Right Col: Page Type & Rating","selector":"#pages_side_column a[href$='/reviews/']","parent":"._4-u2"}
 		,{"id":166,"name":"Page Right Col: Community","selector":"#pages_side_column a[href*='/community/']","parent":"._4-u2"}
 		,{"id":167,"name":"Page Right Col: About","selector":"#pages_side_column a[href*='/about/']","parent":"._4-u2"}
 		,{"id":168,"name":"Timeline Left Col: Did You Know","selector":"#profile_timeline_tiles_unit_pagelets_fun_fact_answers"}
-		,{"id":169,"name":"Left Col: Moves","selector":"#navItem_192507801105969"}
 		,{"id":170,"name":"Timeline Left Col: Photos","selector":"#profile_timeline_tiles_unit_pagelets_photos"}
 		,{"id":171,"name":"Timeline Left Col: Friends","selector":"#profile_timeline_tiles_unit_pagelets_friends"}
 		,{"id":172,"name":"Timeline Left Col: Featured Albums","selector":"#profile_timeline_tiles_unit_pagelets_albums"}
@@ -106,7 +49,6 @@
 		,{"id":180,"name":"Page Right Col: Team Members","selector":"#pages_side_column ._1y-9","parent":"._4-u2"}
 		,{"id":181,"name":"Page Right Col: Pages liked by this Page","selector":"#pages_side_column a[href*='/fanned_pages/']","parent":"._4-u2"}
 		,{"id":182,"name":"Page Footer: Insights This Week","selector":"#pagelet_rhc_footer a[href$='/insights/']","parent":"._4-u2"}
-		,{"id":183,"name":"Left Col: Messenger Kids","selector":"#navItem_421935831521247"}
 		,{"id":184,"name":"Right Col: Suggested For You","selector":"#pagelet_video_home_suggested_for_you_rhc","parent":".pagelet"}
 		,{"id":185,"name":"Group Right Col: Add Members (name entry box)","selector":".groupRHCAddMemberTypeaheadBox"}
 		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']","parent":".groupsRHCSectionHeader"}
@@ -117,7 +59,6 @@
 		,{"id":191,"name":"Group Right Col: Tags","selector":"#groupsTagBox"}
 		,{"id":192,"name":"Group Right Col: Locations","selector":"#groupsLocationBox"}
 		,{"id":193,"name":"Group Right Col: Requests","selector":"#pagelet_group_requests_summary"}
-		,{"id":194,"name":"Left Col: Gaming Video","selector":"#navItem_285571681929755"}
 		,{"id":195,"name":"Right Col: Gaming Video / Live Now in Popular Games","selector":"#pagelet_gaming_destination_rhc"}
 		,{"id":196,"name":"Right Col: Instant Games","selector":"#pagelet_instant_games_rhc"}
 		,{"id":197,"name":"Right Col: What Your Friends Are Watching","selector":"#pagelet_video_home_friends_watching_rhc"}
@@ -152,7 +93,6 @@
 		,{"id":226,"name":"Right Col: Popular Shares pagelet","selector":"div[id^='PagePopularSharesPagelet_']"}
 		,{"id":227,"name":"Group: New Group Feature Announcements","selector":"._390x","parent":"._4-u2"}
 		,{"id":228,"name":"Post: Show more information about this article (NOTE: OPEN A SINGLE POST IN A NEW TAB BEFORE USING THIS!  See http://tiny.cc/sfx-h228)","selector":"a[ajaxify*='/article_context/']","parent":"[data-hover]"}
-		,{"id":229,"name":"Left Col: Greetings","selector":"#navItem_1157621394365930"}
 		,{"id":230,"name":"Blue Bar: Account Switcher","selector":"._33s3","parent":"._4kny"}
 		,{"id":231,"name":"Right Col: Shop for Vehicles on Marketplace","selector":"a[href*='/marketplace/'][href*='/autos/']","parent":".pagelet"}
 		,{"id":232,"name":"Page: post-component widgets","selector":"#CREATE_OFFER","parent":"._20i8"}
@@ -178,20 +118,12 @@
 		,{"id":252,"name":"Group Right Col: Add Members (entire box)","selector":".groupRHCAddMemberTypeaheadBox","parent":"._4-u2"}
 		,{"id":253,"name":"Group Right Col: Description","selector":"#groupsDescriptionBox"}
 		,{"id":254,"name":"Group Right Col: Create New Groups","selector":"a[ajaxify^='/ajax/groups/create_get/']","parent":"#rightCol ._4-u2"}
-		,{"id":255,"name":"Left Col: Oculus","selector":"#navItem_1517832211847102"}
-		,{"id":256,"name":"Left Col: Business Discovery","selector":"#navItem_151408195724475"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
 		,{"id":258,"name":"Chat: Facebook Messages online list / settings (entry box when zoomed out)","selector":"#pagelet_sidebar .fbChatTypeahead"}
 		,{"id":259,"name":"Blue Bar: Create","selector":"#creation_hub_entrypoint","parent":"._4kny"}
-		,{"id":260,"name":"Left Col: Group","selector":"#navItem_230259100322928"}
-		,{"id":261,"name":"Left Col: Page","selector":"#navItem_188619144602540"}
-		,{"id":262,"name":"Left Col: Fundraiser","selector":"#navItem_1728089634133276"}
-		,{"id":263,"name":"Left Col: Event","selector":"#navItem_704148512977427"}
 		,{"id":264,"name":"Group Post Feed: Post Your Items Publicly to Marketplace","selector":"._2rkk","parent":"._4-u2"}
 		,{"id":265,"name":"Right Col: Translate Facebook","selector":"a._6fbb[href*='/translations/']","parent":".pagelet"}
 		,{"id":266,"name":"Post: Explore Live Gaming Videos","selector":"._4e3x a[href*='/videos/']","parent":"._4e3x"}
-		,{"id":267,"name":"Left Col: Trending News","selector":"#navItem_343553122467255"}
-		,{"id":268,"name":"Left Col: Creator Studio","selector":"#navItem_2007914219485853"}
 		,{"id":269,"name":"Right Col: Top Picks on Marketplace","selector":"#pagelet_marketplace_new_user_top_picks_rhc"}
 		,{"id":270,"name":"Blue Bar: Find Friends","selector":"#findFriendsNav"}
 		,{"id":271,"name":"Group: Items for Sale","selector":"#pagelet_forsale_island"}
@@ -199,7 +131,6 @@
 		,{"id":273,"name":"Post: Looking for Recommendations","selector":"a[ajaxify*='/placelist/compose']","parent":"._3x-2"}
 		,{"id":274,"name":"Group Right Col: Mentorship","selector":"._vj5 ._vj1","parent":"._4-u2"}
 		,{"id":275,"name":"Post Comment Editor: Tag Bar","selector":"._71oy ._3e18[role='article']","parent":"._71oy"}
-		,{"id":276,"name":"Left Col: 2018 Election","selector":"#navItem_300526153719870"}
 		,{"id":277,"name":"Right Col: Games you might like","selector":"div[data-ego-fbid][data-gt*='games_ego'] a[href*='/games/']","parent":"._4-u2"}
 		,{"id":278,"name":"Right Col: Today's Games","selector":"#live_games_rhc"}
 		,{"id":279,"name":"Post Header: Conversation Starter Badge","selector":"a[href*='/groups/'][href*='ACTIVE_MEMBER']"}
@@ -214,15 +145,12 @@
 		,{"id":288,"name":"Chat Pop-Under: top of conversation profile pic","selector":"._4po7 ._55lt"}
 		,{"id":289,"name":"Chat Pop-Under: speaker profile pic","selector":"._4po9 ._55lt"}
 		,{"id":290,"name":"Messages: speaker profile pic","selector":"._1t_q ._4ld-"}
-		,{"id":291,"name":"Left Col: Send or Request Money","selector":"#navItem_1713727008865937"}
 		,{"id":292,"name":"Post: Click To Play button","selector":"a[ajaxify*='/games/quicksilver/'][data-ft*='\"games_instant_play\"'] ._6e7y"}
 		,{"id":293,"name":"Post: Play button","selector":"._4bl7._2q3z"}
-		,{"id":294,"name":"Left Col: Community Actions","selector":"#navItem_524434544695633"}
 		,{"id":295,"name":"Post: Start Watch Party","selector":"._1kyo a[ajaxify*='/living_room/']","parent":"._1kyo"}
 		,{"id":296,"name":"Post: Become a Supporter","selector":"._1kyo a[ajaxify*='/becomesupporter/']","parent":"._1kyo"}
 		,{"id":297,"name":"News Feed: Save Password","selector":"._2ph_ a[ajaxify*='/login/device-based/']","parent":"._4-u2"}
 		,{"id":298,"name":"Left Col Shortcuts: events","selector":"html:not([sfx_url^='/events']) div._2yaa [href^='/events/'],li.sideNavItem[data-type='event']"}
-		,{"id":299,"name":"Left Col: Quiet Mode","selector":"#navItem_1774424265950746"}
 		,{"id":300,"name":"Right Col: Reminders: Events (2)","selector":"#custom_reminders_link","parent":".fbRemindersStory"}
 		,{"id":301,"name":"Post: More From (name of Page)","selector":"._7gg2 ~ div .uiList","parent":"._4-u2"}
 		,{"id":302,"name":"News Feed: Discover Members","selector":"._5jmm ul a[ajaxify^='/groups/member_bio/'][ajaxify*='SUGGESTED']","parent":"._5jmm"}
@@ -232,15 +160,12 @@
 		,{"id":306,"name":"Timeline Left Col: Intro","selector":"#profile_timeline_intro_card"}
 		,{"id":307,"name":"Timeline Left Col: Life Events","selector":"#profile_timeline_tiles_unit_pagelets_life_events"}
 		,{"id":308,"name":"Marketplace: Sponsored","selector":"[data-testid^='marketplace'] ._6y8t[style]"}
-		,{"id":309,"name":"Left Col: Liked Pages","selector":"#navItem_250100865708545"}
 		,{"id":310,"name":"Post: Add this photo to your story?","selector":"[data-onclick*='add_to_story']","parent":"._1kyo"}
 		,{"id":311,"name":"Post: Ask Your Community for Support","selector":"[href*='/fundraiser/with_presence/create_dialog/']","parent":"._1s31"}
 		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label='Keyboard Shortcut Help']"}
 		,{"id":313,"name":"Right Col: Happening Now","selector":"#pagelet_live_destination_rhc"}
 		,{"id":314,"name":"Right Col: Videos From Facebook Watch","selector":"#pagelet_video_home_rhc"}
 		,{"id":315,"name":"Group Right Col: Categorize Posts / Create Topic","selector":"#group_rhc_post_tags_list"}
-		,{"id":316,"name":"Left Col: COVID-19 Information Center","selector":"#navItem_474171183259175"}
-		,{"id":317,"name":"Left Col: Live Videos","selector":"#navItem_1472579752766895"}
 		,{"id":318,"name":"Marketplace Post: Information about Covid-19 for buyers and sellers","selector":".userContent ~ ._717p a[href*='/covid']","parent":"._717p"}
 		,{"id":319,"name":"Page Owner: Composer Bar","selector":"#PagesComposerConsolidatedEntry"}
 		,{"id":320,"name":"Page Owner: Invite friends to like your Page","selector":"#PagesProfileHomeSecondaryColumnPagelet [href*='/friend_inviter']","parent":"._4-u2"}
@@ -271,8 +196,6 @@
 		,{"id":345,"name":"Group Right Col: Write a post to welcome new members","selector":"#groupsNewMembersLink ._1-o8"}
 		,{"id":346,"name":"Chat Sidebar: Group Conversations","selector":".fbChatOrderedList div:first-of-type._55ob,.fbChatOrderedList div[id] > ul:first-of-type"}
 		,{"id":347,"name":"Chat Sidebar: More Contacts","selector":".fbChatOrderedList div:not(:first-of-type)._55ob,.fbChatOrderedList div[id] > ul:not(:first-of-type)"}
-		,{"id":348,"name":"Left Col: Facebook Pay","selector":"#navItem_2805739562851096"}
-		,{"id":349,"name":"Left Col: Lift Black Voices","selector":"#navItem_807767239627494"}
 		,{"id":350,"name":"Above Group Feed: Introducing Messenger Rooms for Groups","selector":"._8q_6 a._6ne8:not([href]) > div[aria-label] [dir=auto].q66pz984.jq4qci2q.a3bd9o3v","parent":"[role=article]"}
 		,{"id":351,"name":"Post Comments: Facebook comment quality survey","selector":"form.commentable_item ._7mtf"}
 		,{"id":352,"name":"Chat Pop-Under: 'Start Voice Call' button","selector":"#ChatTabsPagelet ._1iti [data-testid*=Voice]"}
@@ -280,7 +203,6 @@
 		,{"id":354,"name":"Messages: 'Start Voice Call' button","selector":"#content ._6ynl [data-testid*=Voice]"}
 		,{"id":355,"name":"Messages: 'Start Video Call' button","selector":"#content ._6ynl [data-testid*=Video]"}
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
-		,{"id":357,"name":"Left Col: Voting Information Center","selector":"#navItem_567708910575385"}
 
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
 		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
@@ -292,8 +214,6 @@
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
 		,{"id":2020082901,"name":"Left Column (New Layout)","selector":"#ssrb_left_rail_start ~ *[role=\"navigation\"]"}
-		,{"id":2020091401,"name":"Left Col: Campus","selector":"#navItem_137793194318064"}
-		,{"id":2020091402,"name":"Left Col: Climate Science Information Center","selector":"#navItem_952641688555504"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
 		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] a.gs1a9yip[href='/']"}

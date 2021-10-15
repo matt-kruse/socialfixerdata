@@ -329,5 +329,6 @@
 		,{"id":2021100513,"name":"Right Rail: Watch [alt]","selector":"#ssrb_rhc_start ~ div a[href*='/watch']","parent":"#ssrb_rhc_start ~ div > * > *"}
 		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":".io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":"#ssrb_composer_start ~ *"}
 		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"[data-pagelet=LeftRail] a[href*='/onthisday/']"}
+		,{"id":2021101401,"name":"Post Comment: Awards Given","selector":"[role=article] [role=article] .sf5mxxl7 .q3qqxkgz.mrjvor2e.b8zhkkm9","parent":"[role=button]"}
 	]
 }

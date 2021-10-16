@@ -272,8 +272,8 @@
 		,{"id":2021012401,"name":"retired","selector":"retired#retired"}
 		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
 		,{"id":2021032201,"name":"Groups Feed Right Col: ad to join groups","selector":".g5gj957u.rek2kq2y [href*='groups/discover/']","parent":".aghb5jc5>div.lpgh02oy>.k4urcfbm"}
-		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":"#ssrb_composer_start ~.ad2k81qe img[src*=switch]","parent":"#ssrb_composer_start ~.ad2k81qe"}
-		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/survey/']","parent":"#ssrb_composer_start ~.ad2k81qe"}
+		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":"#ssrb_composer_start ~.ad2k81qe img[src*=switch]","parent":"#ssrb_composer_start ~ *"}
+		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/survey/']","parent":"#ssrb_composer_start ~ *"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[data-pagelet=LeftRail] a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[data-pagelet=LeftRail] [role=contentinfo]"}
 		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[data-pagelet=RightRail] [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
@@ -302,7 +302,7 @@
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":".j1vyfwqu.l9j0dhe7 a[href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[data-pagelet=LeftRail] a[href*='/ads/create_ad']"}
 		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[data-pagelet=LeftRail] a[href*=olympics_hub]"}
-		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/settings/whatsapp']","parent":"#ssrb_composer_start ~.ad2k81qe"}
+		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/settings/whatsapp']","parent":"#ssrb_composer_start ~ *"}
 		,{"id":2021091801,"name":"Post: Climate Science","selector":"[role=article] .hybvsw6c > a[href*='climatescience']","parent":".discj3wi"}
 		,{"id":2021092201,"name":"Games Right Col: Tournaments","selector":"#pagelet_canvas_nav_content ._gu1 a[href*=tournaments]","parent":"._gu1"}
 		,{"id":2021092202,"name":"Games Right Col: Featured Game (1)","selector":"#pagelet_canvas_nav_content ._gu1 a[href*='context_type=SOLO']","parent":"._gu1"}
@@ -330,5 +330,6 @@
 		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":".io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":"#ssrb_composer_start ~ *"}
 		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"[data-pagelet=LeftRail] a[href*='/onthisday/']"}
 		,{"id":2021101401,"name":"Post Comment: Awards Given","selector":"[role=article] [role=article] .sf5mxxl7 .q3qqxkgz.mrjvor2e.b8zhkkm9","parent":"[role=button]"}
+		,{"id":2021101501,"name":"News Feed: Finish Donation","selector":"#ssrb_composer_start ~.ad2k81qe a[href*=donation_reminder]","parent":"#ssrb_composer_start ~ * > *"}
 	]
 }

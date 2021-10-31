@@ -332,5 +332,6 @@
 		,{"id":2021101401,"name":"Post Comment: Awards Given","selector":"[role=article] [role=article] .sf5mxxl7 .q3qqxkgz.mrjvor2e.b8zhkkm9","parent":"[role=button]"}
 		,{"id":2021101501,"name":"News Feed: Finish Donation","selector":"#ssrb_composer_start ~.ad2k81qe a[href*=donation_reminder]","parent":"#ssrb_composer_start ~ * > *"}
 		,{"id":2021101502,"name":"Post: Recommend a thing","selector":"[role=article] [role=article] .c1et5uql [role=link].rj84mg9z > .s1tcr66n","parent":".c1et5uql"}
+		,{"id":2021103101,"name":"Post: see groups like ...","selector":"[role=article] .s1tcr66n.bp9cbjyn a[href*='/discover/'][href*=group_trend]","parent":".s1tcr66n.bp9cbjyn"}
 	]
 }

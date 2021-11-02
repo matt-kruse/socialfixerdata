@@ -212,7 +212,7 @@
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
-		,{"id":2020082901,"name":"Left Column (New Layout)","selector":"#ssrb_left_rail_start ~ *[role=\"navigation\"]"}
+		,{"id":2020082901,"name":"Left Column (SCROLL TO HIDE SINGLE ITEMS)","selector":"#ssrb_left_rail_start ~ [role=navigation]"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
 		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] a.gs1a9yip[href='/']"}
@@ -235,7 +235,7 @@
 		,{"id":2021010407,"name":"Left Rail: Blood Donations","selector":"[data-pagelet=LeftRail] a[href*='/blooddonations/']"}
 		,{"id":2021010408,"name":"Left Rail: Buy and Sell Groups","selector":"[data-pagelet=LeftRail] a[href*='/salegroups/']"}
 		,{"id":2021010409,"name":"Left Rail: Campus","selector":"[data-pagelet=LeftRail] a[href*='/campus/']"}
-		,{"id":2021010410,"name":"Left Rail: Climate Science Information Center","selector":"[data-pagelet=LeftRail] a[href*='/climatescienceinfo/']"}
+		,{"id":2021010410,"name":"Left Rail: Climate Science Center","selector":"[data-pagelet=LeftRail] a[href*='/climatescienceinfo/']"}
 		,{"id":2021010411,"name":"Left Rail: Community Help","selector":"[data-pagelet=LeftRail] a[href*='/community_help/']"}
 		,{"id":2021010412,"name":"Left Rail: COVID-19 Information Center","selector":"[data-pagelet=LeftRail] a[href*='/coronavirus_info/']"}
 		,{"id":2021010413,"name":"Left Rail: Events","selector":"[data-pagelet=LeftRail] a[href*='/events?']"}
@@ -243,8 +243,8 @@
 		,{"id":2021010415,"name":"Left Rail: Favorites","selector":"[data-pagelet=LeftRail] a[href*='/?sk=favorites']"}
 		,{"id":2021010416,"name":"Left Rail: Friend Lists","selector":"[data-pagelet=LeftRail] a[href*='/bookmarks/lists/']"}
 		,{"id":2021010417,"name":"Left Rail: Fundraisers","selector":"[data-pagelet=LeftRail] a[href*='/fundraisers/']"}
-		,{"id":2021010418,"name":"Left Rail: Games","selector":"[data-pagelet=LeftRail] a[href*='/games/']"}
-		,{"id":2021010419,"name":"Left Rail: Gaming Video","selector":"[data-pagelet=LeftRail] a[href*='/gaming/']"}
+		,{"id":2021010418,"name":"Left Rail: Play Games","selector":"[data-pagelet=LeftRail] a[href*='/gaming/play/']"}
+		,{"id":2021010419,"name":"Left Rail: Gaming Video","selector":"[data-pagelet=LeftRail] a[href*='/gaming/'][href*=video]"}
 		,{"id":2021010420,"name":"Left Rail: Jobs","selector":"[data-pagelet=LeftRail] a[href*='/jobs/']"}
 		,{"id":2021010421,"name":"Left Rail: Lift Black Voices","selector":"[data-pagelet=LeftRail] a[href*='/liftblackvoices/']"}
 		,{"id":2021010422,"name":"Left Rail: Live Videos","selector":"[data-pagelet=LeftRail] a[href*='/watch/live/']"}
@@ -333,5 +333,6 @@
 		,{"id":2021101502,"name":"Post: Recommend a thing","selector":"[role=article] [role=article] .c1et5uql [role=link].rj84mg9z > .s1tcr66n","parent":".c1et5uql"}
 		,{"id":2021103101,"name":"Post: see groups like ...","selector":"[role=article] .s1tcr66n.bp9cbjyn a[href*='/discover/'][href*=group_trend]","parent":".s1tcr66n.bp9cbjyn"}
 		,{"id":2020103102,"name":"Profile: Add to Story","selector":"[href*='stories/create']","parent":"[data-pagelet] .g5gj957u > .k4urcfbm"}
+		,{"id":2020110101,"name":"News Feed: Create Story","selector":"[href*='stories/create'].gs1a9yip","parent":"[data-pagelet]"}
 	]
 }

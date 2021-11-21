@@ -205,14 +205,14 @@
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
 		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
-		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[data-pagelet=RightRail]"}
+		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[role=complementary] .ofs802cu > .buofh1pr > div"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
-		,{"id":2020082901,"name":"Left Column (SCROLL TO HIDE SINGLE ITEMS)","selector":"#ssrb_left_rail_start ~ [role=navigation]"}
+		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=navigation].rek2kq2y"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
 		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] a.gs1a9yip[href='/']"}
@@ -226,56 +226,56 @@
 		,{"id":2020121303,"name":"Group Right Col: Recent Media","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/'],[data-pagelet=DiscussionRootSuccess] .lntdvkbv a[href*='/photo/'],[data-pagelet=DiscussionRootSuccess] .bexiecsf a[href*='/photo/'],[data-pagelet=DiscussionRootSuccess] .lntdvkbv a[href*='/video/'],[data-pagelet=DiscussionRootSuccess] .bexiecsf a[href*='/video/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121304,"name":"Group Right Col: Events","selector":".lntdvkbv a[href*='/events/'],.bexiecsf a[href*='/events/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020123101,"name":"Friends page: People You May Know","selector":"html[sfx_url='/friends'] .btwxx1t3.gs1a9yip > .cbu4d94t[role=navigation]"}
-		,{"id":2021010401,"name":"Left Rail: Friends","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/friends/']"}
-		,{"id":2021010402,"name":"Left Rail: Groups","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/groups/'][href*='ref=bookmarks']"}
-		,{"id":2021010403,"name":"Left Rail: Marketplace","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/marketplace/']"}
-		,{"id":2021010404,"name":"Left Rail: Watch","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/watch/']:not([href*='/live/'])"}
-		,{"id":2021010405,"name":"Left Rail: Ad Center","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/pages/creation/']"}
-		,{"id":2021010406,"name":"Left Rail: Ads Manager","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/ad_campaign/']"}
-		,{"id":2021010407,"name":"Left Rail: Blood Donations","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/blooddonations/']"}
-		,{"id":2021010408,"name":"Left Rail: Buy and Sell Groups","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/salegroups/']"}
-		,{"id":2021010409,"name":"Left Rail: Campus","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/campus/']"}
-		,{"id":2021010410,"name":"Left Rail: Climate Science Center","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/climatescienceinfo/']"}
-		,{"id":2021010411,"name":"Left Rail: Community Help","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/community_help/']"}
-		,{"id":2021010412,"name":"Left Rail: COVID-19 Information Center","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/coronavirus_info/']"}
-		,{"id":2021010413,"name":"Left Rail: Events","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/events?']"}
-		,{"id":2021010414,"name":"Left Rail: Facebook Pay","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/facebook_pay/']"}
-		,{"id":2021010415,"name":"Left Rail: Favorites","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/?sk=favorites']"}
-		,{"id":2021010416,"name":"Left Rail: Friend Lists","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/bookmarks/lists/']"}
-		,{"id":2021010417,"name":"Left Rail: Fundraisers","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/fundraisers/']"}
-		,{"id":2021010418,"name":"Left Rail: Play Games","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/gaming/play/']"}
-		,{"id":2021010419,"name":"Left Rail: Gaming Video","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/gaming/'][href*=video]"}
-		,{"id":2021010420,"name":"Left Rail: Jobs","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/jobs/']"}
-		,{"id":2021010421,"name":"Left Rail: Lift Black Voices","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/liftblackvoices/']"}
-		,{"id":2021010422,"name":"Left Rail: Live Videos","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/watch/live/']"}
-		,{"id":2021010423,"name":"Left Rail: Memories","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/memories/']"}
-		,{"id":2021010424,"name":"Left Rail: Messenger","selector":"#ssrb_left_rail_start~[role] h2~div a[href$='/messages/t/']"}
-		,{"id":2021010425,"name":"Left Rail: Messenger Kids","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/messenger_kids/']"}
-		,{"id":2021010426,"name":"Left Rail: Most Recent","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/?sk=h_chr']"}
-		,{"id":2021010427,"name":"Left Rail: Movies","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/movies/']"}
-		,{"id":2021010428,"name":"Left Rail: Oculus","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/270208243080697/']"}
-		,{"id":2021010429,"name":"Left Rail: Offers","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/offers/']"}
-		,{"id":2021010430,"name":"Left Rail: Pages","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/pages/?category=top']"}
-		,{"id":2021010431,"name":"Left Rail: Recent Ad Activity","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/ads/activity/']"}
-		,{"id":2021010432,"name":"Left Rail: Recommendations","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/recommendations']"}
-		,{"id":2021010433,"name":"Left Rail: Saved","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/saved/']"}
-		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/townhall/']"}
-		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/votinginformationcenter/']"}
-		,{"id":2021010436,"name":"Left Rail: Weather","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/weather/']"}
-		,{"id":2021010501,"name":"Right Rail: Sponsored","selector":"[data-pagelet=RightRail] .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"[data-pagelet=RightRail] > * > *"}
-		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/crisisresponse/']"}
-		,{"id":2021011001,"name":"Left Rail: Resources","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/community_resources/']"}
-		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/ad_center/']"}
-		,{"id":2021011003,"name":"Left Rail: Pages (Page admin)","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/pages/?category=your_pages']"}
+		,{"id":2021010401,"name":"Left Rail: Friends","selector":"[role=navigation].rek2kq2y a[href*='/friends/']"}
+		,{"id":2021010402,"name":"Left Rail: Groups","selector":"[role=navigation].rek2kq2y a[href*='/groups/'][href*='ref=bookmarks']"}
+		,{"id":2021010403,"name":"Left Rail: Marketplace","selector":"[role=navigation].rek2kq2y a[href*='/marketplace/']"}
+		,{"id":2021010404,"name":"Left Rail: Watch","selector":"[role=navigation].rek2kq2y a[href*='/watch/']:not([href*='/live/'])"}
+		,{"id":2021010405,"name":"Left Rail: Ad Center","selector":"[role=navigation].rek2kq2y a[href*='/pages/creation/']"}
+		,{"id":2021010406,"name":"Left Rail: Ads Manager","selector":"[role=navigation].rek2kq2y a[href*='/ad_campaign/']"}
+		,{"id":2021010407,"name":"Left Rail: Blood Donations","selector":"[role=navigation].rek2kq2y a[href*='/blooddonations/']"}
+		,{"id":2021010408,"name":"Left Rail: Buy and Sell Groups","selector":"[role=navigation].rek2kq2y a[href*='/salegroups/']"}
+		,{"id":2021010409,"name":"Left Rail: Campus","selector":"[role=navigation].rek2kq2y a[href*='/campus/']"}
+		,{"id":2021010410,"name":"Left Rail: Climate Science Center","selector":"[role=navigation].rek2kq2y a[href*='/climatescienceinfo/']"}
+		,{"id":2021010411,"name":"Left Rail: Community Help","selector":"[role=navigation].rek2kq2y a[href*='/community_help/']"}
+		,{"id":2021010412,"name":"Left Rail: COVID-19 Information Center","selector":"[role=navigation].rek2kq2y a[href*='/coronavirus_info/']"}
+		,{"id":2021010413,"name":"Left Rail: Events","selector":"[role=navigation].rek2kq2y a[href*='/events?']"}
+		,{"id":2021010414,"name":"Left Rail: Facebook Pay","selector":"[role=navigation].rek2kq2y a[href*='/facebook_pay/']"}
+		,{"id":2021010415,"name":"Left Rail: Favorites","selector":"[role=navigation].rek2kq2y a[href*='/?sk=favorites']"}
+		,{"id":2021010416,"name":"Left Rail: Friend Lists","selector":"[role=navigation].rek2kq2y a[href*='/bookmarks/lists/']"}
+		,{"id":2021010417,"name":"Left Rail: Fundraisers","selector":"[role=navigation].rek2kq2y a[href*='/fundraisers/']"}
+		,{"id":2021010418,"name":"Left Rail: Play Games","selector":"[role=navigation].rek2kq2y a[href*='/gaming/play/']"}
+		,{"id":2021010419,"name":"Left Rail: Gaming Video","selector":"[role=navigation].rek2kq2y a[href*='/gaming/'][href*=video]"}
+		,{"id":2021010420,"name":"Left Rail: Jobs","selector":"[role=navigation].rek2kq2y a[href*='/jobs/']"}
+		,{"id":2021010421,"name":"Left Rail: Lift Black Voices","selector":"[role=navigation].rek2kq2y a[href*='/liftblackvoices/']"}
+		,{"id":2021010422,"name":"Left Rail: Live Videos","selector":"[role=navigation].rek2kq2y a[href*='/watch/live/']"}
+		,{"id":2021010423,"name":"Left Rail: Memories","selector":"[role=navigation].rek2kq2y a[href*='/memories/']"}
+		,{"id":2021010424,"name":"Left Rail: Messenger","selector":"[role=navigation].rek2kq2y a[href$='/messages/t/']"}
+		,{"id":2021010425,"name":"Left Rail: Messenger Kids","selector":"[role=navigation].rek2kq2y a[href*='/messenger_kids/']"}
+		,{"id":2021010426,"name":"Left Rail: Most Recent","selector":"[role=navigation].rek2kq2y a[href*='/?sk=h_chr']"}
+		,{"id":2021010427,"name":"Left Rail: Movies","selector":"[role=navigation].rek2kq2y a[href*='/movies/']"}
+		,{"id":2021010428,"name":"Left Rail: Oculus","selector":"[role=navigation].rek2kq2y a[href*='/270208243080697/']"}
+		,{"id":2021010429,"name":"Left Rail: Offers","selector":"[role=navigation].rek2kq2y a[href*='/offers/']"}
+		,{"id":2021010430,"name":"Left Rail: Pages","selector":"[role=navigation].rek2kq2y a[href*='/pages/?category=top']"}
+		,{"id":2021010431,"name":"Left Rail: Recent Ad Activity","selector":"[role=navigation].rek2kq2y a[href*='/ads/activity/']"}
+		,{"id":2021010432,"name":"Left Rail: Recommendations","selector":"[role=navigation].rek2kq2y a[href*='/recommendations']"}
+		,{"id":2021010433,"name":"Left Rail: Saved","selector":"[role=navigation].rek2kq2y a[href*='/saved/']"}
+		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"[role=navigation].rek2kq2y a[href*='/townhall/']"}
+		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[role=navigation].rek2kq2y a[href*='/votinginformationcenter/']"}
+		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[role=navigation].rek2kq2y a[href*='/weather/']"}
+		,{"id":2021010501,"name":"Right Rail: Sponsored","selector":"[role=complementary] .ofs802cu > .buofh1pr > div .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"[role=navigation].rek2kq2y a[href*='/crisisresponse/']"}
+		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[role=navigation].rek2kq2y a[href*='/community_resources/']"}
+		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[role=navigation].rek2kq2y a[href*='/ad_center/']"}
+		,{"id":2021011003,"name":"Left Rail: Pages (Page admin)","selector":"[role=navigation].rek2kq2y a[href*='/pages/?category=your_pages']"}
 		,{"id":2021011901,"name":"Groups Feed Right Col: Popular Now","selector":".aghb5jc5 .cbu4d94t a.btwxx1t3.g5ia77u1[href*='/topic/'] .fgxwclzu","parent":".aghb5jc5>div.lpgh02oy"}
 		,{"id":2021012401,"name":"retired","selector":"retired#retired"}
 		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
 		,{"id":2021032201,"name":"Groups Feed Right Col: ad to join groups","selector":".g5gj957u.rek2kq2y [href*='groups/discover/']","parent":".aghb5jc5>div.lpgh02oy>.k4urcfbm"}
 		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":"#ssrb_composer_start ~.ad2k81qe img[src*=switch]","parent":"#ssrb_composer_start ~ *"}
 		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/survey/']","parent":"#ssrb_composer_start ~ *"}
-		,{"id":2021041103,"name":"Left Rail: News","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/news/']"}
-		,{"id":2021041201,"name":"Left Rail: Footer","selector":"#ssrb_left_rail_start~[role] h2~div [role=contentinfo]"}
-		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[data-pagelet=RightRail] [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
+		,{"id":2021041103,"name":"Left Rail: News","selector":"[role=navigation].rek2kq2y a[href*='/news/']"}
+		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[role=navigation].rek2kq2y [role=contentinfo]"}
+		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
 		,{"id":2021042301,"name":"Post: Covid Info","selector":"[role=article] .hybvsw6c > a[href*='coronavirus']","parent":".discj3wi"}
 		,{"id":2021042901,"name":"Header: 'Notifications' menu","selector":"[role=banner] [role=navigation].rl25f0pe [href*='/notifications'],[role=banner] [role=navigation].rl25f0pe [aria-label*=Notifications]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042902,"name":"Header: 'Create' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Create]","parent":"[role=banner] [role=navigation] > * > *"}
@@ -284,10 +284,10 @@
 		,{"id":2021042905,"name":"Header: 'Pages' button","selector":"[role=banner] [role=navigation] a[href*=your_pages]"}
 		,{"id":2021042906,"name":"Header: 'Menu' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Menu]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021050101,"name":"Header: 'News' button","selector":"[role=banner] [role=navigation] a[href*='/news/']"}
-		,{"id":2021051301,"name":"Left Rail: Emotional Health","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/emotional_health/']"}
-		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":"[data-pagelet=RightRail] [href*='/events/birthdays']","parent":"[data-pagelet=RightRail] > * > *"}
-		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]"}
-		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":"[data-pagelet=RightRail] [href*='/friends/'][href*=profile_id]","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021051301,"name":"Left Rail: Emotional Health","selector":"[role=navigation].rek2kq2y a[href*='/emotional_health/']"}
+		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/events/birthdays']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/friends/'][href*=profile_id]"}
+		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/friends/'][href*=profile_id]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021052901,"name":"Group Admin: 'Admin Assist' advertisement","selector":"[role=main] .d2edcug0 .f10w8fjw a[href*='/admin_assistant']","parent":".f10w8fjw"}
 		,{"id":2021052902,"name":"Group Admin: 'Pending Posts' header","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(1) > div","parent":".hybvsw6c > .rq0escxv"}
 		,{"id":2021052903,"name":"Group Admin: Pending Posts search-by-name box","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(2) > div","parent":".hybvsw6c > .rq0escxv"}
@@ -295,12 +295,12 @@
 		,{"id":2021060601,"name":"Group Right Col: Recent Files","selector":".lntdvkbv a[href*='/groups/'][href*='/files/'],.bexiecsf a[href*='/groups/'][href*='/files/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060901,"name":"Header: 'Events' button","selector":"[role=banner] [role=navigation] a[href*='/events/']"}
-		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[data-pagelet=RightRail] a[href*='games/'][href*=rhc_discovery]","parent":"[data-pagelet=RightRail] > * > *"}
-		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[data-pagelet=RightRail] a[href*='ad_center/create'][href*=rhc_page]","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='games/'][href*=rhc_discovery]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='ad_center/create'][href*=rhc_page]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021062501,"name":"News Feed: Home-Favorites-Recent bar","selector":"[role=main] > .pfnyh3mw.cbu4d94t > .lpgh02oy.rek2kq2y > *"}
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
-		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/ads/create_ad']"}
-		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"#ssrb_left_rail_start~[role] h2~div a[href*=olympics_hub]"}
+		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[role=navigation].rek2kq2y a[href*='/ads/create_ad']"}
+		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[role=navigation].rek2kq2y a[href*=olympics_hub]"}
 		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/settings/whatsapp']","parent":"#ssrb_composer_start ~ *"}
 		,{"id":2021091801,"name":"Post: Climate Science","selector":"[role=article] .hybvsw6c > a[href*='climatescience']","parent":".discj3wi"}
 		,{"id":2021092201,"name":"Games Right Col: Tournaments","selector":"#pagelet_canvas_nav_content ._gu1 a[href*=tournaments]","parent":"._gu1"}
@@ -313,28 +313,28 @@
 		,{"id":2021092208,"name":"Games Right Col: Your Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=GameBookmark]","parent":"._gu1"}
 		,{"id":2021092209,"name":"Games Right Col: Gaming Video","selector":"#games_video_canvas_rhc"}
 		,{"id":2021092210,"name":"Games Right Col: Recommended Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=RecommendedGamesAppQuery]","parent":"._gu1"}
-		,{"id":2021100501,"name":"Right Rail: Recently Saved","selector":"[data-pagelet=RightRail] a[href*='/saved']","parent":"[data-pagelet=RightRail] > * > *"}
-		,{"id":2021100502,"name":"Right Rail: Watch","selector":"[data-pagelet=RightRail] a[href*='/watch']","parent":"[data-pagelet=RightRail] > * > *"}
+		,{"id":2021100501,"name":"Right Rail: Recently Saved","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='/saved']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021100502,"name":"Right Rail: Watch","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='/watch']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021100503,"name":"Give Award (Post Comment)","selector":"[role=article] li span[aria-hidden=true] ~ .gs1a9yip","parent":"li"}
-		,{"id":2021100504,"name":"Right Rail (entire block) [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail])"}
-		,{"id":2021100505,"name":"Right Rail: Sponsored [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
-		,{"id":2021100506,"name":"Right Rail: See All Contacts [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
-		,{"id":2021100507,"name":"Right Rail: Birthdays [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) [href*='/events/birthdays']","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
-		,{"id":2021100508,"name":"Right Rail: Friend Requests (list) [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) [href*='/friends/'][href*=profile_id]"}
-		,{"id":2021100509,"name":"Right Rail: Friend Requests (entire block) [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) [href*='/friends/'][href*=profile_id]","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
-		,{"id":2021100510,"name":"Right Rail: Play Games [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) a[href*='games/'][href*=rhc_discovery]","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
-		,{"id":2021100511,"name":"Right Rail: Your Pages [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) a[href*='ad_center/create'][href*=rhc_page]","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
-		,{"id":2021100512,"name":"Right Rail: Recently Saved [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) a[href*='/saved']","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
-		,{"id":2021100513,"name":"Right Rail: Watch [alt]","selector":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) a[href*='/watch']","parent":"#ssrb_rhc_start ~ div:not([data-pagelet=RightRail]) > * > *"}
+		,{"id":2021100504,"name":"Right Rail (entire block) [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100505,"name":"Right Rail: Sponsored [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100506,"name":"Right Rail: See All Contacts [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100507,"name":"Right Rail: Birthdays [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100508,"name":"Right Rail: Friend Requests (list) [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100509,"name":"Right Rail: Friend Requests (entire block) [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100510,"name":"Right Rail: Play Games [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100511,"name":"Right Rail: Your Pages [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100512,"name":"Right Rail: Recently Saved [alt-retired]","selector":"retired#retired"}
+		,{"id":2021100513,"name":"Right Rail: Watch [alt-retired]","selector":"retired#retired"}
 		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":".io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":"#ssrb_composer_start ~ *"}
-		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='/onthisday/']"}
+		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"[role=navigation].rek2kq2y a[href*='/onthisday/']"}
 		,{"id":2021101401,"name":"Post Comment: Awards Given","selector":"[role=article] [role=article] .sf5mxxl7 .q3qqxkgz.mrjvor2e.b8zhkkm9","parent":"[role=button]"}
 		,{"id":2021101501,"name":"News Feed: Finish Donation","selector":"#ssrb_composer_start ~.ad2k81qe a[href*=donation_reminder]","parent":"#ssrb_composer_start ~ * > *"}
 		,{"id":2021101502,"name":"Post: Recommend a thing","selector":"[role=article] [role=article] .c1et5uql [role=link].rj84mg9z > .s1tcr66n","parent":".c1et5uql"}
 		,{"id":2021103101,"name":"Post: see groups like ...","selector":"[role=article] .s1tcr66n.bp9cbjyn a[href*='/discover/'][href*=group_trend]","parent":".s1tcr66n.bp9cbjyn"}
 		,{"id":2020103102,"name":"Profile: Add to Story","selector":"[href*='stories/create']","parent":"[data-pagelet] .g5gj957u > .k4urcfbm"}
 		,{"id":2020110101,"name":"News Feed: Create Story","selector":"[href*='stories/create'].gs1a9yip","parent":"[data-pagelet]"}
-		,{"id":2021111601,"name":"Left Rail: Oculus (2)","selector":"#ssrb_left_rail_start~[role] h2~div a[href*='oculus.com']"}
+		,{"id":2021111601,"name":"Left Rail: Oculus (2)","selector":"[role=navigation].rek2kq2y a[href*='oculus.com'][href*=utm_source]"}
 		,{"id":2021111701,"name":"Post: Ask Your Community for Support","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/fundraiser/with_presence/create_dialog']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021111702,"name":"Group Feed: See the latest coronavirus info","selector":"[data-pagelet=GroupFeed] .i1fnvgqd [href*=coronavirus_info]","parent":"[data-pagelet] > *"}
 	]

@@ -272,7 +272,7 @@
 		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
 		,{"id":2021032201,"name":"Groups Feed Right Col: ad to join groups","selector":".g5gj957u.rek2kq2y [href*='groups/discover/']","parent":".aghb5jc5>div.lpgh02oy>.k4urcfbm"}
 		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":"#ssrb_composer_start ~.ad2k81qe img[src*=switch]","parent":"#ssrb_composer_start ~ *"}
-		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":"#ssrb_composer_start ~.ad2k81qe a[href*='/survey/']","parent":"#ssrb_composer_start ~ *"}
+		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":".taijpn5t .ad2k81qe a[href*='/survey/'] ~ * a .o7e4w99y","parent":".ad2k81qe > *"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[role=navigation].rek2kq2y a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[role=navigation].rek2kq2y [role=contentinfo]"}
 		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [role=button].taijpn5t.g5ia77u1.pq6dq46d"}

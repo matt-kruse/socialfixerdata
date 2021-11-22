@@ -108,7 +108,7 @@
 		,{"id":242,"name":"Right Col: Still Available on Marketplace","selector":"#pagelet_marketplace_bsg_recently_viewed_rhc"}
 		,{"id":243,"name":"Right Col: Featured on Facebook Watch","selector":"#pagelet_video_home_promotion_rhc"}
 		,{"id":244,"name":"retired","selector":"retired#retired"}
-		,{"id":245,"name":"retired","selector":"retired#retired"}
+		,{"id":245,"name":"retired","selector":"retired#retried"}
 		,{"id":246,"name":"Post: Recommend a place","selector":"[sfx_post] ._5ofu._1xap"}
 		,{"id":247,"name":"retired","selector":"retired#retired"}
 		,{"id":248,"name":"Group Right Col: Upcoming Group Events","selector":"._4-u3 a[href^='/groups/'][href$='/events/']","parent":"._4-u2"}

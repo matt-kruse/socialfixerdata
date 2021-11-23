@@ -205,7 +205,7 @@
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
 		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
-		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[role=complementary] .ofs802cu > .buofh1pr > div"}
+		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[role=complementary] :not(.hybvsw6c) > .ofs802cu > .buofh1pr > div"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}

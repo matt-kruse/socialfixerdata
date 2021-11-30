@@ -1,8 +1,7 @@
 {
-	"news" :
-	[
-    {"time":1617366506247, "href":"https://www.facebook.com/socialfixer/posts/10158905668284342", "title":"Social Fixer has been updated!"}
-    ,{"time":1617634882471, "href":"https://www.facebook.com/events/142937064424812", "title":"FB Live today at 1pm CDT!"}
-    
-	]
+	"news": [{
+		"time": 1638302651613,
+		"href": "https://www.facebook.com/socialfixer/posts/10159411290189342",
+		"title": "Giviting Tuesday - Donate to support Social Fixer!"
+	}]
 }

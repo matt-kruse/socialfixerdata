@@ -337,6 +337,6 @@
 		,{"id":2021111601,"name":"Left Rail: Oculus (2)","selector":"[role=navigation].rek2kq2y a[href*='oculus.com'][href*=utm_source]"}
 		,{"id":2021111701,"name":"Post: Ask Your Community for Support","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/fundraiser/with_presence/create_dialog']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021111702,"name":"Group Feed: See the latest coronavirus info","selector":"[data-pagelet=GroupFeed] .i1fnvgqd [href*=coronavirus_info]","parent":"[data-pagelet] > *"}
-		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=navigation].rek2kq2y a[href$='/watch/']"}
+		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=navigation].rek2kq2y a[href*='/watch/?']"}
 	]
 }

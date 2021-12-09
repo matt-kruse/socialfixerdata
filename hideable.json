@@ -212,7 +212,7 @@
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
 		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
-		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=navigation].rek2kq2y"}
+		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=navigation].rek2kq2y.be9z9djy"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
 		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] a.gs1a9yip[href='/']"}
@@ -229,7 +229,7 @@
 		,{"id":2021010401,"name":"Left Rail: Friends","selector":"[role=navigation].rek2kq2y a[href*='/friends/']"}
 		,{"id":2021010402,"name":"Left Rail: Groups","selector":"[role=navigation].rek2kq2y a[href*='/groups/'][href*='ref=bookmarks']"}
 		,{"id":2021010403,"name":"Left Rail: Marketplace","selector":"[role=navigation].rek2kq2y a[href*='/marketplace/?']"}
-		,{"id":2021010404,"name":"Left Rail: Watch","selector":"[role=navigation].rek2kq2y a[href*='/watch/']:not([href*='/live/'])"}
+		,{"id":2021010404,"name":"Left Rail: Watch","selector":"[role=navigation].rek2kq2y a[href$='/watch/']"}
 		,{"id":2021010405,"name":"Left Rail: Ad Center","selector":"[role=navigation].rek2kq2y a[href*='/pages/creation/']"}
 		,{"id":2021010406,"name":"Left Rail: Ads Manager","selector":"[role=navigation].rek2kq2y a[href*='/ad_campaign/']"}
 		,{"id":2021010407,"name":"Left Rail: Blood Donations","selector":"[role=navigation].rek2kq2y a[href*='/blooddonations/']"}
@@ -337,5 +337,6 @@
 		,{"id":2021111601,"name":"Left Rail: Oculus (2)","selector":"[role=navigation].rek2kq2y a[href*='oculus.com'][href*=utm_source]"}
 		,{"id":2021111701,"name":"Post: Ask Your Community for Support","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/fundraiser/with_presence/create_dialog']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021111702,"name":"Group Feed: See the latest coronavirus info","selector":"[data-pagelet=GroupFeed] .i1fnvgqd [href*=coronavirus_info]","parent":"[data-pagelet] > *"}
+		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=navigation].rek2kq2y a[href$='/watch/']"}
 	]
 }

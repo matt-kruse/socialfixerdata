@@ -117,7 +117,7 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}(Because you may be interested in|Because you recently viewed|Because you viewed|You recently viewed a similar group|Post from a public group|From a group with members who like|From a group that|From a group you|Suggested for you|Suggested Pages|Suggested [Pp]ost|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month))"
+				"text": ".{0,5}((?:Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested Pages|Suggested [Pp]ost|You recently viewed a similar group|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month)).{0,40})"
 			}
 		}],
 		"actions": [{

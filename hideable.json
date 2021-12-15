@@ -338,5 +338,7 @@
 		,{"id":2021111701,"name":"Post: Ask Your Community for Support","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/fundraiser/with_presence/create_dialog']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021111702,"name":"Group Feed: See the latest coronavirus info","selector":"[data-pagelet=GroupFeed] .i1fnvgqd [href*=coronavirus_info]","parent":"[data-pagelet] > *"}
 		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=navigation].rek2kq2y a[href*='/watch/?']"}
+		,{"id":2021121101,"name":"Right Rail: Suggested Groups","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href$='/groups/']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021121401,"name":"Right Rail: Group conversations","selector":"[role=complementary] .ofs802cu > .buofh1pr > div > [data-visualcompletion] + [data-visualcompletion]"}
 	]
 }

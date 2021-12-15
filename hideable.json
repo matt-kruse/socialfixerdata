@@ -341,5 +341,6 @@
 		,{"id":2021121101,"name":"Right Rail: Suggested Groups","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href$='/groups/']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021121401,"name":"Right Rail: Group conversations","selector":"[role=complementary] .ofs802cu > .buofh1pr > div > [data-visualcompletion] + [data-visualcompletion]"}
 		,{"id":2021121501,"name":"Right Rail: Live Video","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/watch/live']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021121502,"name":"New chat message","selector":".poy2od1o.i09qtzwb.n7fi1qx3 .pmk7jnqg ul.cbu4d94t ~ .t1p8iaqh"}
 	]
 }

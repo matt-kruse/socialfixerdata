@@ -342,5 +342,9 @@
 		,{"id":2021121401,"name":"Right Rail: Group conversations","selector":"[role=complementary] .ofs802cu > .buofh1pr > div > [data-visualcompletion] + [data-visualcompletion]"}
 		,{"id":2021121501,"name":"Right Rail: Live Video","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/watch/live']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021121502,"name":"New chat message","selector":".poy2od1o.i09qtzwb.n7fi1qx3 .pmk7jnqg ul.cbu4d94t ~ .t1p8iaqh"}
+		,{"id":2021121503,"name":"Post: Find volunteers","selector":"[role=article] .j1vyfwqu.l9j0dhe7 .owycx6da .g5ia77u1[aria-label='Find volunteers']","parent":".j1vyfwqu.l9j0dhe7"}
+		,{"id":2021121701,"name":"Post: Subscribe Now","selector":"[role=article] a[aria-label][href*='/support'][href*=entrypoint]","parent":"a[aria-label].pq6dq46d"}
+		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*="Let more people see"]","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
+		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
 	]
 }

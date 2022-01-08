@@ -1,22 +1,22 @@
 {
 	"hideables" : [
-		 {"id":1,"name":"Right Col: People You May Know (1)","selector":".ego_column a.uiHeaderActions[href^=\"/l.php?u=%2Ffind-friends%2Fbrowser%2F%3Fref%3Dpsa\"]","parent":".pagelet"}
-		,{"id":2,"name":"Right Col: Suggested Pages (1)","selector":".ego_column a.uiHeaderActions[href^=\"/l.php?u=%2Fpages%2F%3Fcategory%3Dtop\"]","parent":".pagelet"}
+		 {"id":1,"name":"Right Col: People You May Know (1)","selector":".ego_column a.uiHeaderActions[href^='/l.php?u=%2Ffind-friends%2Fbrowser%2F%3Fref%3Dpsa']","parent":".pagelet"}
+		,{"id":2,"name":"Right Col: Suggested Pages (1)","selector":".ego_column a.uiHeaderActions[href^='/l.php?u=%2Fpages%2F%3Fcategory%3Dtop']","parent":".pagelet"}
 		,{"id":3,"name":"Right Col: Sponsored Pagelet","selector":".ego_column .adsCategoryTitleLink","parent":".pagelet"}
 		,{"id":4,"name":"Right Col: Footer","selector":"#pagelet_rhc_footer"}
 		,{"id":5,"name":"Right Col: Trending Pagelet","selector":"#pagelet_trending_tags_and_topics"}
 		,{"id":6,"name":"Right Col: Reminders (RECOMMEND: HIDE INDIVIDUAL ITEMS)","selector":"#pagelet_reminders"}
 		,{"id":7,"name":"Right Col: Games Pagelet","selector":"#pagelet_games_rhc"}
 		,{"id":19,"name":"Daily Dialogue","selector":"#dd_lw_card"}
-		,{"id":20,"name":"Right Col: Suggested Groups","selector":"div[id^=\"GroupSuggestionCard\"]","parent":"._4-u3,.pagelet"}
+		,{"id":20,"name":"Right Col: Suggested Groups","selector":"div[id^=GroupSuggestionCard]","parent":"._4-u3,.pagelet"}
 		,{"id":21,"name":"Right Col: Group Suggestions","selector":"#GroupsRHCSuggestionSection"}
 		,{"id":22,"name":"Chat: Facebook Messages pop-under conversations","selector":"#ChatTabsPagelet"}
-		,{"id":23,"name":"Viewing Most Recent Banner","selector":"span.uiIconText ~ a[href=\"/?sk=h_nor\"]","parent":"div.mvm"}
+		,{"id":23,"name":"Viewing Most Recent Banner","selector":"span.uiIconText ~ a[href='/?sk=h_nor']","parent":"div.mvm"}
 		,{"id":132,"name":"Right Col: Suggested Pages (2)","selector":".ego_action.ego_like,.ego_section a[href*='category_pyml']","parent":".pagelet"}
-		,{"id":139,"name":"Right Col: People You May Know (2)","selector":"a[href*=\"ref%3Dpymk\"],a[data-gt*=\"pymk\"]","parent":".pagelet"}
-		,{"id":140,"name":"Right Col: Suggested Pages (3)","selector":"a[href*=\"category_pyml\"],a[data-gt*=\"category_pyml\"]","parent":"._3-96"}
-		,{"id":141,"name":"Right Col: Create a Group","selector":"a[ajaxify*=\"create_get.php\"]","parent":"._3-96"}
-		,{"id":142,"name":"Right Col: Recent Group Photos","selector":"a[href*=\"/groups/\"][href*=\"/photos\"]","parent":"._3-96"}
+		,{"id":139,"name":"Right Col: People You May Know (2)","selector":"a[href*='ref%3Dpymk'],a[data-gt*=pymk]","parent":".pagelet"}
+		,{"id":140,"name":"Right Col: Suggested Pages (3)","selector":"a[href*=category_pyml],a[data-gt*=category_pyml]","parent":"._3-96"}
+		,{"id":141,"name":"Right Col: Create a Group","selector":"a[ajaxify*='create_get.php']","parent":"._3-96"}
+		,{"id":142,"name":"Right Col: Recent Group Photos","selector":"a[href*='/groups/'][href*='/photos']","parent":"._3-96"}
 		,{"id":143,"name":"Right Col: Friend Requests","selector":"a[data-gt*='\"ego_service\":\"friend_request\"']","parent":".pagelet"}
 		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
 		,{"id":147,"name":"Post Editor: Background Chooser","selector":"table._2j7c"}
@@ -145,7 +145,7 @@
 		,{"id":288,"name":"Chat Pop-Under: top of conversation profile pic","selector":"._4po7 ._55lt"}
 		,{"id":289,"name":"Chat Pop-Under: speaker profile pic","selector":"._4po9 ._55lt"}
 		,{"id":290,"name":"Messages: speaker profile pic","selector":"._1t_q ._4ld-"}
-		,{"id":292,"name":"Post: Click To Play button","selector":"a[ajaxify*='/games/quicksilver/'][data-ft*='\"games_instant_play\"'] ._6e7y"}
+		,{"id":292,"name":"Post: Click To Play button","selector":"a[ajaxify*='/games/quicksilver/'][data-ft*=games_instant_play] ._6e7y"}
 		,{"id":293,"name":"Post: Play button","selector":"._4bl7._2q3z"}
 		,{"id":295,"name":"Post: Start Watch Party","selector":"._1kyo a[ajaxify*='/living_room/']","parent":"._1kyo"}
 		,{"id":296,"name":"Post: Become a Supporter","selector":"._1kyo a[ajaxify*='/becomesupporter/']","parent":"._1kyo"}
@@ -344,7 +344,7 @@
 		,{"id":2021121502,"name":"New chat message","selector":".poy2od1o.i09qtzwb.n7fi1qx3 .pmk7jnqg ul.cbu4d94t ~ .t1p8iaqh"}
 		,{"id":2021121503,"name":"Post: Find volunteers","selector":"[role=article] .j1vyfwqu.l9j0dhe7 .owycx6da .g5ia77u1[aria-label='Find volunteers']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021121701,"name":"Post: Subscribe Now","selector":"[role=article] a[aria-label][href*='/support'][href*=entrypoint]","parent":"a[aria-label].pq6dq46d"}
-		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*="Let more people see"]","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
+		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*='Let more people see']","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
 		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
 	]
 }

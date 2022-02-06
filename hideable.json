@@ -262,7 +262,7 @@
 		,{"id":2021010434,"name":"Left Rail: Town Hall","selector":"[role=navigation].rek2kq2y a[href*='/townhall/']"}
 		,{"id":2021010435,"name":"Left Rail: Voting Information Center","selector":"[role=navigation].rek2kq2y a[href*='/votinginformationcenter/']"}
 		,{"id":2021010436,"name":"Left Rail: Weather","selector":"[role=navigation].rek2kq2y a[href*='/weather/']"}
-		,{"id":2021010501,"name":"Right Rail: Sponsored","selector":"[role=complementary] .ofs802cu > .buofh1pr > div .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021010501,"name":"Right Rail: Sponsored","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div .cbu4d94t .a8c37x1j>.gc8qjt7d","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021010601,"name":"Left Rail: Crisis Response","selector":"[role=navigation].rek2kq2y a[href*='/crisisresponse/']"}
 		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[role=navigation].rek2kq2y a[href*='/community_resources/']"}
 		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[role=navigation].rek2kq2y a[href*='/ad_center/']"}
@@ -275,7 +275,7 @@
 		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":".taijpn5t .ad2k81qe a[href*='/survey/'] ~ * a .o7e4w99y","parent":".ad2k81qe > *"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[role=navigation].rek2kq2y a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[role=navigation].rek2kq2y [role=contentinfo]"}
-		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
+		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
 		,{"id":2021042301,"name":"Post: Covid Info","selector":"[role=article] .hybvsw6c > a[href*='coronavirus']","parent":".discj3wi"}
 		,{"id":2021042901,"name":"Header: 'Notifications' menu","selector":"[role=banner] [role=navigation].rl25f0pe [href*='/notifications'],[role=banner] [role=navigation].rl25f0pe [aria-label*=Notifications]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042902,"name":"Header: 'Create' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Create]","parent":"[role=banner] [role=navigation] > * > *"}
@@ -285,9 +285,9 @@
 		,{"id":2021042906,"name":"Header: 'Menu' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Menu]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021050101,"name":"Header: 'News' button","selector":"[role=banner] [role=navigation] a[href*='/news/']"}
 		,{"id":2021051301,"name":"Left Rail: Emotional Health","selector":"[role=navigation].rek2kq2y a[href*='/emotional_health/']"}
-		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/events/birthdays']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
-		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/friends/'][href*=profile_id]"}
-		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/friends/'][href*=profile_id]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021051501,"name":"Right Rail: Birthdays","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div [href*='/events/birthdays']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021051502,"name":"Right Rail: Friend Requests (list)","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div [href*='/friends/'][href*=profile_id]"}
+		,{"id":2021051503,"name":"Right Rail: Friend Requests (entire block)","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div [href*='/friends/'][href*=profile_id]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021052901,"name":"Group Admin: 'Admin Assist' advertisement","selector":"[role=main] .d2edcug0 .f10w8fjw a[href*='/admin_assistant']","parent":".f10w8fjw"}
 		,{"id":2021052902,"name":"Group Admin: 'Pending Posts' header","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(1) > div","parent":".hybvsw6c > .rq0escxv"}
 		,{"id":2021052903,"name":"Group Admin: Pending Posts search-by-name box","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(2) > div","parent":".hybvsw6c > .rq0escxv"}
@@ -295,8 +295,8 @@
 		,{"id":2021060601,"name":"Group Right Col: Recent Files","selector":".lntdvkbv a[href*='/groups/'][href*='/files/'],.bexiecsf a[href*='/groups/'][href*='/files/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060901,"name":"Header: 'Events' button","selector":"[role=banner] [role=navigation] a[href*='/events/']"}
-		,{"id":2021061601,"name":"Right Rail: Play Games","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='/gam'][href*=rhc_discovery]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
-		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='ad_center/create'][href*=rhc_page]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021061601,"name":"Right Rail: Play Games","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='/gam'][href*=rhc_discovery]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='ad_center/create'][href*=rhc_page]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021062501,"name":"News Feed: Home-Favorites-Recent bar","selector":"[role=main] > .pfnyh3mw.cbu4d94t > .lpgh02oy.rek2kq2y > *"}
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[role=navigation].rek2kq2y a[href*='/ads/create_ad']"}
@@ -313,8 +313,8 @@
 		,{"id":2021092208,"name":"Games Right Col: Your Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=GameBookmark]","parent":"._gu1"}
 		,{"id":2021092209,"name":"Games Right Col: Gaming Video","selector":"#games_video_canvas_rhc"}
 		,{"id":2021092210,"name":"Games Right Col: Recommended Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=RecommendedGamesAppQuery]","parent":"._gu1"}
-		,{"id":2021100501,"name":"Right Rail: Recently Saved","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='/saved']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
-		,{"id":2021100502,"name":"Right Rail: Watch","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href*='/watch']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021100501,"name":"Right Rail: Recently Saved","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='/saved']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021100502,"name":"Right Rail: Watch","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='/watch']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021100503,"name":"Give Award (Post Comment)","selector":"[role=article] li span[aria-hidden=true] ~ .gs1a9yip","parent":"li"}
 		,{"id":2021100504,"name":"Right Rail (entire block) [alt-retired]","selector":"retired#retired"}
 		,{"id":2021100505,"name":"Right Rail: Sponsored [alt-retired]","selector":"retired#retired"}
@@ -338,9 +338,9 @@
 		,{"id":2021111701,"name":"Post: Ask Your Community for Support","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/fundraiser/with_presence/create_dialog']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021111702,"name":"Group Feed: See the latest coronavirus info","selector":"[data-pagelet=GroupFeed] .i1fnvgqd [href*=coronavirus_info]","parent":"[data-pagelet] > *"}
 		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=navigation].rek2kq2y a[href*='/watch/?']"}
-		,{"id":2021121101,"name":"Right Rail: Suggested Groups","selector":"[role=complementary] .ofs802cu > .buofh1pr > div a[href$='/groups/']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
-		,{"id":2021121401,"name":"Right Rail: Group conversations","selector":"[role=complementary] .ofs802cu > .buofh1pr > div > [data-visualcompletion] + [data-visualcompletion]"}
-		,{"id":2021121501,"name":"Right Rail: Live Video","selector":"[role=complementary] .ofs802cu > .buofh1pr > div [href*='/watch/live']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021121101,"name":"Right Rail: Suggested Groups","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href$='/groups/']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
+		,{"id":2021121401,"name":"Right Rail: Group conversations","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div > [data-visualcompletion] + [data-visualcompletion]"}
+		,{"id":2021121501,"name":"Right Rail: Live Video","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div [href*='/watch/live']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021121502,"name":"New chat message","selector":".poy2od1o.i09qtzwb.n7fi1qx3 .pmk7jnqg ul.cbu4d94t ~ .t1p8iaqh"}
 		,{"id":2021121503,"name":"Post: Find volunteers","selector":"[role=article] .j1vyfwqu.l9j0dhe7 .owycx6da .g5ia77u1[aria-label='Find volunteers']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021121701,"name":"Post: Subscribe Now","selector":"[role=article] a[aria-label][href*='/support'][href*=entrypoint]","parent":"a[aria-label].pq6dq46d"}

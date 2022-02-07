@@ -221,7 +221,7 @@
 		,{"id":2020120704,"name":"Header: 'Gaming' button","selector":"[role=banner] [role=navigation] a[href*='/gaming/']"}
 		,{"id":2020120705,"name":"Header: 'More (Bookmarks)' button","selector":"[role=banner] [role=navigation] a[href*='/bookmarks/']"}
 		,{"id":2020120706,"name":"Header: 'My profile' button","selector":"[role=banner] [role=navigation].rl25f0pe a[href*='/me/']","parent":"[role=banner] [role=navigation] > * > *"}
-		,{"id":2020121301,"name":"Group Right Col: About","selector":".lntdvkbv .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_'],.bexiecsf .cwj9ozl2 .i1fnvgqd .o8rfisnq [class*='sp_'][class*='sx_']","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2020121301,"name":"Group Right Col: About","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .lntdvkbv .cwj9ozl2 .i1fnvgqd .o8rfisnq.cbu4d94t,.rek2kq2y.l9j0dhe7 .bexiecsf .cwj9ozl2 .i1fnvgqd .o8rfisnq.cbu4d94t","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121302,"name":"Group Right Col: Popular Topics","selector":".lntdvkbv a[href*='/groups/'][href*='/post_tags/'],.lntdvkbv a[href*='/hashtag/'],.bexiecsf a[href*='/groups/'][href*='/post_tags/'],.bexiecsf a[href*='/hashtag/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121303,"name":"Group Right Col: Recent Media","selector":".lntdvkbv a[href*='/groups/'][href*='/media/'],.bexiecsf a[href*='/groups/'][href*='/media/'],[data-pagelet=DiscussionRootSuccess] .lntdvkbv a[href*='/photo/'],[data-pagelet=DiscussionRootSuccess] .bexiecsf a[href*='/photo/'],[data-pagelet=DiscussionRootSuccess] .lntdvkbv a[href*='/video/'],[data-pagelet=DiscussionRootSuccess] .bexiecsf a[href*='/video/']","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2020121304,"name":"Group Right Col: Events","selector":".lntdvkbv a[href*='/events/'],.bexiecsf a[href*='/events/']","parent":".lntdvkbv,.bexiecsf"}
@@ -346,5 +346,6 @@
 		,{"id":2021121701,"name":"Post: Subscribe Now","selector":"[role=article] a[aria-label][href*='/support'][href*=entrypoint]","parent":"a[aria-label].pq6dq46d"}
 		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*='Let more people see']","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
 		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
+		,{"id":2022020701,"name":"Group Right Col: Create subgroup","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .oygrvhab.ii04i59q ~ div .gs1a9yip.i1fnvgqd.owycx6da","parent":".lpgh02oy > *"}
 	]
 }

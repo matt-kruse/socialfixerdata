@@ -347,5 +347,6 @@
 		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*='Let more people see']","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
 		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
 		,{"id":2022020701,"name":"Group Right Col: Create subgroup","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .oygrvhab.ii04i59q ~ div .gs1a9yip.i1fnvgqd.owycx6da","parent":".lpgh02oy > *"}
+		,{"id":2022021501,"name":"Favorites: A New Way ...","selector":".q9uorilb .f1sip0of.nc684nl6 img","parent":".k4urcfbm .cbu4d94t"}
 	]
 }

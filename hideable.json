@@ -204,7 +204,7 @@
 		,{"id":355,"name":"Messages: 'Start Video Call' button","selector":"#content ._6ynl [data-testid*=Video]"}
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
-		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit]","parent":"div"}
+		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit],.io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":".d2edcug0 > *,#ssrb_composer_start ~ *"}
 		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[role=complementary] :not(.hybvsw6c) > .ofs802cu > .buofh1pr > div"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
@@ -326,7 +326,7 @@
 		,{"id":2021100511,"name":"Right Rail: Your Pages [alt-retired]","selector":"retired#retired"}
 		,{"id":2021100512,"name":"Right Rail: Recently Saved [alt-retired]","selector":"retired#retired"}
 		,{"id":2021100513,"name":"Right Rail: Watch [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":".io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":"#ssrb_composer_start ~ *"}
+		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":"retired#retired"}
 		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"[role=navigation].rek2kq2y a[href*='/onthisday/']"}
 		,{"id":2021101401,"name":"Post Comment: Awards Given","selector":"[role=article] [role=article] .sf5mxxl7 .q3qqxkgz.mrjvor2e.b8zhkkm9","parent":"[role=button]"}
 		,{"id":2021101501,"name":"News Feed: Finish Donation","selector":"#ssrb_composer_start ~.ad2k81qe a[href*=donation_reminder]","parent":"#ssrb_composer_start ~ * > *"}
@@ -347,5 +347,6 @@
 		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*='Let more people see']","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
 		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
 		,{"id":2022020701,"name":"Group Right Col: Create subgroup","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .oygrvhab.ii04i59q ~ div .gs1a9yip.i1fnvgqd.owycx6da","parent":".lpgh02oy > *"}
+		,{"id":2022021501,"name":"Favorites: A New Way ...","selector":".q9uorilb .f1sip0of.nc684nl6 img","parent":".k4urcfbm .cbu4d94t"}
 	]
 }

@@ -275,7 +275,7 @@
 		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":".taijpn5t .ad2k81qe a[href*='/survey/'] ~ * a .o7e4w99y","parent":".ad2k81qe > *"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[role=navigation].rek2kq2y a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[role=navigation].rek2kq2y [role=contentinfo]"}
-		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
+		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div .dati1w0a > [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
 		,{"id":2021042301,"name":"Post: Covid Info","selector":"[role=article] .hybvsw6c > a[href*='coronavirus']","parent":".discj3wi"}
 		,{"id":2021042901,"name":"Header: 'Notifications' menu","selector":"[role=banner] [role=navigation].rl25f0pe [href*='/notifications'],[role=banner] [role=navigation].rl25f0pe [aria-label*=Notifications]","parent":"[role=banner] [role=navigation] > * > *"}
 		,{"id":2021042902,"name":"Header: 'Create' menu","selector":"[role=banner] [role=navigation].rl25f0pe [aria-label*=Create]","parent":"[role=banner] [role=navigation] > * > *"}

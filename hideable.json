@@ -293,7 +293,7 @@
 		,{"id":2021052903,"name":"Group Admin: Pending Posts search-by-name box","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(2) > div","parent":".hybvsw6c > .rq0escxv"}
 		,{"id":2021052904,"name":"Group Admin: Pending Posts bulk approve / decline","selector":"html[sfx_url*='/pending_posts'] [role=main] .d8ncny3e.d2edcug0 .du4w35lb.lpgh02oy .hybvsw6c > .rq0escxv:nth-of-type(3) > div","parent":".hybvsw6c > .rq0escxv"}
 		,{"id":2021060601,"name":"Group Right Col: Recent Files","selector":".lntdvkbv a[href*='/groups/'][href*='/files/'],.bexiecsf a[href*='/groups/'][href*='/files/']","parent":".lntdvkbv,.bexiecsf"}
-		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.knj5qynh.m9osqain","parent":".lntdvkbv,.bexiecsf"}
+		,{"id":2021060602,"name":"Group Right Col: Rooms","selector":".lntdvkbv .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.m9osqain,.bexiecsf .bp9cbjyn.taijpn5t.cbu4d94t .oqcyycmt.m9osqain","parent":".lntdvkbv,.bexiecsf"}
 		,{"id":2021060901,"name":"Header: 'Events' button","selector":"[role=banner] [role=navigation] a[href*='/events/']"}
 		,{"id":2021061601,"name":"Right Rail: Play Games","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='/gam'][href*=rhc_discovery]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021061602,"name":"Right Rail: Your Pages","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='ad_center/create'][href*=rhc_page]","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
@@ -347,6 +347,6 @@
 		,{"id":2022010501,"name":"Post: Let more people see","selector":"[role=article] .discj3wi.j1vyfwqu.l9j0dhe7 [aria-label*='Let more people see']","parent":".discj3wi.j1vyfwqu.l9j0dhe7"}
 		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
 		,{"id":2022020701,"name":"Group Right Col: Create subgroup","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .oygrvhab.ii04i59q ~ div .gs1a9yip.i1fnvgqd.owycx6da","parent":".lpgh02oy > *"}
-		,{"id":2022021501,"name":"Favorites: A New Way ...","selector":".q9uorilb .f1sip0of.nc684nl6 img","parent":".k4urcfbm .cbu4d94t"}
+		,{"id":2022021501,"name":"Favorites: A New Way ... [DISABLED]","selector":"disabled#disabled"}
 	]
 }

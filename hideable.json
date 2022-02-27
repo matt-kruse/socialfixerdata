@@ -349,6 +349,6 @@
 		,{"id":2022020701,"name":"Group Right Col: Create subgroup","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .oygrvhab.ii04i59q ~ div .gs1a9yip.i1fnvgqd.owycx6da","parent":".lpgh02oy > *"}
 		,{"id":2022021501,"name":"Favorites: A New Way ... [DISABLED]","selector":"disabled#disabled"}
 		,{"id":2022021801,"name":"News Feed: Keep your Page up to date","selector":".taijpn5t .ad2k81qe:not(.l6v480f0,.lzcic4wl) a[href*='/latest/'][href*=composer] .c1et5uql.bwm1u5wc","parent":".taijpn5t .ad2k81qe:not(.l6v480f0,.lzcic4wl) > *"}
-		,{"id":2022022501,"name":"News Feed: Facebook ad discount","selector":".taijpn5t .ad2k81qe:not(.l6v480f0,.lzcic4wl).ad2k81qe a[href*='/ad_center/'][href*=coupon]","parent":".taijpn5t .ad2k81qe:not(.l6v480f0,.lzcic4wl) * > *"}
+		,{"id":2022022501,"name":"News Feed: Facebook ad discount","selector":".taijpn5t .ad2k81qe:not(.l6v480f0,.lzcic4wl) a[href*='/ad_center/'][href*=coupon]","parent":".taijpn5t .ad2k81qe:not(.l6v480f0,.lzcic4wl)"}
 	]
 }

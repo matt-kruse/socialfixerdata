@@ -530,6 +530,12 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
+				"text": "[aria-hidden][href*='friends/suggestions'],[role=region][aria-label*=eople][aria-label*=now]"
+			}
+		}, {
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
 				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id],a[aria-label][href*='/friends'] .lrazzd5p.q66pz984"
 			}
 		}, {

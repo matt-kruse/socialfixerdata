@@ -605,5 +605,91 @@
 		"configurable_actions": true,
 		"title": "Pokemon Go",
 		"description": "Move posts about Pokemon Go to a tab"
+	}, {
+		"id": 2022031701,
+		"match": "ANY",
+		"stop_on_match": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Wordle[\\d\\sX]*/\\s*6)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Dordle[\\d\\s#&]*/7)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Quordle #\\d+).{1,40}(?:quordle\\.c|See more)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Octordle #\\d+).{1,40}(?:octordle\\.c|See more)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "#(Worldle[#\\d\\s]+\\/6 \\([\\d%]+\\))"
+			},
+			"match_partial_words": true
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "Today's guesses:.{0,50}(?:(globle)-game\\.c|See more)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(nerdlegame[\\d\\s]*/\\d).{1,40}(?:nerdlegame\\.c|See more)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Scholardle[\\d\\s]*\\/6\\*?).{1,40}(?: @writefullapp|See more)"
+			}
+		},
+		{
+			"DOC": "This uses separate clauses to facilitate capture of the post 'title' as ${1}.  If it falls all the way through to here and catches one of these CSS matches, the user sees literally '${1}' as the 'title' of the hidden post; nothing can be done about that.",
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "img[alt='⬛'],img[alt='🟥'],img[alt='🟨'],img[alt='3️⃣'],img[alt='4️⃣'],img[alt='5️⃣'],img[alt='6️⃣'],img[alt='7️⃣'],img[alt='8️⃣'],img[alt='9️⃣']"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"tab": "Wordle",
+			"show_note": true,
+			"custom_note": "Click to reveal: ${author}: '${1}'",
+			"custom_nyet": "Click to rehide: ${author}: '${1}'"
+		},
+		{
+			"DOC": "Both of these action records contain tab & note configs, so people can choose one or the other or both without having to do any heavy lifting.  'custom_nyet' property will be used later to give custom 'hide it again' strings.",
+			"action": "",
+			"tab": "Wordle",
+			"show_note": true,
+			"custom_note": "Click to reveal: ${author}: '${1}'",
+			"custom_nyet": "Click to rehide: ${author}: '${1}'"
+		}],
+		"title": "Wordle",
+		"description": "Hide (or move to tab) posts from Wordle, Quordle, Nerdle, and several similar games"
 	}]
 }

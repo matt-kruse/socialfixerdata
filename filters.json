@@ -357,6 +357,7 @@
 			"custom_note": "Click to reveal: ${author}: '${1}'",
 			"custom_nyet": "Click to rehide: ${author}: '${1}'"
 		}],
+		"configurable_actions": true,
 		"title": "Wordle",
 		"description": "Hide (or move to tab) posts from Wordle, Quordle, Nerdle, and several similar games"
 	}]

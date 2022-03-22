@@ -204,7 +204,7 @@
 		,{"id":355,"name":"Messages: 'Start Video Call' button","selector":"#content ._6ynl [data-testid*=Video]"}
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
-		,{"id":2020082302,"name":"News Feed: Rooms","selector":"div[data-pagelet^=VideoChatHomeUnit],.io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":".d2edcug0 > *,#ssrb_composer_start ~ *"}
+		,{"id":2020082302,"name":"News Feed: Rooms [TEMPORARILY DISABLED]","selector":"disabled div[data-pagelet^=VideoChatHomeUnit],disabled .io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":".d2edcug0 > *,#ssrb_composer_start ~ *"}
 		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[role=complementary] :not(.hybvsw6c) > .ofs802cu > .buofh1pr > div"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}

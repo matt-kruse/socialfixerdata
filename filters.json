@@ -8,7 +8,7 @@
 				"target": "any",
 				"operator": "contains",
 				"condition": {
-					"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2"
+					"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2|omicron|delta[- ]?variant|deltacron"
 				},
 				"match_partial_words": false
 			}
@@ -96,7 +96,7 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}((?:Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested Pages|Suggested [Pp]ost|You recently viewed a similar group|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month)).{0,40})"
+				"text": ".{0,5}((?:Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested Pages|Suggested [Pp]ost|You recently viewed a similar group|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month)).{0,40})"
 			}
 		}],
 		"actions": [{

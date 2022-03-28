@@ -309,6 +309,20 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"text": "(Sedordle 20\\d\\d-\\d\\d-\\d\\d)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "Daily (Hexadecordle #\\d+)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
 				"text": "#(Worldle[#\\d\\s]+\\/6 \\([\\d%]+\\))"
 			},
 			"match_partial_words": true

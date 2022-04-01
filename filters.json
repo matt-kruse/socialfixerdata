@@ -295,15 +295,17 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(Quordle #\\d+).{1,40}(?:quordle\\.c|See more)"
-			}
+				"text": "(Quordle #?\\d+).{1,40}(?:quordle\\.c|See more)"
+			},
+			"match_partial_words": true
 		},
 		{
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(Octordle #\\d+).{1,40}(?:octordle\\.c|See more)"
-			}
+				"text": "(Octordle #?\\d+).{1,40}(?:octordle\\.c|See more)"
+			},
+			"match_partial_words": true
 		},
 		{
 			"target": "any",
@@ -316,7 +318,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "Daily (Hexadecordle #\\d+)"
+				"text": "Daily (Hexadecordle #?\\d+)"
 			}
 		},
 		{

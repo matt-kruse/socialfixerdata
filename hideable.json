@@ -351,5 +351,6 @@
 		,{"id":2022021801,"name":"News Feed: Keep your Page up to date","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/latest/'][href*=composer] .c1et5uql.bwm1u5wc","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) > *"}
 		,{"id":2022022501,"name":"News Feed: Facebook ad discount","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/ad_center/'][href*=coupon]","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl)"}
 		,{"id":2022031401,"name":"Business Page Inbox: Personalized Suggestions","selector":"[data-pagelet=BizWebInbox] .puibpoiz.hn745mhl.tcwtoxnz > .aa8h9o0m.duy2mlcu [role=button].iqnsra4u:not(.rbzcxh88)","parent":".hn745mhl"}
+		,{"id":2022040101,"name":"Left Rail: Professional Dashboard","selector":"[role=navigation].rek2kq2y a[href*=professional_dashboard]"}
 	]
 }

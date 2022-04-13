@@ -204,14 +204,14 @@
 		,{"id":355,"name":"Messages: 'Start Video Call' button","selector":"#content ._6ynl [data-testid*=Video]"}
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}
-		,{"id":2020082302,"name":"News Feed: Rooms [TEMPORARILY DISABLED]","selector":"disabled div[data-pagelet^=VideoChatHomeUnit],disabled .io0zqebd.hybvsw6c [role=region] .qdtcsgvi > [aria-label]","parent":".d2edcug0 > *,#ssrb_composer_start ~ *"}
+		,{"id":2020082302,"name":"News Feed: Rooms","selector":".io0zqebd.hybvsw6c [role=region] .qdtcsgvi.oi9244e8+.qdtcsgvi.t7l9tvuc > [aria-label] .pzggbiyp","parent":".ad2k81qe.f9o22wc5 ~ div"}
 		,{"id":2020082303,"name":"Right Rail (entire block)","selector":"[role=complementary] :not(.hybvsw6c) > .ofs802cu > .buofh1pr > div"}
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
-		,{"id":2020082502,"name":"Post: View Insights","selector":"a[type=button][href*='/post_insights/']"}
-		,{"id":2020082503,"name":"Post: People Reached","selector":"a[target=_blank][href*='/post_insights/']>div"}
+		,{"id":2020082502,"name":"Post: View Insights","selector":"div+div+div[data-visualcompletion] > a[href*='/post_insights/']"}
+		,{"id":2020082503,"name":"retired","selector":"retired#retired"}
 		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=navigation].rek2kq2y.be9z9djy"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
@@ -271,8 +271,8 @@
 		,{"id":2021012401,"name":"retired","selector":"retired#retired"}
 		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
 		,{"id":2021032201,"name":"Groups Feed Right Col: ad to join groups","selector":".g5gj957u.rek2kq2y [href*='groups/discover/']","parent":".aghb5jc5>div.lpgh02oy>.k4urcfbm"}
-		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) img[src*=switch]","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) *"}
-		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/survey/'] ~ * a .o7e4w99y","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) > *"}
+		,{"id":2021041101,"name":"News Feed: Remember Password prompt","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) img[src*=switch]","parent":".ad2k81qe.f9o22wc5 > div"}
+		,{"id":2021041102,"name":"News Feed: Take A Survey prompt","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/survey/'] ~ * a .o7e4w99y","parent":".ad2k81qe.f9o22wc5 > div"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[role=navigation].rek2kq2y a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[role=navigation].rek2kq2y [role=contentinfo]"}
 		,{"id":2021041501,"name":"Right Rail: See All Contacts","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div .dati1w0a > [role=button].taijpn5t.g5ia77u1.pq6dq46d"}
@@ -301,7 +301,7 @@
 		,{"id":2021071101,"name":"Post: FB pay-for-exposure ad","selector":"[role=article] .j1vyfwqu.l9j0dhe7 [href*='/community_help/?page_source=gather_upsell']","parent":".j1vyfwqu.l9j0dhe7"}
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[role=navigation].rek2kq2y a[href*='/ads/create_ad']"}
 		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[role=navigation].rek2kq2y a[href*=olympics_hub]"}
-		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/settings/whatsapp']","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) *"}
+		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/settings/whatsapp']","parent":".ad2k81qe.f9o22wc5 > div"}
 		,{"id":2021091801,"name":"Post: Climate Science","selector":"[role=article] .hybvsw6c a[href*=climatescience]","parent":".discj3wi"}
 		,{"id":2021092201,"name":"Games Right Col: Tournaments","selector":"#pagelet_canvas_nav_content ._gu1 a[href*=tournaments]","parent":"._gu1"}
 		,{"id":2021092202,"name":"Games Right Col: Featured Game (1)","selector":"#pagelet_canvas_nav_content ._gu1 a[href*='context_type=SOLO']","parent":"._gu1"}
@@ -329,7 +329,7 @@
 		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":"retired#retired"}
 		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"[role=navigation].rek2kq2y a[href*='/onthisday/']"}
 		,{"id":2021101401,"name":"Post Comment: Awards Given","selector":"[role=article] [role=article] .sf5mxxl7 .q3qqxkgz.mrjvor2e.b8zhkkm9","parent":"[role=button]"}
-		,{"id":2021101501,"name":"News Feed: Finish Donation","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*=donation_reminder]","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) * > *"}
+		,{"id":2021101501,"name":"News Feed: Finish Donation","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*=donation_reminder]","parent":".ad2k81qe.f9o22wc5 > div"}
 		,{"id":2021101502,"name":"Post: Recommend a thing","selector":"[role=article] [role=article] .c1et5uql [role=link].rj84mg9z > .s1tcr66n","parent":".c1et5uql"}
 		,{"id":2021103101,"name":"Post: see groups like ...","selector":"[role=article] .s1tcr66n.bp9cbjyn a[href*='/discover/'][href*=group_trend]","parent":".s1tcr66n.bp9cbjyn"}
 		,{"id":2020103102,"name":"Profile: Add to Story","selector":"[href*='stories/create']","parent":"[data-pagelet] .g5gj957u > .k4urcfbm"}
@@ -348,8 +348,8 @@
 		,{"id":2022010601,"name":"Post: Create subgroup","selector":"[role=article] .j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n a[href*=subfeed_recommendation]","parent":".j83agx80.bp9cbjyn.i1fnvgqd.s1tcr66n"}
 		,{"id":2022020701,"name":"Group Right Col: Create subgroup","selector":".rek2kq2y.l9j0dhe7.aghb5jc5 .oygrvhab.ii04i59q ~ div .gs1a9yip.i1fnvgqd.owycx6da","parent":".lpgh02oy > *"}
 		,{"id":2022021501,"name":"Favorites: A New Way ... [DISABLED]","selector":"disabled#disabled"}
-		,{"id":2022021801,"name":"News Feed: Keep your Page up to date","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/latest/'][href*=composer] .c1et5uql.bwm1u5wc","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) > *"}
-		,{"id":2022022501,"name":"News Feed: Facebook ad discount","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/ad_center/'][href*=coupon]","parent":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl)"}
+		,{"id":2022021801,"name":"News Feed: Keep your Page up to date","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/latest/'][href*=composer] .c1et5uql.bwm1u5wc","parent":".ad2k81qe.f9o22wc5 > div"}
+		,{"id":2022022501,"name":"News Feed: Facebook ad discount","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/ad_center/'][href*=coupon]","parent":".ad2k81qe.f9o22wc5 > div"}
 		,{"id":2022031401,"name":"Business Page Inbox: Personalized Suggestions","selector":"[data-pagelet=BizWebInbox] .puibpoiz.hn745mhl.tcwtoxnz > .aa8h9o0m.duy2mlcu [role=button].iqnsra4u:not(.rbzcxh88)","parent":".hn745mhl"}
 		,{"id":2022040101,"name":"Left Rail: Professional Dashboard","selector":"[role=navigation].rek2kq2y a[href*=professional_dashboard]"}
 	]

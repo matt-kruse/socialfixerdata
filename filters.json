@@ -96,7 +96,7 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}((?:Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested Pages|Suggested [Pp]ost|You recently viewed a similar group|(?:More Like|Suggested Groups).{1,120}posts? a (?:day|week|month)).{0,40})"
+				"text": ".{0,5}((?:Based [Oo]n [Yy]our [Rr]ecent|Because [Yy]ou [Mm]ay [Bb]e [Ii]nterested [Ii]n|Because [Yy]ou [Rr]ecently [Vv]iewed|Because [Yy]ou [Vv]iewed|Events [Yy]ou [Mm]ay [Ll]ike|From [Aa] [Gg]roup [Tt]hat|From [Aa] [Gg]roup [Ww]ith [Mm]embers [Ww]ho [Ll]ike|From [Aa] [Gg]roup [Yy]ou|Post [Ff]rom [Aa] [Pp]ublic [Gg]roup|Suggested [Ff]or [Yy]ou|Suggested [Pp]ages|Suggested [Pp]ost|You [Rr]ecently [Vv]iewed [Aa] [Ss]imilar [Gg]roup|(?:More [Ll]ike|Suggested [Gg]roups).{1,120}posts? a (?:day|week|month)).{0,40})"
 			}
 		}],
 		"actions": [{

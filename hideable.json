@@ -353,6 +353,6 @@
 		,{"id":2022031401,"name":"Business Page Inbox: Personalized Suggestions","selector":"[data-pagelet=BizWebInbox] .puibpoiz.hn745mhl.tcwtoxnz > .aa8h9o0m.duy2mlcu [role=button].iqnsra4u:not(.rbzcxh88)","parent":".hn745mhl"}
 		,{"id":2022040101,"name":"Left Rail: Professional Dashboard","selector":"[role=navigation].rek2kq2y a[href*=professional_dashboard]"}
 		,{"id":2022042201,"name":"Group: community fundraisers","selector":"[data-pagelet=GroupFeed] .ni8dbmo4 ~ .oygrvhab.ii04i59q .hnhda86s.b0tq1wua.oo9gr5id.hzawbc8m","parent":"[data-pagelet=GroupFeed] > *"}
-		,{"id":2022042202,"name":"Chat pop-unders (*ALL* CHAT POP-UNDERS, EVEN IF YOU MADE IT ON PURPOSE!) [DISABLED]","selector":"xxx [role=banner] ~ [data-visualcompletion] .aovydwv3 > .j83agx80.i09qtzwb > *","DOC":"initially disabled because this is too dangerous without working tooltips; enable after release of 29.0"},
+		,{"id":2022042202,"name":"Chat pop-unders (*ALL* CHAT POP-UNDERS, EVEN IF YOU MADE IT ON PURPOSE!) [DISABLED]","selector":"xxx [role=banner] ~ [data-visualcompletion] .aovydwv3 > .j83agx80.i09qtzwb > *","DOC":"initially disabled because this is too dangerous without working tooltips; enable after release of 29.0"}
 	]
 }

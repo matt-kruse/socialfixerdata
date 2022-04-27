@@ -347,7 +347,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "solved (Semantle\s*[\\d#]\\d*).{1,250}(?:SEMANTLE\\.|See more)"
+				"text": "solved (Semantle\\s*[\\d#]\\d*).{1,250}(?:SEMANTLE\\.|See more)"
 			}
 		},
 		{

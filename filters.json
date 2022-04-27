@@ -340,7 +340,14 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "(nerdlegame[\\d\\s]*/\\d).{1,40}(?:nerdlegame\\.c|See more)"
+				"text": "(nerdlegame[\\d\\s]*)/\\d.{1,40}(?:nerdlegame\\.c|See more)"
+			}
+		},
+		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "solved (Semantle\s*[\\d#]\\d*).{1,250}(?:SEMANTLE\\.|See more)"
 			}
 		},
 		{

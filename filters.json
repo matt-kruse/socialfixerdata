@@ -355,7 +355,7 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
-				"text": "solved (Semantle\\s*[\\d#]\\d*).{1,250}(?:SEMANTLE\\.|See more)"
+				"text": "(Semantle\\s*[\\d#]\\d*) in \\d.{1,280}(?:semantle\\.|SEMANTLE\\.|See more)"
 			}
 		},
 		{
@@ -370,13 +370,6 @@
 			"operator": "contains",
 			"condition": {
 				"text": "#(waffle\\d*).{1,40}(?: wafflegame|See more)"
-			}
-		},
-		{
-			"target": "any",
-			"operator": "contains",
-			"condition": {
-				"text": "(Semantle(?: [#\\d]+)?) in \\d.{1,250}(?: semantle\.|SEMANTLE\.|See more)"
 			}
 		},
 		{

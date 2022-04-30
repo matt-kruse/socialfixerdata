@@ -98,6 +98,14 @@
 			"condition": {
 				"text": ".{0,5}((?:Based [Oo]n [Yy]our [Rr]ecent|Because [Yy]ou [Mm]ay [Bb]e [Ii]nterested [Ii]n|Because [Yy]ou [Rr]ecently [Vv]iewed|Because [Yy]ou [Vv]iewed|Events [Yy]ou [Mm]ay [Ll]ike|From [Aa] [Gg]roup [Tt]hat|From [Aa] [Gg]roup [Ww]ith [Mm]embers [Ww]ho [Ll]ike|From [Aa] [Gg]roup [Yy]ou|Post [Ff]rom [Aa] [Pp]ublic [Gg]roup|Suggested [Ff]or [Yy]ou|Suggested [Pp]ages|Suggested [Pp]ost|You [Rr]ecently [Vv]iewed [Aa] [Ss]imilar [Gg]roup|(?:More [Ll]ike|Suggested [Gg]roups).{1,250}posts? a (?:day|week|month)).{0,40})"
 			}
+		},
+		{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql:contains((.+))"
+			},
+			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches"
 		}],
 		"actions": [{
 			"action": "hide",

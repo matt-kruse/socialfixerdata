@@ -106,6 +106,14 @@
 				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql:contains((.+))"
 			},
 			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches"
+		},
+		{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain:contains((.+))"
+			},
+			"DOC": "This is targeted at the 'People You May Know' fakeposts"
 		}],
 		"actions": [{
 			"action": "hide",

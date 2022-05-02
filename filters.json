@@ -91,7 +91,7 @@
 		"description": "Hide 'Sponsored' posts from the News Feed"
 	}, {
 		"id": 2021082601,
-		"match": "ALL",
+		"match": "ANY",
 		"rules": [{
 			"target": "any",
 			"operator": "startswith",

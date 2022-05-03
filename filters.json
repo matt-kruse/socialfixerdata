@@ -378,7 +378,8 @@
 			"operator": "contains",
 			"condition": {
 				"text": "#(waffle\\d*).{1,40}(?: wafflegame|See more)"
-			}
+			},
+			"match_partial_words": true
 		},
 		{
 			"DOC": "This uses separate clauses to facilitate capture of the post 'title' as ${1}.  If it falls all the way through to here and catches one of these CSS matches, the user sees literally '${1}' as the 'title' of the hidden post; nothing can be done about that.",

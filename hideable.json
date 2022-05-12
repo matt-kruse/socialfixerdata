@@ -354,5 +354,14 @@
 		,{"id":2022040101,"name":"Left Rail: Professional Dashboard","selector":"[role=navigation].rek2kq2y a[href*=professional_dashboard]"}
 		,{"id":2022042201,"name":"Group: community fundraisers","selector":"[data-pagelet=GroupFeed] .ni8dbmo4 ~ .oygrvhab.ii04i59q .hnhda86s.b0tq1wua.oo9gr5id.hzawbc8m","parent":"[data-pagelet=GroupFeed] > *"}
 		,{"id":2022042202,"name":"Chat pop-unders (*ALL* CHAT POP-UNDERS, EVEN IF YOU MADE IT ON PURPOSE!) [DISABLED]","selector":"xxx [role=banner] ~ [data-visualcompletion] .aovydwv3 > .j83agx80.i09qtzwb > *","DOC":"initially disabled because this is too dangerous without working tooltips; enable after release of 29.0"}
+		,{"id":2022051200,"name":"Global Panel: Your Profile","selector":".poy2od1o.eo5yz9yp .pzggbiyp > svg.pzggbiyp[role=img]","parent":".cbu4d94t"}
+		,{"id":2022051201,"name":"Global Panel: Home (Facebook)","selector":".poy2od1o.eo5yz9yp a[href='https://www.facebook.com']","parent":".cbu4d94t"}
+		,{"id":2022051202,"name":"Global Panel: Search Facebook","selector":".poy2od1o.eo5yz9yp .j83agx80 ~ .j83agx80 > span.bipmatt0 .qensuy8j[role=button] > .is6700om","parent":".cbu4d94t > *"}
+		,{"id":2022051203,"name":"Global Panel: Notifications","selector":".poy2od1o.eo5yz9yp a[href*='/notifications']","parent":".cbu4d94t > *"}
+		,{"id":2022051204,"name":"Global Panel: Messenger","selector":".poy2od1o.eo5yz9yp span .rq0escxv span .qensuy8j[role=button] > .is6700om","parent":".cbu4d94t > *"}
+		,{"id":2022051205,"name":"Global Panel: Menu","selector":".poy2od1o.eo5yz9yp .datstx6m > .datstx6m .qensuy8j.oygrvhab[role=button] > .is6700om","parent":".cbu4d94t"}
+		,{"id":2022051206,"name":"Global Panel: Watch","selector":".poy2od1o.eo5yz9yp a[href*='/watch']","parent":".cbu4d94t > *"}
+		,{"id":2022051207,"name":"Global Panel: Groups","selector":".poy2od1o.eo5yz9yp .datstx6m > .datstx6m .qensuy8j:not(.oygrvhab)[role=button] > .is6700om","parent":".cbu4d94t"}
+		,{"id":2022051208,"name":"Global Panel: List of groups","selector":".poy2od1o.eo5yz9yp .datstx6m > .datstx6m div.cbu4d94t ~ div > .cbu4d94t","parent":"div ~ div"}
 	]
 }

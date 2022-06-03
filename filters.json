@@ -111,6 +111,14 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
+				"text": "a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/']"
+			},
+			"DOC": "Different sorts of 'Reels' fakeposts"
+		},
+		{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
 				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain:contains((.+))"
 			},
 			"DOC": "This is targeted at the 'People You May Know' fakeposts"

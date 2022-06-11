@@ -111,7 +111,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/']"
+				"text": ".qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/']"
 			},
 			"DOC": "Different sorts of 'Reels' fakeposts"
 		},

@@ -397,6 +397,13 @@
 			}
 		},
 		{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "(Framed #\\d+).{1,50}(?:framed.wtf|See more)"
+			}
+		},
+		{
 			"DOC": "This uses separate clauses to facilitate capture of the post 'title' as ${1}.  If it falls all the way through to here and catches one of these CSS matches, the user sees literally '${1}' as the 'title' of the hidden post; nothing can be done about that.",
 			"target": "any",
 			"operator": "contains_selector",

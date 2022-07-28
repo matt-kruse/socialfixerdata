@@ -365,5 +365,6 @@
 		,{"id":2022051208,"name":"Global Panel: List of groups","selector":".poy2od1o.eo5yz9yp .datstx6m > .datstx6m div.cbu4d94t ~ div > .cbu4d94t","parent":"div ~ div"}
 		,{"id":2022060401,"name":"Post: Comment Suggestions","selector":"[sfx_post] .ho8ehabp .i1fnvgqd .jifvfom9 div[role=button].qensuy8j.l9j0dhe7 .lxuwth05+.b5wmifdl","parent":".ho8ehabp"}
 		,{"id":2022060402,"name":"Post: Sticker Suggestions","selector":"[sfx_post] .ho8ehabp .i1fnvgqd .jifvfom9 div[role=button].qensuy8j.l9j0dhe7 img.pmk7jnqg+.b5wmifdl","parent":".ho8ehabp"}
+		,{"id":2022072801,"name":"Post: Emoji Suggestions","selector":"[sfx_post] .ho8ehabp .i1fnvgqd .jifvfom9 div[role=button].qensuy8j.l9j0dhe7 img[src*=emoji]","parent":".ho8ehabp"}
 	]
 }

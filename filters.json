@@ -74,7 +74,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
@@ -96,7 +96,7 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}((?:Based [Oo]n [Yy]our [Rr]ecent|Because [Yy]ou [Mm]ay [Bb]e [Ii]nterested [Ii]n|Because [Yy]ou [Rr]ecently [Vv]iewed|Because [Yy]ou [Vv]iewed|Events [Yy]ou [Mm]ay [Ll]ike|From [Aa] [Gg]roup [Tt]hat|From [Aa] [Gg]roup [Ww]ith [Mm]embers [Ww]ho [Ll]ike|From [Aa] [Gg]roup [Yy]ou|Post [Ff]rom [Aa] [Pp]ublic [Gg]roup|Suggested [Ff]or [Yy]ou|Suggested [Pp]ages|Suggested [Pp]ost|You [Rr]ecently [Vv]iewed [Aa] [Ss]imilar [Gg]roup|(?:More [Ll]ike|Suggested [Gg]roups).{1,250}posts? a (?:day|week|month)).{0,40})"
+				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}((?:Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)).{0,40}?(?= *Facebook *Facebook))"
 			}
 		},
 		{

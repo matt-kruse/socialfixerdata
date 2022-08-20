@@ -10,7 +10,7 @@
 			"id" : 3,
 			"title" : "Hide Notification Bubble",
 			"description" : "When a new notification is added, it is displayed in the lower left corner. Enable this tweak to hide it.",
-			"css": "ul[data-gt*=\"\\\"ref\\\":\\\"beeper\\\"\"], ul.poy2od1o.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o ul.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o.kavbgo14[class*='-mode'] li > :not([class*='-mode']), .poy2od1o[class*='-mode'] > ul.p7hjln8o li.pedkr2u6.ilcmz9jb > :not([class*='-mode']) { display:none !important; } ul.poy2od1o.p7hjln8o > li, .poy2od1o ul.p7hjln8o > li { transition-property: none !important; }"
+			"css": "ul.poy2od1o.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o ul.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o.kavbgo14[class*='-mode'] li > :not([class*='-mode']), .poy2od1o[class*='-mode'] > ul.p7hjln8o li.pedkr2u6.ilcmz9jb > :not([class*='-mode']), .khm9p5p9[class*='-mode'] ul.s5oniofx li.cdum9rwi.rgt4ek0a > :not(.k0kqjr44):not([class*='-mode']) { display:none !important; } ul.poy2od1o.p7hjln8o > li, .poy2od1o ul.p7hjln8o > li, .khm9p5p9 ul.s5oniofx li { transition-property: none !important; }"
 		}, {
 			"id" : 5,
 			"title" : "Force Chat Popup To Default Colors",

@@ -9,7 +9,7 @@
 		}, {
 			"id" : 3,
 			"title" : "Hide Notification Bubble",
-			"description" : "When a new notification is added, it is displayed in the lower left corner. Enable this tweak to hide it.",
+			"description" : "When a new notification is added, it is displayed in the lower left corner. Enable this tweak to hide it.  Updated 2022-08-20, supports 2020 & 2022 layouts.",
 			"css": "ul.poy2od1o.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o ul.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o.kavbgo14[class*='-mode'] li > :not([class*='-mode']), .poy2od1o[class*='-mode'] > ul.p7hjln8o li.pedkr2u6.ilcmz9jb > :not([class*='-mode']), .khm9p5p9[class*='-mode'] ul.s5oniofx li.cdum9rwi.rgt4ek0a > :not(.k0kqjr44):not([class*='-mode']) { display:none !important; } ul.poy2od1o.p7hjln8o > li, .poy2od1o ul.p7hjln8o > li, .khm9p5p9 ul.s5oniofx li { transition-property: none !important; }"
 		}, {
 			"id" : 5,
@@ -24,8 +24,8 @@
 		}, {
 			"id" : 2021093001,
 			"title": "Fix date-stamp blobs (v1.1a; NOT NEEDED IN SFx 28)",
-			"description": "This fix is no longer needed in Social Fixer 28.0 or newer.  You can disable it, test, then remove it if all goes well.  Please report in the Support Group (in wrench menu) if the date blobs come back.  Users of older SFx releases may still find this useful.",
-			"css": "/* Fix date-stamp blobs -- only for SFx older than 28.0 -- v1.1a 16Mar22\n\n   This actually works by fading out *all* hover blobs after\n   five seconds.  The blobs are still present but invisible. */\n\n[class*='-mode'] > .pmk7jnqg > [role=tooltip] { animation:sfx_nostamp 100000s !important; }\n@keyframes sfx_nostamp {\n  from { opacity:1; }\n  0.0050% { opacity:1; }\n  0.0055% { opacity:0; }\n  to { opacity:0; }\n}",
+			"description": "This fix is no longer needed in Social Fixer 28.0 or newer.  You can disable it, test, then remove it if all goes well.  Please report in the Support Group (in wrench menu) if the date blobs come back.  Users of older SFx releases may still find this useful.  Updated 2022-08-23, supports 2020 & 2022 layouts.",
+			"css": "/* Fix date-stamp blobs -- only for SFx older than 28.0 -- v1.1a 16Mar22\n\n   This actually works by fading out *all* hover blobs after\n   five seconds.  The blobs are still present but invisible. */\n\n[class*='-mode'] > .pmk7jnqg > [role=tooltip],[class*='-mode'] > .s8sjc6am > [role=tooltip] { animation:sfx_nostamp 100000s !important; }\n@keyframes sfx_nostamp {\n  from { opacity:1; }\n  0.0050% { opacity:1; }\n  0.0055% { opacity:0; }\n  to { opacity:0; }\n}",
 			"max_version": "27.99.99"
 		}, {
 			"id" : 2021100701,

@@ -57,7 +57,8 @@
 			"operator": "contains_selector",
 			"condition": {
 				"text": "[role=button],[role=link],._5pcp,._5pcq:has-visible-text(^(Chartered$|Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|Spons|Sponz|Χορηγ|広告|贊助|赞助|ממומ))"
-			}
+			},
+			"DOC": "Relies on 'x,y:has-visible-text(z)' improperly applying to both x & y"
 		}, {
 			"target": "any",
 			"operator": "contains_selector",
@@ -74,7 +75,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],._5pbw a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~a[href^='/a'][href*='/ads'][href*='/about'],._5pbw~* a[href^='/a'][href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],a.tes86rjd[href*='/ads'][href*='/about'],a.rtxb060y[href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
@@ -88,7 +89,7 @@
 		"configurable_actions": true,
 		"title": "Hide Sponsored Posts",
 		"stop_on_match": true,
-		"description": "Hide 'Sponsored' posts from the News Feed"
+		"description": "Hide 'Sponsored' posts from the News Feed.  Updated 2022-08-23, supports 2020 & 2022 layouts."
 	}, {
 		"id": 2021082601,
 		"match": "ANY",
@@ -103,15 +104,15 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql:contains((.+))"
+				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql,.b0ur3jhr .s4swhuz0 .pbevjfx6.innypi6y.gh25dzvf:contains((.+))"
 			},
-			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches"
+			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		},
 		{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/']"
+				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/']"
 			},
 			"DOC": "Different sorts of 'Reels' fakeposts"
 		},
@@ -119,9 +120,9 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain:contains((.+))"
+				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain,.oab4agdp.a96hb305 .b0ur3jhr h3.icdlwmnq .ocv3nf92.innypi6y.rtxb060y:contains((.+))"
 			},
-			"DOC": "This is targeted at the 'People You May Know' fakeposts"
+			"DOC": "This is targeted at the 'People You May Know' fakeposts.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		}],
 		"actions": [{
 			"action": "hide",
@@ -134,7 +135,7 @@
 		"configurable_actions": true,
 		"title": "Hide Suggested Posts",
 		"stop_on_match": true,
-		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only)"
+		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2022-08-23, supports 2020 & 2022 layouts."
 	}, {
 		"id": 5,
 		"match": "ALL",
@@ -240,14 +241,15 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id],a[aria-label][href*='/friends'] .lrazzd5p.q66pz984"
+				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id],a[aria-label][href*='/friends'] .lrazzd5p.q66pz984,a[aria-label][href*='/friends'] .innypi6y.d1w2l3lo"
 			}
 		}, {
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".lrazzd5p.m9osqain:contains(^People [Yy]ou [Mm]ay [Kk]now$)"
-			}
+				"text": ".lrazzd5p.m9osqain,.innypi6y.rtxb060y:contains(^People [Yy]ou [Mm]ay [Kk]now$)"
+			},
+			"DOC": "Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		}],
 		"actions": [{
 			"action": "hide",
@@ -255,7 +257,7 @@
 		}],
 		"configurable_actions": true,
 		"title": "Hide 'People You May Know'",
-		"description": "Filter the 'People You May Know' story that appears in the News Feed occasionally."
+		"description": "Filter the 'People You May Know' story that appears in the News Feed occasionally.  Updated 2022-08-23, supports 2020 & 2022 layouts."
 	}, {
 		"id": 11,
 		"match": "ALL",

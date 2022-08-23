@@ -367,5 +367,73 @@
 		,{"id":2022060402,"name":"Post: Sticker Suggestions","selector":"[sfx_post] .ho8ehabp .i1fnvgqd .jifvfom9 div[role=button].qensuy8j.l9j0dhe7 img.pmk7jnqg+.b5wmifdl","parent":".ho8ehabp > *"}
 		,{"id":2022072801,"name":"Post: Emoji Suggestions","selector":"[sfx_post] .ho8ehabp .i1fnvgqd .jifvfom9 div[role=button].qensuy8j.l9j0dhe7 img[src*=emoji]","parent":".ho8ehabp > *"}
 		,{"id":2022081001,"name":"Profile: People You May Know","selector":"a[aria-hidden][href*='friends/suggestions'].kr520xx4.n7fi1qx3.pmk7jnqg","parent":"div.d2edcug0.cbu4d94t > div.d2edcug0.rq0escxv"}
+		,{"id":2022082301,"name":"Chat pop-unders (*ALL* CHAT POP-UNDERS, EVEN IF YOU MADE IT ON PURPOSE!) [DISABLED] (2022)","selector":"xxx [role=banner] ~ [data-visualcompletion] .gldv74r8 > .alzwoclg.z6erz7xo > *","DOC":"initially disabled because this is too dangerous without working tooltips; enable after release of 29.0"}
+		,{"id":2022082302,"name":"Friends page: People You May Know (2022)","selector":"html[sfx_url='/friends'] .jl2a5g8c.o9w3sbdw > .cqf1kptm[role=navigation]"}
+		,{"id":2022082303,"name":"Give Award (Post Comment) (2022)","selector":"[role=article] li span[aria-hidden=true] ~ .o9w3sbdw","parent":"li"}
+		,{"id":2022082304,"name":"Global Panel: Groups (2022)","selector":".khm9p5p9.arhryugz .pytsy3co > .pytsy3co .tghlliq5:not(.kjdc1dyq)[role=button] > .odagglqh","parent":".cqf1kptm"}
+		,{"id":2022082305,"name":"Global Panel: Home (Facebook) (2022)","selector":".khm9p5p9.arhryugz a[href='https://www.facebook.com']","parent":".cqf1kptm"}
+		,{"id":2022082306,"name":"Global Panel: List of groups (2022)","selector":".khm9p5p9.arhryugz .pytsy3co > .pytsy3co div.cqf1kptm ~ div > .cqf1kptm","parent":"div ~ div"}
+		,{"id":2022082307,"name":"Global Panel: Menu (2022)","selector":".khm9p5p9.arhryugz .pytsy3co > .pytsy3co .tghlliq5.kjdc1dyq[role=button] > .odagglqh","parent":".cqf1kptm"}
+		,{"id":2022082308,"name":"Global Panel: Messenger (2022)","selector":".khm9p5p9.arhryugz span .bdao358l span .tghlliq5[role=button] > .odagglqh","parent":".cqf1kptm > *"}
+		,{"id":2022082309,"name":"Global Panel: Notifications (2022)","selector":".khm9p5p9.arhryugz a[href*='/notifications']","parent":".cqf1kptm > *"}
+		,{"id":2022082310,"name":"Global Panel: Search Facebook (2022)","selector":".khm9p5p9.arhryugz .alzwoclg ~ .alzwoclg > span.rfyhaz4c .tghlliq5[role=button] > .odagglqh","parent":".cqf1kptm > *"}
+		,{"id":2022082311,"name":"Global Panel: Watch (2022)","selector":".khm9p5p9.arhryugz a[href*='/watch']","parent":".cqf1kptm > *"}
+		,{"id":2022082312,"name":"Global Panel: Your Profile (2022)","selector":".khm9p5p9.arhryugz .i8zpp7h3 > svg.i8zpp7h3[role=img]","parent":".cqf1kptm"}
+		,{"id":2022082313,"name":"Group: About (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh .k0kqjr44 .sl27f92c .gb2oqlaf.cqf1kptm","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082314,"name":"Group Admin: 'Admin Assist' advertisement (2022)","selector":"[role=main] .gvxzyvdx .rj2hsocd a[href*='/admin_assistant']","parent":".rj2hsocd"}
+		,{"id":2022082315,"name":"Group Admin: Pending Posts bulk approve / decline (2022)","selector":"html[sfx_url*='/pending_posts'] [role=main] .thmcm15y.gvxzyvdx .g4tp4svg.km253p1d .oab4agdp > .bdao358l:nth-of-type(3) > div","parent":".oab4agdp > .bdao358l"}
+		,{"id":2022082316,"name":"Group Admin: 'Pending Posts' header (2022)","selector":"html[sfx_url*='/pending_posts'] [role=main] .thmcm15y.gvxzyvdx .g4tp4svg.km253p1d .oab4agdp > .bdao358l:nth-of-type(1) > div","parent":".oab4agdp > .bdao358l"}
+		,{"id":2022082317,"name":"Group Admin: Pending Posts search-by-name box (2022)","selector":"html[sfx_url*='/pending_posts'] [role=main] .thmcm15y.gvxzyvdx .g4tp4svg.km253p1d .oab4agdp > .bdao358l:nth-of-type(2) > div","parent":".oab4agdp > .bdao358l"}
+		,{"id":2022082318,"name":"Group: community fundraisers (2022)","selector":"[data-pagelet=GroupFeed] .lq84ybu9 ~ .kjdc1dyq.n3t5jt4f .o48pnaf2.ocv3nf92.pbevjfx6.ztn2w49p","parent":"[data-pagelet=GroupFeed] > *"}
+		,{"id":2022082319,"name":"Group: Create subgroup (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh .kjdc1dyq.n3t5jt4f ~ div .o9w3sbdw.sl27f92c.sr926ui1","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082320,"name":"Group: Events (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh a[href*='/events/']","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082321,"name":"Group Feed: See the latest coronavirus info (2022)","selector":"[data-pagelet=GroupFeed] .sl27f92c [href*=coronavirus_info]","parent":"[data-pagelet] > *"}
+		,{"id":2022082322,"name":"Group: Popular Topics (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh a[href*='/groups/'][href*='/post_tags/'],.sl4bvocy.om3e55n1.s9djjbeh a[href*='/hashtag/']","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082323,"name":"Group: Recent Files (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh a[href*='/files/']","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082324,"name":"Group: Recent Media (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh .k0kqjr44 .sl27f92c a[href*='/photo/'],.sl4bvocy.om3e55n1.s9djjbeh .k0kqjr44 .sl27f92c a[href*='/video/']","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082325,"name":"Group: Rooms (2022)","selector":".sl4bvocy.om3e55n1.s9djjbeh .i85zmo3j.jcxyg2ei.cqf1kptm .hsphh064.rtxb060y","parent":".alzwoclg.om3e55n1.mfclru0v"}
+		,{"id":2022082326,"name":"Groups Feed Right Col: ad to join groups (2022)","selector":".s9djjbeh.sl4bvocy.i15ihif8 [href*='groups/discover/']","parent":".km253p1d > *"}
+		,{"id":2022082327,"name":"Groups Feed Right Col: Popular Now (2022)","selector":".s9djjbeh.sl4bvocy.i15ihif8 [href*='/topic/']","parent":".km253p1d > *"}
+		,{"id":2022082328,"name":"New chat message (2022)","selector":".khm9p5p9.z6erz7xo.on4d8346 .s8sjc6am ul.cqf1kptm ~ .axrg9lpx"}
+		,{"id":2022082329,"name":"News Feed: Add a WhatsApp Button (2022)","selector":".jcxyg2ei > .gvxzyvdx > .pry8b2m5:not(.aiyajaxl):not(.icdlwmnq) a[href*='/settings/whatsapp']","parent":".pry8b2m5 > *"}
+		,{"id":2022082330,"name":"News Feed: Create Story (2022)","selector":"[href*='stories/create'].o9w3sbdw","parent":"[data-pagelet]"}
+		,{"id":2022082331,"name":"News Feed: Facebook ad discount (2022)","selector":".jcxyg2ei .pry8b2m5:not(.aiyajaxl):not(.icdlwmnq) a[href*='/ad_center/'][href*=coupon]","parent":".pry8b2m5 > *"}
+		,{"id":2022082332,"name":"News Feed: Finish Donation (2022)","selector":".jcxyg2ei .pry8b2m5:not(.aiyajaxl):not(.icdlwmnq) a[href*=donation_reminder]","parent":".pry8b2m5 > *"}
+		,{"id":2022082333,"name":"News Feed: Home-Favorites-Recent bar (2022)","selector":"[role=main] > .jez8cy9q.cqf1kptm > .km253p1d.sl4bvocy > *"}
+		,{"id":2022082334,"name":"News Feed: Keep your Page up to date (2022)","selector":".jcxyg2ei .pry8b2m5:not(.aiyajaxl):not(.icdlwmnq) a[href*='/latest/'][href*=composer] .qtx5e3l4","parent":".pry8b2m5 > *"}
+		,{"id":2022082335,"name":"News Feed: Remember Password prompt (2022)","selector":".jcxyg2ei .pry8b2m5:not(.aiyajaxl):not(.icdlwmnq) img[src*=switch]","parent":".pry8b2m5 > *"}
+		,{"id":2022082336,"name":"News Feed: Rooms (2022)","selector":".oab4agdp > [role=tablist] ~ * [role=region] .lpbw5u4u [aria-label].tghlliq5","parent":"[role=tablist] ~ * > *"}
+		,{"id":2022082337,"name":"News Feed: Reels (2022)","selector":".oab4agdp > [role=tablist] ~ * [role=region] .lpbw5u4u a[href*='/reel/']","parent":"[role=tablist] ~ * > *"}
+		,{"id":2022082338,"name":"News Feed: Stories-Reels-Rooms header (2022)","selector":".oab4agdp > [role=tablist]"}
+		,{"id":2022082339,"name":"News Feed: Take A Survey prompt (2022)","selector":".jcxyg2ei .pry8b2m5:not(.aiyajaxl):not(.icdlwmnq) a[href*='/survey/'] ~ * a .lx3q5kuj","parent":".pry8b2m5 > *"}
+		,{"id":2022082340,"name":"Post: Ask Your Community for Support (2022)","selector":"[role=article] .ehmybnwb.om3e55n1 [href*='/fundraiser/with_presence/create_dialog']","parent":".ehmybnwb.om3e55n1"}
+		,{"id":2022082341,"name":"Post: Climate Science (2022)","selector":"[role=article] .oab4agdp a[href*=climatescience]","parent":".g4qalytl"}
+		,{"id":2022082342,"name":"Post Comment: Awards Given (2022)","selector":"[role=article] [role=article] .bq6c9xl4 .jjot6st7.mivixfar.sj8xpbrj","parent":"[role=button]"}
+		,{"id":2022082343,"name":"Post: Comment Suggestions (2022)","selector":"[sfx_post] .kgxy6ixo .sl27f92c .t5n4vrf6 div[role=button].tghlliq5.om3e55n1 .qxuwncqo+.jkp44r48","parent":".kgxy6ixo > *"}
+		,{"id":2022082344,"name":"Post: Covid Info (2022)","selector":"[role=article] .oab4agdp a[href*=coronavirus]","parent":".g4qalytl"}
+		,{"id":2022082345,"name":"Post: Create subgroup (2022)","selector":"[role=article] .alzwoclg.i85zmo3j.sl27f92c.mfycix9x a[href*=subfeed_recommendation]","parent":".alzwoclg.i85zmo3j.sl27f92c.mfycix9x"}
+		,{"id":2022082346,"name":"Post: Emoji Suggestions (2022)","selector":"[sfx_post] .kgxy6ixo .sl27f92c .t5n4vrf6 div[role=button].tghlliq5.om3e55n1 img[src*=emoji]","parent":".kgxy6ixo > *"}
+		,{"id":2022082347,"name":"Post: FB pay-for-exposure ad (2022)","selector":"[role=article] .ehmybnwb.om3e55n1 [href*='/community_help/?page_source=gather_upsell']","parent":".ehmybnwb.om3e55n1"}
+		,{"id":2022082348,"name":"Post: Find volunteers (2022)","selector":"[role=article] .ehmybnwb.om3e55n1 .sr926ui1 .nu7423ey[aria-label='Find volunteers']","parent":".ehmybnwb.om3e55n1"}
+		,{"id":2022082349,"name":"Post: Let more people see (2022)","selector":"[role=article] .g4qalytl.ehmybnwb.om3e55n1 [aria-label*='Let more people see']","parent":".g4qalytl.ehmybnwb.om3e55n1"}
+		,{"id":2022082350,"name":"Post: Recommend a thing (2022)","selector":"[role=article] [role=article] .gh25dzvf [role=link].t45fpzwc > .mfycix9x","parent":".gh25dzvf"}
+		,{"id":2022082351,"name":"Post: see groups like ... (2022)","selector":"[role=article] .mfycix9x.i85zmo3j a[href*='/discover/'][href*=group_trend]","parent":".mfycix9x.i85zmo3j"}
+		,{"id":2022082352,"name":"Post: Sticker Suggestions (2022)","selector":"[sfx_post] .kgxy6ixo .sl27f92c .t5n4vrf6 div[role=button].tghlliq5.om3e55n1 img.s8sjc6am+.jkp44r48","parent":".kgxy6ixo > *"}
+		,{"id":2022082353,"name":"Post: Subscribe Now (2022)","selector":"[role=article] a[aria-label][href*='/support'][href*=entrypoint]","parent":"a[aria-label].fxk3tzhb"}
+		,{"id":2022082354,"name":"Profile: Add to Story (2022)","selector":"[href*='stories/create']","parent":"[data-pagelet] .i15ihif8 > .mfclru0v"}
+		,{"id":2022082355,"name":"Profile: People You May Know (2022)","selector":"a[aria-hidden][href*='friends/suggestions'].ekq1a7f9.on4d8346.s8sjc6am","parent":"div.gvxzyvdx.cqf1kptm > div.gvxzyvdx.bdao358l"}
+		,{"id":2022082356,"name":"Right Rail: Birthdays (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div [href*='/events/birthdays']","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082357,"name":"Right Rail (entire block) (2022)","selector":"[role=complementary] :not(.oab4agdp) > .h67akvdo > .cgu29s5g > div"}
+		,{"id":2022082358,"name":"Right Rail: Friend Requests (entire block) (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div [href*='/friends/'][href*=profile_id]","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082359,"name":"Right Rail: Friend Requests (list) (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div [href*='/friends/'][href*=profile_id]"}
+		,{"id":2022082360,"name":"Right Rail: Group conversations (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div > [data-visualcompletion] + [data-visualcompletion]"}
+		,{"id":2022082361,"name":"Right Rail: Live Video (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div [href*='/watch/live']","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082362,"name":"Right Rail: Play Games (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div a[href*='/gam'][href*=rhc_discovery]","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082363,"name":"Right Rail: Recently Saved (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div a[href*='/saved']","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082364,"name":"Right Rail: See All Contacts (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div .gt60zsk1 > [role=button].jcxyg2ei.nu7423ey.fxk3tzhb"}
+		,{"id":2022082365,"name":"Right Rail: Sponsored (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div .cqf1kptm .b6ax4al1>.kzwutkk6","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082366,"name":"Right Rail: Suggested Groups (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div a[href$='/groups/']","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082367,"name":"Right Rail: Watch (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div a[href*='/watch']","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
+		,{"id":2022082368,"name":"Right Rail: Your Pages (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div a[href*='ad_center/create'][href*=rhc_page]","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *"}
 	]
 }

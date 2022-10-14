@@ -23,10 +23,9 @@
 			"css": "[role=article] .jifvfom9[style*='background-'],\n[role=article] .t5n4vrf6[style*='background-'] {\n  background:none !important;\n  padding-top:10px !important;\n  padding-bottom:10px !important;\n}\n[role=article] .jifvfom9[style*='background-'] *,\n[role=article] .t5n4vrf6[style*='background-'] * {\n  color:var(--primary-text) !important;\n  font-size:.875rem !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding-top:0px !important;\n  padding-bottom:0px !important;\n}"
 		}, {
 			"id" : 2021093001,
-			"title": "Fix date-stamp blobs (v1.1a; NOT NEEDED IN SFx 28)",
-			"description": "This fix is no longer needed in Social Fixer 28.0 or newer.  You can disable it, test, then remove it if all goes well.  Please report in the Support Group (in wrench menu) if the date blobs come back.  Users of older SFx releases may still find this useful.  Updated 2022-08-23, supports 2020 & 2022 layouts.",
-			"css": "/* Fix date-stamp blobs -- only for SFx older than 28.0 -- v1.1a 16Mar22\n\n   This actually works by fading out *all* hover blobs after\n   five seconds.  The blobs are still present but invisible. */\n\n[class*='-mode'] > .pmk7jnqg > [role=tooltip],[class*='-mode'] > .s8sjc6am > [role=tooltip] { animation:sfx_nostamp 100000s !important; }\n@keyframes sfx_nostamp {\n  from { opacity:1; }\n  0.0050% { opacity:1; }\n  0.0055% { opacity:0; }\n  to { opacity:0; }\n}",
-			"max_version": "27.99.99"
+			"title": "Fix date-stamp blobs (v1.2; should not be needed in SFx 28)",
+			"description": "This fix should not be needed in Social Fixer 28.0 or newer.  You can disable it, test, then remove it if all goes well.  Please report in the Support Group (in wrench menu) if the date blobs come back.  Users of older SFx releases may still find this useful.  Updated 2022-10-14, supports 2020 through late-2022 layouts.",
+			"css": "/* Fix date-stamp blobs -- should only be needed for SFx older than 28.0 -- v1.2 14Oct22\n\n   This actually works by fading out *all* hover blobs after\n   five seconds.  The blobs are still present but invisible. */\n\n[class*='-mode'] > div > [role=tooltip] { animation:sfx_nostamp 100000s !important; }\n@keyframes sfx_nostamp {\n  from { opacity:1; }\n  0.0050% { opacity:1; }\n  0.0055% { opacity:0; }\n  to { opacity:0; }\n}"
 		}, {
 			"id" : 2021100701,
 			"title": "Improved Hide/Show interface & tooltips",

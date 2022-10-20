@@ -10,7 +10,7 @@
 			"id" : 3,
 			"title" : "Hide Notification Bubble",
 			"description" : "When a new notification is added, it is displayed in the lower left corner. Enable this tweak to hide it.  Updated 2022-08-20, supports 2020 & 2022 layouts.",
-			"css": "ul.poy2od1o.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o ul.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2), .poy2od1o.kavbgo14[class*='-mode'] li > :not([class*='-mode']), .poy2od1o[class*='-mode'] > ul.p7hjln8o li.pedkr2u6.ilcmz9jb > :not([class*='-mode']), .khm9p5p9[class*='-mode'] ul.s5oniofx li.cdum9rwi.rgt4ek0a > :not(.k0kqjr44):not([class*='-mode']) { display:none !important; } ul.poy2od1o.p7hjln8o > li, .poy2od1o ul.p7hjln8o > li, .khm9p5p9 ul.s5oniofx li { transition-property: none !important; }"
+			"css": "ul.poy2od1o.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2),\n.poy2od1o ul.p7hjln8o > li.pmk7jnqg.pedkr2u6.ilcmz9jb.j9ispegn > :not(.cwj9ozl2),\n.poy2od1o.kavbgo14[class*='-mode'] li > :not([class*='-mode']),\n.poy2od1o[class*='-mode'] > ul.p7hjln8o li.pedkr2u6.ilcmz9jb > :not([class*='-mode']),\n.khm9p5p9[class*='-mode'] ul.s5oniofx li.cdum9rwi.rgt4ek0a > :not(.k0kqjr44):not([class*='-mode']),\n.xixxii4[class*='-mode'] ul.xe8uvvx li.x1hc1fzr.x7lz9yc > :not(.x1jx94hy):not([class*='-mode']),\n.S2F_pos_fix[class*='-mode'] ul.S2F_list_none li.S2F_opac_1.S2F_ttf_eei > :not(.S2F_bg_card):not([class*='-mode'])\n  { display:none !important; }\nul.poy2od1o.p7hjln8o > li,\n.poy2od1o ul.p7hjln8o > li,\n.khm9p5p9 ul.s5oniofx li,\n.xixxii4 ul.xe8uvvx li,\n.S2F_pos_fix ul.S2F_list_none li\n  { transition-property: none !important; }"
 		}, {
 			"id" : 5,
 			"title" : "Force Chat Popup To Default Colors",
@@ -20,7 +20,7 @@
 			"id" : 7,
 			"title": "Remove Status Background Colors",
 			"description": "Facebook users may choose a colored or image background for their posts.  This tweak removes the background and returns such posts to normal plain text.  Updated 2022-08-22, supports 2020 & 2022 layouts.",
-			"css": "[role=article] .jifvfom9[style*='background-'],\n[role=article] .t5n4vrf6[style*='background-'] {\n  background:none !important;\n  padding-top:10px !important;\n  padding-bottom:10px !important;\n}\n[role=article] .jifvfom9[style*='background-'] *,\n[role=article] .t5n4vrf6[style*='background-'] * {\n  color:var(--primary-text) !important;\n  font-size:.875rem !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding-top:0px !important;\n  padding-bottom:0px !important;\n}"
+			"css": "[aria-posinset] .jifvfom9[style*='background-'],\n[aria-posinset] .t5n4vrf6[style*='background-'],\n[aria-posinset] .x1nhvcw1[style*='background-'],\n[aria-posinset] .S2F_just_flst[style*='background-'] {\n  background:none !important;\n  padding-top:10px !important;\n  padding-bottom:10px !important;\n}\n[aria-posinset] .jifvfom9[style*='background-'] *,\n[aria-posinset] .t5n4vrf6[style*='background-'] *,\n[aria-posinset] .x1nhvcw1[style*='background-'] *,\n[aria-posinset] .S2F_just_flst[style*='background-'] * {\n  color:var(--primary-text) !important;\n  font-size:.875rem !important;\n  font-weight:inherit !important;\n  text-align:left !important;\n  padding-top:0px !important;\n  padding-bottom:0px !important;\n}"
 		}, {
 			"id" : 2021100701,
 			"title": "Improved Hide/Show interface & tooltips",

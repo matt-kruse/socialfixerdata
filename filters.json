@@ -75,7 +75,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],a.tes86rjd[href*='/ads'][href*='/about'],a.rtxb060y[href*='/ads'][href*='/about'],a.S2F_font_400[href*='/ads'][href*='/about'],a.S2F_tx_2nd[href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],a.tes86rjd[href*='/ads'][href*='/about'],a.rtxb060y[href*='/ads'][href*='/about'],a.S2F_font_400[href*='/ads'][href*='/about'],a.S2F_col_tx2[href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
@@ -104,7 +104,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql,.b0ur3jhr .s4swhuz0 .pbevjfx6.innypi6y.gh25dzvf,.S2F_zi_1 .S2F_curs_def .S2F_tx_1st.S2F_font_600.S2F_ow_bw:contains((.+))"
+				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql,.b0ur3jhr .s4swhuz0 .pbevjfx6.innypi6y.gh25dzvf,.S2F_zi_1 .S2F_curs_def .S2F_col_tx1.S2F_font_600.S2F_ow_bw:contains((.+))"
 			},
 			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		},
@@ -120,7 +120,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain,.oab4agdp.a96hb305 .b0ur3jhr h3.icdlwmnq .ocv3nf92.innypi6y.rtxb060y,.S2F_bg_surf.S2F_bbl_radcrd .S2F_zi_1 h3.S2F_outl_none .S2F_ffam_def.S2F_font_600.S2F_tx_2nd:contains((.+))"
+				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain,.oab4agdp.a96hb305 .b0ur3jhr h3.icdlwmnq .ocv3nf92.innypi6y.rtxb060y,.S2F_bg_surf.S2F_bbl_radcrd .S2F_zi_1 h3.S2F_outl_none .S2F_ffam_def.S2F_font_600.S2F_col_tx2:contains((.+))"
 			},
 			"DOC": "This is targeted at the 'People You May Know' fakeposts.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		}],
@@ -247,7 +247,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".lrazzd5p.m9osqain,.innypi6y.rtxb060y,.S2F_font_600.S2F_tx_2nd:contains(^People [Yy]ou [Mm]ay [Kk]now$)"
+				"text": ".lrazzd5p.m9osqain,.innypi6y.rtxb060y,.S2F_font_600.S2F_col_tx2:contains(^People [Yy]ou [Mm]ay [Kk]now$)"
 			},
 			"DOC": "Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		}],

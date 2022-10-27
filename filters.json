@@ -75,7 +75,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],a.tes86rjd[href*='/ads'][href*='/about'],a.rtxb060y[href*='/ads'][href*='/about']"
+				"text": "a[aria-label][href*='/ads'][href*='/about'],a.b1v8xokw[href*='/ads'][href*='/about'],a.m9osqain[href*='/ads'][href*='/about'],a.tes86rjd[href*='/ads'][href*='/about'],a.rtxb060y[href*='/ads'][href*='/about'],a.S2F_font_400[href*='/ads'][href*='/about'],a.S2F_col_tx2[href*='/ads'][href*='/about']"
 			}
 		}],
 		"actions": [{
@@ -104,7 +104,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql,.b0ur3jhr .s4swhuz0 .pbevjfx6.innypi6y.gh25dzvf:contains((.+))"
+				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql,.b0ur3jhr .s4swhuz0 .pbevjfx6.innypi6y.gh25dzvf,.S2F_zi_1 .S2F_curs_def .S2F_col_tx1.S2F_font_600.S2F_ow_bw:contains((.+))"
 			},
 			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		},
@@ -112,7 +112,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/']"
+				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/'],[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/']"
 			},
 			"DOC": "Different sorts of 'Reels' fakeposts"
 		},
@@ -120,7 +120,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain,.oab4agdp.a96hb305 .b0ur3jhr h3.icdlwmnq .ocv3nf92.innypi6y.rtxb060y:contains((.+))"
+				"text": ".hybvsw6c.nwvqtn77 .tkr6xdv7 h3.lzcic4wl .b0tq1wua.lrazzd5p.m9osqain,.oab4agdp.a96hb305 .b0ur3jhr h3.icdlwmnq .ocv3nf92.innypi6y.rtxb060y,.S2F_bg_surf.S2F_bbl_radcrd .S2F_zi_1 h3.S2F_outl_none .S2F_ffam_def.S2F_font_600.S2F_col_tx2:contains((.+))"
 			},
 			"DOC": "This is targeted at the 'People You May Know' fakeposts.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		}],
@@ -241,13 +241,13 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id],a[aria-label][href*='/friends'] .lrazzd5p.q66pz984,a[aria-label][href*='/friends'] .innypi6y.d1w2l3lo"
+				"text": "a[ajaxify^='/friends/pymk'] [data-pymk-id],a[aria-label][href*='/friends'] .lrazzd5p.q66pz984,a[aria-label][href*='/friends'] .innypi6y.d1w2l3lo,a[aria-label][href*='/friends'] .S2F_font_600.S2F_col_acc"
 			}
 		}, {
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".lrazzd5p.m9osqain,.innypi6y.rtxb060y:contains(^People [Yy]ou [Mm]ay [Kk]now$)"
+				"text": ".lrazzd5p.m9osqain,.innypi6y.rtxb060y,.S2F_font_600.S2F_col_tx2:contains(^People [Yy]ou [Mm]ay [Kk]now$)"
 			},
 			"DOC": "Relies on 'x,y:contains(z)' improperly applying to both x & y"
 		}],

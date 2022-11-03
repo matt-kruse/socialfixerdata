@@ -437,5 +437,6 @@
 		,{"id":2022082368,"name":"Right Rail: Your Pages (2022)","selector":".red7f7t1.sr926ui1 [role=complementary] .h67akvdo > .cgu29s5g > div a[href*='ad_center/create'][href*=rhc_page],.xornbnt.xozqiw3 [role=complementary] .x1e4zzel > .x1iyjqo2 > div a[href*='ad_center/create'][href*=rhc_page],.S2F_fhd_wide.S2F_flwr_no [role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div a[href*='ad_center/create'][href*=rhc_page]","parent":"[role=complementary] .h67akvdo > .cgu29s5g > div > * > *,[role=complementary] .x1e4zzel > .x1iyjqo2 > div > * > *,[role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div > * > *"}
 		,{"id":2022102600,"name":"Post: 'view product' widget","selector":"[sfx_post] .x10l6tqk a.x1rg5ohu[href*=product_tag_on_photo],[sfx_post] .S2F_pos_abs a.S2F_disp_inlb[href*=product_tag_on_photo]"}
 		,{"id":2022102601,"name":"Post: 'Click to view products' button and floaters [SORRY ABOUT WEIRD PLACEMENT, IT DOES WORK!]","selector":"[sfx_post] a.x1pdlv7q [role=button].xqeqjp1 .x17z8epw.x1s688f,[sfx_post] a.S2F_trans_n [role=button].S2F_bb_dark .S2F_col_tx1med.S2F_font_600,[class*=mode] [class*=mode] a[href*='/commerce/'][href*=product_tag]","parent":".x5yr21d,.S2F_hei_100,[style*=translate]"}
+		,{"id":2022110200,"name":"Group: Engage with members","selector":"a[aria-label][href*=open_composer]","parent":".x2bj2ny,.S2F_bg_surf"}
 	]
 }

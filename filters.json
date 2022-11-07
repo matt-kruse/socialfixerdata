@@ -97,7 +97,7 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}((?:Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)).{0,40}?(?= *Facebook *Facebook))"
+				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
 		{
@@ -128,7 +128,7 @@
 			"action": "hide",
 			"show_note": true,
 			"tab": "Suggested",
-			"custom_note": "Suggested: click to show/hide '${1:60}'"
+			"custom_note": "Suggested: click to show/hide '${1:60}' ${group:30}"
 		}, {
 			"tab": "Suggested"
 		}],

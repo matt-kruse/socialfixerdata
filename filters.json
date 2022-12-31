@@ -50,7 +50,6 @@
 		"stop_on_match": true
 	}, {
 		"id": 28,
-		"min_version": "23.0.9",
 		"match": "ANY",
 		"rules": [{
 			"target": "any",

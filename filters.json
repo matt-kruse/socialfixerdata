@@ -111,7 +111,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/'],[sfx_post] .x7p5m3t a.xh8yej3.xqeqjp1[href*='/reel/'],a.xgk8upj[href*='/reel/'],[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/']"
+				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/'],[sfx_post] .x7p5m3t a.xh8yej3.xqeqjp1[href*='/reel/'],a.xgk8upj[href*='/reel/'],[sfx_post] a.xh8yej3.x1rg5ohu[href*='/reel/'],[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/'],[sfx_post] a.S2F_wid_100.S2F_disp_inlb[href*='/reel/']"
 			},
 			"DOC": "Different sorts of 'Reels' fakeposts"
 		},

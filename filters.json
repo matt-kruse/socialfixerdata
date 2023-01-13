@@ -111,7 +111,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/'],[sfx_post] .x7p5m3t a.xh8yej3.xqeqjp1[href*='/reel/'],a.xgk8upj[href*='/reel/'],[sfx_post] a.xh8yej3.x1rg5ohu[href*='/reel/'],[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/'],[sfx_post] a.S2F_wid_100.S2F_disp_inlb[href*='/reel/']"
+				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/'],[sfx_post] .x7p5m3t a.xh8yej3.xqeqjp1[href*='/reel/'],a.xgk8upj[href*='/reel/'],[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/']"
 			},
 			"DOC": "Different sorts of 'Reels' fakeposts"
 		},
@@ -134,7 +134,31 @@
 		"configurable_actions": true,
 		"title": "Hide Suggested Posts",
 		"stop_on_match": true,
-		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2022-08-23, supports 2020 & 2022 layouts."
+		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2022-11-06, supports 2020 & 2022 layouts."
+	}, {
+		"id": 2023011201,
+		"match": "ANY",
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "[sfx_post] a.xh8yej3.x1rg5ohu[href*='/reel/'],[sfx_post] a.S2F_wid_100.S2F_disp_inlb[href*='/reel/']"
+			},
+			"DOC": "Individual user 'Reels' posts.  This version has only 2022 gibs."
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"tab": "Reels",
+			"custom_note": "Reels: click to show Reel posted or shared by ${author:40}",
+			"custom_nyet": "Reels: click to rehide Reel posted or shared by ${author:40}"
+		}, {
+			"tab": "Reels"
+		}],
+		"configurable_actions": true,
+		"title": "Hide Reels",
+		"stop_on_match": true,
+		"description": "Hide 'Reels' posted or shared by individual users (use 'Suggested' for FB Reels fakeposts)"
 	}, {
 		"id": 5,
 		"match": "ALL",

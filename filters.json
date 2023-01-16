@@ -365,7 +365,7 @@
 			}
 		},
 		{
-			"target": "any",
+			"target": "any+image",
 			"operator": "contains",
 			"condition": {
 				"text": "Daily (Hexadecordle #?\\d+)"
@@ -430,30 +430,38 @@
 			}
 		},
 		{
-			"DOC": "This uses separate clauses to facilitate capture of the post 'title' as ${1}.  If it falls all the way through to here and catches one of these CSS matches, the user sees literally '${1}' as the 'title' of the hidden post; nothing can be done about that.",
+			"DOC": "This captures (the first 160 chars of) the entire text of the post, minus various crud at the front, into ${1}, while not actually matching; thus providing slightly more sensible output for the hide-prompt, if the 'alt' matcher below catches.  Users of non-English FB user interfaces will see extra gibberish which can't be trimmed.",
+			"target": "any",
+			"operator": "not_contains_selector",
+			"condition": {
+				"text": "[sfx_post]>div:contains((?:.*?· *Shared with [^ ]*(?:.{1,40}friends)? *(.{0,160})|.*·(.{0,160})|^))"
+			}
+		},
+		{
+			"DOC": "If we fall all the way through to here and catch one of these CSS matches, the user sees '${1}' expanded from the intentionally failed not-match in the previous clause.",
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "img[alt='⬛'],img[alt='🟥'],img[alt='🟨'],img[alt='3️⃣'],img[alt='4️⃣'],img[alt='5️⃣'],img[alt='6️⃣'],img[alt='7️⃣'],img[alt='8️⃣'],img[alt='9️⃣']"
+				"text": "img[alt='⬛'],img[alt='🟥'],img[alt='🟨'],img[alt='🟩'],img[alt='3️⃣'],img[alt='4️⃣'],img[alt='5️⃣'],img[alt='6️⃣'],img[alt='7️⃣'],img[alt='8️⃣'],img[alt='9️⃣']"
 			}
 		}],
 		"actions": [{
 			"action": "hide",
 			"tab": "Wordle",
 			"show_note": true,
-			"custom_note": "Click to reveal: ${author}: '${1}'",
-			"custom_nyet": "Click to rehide: ${author}: '${1}'"
+			"custom_note": "Click to reveal: ${author:30}: '${any:60}'",
+			"custom_nyet": "Click to rehide: ${author:30}: '${any:60}'"
 		},
 		{
 			"DOC": "Both of these action records contain tab & note configs, so people can choose one or the other or both without having to do any heavy lifting.  'custom_nyet' property will be used later to give custom 'hide it again' strings.",
 			"action": "",
 			"tab": "Wordle",
 			"show_note": true,
-			"custom_note": "Click to reveal: ${author}: '${1}'",
-			"custom_nyet": "Click to rehide: ${author}: '${1}'"
+			"custom_note": "Click to reveal: ${author:30}: '${any:60}'",
+			"custom_nyet": "Click to rehide: ${author:30}: '${any:60}'"
 		}],
 		"configurable_actions": true,
 		"title": "Wordle",
-		"description": "Hide (or move to tab) posts from Wordle, Quordle, Nerdle, and several similar games"
+		"description": "Hide (or move to tab) posts from Wordle, Quordle, Nerdle, and various similar games"
 	}]
 }

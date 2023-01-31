@@ -441,5 +441,6 @@
 		,{"id":2023010301,"name":"Left Rail: Reels","selector":"[role=banner] ~ * [role=navigation] a[href*='/reel/']"}
 		,{"id":2023010302,"name":"Left Rail: Meta Business Suite","selector":"[role=banner] ~ * [role=navigation] a[href*='business.f']"}
 		,{"id":2023012801,"name":"Left Rail: Ray-Ban Stories","selector":"[role=banner] ~ * [role=navigation] a[href*='meta.com'][href*=glasses]"}
+		,{"id":2023013001,"name":"Left Rail 'animated': Watch","selector":".S2F_wid_100 > [data-isanimatedlayout] [data-isanimatedlayout] a[href*='/watch/?']"}
 	]
 }

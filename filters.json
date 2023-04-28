@@ -300,8 +300,8 @@
 		}],
 		"actions": [{
 			"show_note": true,
-			"custom_note": "$1",
-			"action": "move-to-tab",
+			"custom_note": "Friend Activity: $1",
+			"action": "hide",
 			"tab": "Friend Activity"
 		}],
 		"configurable_actions": true,

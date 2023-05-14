@@ -1,26 +1,30 @@
 {
 	"filters": [{
-		"id":20200713,
+		"id": 20200713,
 		"match": "ANY",
 		"stop_on_match": true,
-		"rules": [
-			{
-				"target": "any",
-				"operator": "contains",
-				"condition": {
-					"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2|omicron|delta[- ]?variant|deltacron"
-				},
-				"match_partial_words": false
-			}
-		],
-		"actions": [
-			{
-				"action": "hide",
-				"show_note": true,
-				"custom_note": "Covid-19 Post Hidden ($0). Click to view.",
-				"tab": "Covid-19"
-			}
-		],
+		"rules": [{
+			"target": "any",
+			"operator": "contains",
+			"condition": {
+				"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2|omicron|delta[- ]?variant|deltacron"
+			},
+			"match_partial_words": false
+		}, {
+			"DOC": "Temporary for SFx 30.0.0 having sometimes-blank ${all_content}",
+			"target": "content",
+			"operator": "contains",
+			"condition": {
+				"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2|omicron|delta[- ]?variant|deltacron"
+			},
+			"match_partial_words": false
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Covid-19 Post Hidden ($0). Click to view.",
+			"tab": "Covid-19"
+		}],
 		"configurable_actions": true,
 		"title": "Covid-19 Filter",
 		"description": "Hide posts related to Covid-19. Show a placeholder where the post would have been, allowing you to click and view if you wish."
@@ -34,16 +38,21 @@
 				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bill clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney|oval office|limbaugh|william barr|bill barr|moscow mitch|gop|parnas|white house|dnc|rnc|coney barrett|qanon)"
 			},
 			"match_partial_words": false
-			}
-		],
-		"actions": [
-			{
-				"action": "hide",
-				"show_note": true,
-				"custom_note": "Politics Hidden ($1). Click to view.",
-				"tab": "Politics"
-			}
-		],
+		}, {
+			"DOC": "Temporary for SFx 30.0.0 having sometimes-blank ${all_content}",
+			"target": "content",
+			"operator": "contains",
+			"condition": {
+				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bill clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney|oval office|limbaugh|william barr|bill barr|moscow mitch|gop|parnas|white house|dnc|rnc|coney barrett|qanon)"
+			},
+			"match_partial_words": false
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "Politics Hidden ($1). Click to view.",
+			"tab": "Politics"
+		}],
 		"configurable_actions": true,
 		"title": "Election/Politics 2020",
 		"description": "Filter posts related to U.S. Politics",
@@ -96,11 +105,19 @@
 			"target": "action",
 			"operator": "startswith",
 			"condition": {
-				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|More like|Suggested groups)"
+				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|More like|Suggested groups)(?:.(?!Facebook *Facebook *)){0,40}"
 			}
 		},
 		{
 			"target": "any",
+			"operator": "startswith",
+			"condition": {
+				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
+			}
+		},
+		{
+			"DOC": "Temporary for SFx 30.0.0 having sometimes-blank ${all_content}",
+			"target": "content",
 			"operator": "startswith",
 			"condition": {
 				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"

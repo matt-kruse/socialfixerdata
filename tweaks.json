@@ -42,6 +42,11 @@
 			"title": "THE FIXES-TWEAK -- fix various SFx-vs-FB display glitches [v2023-01-05a]",
 			"description": "fb.com/5499753740136096, fb.com/955910559148155, fb.com/5445517192226418",
 			"css": "/*\n * BELA-TEST 2023-01-05:\n *\n * This is a slush pile of miscellaneous display fixes, some of\n * which are FB's fault, some SFx, some a conflict between the two.\n *\n * To be added to over time (or reduced if underlying bugs improve)\n */\n\n/* vvv fb.com/5499753740136096, fb.com/955910559148155 */\n/*\n * Fix some native FB glitches; and possible invisibility of the\n * '...' menu of a comment highlighted by SFx 'Scroll To Comment'\n */\n[sfx_post] [aria-haspopup=menu] {\n    background-color:var(--wash);\n    border-radius:5px;\n    padding:1.5px;\n}\n\n/*\n * Fix the 'Like' button's visibility for a comment highlighted by\n * SFx 'Scroll To Comment'\n */\n.sfx_permalink_target li:first-child [class*='-mode'] {\n    background-color:var(--wash);\n    border-radius:8px;\n    padding:1.5px;\n}\n\n/* Make the '...' menus on both posts & comments always-visible\n * instead of playing peekaboo when you mouse near them\n */\n[sfx_post] [aria-hidden=false].xg01cxk.xhva3ql {\n    opacity:1;\n}\n/* ^^^ fb.com/5499753740136096, fb.com/955910559148155 */\n\n/* vvv fb.com/5445517192226418 */\n\n/* Fix a condition where FB print a lot of little junk messages on\n * the left side of the screen, things like 'Learn More' and '2h'.\n * It has nothing to do with SFx, just FB's own bugs -- but we can\n * fix it...\n */\n[style*='top: -10000px'] { left: -10000px; }\n\n/* ^^^ fb.com/5445517192226418 */"
+		}, {
+			"id": 2023052701,
+			"title": "fix missing datestamps and 'Sponsored' tags (TEST TWEAK)",
+			"description": "fb.com/6021557251289073",
+			"css": "/* Bela-TEST 2023-05-27 fb.com/6021557251289073\n   This should fix the missing dates.\n   It *may* fix Sponsored post filtering on posts which\n   have 'Sponsored' hidden by zero-height.  It might not\n   help, depending on the order in which things happen.\n\n   Red dotted border to highlight things which have been\n   made visible by this test-tweak.\n */\n[sfx_post] [role=link].S2F_font_400 svg[style*=\"height: 0\"] { height:1rem !important; border:1px dotted red; }"
 		}
 	]
 }

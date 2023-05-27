@@ -46,7 +46,7 @@
 			"id": 2023052701,
 			"title": "fix missing datestamps and 'Sponsored' tags (TEST TWEAK)",
 			"description": "fb.com/6021557251289073",
-			"css": "/* Bela-TEST 2023-05-27 fb.com/6021557251289073\n   This should fix the missing dates.\n   It *may* fix Sponsored post filtering on posts which\n   have 'Sponsored' hidden by zero-height.  It might not\n   help, depending on the order in which things happen.\n\n   Red dotted border to highlight things which have been\n   made visible by this test-tweak.\n */\n[sfx_post] [role=link].S2F_font_400 svg[style*=\"height: 0\"] { height:1rem !important; border:1px dotted red; }"
+			"css": "/* Bela-TEST 2023-05-27 fb.com/6021557251289073\n   This should fix the missing dates.\n   It *may* fix Sponsored post filtering on posts which\n   have 'Sponsored' hidden by zero-height.  It might not\n   help, depending on the order in which things happen.\n\n   Red dotted border to highlight things which have been\n   made visible by this test-tweak.\n */\n[sfx_post] [role=link] svg[style*=\"height: 0\"] { height:1rem !important; border:1px dotted red; }"
 		}
 	]
 }

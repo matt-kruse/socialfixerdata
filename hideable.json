@@ -1,6 +1,6 @@
 {
 	"hideables" : [
-		,{"id":4,"name":"Right Col: Footer","selector":"#pagelet_rhc_footer"}
+		 {"id":4,"name":"Right Col: Footer","selector":"#pagelet_rhc_footer"}
 		,{"id":5,"name":"Right Col: Trending Pagelet","selector":"#pagelet_trending_tags_and_topics"}
 		,{"id":6,"name":"Right Col: Reminders (RECOMMEND: HIDE INDIVIDUAL ITEMS)","selector":"#pagelet_reminders"}
 		,{"id":7,"name":"Right Col: Games Pagelet","selector":"#pagelet_games_rhc"}
@@ -363,4 +363,3 @@
 		,{"id":2023060399,"name":"Profile: Create with avatar","selector":"[aria-label][href*='set='] ~ div [aria-label*=avatar]"}
 	]
 }
-

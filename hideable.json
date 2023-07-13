@@ -361,5 +361,6 @@
 		,{"id":2023013001,"name":"Left Rail 'animated': Watch","selector":".S2F_wid_100 [data-isanimatedlayout] a[href*='/watch/?']"}
 		,{"id":2023032401,"name":"Header: 'Feeds' button","selector":"[role=banner] [role=navigation] a[href*='filter=all']"}
 		,{"id":2023060399,"name":"Profile: Create with avatar","selector":"[aria-label][href*='set='] ~ div [aria-label*=avatar]"}
+		,{"id":2023071201,"name":"Groups Feed: Chats you should join","selector":"html[sfx_url*='/groups/'] [aria-label][role=grid] a[href*='/messages/'] .S2F_col_tx2","parent":".S2F_oscry_cont"}
 	]
 }

@@ -7,6 +7,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2|omicron|delta[- ]?variant|deltacron"
 			},
 			"match_partial_words": false
@@ -15,6 +17,8 @@
 			"target": "content",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "covid[- ]?19(?! info for buyers)|covid(?!-19 info for buyers)|corona[- ]?virus|face masks?|sars[- ]cov[- ]2|omicron|delta[- ]?variant|deltacron"
 			},
 			"match_partial_words": false
@@ -35,6 +39,8 @@
 			"target": "any+image",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bill clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney|oval office|limbaugh|william barr|bill barr|moscow mitch|gop|parnas|white house|dnc|rnc|coney barrett|qanon)"
 			},
 			"match_partial_words": false
@@ -43,6 +49,8 @@
 			"target": "content",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(obama|trump|trumpies|trumpers|putin|pence|hillary clinton|bill clinton|bernie sanders|libertarian|green party|election|republican|republicans|democrat|democrats|democratic|politics|politician|clinton foundation|electoral|ben carson|giuliani|ivanka|inauguration|kellyanne conway|betsy devos|elizabeth warren|mitch mcConnell|biden|kushner|mueller report|kamala harris|buttigieg|beto o'rourke|andrew yang|cory booker|julian castro|julián castro|john delaney|gillibrand|hickenlooper|inslee|klobuchar|tim ryan|tulsi|gabbard|seth moulton|swalwell|marianne williamson|bill weld|william weld|maga|messam|michael bennet|mike gravel|stacey abrams|impeach|impeachment|impeached|congress|senate|pelosi|romney|oval office|limbaugh|william barr|bill barr|moscow mitch|gop|parnas|white house|dnc|rnc|coney barrett|qanon)"
 			},
 			"match_partial_words": false
@@ -77,6 +85,8 @@
 			"target": "app",
 			"operator": "equals",
 			"condition": {
+				"modifier": "I",
+				"matcher": "re",
 				"text": "abc$def"
 			}
 		}, {
@@ -105,6 +115,8 @@
 			"target": "action",
 			"operator": "startswith",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|More like|Suggested groups)(?:.(?!Facebook *Facebook *)){0,40}"
 			}
 		},
@@ -112,6 +124,8 @@
 			"target": "any",
 			"operator": "startswith",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
@@ -120,6 +134,8 @@
 			"target": "content",
 			"operator": "startswith",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
@@ -190,6 +206,8 @@
 			"target": "app",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(.+)"
 			}
 		}],
@@ -206,6 +224,8 @@
 			"target": "author",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(.+)"
 			}
 		}],
@@ -222,6 +242,8 @@
 			"target": "author",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "I Fucking Love"
 			}
 		}],
@@ -239,6 +261,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "spoiler"
 			},
 			"match_partial_words": true
@@ -265,6 +289,8 @@
 			"target": "action",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": " shared a memory"
 			}
 		}],
@@ -348,6 +374,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Wordle[\\d\\sX]*/\\s*6)"
 			}
 		},
@@ -355,6 +383,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Dordle[\\d\\s#&]*/7)"
 			}
 		},
@@ -362,6 +392,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Quordle #?\\d+).{1,40}(?:quordle\\.c|See more)"
 			},
 			"match_partial_words": true
@@ -370,6 +402,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Octordle #?\\d+).{1,40}(?:octordle\\.c|See more)"
 			},
 			"match_partial_words": true
@@ -378,6 +412,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Sedordle 20\\d\\d-\\d\\d-\\d\\d)"
 			}
 		},
@@ -385,6 +421,8 @@
 			"target": "any+image",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "Daily (Hexadecordle #?\\d+)"
 			}
 		},
@@ -392,6 +430,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "#(Worldle[#\\d\\s]+\\/6 \\([\\d%]+\\))"
 			},
 			"match_partial_words": true
@@ -400,6 +440,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "Today's guesses:.{0,50}(?:(globle)-game\\.c|See more)"
 			}
 		},
@@ -407,6 +449,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(nerdlegame[\\d\\s]*)/\\d.{1,40}(?:nerdlegame\\.c|See more)"
 			}
 		},
@@ -414,6 +458,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Semantle\\s*[\\d#]\\d*) in \\d.{1,280}(?:semantle\\.|SEMANTLE\\.|See more)"
 			}
 		},
@@ -421,6 +467,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Scholardle[\\d\\s]*\\/6\\*?).{1,40}(?: @writefullapp|See more)"
 			}
 		},
@@ -428,6 +476,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "#(waffle\\d*).{1,40}(?: wafflegame|See more)"
 			},
 			"match_partial_words": true
@@ -436,6 +486,8 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Chrono #\\d+).{1,50}(?:chrono.quest|See more)"
 			}
 		},
@@ -443,13 +495,16 @@
 			"target": "any",
 			"operator": "contains",
 			"condition": {
+				"modifier": "i",
+				"matcher": "re",
 				"text": "(Framed #\\d+).{1,50}(?:framed.wtf|See more)"
 			}
 		},
 		{
 			"DOC": "This captures (the first 160 chars of) the entire text of the post, minus various crud at the front, into ${1}, while not actually matching; thus providing slightly more sensible output for the hide-prompt, if the 'alt' matcher below catches.  Users of non-English FB user interfaces will see extra gibberish which can't be trimmed.",
 			"target": "any",
-			"operator": "not_contains_selector",
+			"operator": "contains_selector",
+			"not": true,
 			"condition": {
 				"text": "[sfx_post]>div:contains((?:.*?· *Shared with [^ ]*(?:.{1,40}friends)? *(.{0,160})|.*·(.{0,160})|^))"
 			}

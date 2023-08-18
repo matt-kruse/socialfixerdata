@@ -1,56 +1,18 @@
 {
 	"hideables" : [
-		 {"id":19,"name":"Daily Dialogue","selector":"#dd_lw_card"}
-		,{"id":21,"name":"Right Col: Group Suggestions","selector":"#GroupsRHCSuggestionSection"}
-		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
-		,{"id":148,"name":"Group: Learn About This Group","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=learn_about_group']"}
-		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
-		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
-		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
-		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
-		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']","parent":"._3-8t"}
-		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
-		,{"id":173,"name":"Right Col: Page Owner panel","selector":"#homepage_panel_pagelet"}
-		,{"id":174,"name":"Right Col: Page Owner panel: Page Owner tips","selector":"#AYMT_page_hpp_tip_pagelet"}
-		,{"id":175,"name":"Right Col: Page Owner panel: Recent Posts","selector":"#homepage_panel_recent_posts_v2_pagelet"}
-		,{"id":176,"name":"Right Col: Page Owner: Chatbot","selector":"#page_admin_chatbot_pagelet"}
-		,{"id":185,"name":"Group Right Col: Add Members (name entry box)","selector":".groupRHCAddMemberTypeaheadBox"}
-		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']","parent":".groupsRHCSectionHeader"}
-		,{"id":187,"name":"Group Right Col: Member Faces","selector":"#groupsRHCMembersFacepile"}
-		,{"id":188,"name":"Group Right Col: Welcome New Members","selector":"a[href*='/new_member_welcome/']","parent":"._1-o8"}
-		,{"id":189,"name":"Group Right Col: Suggested Members","selector":"li[id^=suggested_member_]","parent":"._275p"}
-		,{"id":190,"name":"Group Right Col: Group Type","selector":".groupsRHCSectionHeader","parent":"._3-8x"}
+		 {"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
 		,{"id":191,"name":"Group Right Col: Tags","selector":"#groupsTagBox"}
 		,{"id":192,"name":"Group Right Col: Locations","selector":"#groupsLocationBox"}
-		,{"id":198,"name":"Right Col: Sponsored Pagelet (3)","selector":"a[href*='/ad_campaign/'],a[href*='paid-social'],a[data-gt*='ad_account_id']","parent":".pagelet"}
-		,{"id":199,"name":"News Feed: Stories","selector":"#stories_pagelet_below_composer","parent":0}
-		,{"id":200,"name":"Right Col: Reminders: Events","selector":"#event_reminders_link,a[href*='/events/']","parent":".fbRemindersStory"}
 		,{"id":201,"name":"Right Col: Reminders: Birthdays","selector":"#home_birthdays a","parent":"#home_birthdays"}
-		,{"id":202,"name":"Right Col: Reminders: Games","selector":"form[action*='/games/']","parent":".fbRemindersStory"}
-		,{"id":203,"name":"Right Col: Reminders: Ticker Toggle","selector":".tickerToggleWrapper"}
 		,{"id":231,"name":"Right Col: Shop for Vehicles on Marketplace","selector":"a[href*='/marketplace/'][href*='/autos/']","parent":".pagelet"}
-		,{"id":232,"name":"Page: post-component widgets","selector":"#CREATE_OFFER","parent":"._20i8"}
-		,{"id":233,"name":"Page: post-component widgets 'See All'","selector":"._1nan","parent":"._ov0"}
-		,{"id":234,"name":"Page post comment: Instantly send this as a message to Page","selector":"._10la ._urn"}
 		,{"id":236,"name":"Chat: Facebook Messages online list / settings (popup when zoomed in)","selector":"#fbDockChatBuddylistNub"}
-		,{"id":237,"name":"Far Right Col: Chat Sidebar","selector":".fbChatSidebarBody"}
-		,{"id":253,"name":"Group Right Col: Description","selector":"#groupsDescriptionBox"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
-		,{"id":270,"name":"Blue Bar: Find Friends","selector":"#findFriendsNav"}
-		,{"id":278,"name":"Right Col: Today's Games","selector":"#live_games_rhc"}
 		,{"id":279,"name":"Post Header: Conversation Starter Badge","selector":"a[href*='/groups/'][href*='ACTIVE_MEMBER']"}
 		,{"id":280,"name":"Post Header: New Member Badge","selector":"a[href*='/groups/'][href*='NEW_MEMBER']"}
-		,{"id":282,"name":"Friend Finder: People You May Know","selector":"#fbSearchResultsBox._30d"}
-		,{"id":284,"name":"Memories: Year In Review section","selector":"#goodwill_throwback_permalink_content [data-ft*='year_in_review_video']"}
-		,{"id":298,"name":"Left Col Shortcuts: events","selector":"html:not([sfx_url^='/events']) div._2yaa [href^='/events/'],li.sideNavItem[data-type='event']"}
-		,{"id":300,"name":"Right Col: Reminders: Events (2)","selector":"#custom_reminders_link","parent":".fbRemindersStory"}
 		,{"id":304,"name":"Post Header: Rising Star Badge","selector":"a[href*='/groups/'][href*='RISING_STAR']"}
 		,{"id":305,"name":"Post Header: Visual Storyteller Badge","selector":"a[href*='/groups/'][href*='VISUAL_STORYTELLER']"}
 		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label='Keyboard Shortcut Help']"}
-		,{"id":315,"name":"Group Right Col: Categorize Posts / Create Topic","selector":"#group_rhc_post_tags_list"}
 		,{"id":319,"name":"Page Owner: Composer Bar","selector":"#PagesComposerConsolidatedEntry"}
-		,{"id":322,"name":"Page Owner: various reach / boost options","selector":"#PagesProfileHomePrimaryColumnPagelet ._1td8"}
-		,{"id":323,"name":"Page Owner: Get Started With Automated Ads","selector":"#PagesProfileHomePrimaryColumnPagelet ._6vhx"}
 		,{"id":325,"name":"Page Owner: Set Up FAQs","selector":"#pageMessagingTipCard ._hjq"}
 		,{"id":326,"name":"Page Owner: Set Up FAQ answers","selector":"#pageMessagingTipCard ._hjf"}
 		,{"id":342,"name":"News Feed: Video Chats","selector":"#video_chats"}
@@ -59,11 +21,9 @@
 		,{"id":2020082304,"name":"Header: 'Watch' button","selector":"[role=banner] [role=navigation] a[href*='/watch/']"}
 		,{"id":2020082305,"name":"Header: 'Marketplace' button","selector":"[role=banner] [role=navigation] a[href*='/marketplace']"}
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}
-		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"div+div+div[data-visualcompletion] > a[href*='/post_insights/']"}
 		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=banner] ~ * [role=navigation]"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
-		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
 		,{"id":2020120701,"name":"Header: 'f' button","selector":"[role=banner] > :first-child a[href='/']"}
 		,{"id":2020120702,"name":"Header: 'Search Facebook' box","selector":"[role=banner] input[type=search]","parent":"label"}
 		,{"id":2020120703,"name":"Header: 'Home' button","selector":"[role=banner] [role=navigation] li a[href='/']"}
@@ -129,7 +89,6 @@
 		,{"id":2021111601,"name":"Left Rail: Oculus (2)","selector":"[role=banner] ~ * [role=navigation] a[href*='oculus.com'][href*=utm_source]"}
 		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=banner] ~ * [role=navigation] a[href*='/watch/?']"}
 		,{"id":2022021501,"name":"Favorites: A New Way ... [DISABLED]","selector":"disabled#disabled"}
-		,{"id":2022031401,"name":"Business Page Inbox: Personalized Suggestions","selector":"[data-pagelet=BizWebInbox] .puibpoiz.hn745mhl.tcwtoxnz > .aa8h9o0m.duy2mlcu [role=button].iqnsra4u:not(.rbzcxh88)","parent":".hn745mhl"}
 		,{"id":2022040101,"name":"Left Rail: Professional Dashboard","selector":"[role=banner] ~ * [role=navigation] a[href*=professional_dashboard]"}
 		,{"id":2022082301,"name":"Chat pop-unders (*ALL* CHAT POP-UNDERS, EVEN IF YOU MADE IT ON PURPOSE!) [DISABLED] (2022)","selector":"xxx [role=banner] ~ [data-visualcompletion] .S2F_alini_fxnd > .S2F_disp_flex.S2F_bot_0 > *","DOC":"initially disabled because this is too dangerous without working tooltips; enable after release of 29.0"}
 		,{"id":2022082302,"name":"Friends page: People You May Know (2022)","selector":"html[sfx_url='/friends'] .S2F_fldr_row.S2F_alini_stre > .S2F_fldr_col[role=navigation]"}

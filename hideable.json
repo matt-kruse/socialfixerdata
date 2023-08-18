@@ -7,14 +7,9 @@
 		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
 		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
 		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
-		,{"id":159,"name":"Timeline Left Col: Intro (rotating question)","selector":"div#profile_intro_card_bio"}
 		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
 		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']","parent":"._3-8t"}
 		,{"id":162,"name":"Timeline Left Col: Timeline Info Review","selector":"li#info_review_container"}
-		,{"id":168,"name":"Timeline Left Col: Did You Know","selector":"#profile_timeline_tiles_unit_pagelets_fun_fact_answers"}
-		,{"id":170,"name":"Timeline Left Col: Photos","selector":"#profile_timeline_tiles_unit_pagelets_photos"}
-		,{"id":171,"name":"Timeline Left Col: Friends","selector":"#profile_timeline_tiles_unit_pagelets_friends"}
-		,{"id":172,"name":"Timeline Left Col: Featured Albums","selector":"#profile_timeline_tiles_unit_pagelets_albums"}
 		,{"id":173,"name":"Right Col: Page Owner panel","selector":"#homepage_panel_pagelet"}
 		,{"id":174,"name":"Right Col: Page Owner panel: Page Owner tips","selector":"#AYMT_page_hpp_tip_pagelet"}
 		,{"id":175,"name":"Right Col: Page Owner panel: Recent Posts","selector":"#homepage_panel_recent_posts_v2_pagelet"}
@@ -51,8 +46,6 @@
 		,{"id":300,"name":"Right Col: Reminders: Events (2)","selector":"#custom_reminders_link","parent":".fbRemindersStory"}
 		,{"id":304,"name":"Post Header: Rising Star Badge","selector":"a[href*='/groups/'][href*='RISING_STAR']"}
 		,{"id":305,"name":"Post Header: Visual Storyteller Badge","selector":"a[href*='/groups/'][href*='VISUAL_STORYTELLER']"}
-		,{"id":306,"name":"Timeline Left Col: Intro","selector":"#profile_timeline_intro_card"}
-		,{"id":307,"name":"Timeline Left Col: Life Events","selector":"#profile_timeline_tiles_unit_pagelets_life_events"}
 		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label='Keyboard Shortcut Help']"}
 		,{"id":315,"name":"Group Right Col: Categorize Posts / Create Topic","selector":"#group_rhc_post_tags_list"}
 		,{"id":319,"name":"Page Owner: Composer Bar","selector":"#PagesComposerConsolidatedEntry"}

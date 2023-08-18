@@ -61,7 +61,6 @@
 		,{"id":2020082306,"name":"Header: 'Groups' button","selector":"[role=banner] [role=navigation] a[href*='/groups']"}
 		,{"id":2020082501,"name":"Post: Post Insights / Post Boosting block","selector":"._5ybo._1q_o"}
 		,{"id":2020082502,"name":"Post: View Insights","selector":"div+div+div[data-visualcompletion] > a[href*='/post_insights/']"}
-		,{"id":2020082503,"name":"retired","selector":"retired#retired"}
 		,{"id":2020082901,"name":"Left Rail (entire block -- TO HIDE SINGLE ITEMS, SCROLL PAST 2 POSTS)","selector":"[role=banner] ~ * [role=navigation]"}
 		,{"id":2020091901,"name":"Post: Voting Information Center","selector":"[sfx_post] ._3x-2 ~ div a[href*='/votinginformationcenter/']"}
 		,{"id":2020100101,"name":"Above Group Feed: Watch Our Recent Facebook Communities Summit Keynote","selector":"._8q_6 a[href*='/800021560745248']","parent":"[role=article]"}
@@ -111,7 +110,6 @@
 		,{"id":2021011001,"name":"Left Rail: Resources","selector":"[role=banner] ~ * [role=navigation] a[href*='/community_resources/']"}
 		,{"id":2021011002,"name":"Left Rail: Ad Center (Page admin)","selector":"[role=banner] ~ * [role=navigation] a[href*='/ad_center/']"}
 		,{"id":2021011003,"name":"Left Rail: Pages (Page admin)","selector":"[role=banner] ~ * [role=navigation] a[href*='/pages/?category=your_pages']"}
-		,{"id":2021012401,"name":"retired","selector":"retired#retired"}
 		,{"id":2021012402,"name":"Header: 'Friends' button","selector":"[role=banner] [role=navigation] a[href*='/friends']"}
 		,{"id":2021041103,"name":"Left Rail: News","selector":"[role=banner] ~ * [role=navigation] a[href*='/news/']"}
 		,{"id":2021041201,"name":"Left Rail: Footer","selector":"[role=banner] ~ * [role=navigation] [role=contentinfo]"}
@@ -127,17 +125,6 @@
 		,{"id":2021071801,"name":"Left Rail: Create Ad","selector":"[role=banner] ~ * [role=navigation] a[href*='/ads/create_ad']"}
 		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[role=banner] ~ * [role=navigation] a[href*=olympics_hub]"}
 		,{"id":2021092209,"name":"Games Right Col: Gaming Video","selector":"#games_video_canvas_rhc"}
-		,{"id":2021100504,"name":"Right Rail (entire block) [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100505,"name":"Right Rail: Sponsored [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100506,"name":"Right Rail: See All Contacts [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100507,"name":"Right Rail: Birthdays [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100508,"name":"Right Rail: Friend Requests (list) [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100509,"name":"Right Rail: Friend Requests (entire block) [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100510,"name":"Right Rail: Play Games [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100511,"name":"Right Rail: Your Pages [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100512,"name":"Right Rail: Recently Saved [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100513,"name":"Right Rail: Watch [alt-retired]","selector":"retired#retired"}
-		,{"id":2021100514,"name":"News Feed: Rooms [alt]","selector":"retired#retired"}
 		,{"id":2021100601,"name":"Left Rail: Memories (2)","selector":"[role=banner] ~ * [role=navigation] a[href*='/onthisday/']"}
 		,{"id":2021111601,"name":"Left Rail: Oculus (2)","selector":"[role=banner] ~ * [role=navigation] a[href*='oculus.com'][href*=utm_source]"}
 		,{"id":2021120801,"name":"Left Rail: Watch (2)","selector":"[role=banner] ~ * [role=navigation] a[href*='/watch/?']"}

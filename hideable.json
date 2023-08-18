@@ -1,17 +1,12 @@
 {
 	"hideables" : [
-		 {"id":4,"name":"Right Col: Footer","selector":"#pagelet_rhc_footer"}
-		,{"id":5,"name":"Right Col: Trending Pagelet","selector":"#pagelet_trending_tags_and_topics"}
-		,{"id":6,"name":"Right Col: Reminders (RECOMMEND: HIDE INDIVIDUAL ITEMS)","selector":"#pagelet_reminders"}
-		,{"id":7,"name":"Right Col: Games Pagelet","selector":"#pagelet_games_rhc"}
-		,{"id":19,"name":"Daily Dialogue","selector":"#dd_lw_card"}
+		 {"id":19,"name":"Daily Dialogue","selector":"#dd_lw_card"}
 		,{"id":21,"name":"Right Col: Group Suggestions","selector":"#GroupsRHCSuggestionSection"}
 		,{"id":146,"name":"Group: Create a Page","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=create_page']"}
 		,{"id":148,"name":"Group: Learn About This Group","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=learn_about_group']"}
 		,{"id":152,"name":"Group: Ask Pending Members Questions","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=ask_pending_member_questions']"}
 		,{"id":153,"name":"Group: What is this group about?","selector":"form[action^='/groups/nux_mall/'][action*='nux_type=member_suggesting_tags']"}
 		,{"id":154,"name":"Right Col: Stories","selector":"#stories_pagelet_rhc"}
-		,{"id":158,"name":"Right Col: Watchlist: Latest Episodes","selector":"div#pagelet_video_home_watch_list_rhc"}
 		,{"id":159,"name":"Timeline Left Col: Intro (rotating question)","selector":"div#profile_intro_card_bio"}
 		,{"id":160,"name":"Timeline Left Col: Add Featured Photos","selector":"div[data-store*='fav_photos_add']"}
 		,{"id":161,"name":"Timeline Left Col: Add Instagram, Websites, Other Links","selector":"a[data-store*='links_add_click']","parent":"._3-8t"}
@@ -24,7 +19,6 @@
 		,{"id":174,"name":"Right Col: Page Owner panel: Page Owner tips","selector":"#AYMT_page_hpp_tip_pagelet"}
 		,{"id":175,"name":"Right Col: Page Owner panel: Recent Posts","selector":"#homepage_panel_recent_posts_v2_pagelet"}
 		,{"id":176,"name":"Right Col: Page Owner: Chatbot","selector":"#page_admin_chatbot_pagelet"}
-		,{"id":184,"name":"Right Col: Suggested For You","selector":"#pagelet_video_home_suggested_for_you_rhc","parent":".pagelet"}
 		,{"id":185,"name":"Group Right Col: Add Members (name entry box)","selector":".groupRHCAddMemberTypeaheadBox"}
 		,{"id":186,"name":"Group Right Col: Member Count","selector":"a[href^='/groups/'][href$='/members/']","parent":".groupsRHCSectionHeader"}
 		,{"id":187,"name":"Group Right Col: Member Faces","selector":"#groupsRHCMembersFacepile"}
@@ -33,17 +27,12 @@
 		,{"id":190,"name":"Group Right Col: Group Type","selector":".groupsRHCSectionHeader","parent":"._3-8x"}
 		,{"id":191,"name":"Group Right Col: Tags","selector":"#groupsTagBox"}
 		,{"id":192,"name":"Group Right Col: Locations","selector":"#groupsLocationBox"}
-		,{"id":193,"name":"Group Right Col: Requests","selector":"#pagelet_group_requests_summary"}
-		,{"id":195,"name":"Right Col: Gaming Video / Live Now in Popular Games","selector":"#pagelet_gaming_destination_rhc"}
-		,{"id":196,"name":"Right Col: Instant Games","selector":"#pagelet_instant_games_rhc"}
-		,{"id":197,"name":"Right Col: What Your Friends Are Watching","selector":"#pagelet_video_home_friends_watching_rhc"}
 		,{"id":198,"name":"Right Col: Sponsored Pagelet (3)","selector":"a[href*='/ad_campaign/'],a[href*='paid-social'],a[data-gt*='ad_account_id']","parent":".pagelet"}
 		,{"id":199,"name":"News Feed: Stories","selector":"#stories_pagelet_below_composer","parent":0}
 		,{"id":200,"name":"Right Col: Reminders: Events","selector":"#event_reminders_link,a[href*='/events/']","parent":".fbRemindersStory"}
 		,{"id":201,"name":"Right Col: Reminders: Birthdays","selector":"#home_birthdays a","parent":"#home_birthdays"}
 		,{"id":202,"name":"Right Col: Reminders: Games","selector":"form[action*='/games/']","parent":".fbRemindersStory"}
 		,{"id":203,"name":"Right Col: Reminders: Ticker Toggle","selector":".tickerToggleWrapper"}
-		,{"id":206,"name":"Right Col: Continue Watching / Facebook Watch","selector":"#pagelet_video_home_continue_watching_with_fallback_rhc"}
 		,{"id":207,"name":"Right Col: Timeline Create Page pagelet","selector":"div[id^='PageTimelineCreatePagePagelet_']"}
 		,{"id":208,"name":"Right Col: Fundraiser Campaigns pagelet","selector":"div[id^='PageFundraiserCampaignsPagelet_']"}
 		,{"id":209,"name":"Right Col: People pagelet","selector":"div[id^='PagePeoplePagelet_']"}
@@ -68,24 +57,14 @@
 		,{"id":232,"name":"Page: post-component widgets","selector":"#CREATE_OFFER","parent":"._20i8"}
 		,{"id":233,"name":"Page: post-component widgets 'See All'","selector":"._1nan","parent":"._ov0"}
 		,{"id":234,"name":"Page post comment: Instantly send this as a message to Page","selector":"._10la ._urn"}
-		,{"id":235,"name":"Right Col: Rentals on Marketplace","selector":"#pagelet_marketplace_rental_rhc,#pagelet_group_marketplace_rental_rhc"}
 		,{"id":236,"name":"Chat: Facebook Messages online list / settings (popup when zoomed in)","selector":"#fbDockChatBuddylistNub"}
 		,{"id":237,"name":"Far Right Col: Chat Sidebar","selector":".fbChatSidebarBody"}
-		,{"id":239,"name":"Right Col: Previous Search on Marketplace","selector":"#pagelet_marketplace_previous_search_rhc"}
-		,{"id":241,"name":"Right Col: Recently Viewed on Marketplace","selector":"#pagelet_marketplace_recently_viewed_rhc"}
-		,{"id":242,"name":"Right Col: Still Available on Marketplace","selector":"#pagelet_marketplace_bsg_recently_viewed_rhc"}
-		,{"id":243,"name":"Right Col: Featured on Facebook Watch","selector":"#pagelet_video_home_promotion_rhc"}
-		,{"id":250,"name":"Right Col: Unified Gaming Pagelet","selector":"#pagelet_games_unified_rhc"}
 		,{"id":253,"name":"Group Right Col: Description","selector":"#groupsDescriptionBox"}
 		,{"id":257,"name":"Right / Far Right Col: (Games) Trending Among Friends","selector":"div[data-games-xout-query-type='gyml-trending-among-friends']"}
-		,{"id":258,"name":"Chat: Facebook Messages online list / settings (entry box when zoomed out)","selector":"#pagelet_sidebar .fbChatTypeahead"}
-		,{"id":269,"name":"Right Col: Top Picks on Marketplace","selector":"#pagelet_marketplace_new_user_top_picks_rhc"}
 		,{"id":270,"name":"Blue Bar: Find Friends","selector":"#findFriendsNav"}
-		,{"id":271,"name":"Group: Items for Sale","selector":"#pagelet_forsale_island"}
 		,{"id":278,"name":"Right Col: Today's Games","selector":"#live_games_rhc"}
 		,{"id":279,"name":"Post Header: Conversation Starter Badge","selector":"a[href*='/groups/'][href*='ACTIVE_MEMBER']"}
 		,{"id":280,"name":"Post Header: New Member Badge","selector":"a[href*='/groups/'][href*='NEW_MEMBER']"}
-		,{"id":281,"name":"News Feed: Mentorship ad for admins","selector":"#pagelet_megaphone a[href*='mentorship_option']","parent":"#pagelet_megaphone"}
 		,{"id":282,"name":"Friend Finder: People You May Know","selector":"#fbSearchResultsBox._30d"}
 		,{"id":284,"name":"Memories: Year In Review section","selector":"#goodwill_throwback_permalink_content [data-ft*='year_in_review_video']"}
 		,{"id":298,"name":"Left Col Shortcuts: events","selector":"html:not([sfx_url^='/events']) div._2yaa [href^='/events/'],li.sideNavItem[data-type='event']"}
@@ -95,8 +74,6 @@
 		,{"id":306,"name":"Timeline Left Col: Intro","selector":"#profile_timeline_intro_card"}
 		,{"id":307,"name":"Timeline Left Col: Life Events","selector":"#profile_timeline_tiles_unit_pagelets_life_events"}
 		,{"id":312,"name":"Nub: Keyboard Shortcut Help","selector":"a.fbNubButton[aria-label='Keyboard Shortcut Help']"}
-		,{"id":313,"name":"Right Col: Happening Now","selector":"#pagelet_live_destination_rhc"}
-		,{"id":314,"name":"Right Col: Videos From Facebook Watch","selector":"#pagelet_video_home_rhc"}
 		,{"id":315,"name":"Group Right Col: Categorize Posts / Create Topic","selector":"#group_rhc_post_tags_list"}
 		,{"id":319,"name":"Page Owner: Composer Bar","selector":"#PagesComposerConsolidatedEntry"}
 		,{"id":322,"name":"Page Owner: various reach / boost options","selector":"#PagesProfileHomePrimaryColumnPagelet ._1td8"}
@@ -220,16 +197,7 @@
 		,{"id":2021072201,"name":"Left Rail: Olympics","selector":"[role=banner] ~ * [role=navigation] a[href*=olympics_hub]"}
 		,{"id":2021082201,"name":"News Feed: Add a WhatsApp Button","selector":".taijpn5t .ad2k81qe:not(.l6v480f0):not(.lzcic4wl) a[href*='/settings/whatsapp']","parent":".ad2k81qe.f9o22wc5 > div"}
 		,{"id":2021091801,"name":"Post: Climate Science","selector":"[aria-posinset] .hybvsw6c a[href*=climatescience]","parent":".discj3wi"}
-		,{"id":2021092201,"name":"Games Right Col: Tournaments","selector":"#pagelet_canvas_nav_content ._gu1 a[href*=tournaments]","parent":"._gu1"}
-		,{"id":2021092202,"name":"Games Right Col: Featured Game (1)","selector":"#pagelet_canvas_nav_content ._gu1 a[href*='context_type=SOLO']","parent":"._gu1"}
-		,{"id":2021092203,"name":"Games Right Col: Featured Game (2)","selector":"#pagelet_canvas_nav_content ._2b2u a[data-gt*=games_featured]","parent":"._2b2u"}
-		,{"id":2021092204,"name":"Games Right Col: Top Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=LTVAppQuery]","parent":"._gu1"}
-		,{"id":2021092205,"name":"Games Right Col: Instant Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=InstantGamesAppQuery]:not([data-gt*=LTVAppQuery])","parent":"._gu1"}
-		,{"id":2021092206,"name":"Games Right Col: Games Your Friends Play","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=InstantGamesYourFriends]","parent":"._gu1"}
-		,{"id":2021092207,"name":"Games Right Col: Game Category","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=InstantGamesAppCategories]","parent":"._gu1"}
-		,{"id":2021092208,"name":"Games Right Col: Your Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=GameBookmark]","parent":"._gu1"}
 		,{"id":2021092209,"name":"Games Right Col: Gaming Video","selector":"#games_video_canvas_rhc"}
-		,{"id":2021092210,"name":"Games Right Col: Recommended Games","selector":"#pagelet_canvas_nav_content ._gu1 a[data-gt*=RecommendedGamesAppQuery]","parent":"._gu1"}
 		,{"id":2021100501,"name":"Right Rail: Recently Saved","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='/saved']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021100502,"name":"Right Rail: Watch","selector":".msh19ytf.owycx6da [role=complementary] .ofs802cu > .buofh1pr > div a[href*='/watch']","parent":"[role=complementary] .ofs802cu > .buofh1pr > div > * > *"}
 		,{"id":2021100503,"name":"Give Award (Post Comment)","selector":"[aria-posinset] li span[aria-hidden=true] ~ .gs1a9yip","parent":"li"}

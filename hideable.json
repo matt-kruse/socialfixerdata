@@ -33,26 +33,6 @@
 		,{"id":201,"name":"Right Col: Reminders: Birthdays","selector":"#home_birthdays a","parent":"#home_birthdays"}
 		,{"id":202,"name":"Right Col: Reminders: Games","selector":"form[action*='/games/']","parent":".fbRemindersStory"}
 		,{"id":203,"name":"Right Col: Reminders: Ticker Toggle","selector":".tickerToggleWrapper"}
-		,{"id":207,"name":"Right Col: Timeline Create Page pagelet","selector":"div[id^='PageTimelineCreatePagePagelet_']"}
-		,{"id":208,"name":"Right Col: Fundraiser Campaigns pagelet","selector":"div[id^='PageFundraiserCampaignsPagelet_']"}
-		,{"id":209,"name":"Right Col: People pagelet","selector":"div[id^='PagePeoplePagelet_']"}
-		,{"id":210,"name":"Right Col: Review Needy Place Card pagelet","selector":"div[id^='PageReviewNeedyPlaceCardPagelet_']"}
-		,{"id":211,"name":"Right Col: Pages Suggested By Page Secondary pagelet","selector":"div[id^='PagesSuggestedByPageSecondaryPagelet_']"}
-		,{"id":212,"name":"Right Col: SEO Interlinking Related Element pagelet","selector":"div[id^='PageSEOInterlinkingRelatedElementPagelet_']"}
-		,{"id":213,"name":"Right Col: Seo Related Topics pagelet","selector":"div[id^='PageSeoRelatedTopicsPagelet_']"}
-		,{"id":214,"name":"Right Col: Seo Related Pages pagelet","selector":"div[id^='PageSeoRelatedPagesPagelet_']"}
-		,{"id":215,"name":"Right Col: Seo Related Groups pagelet","selector":"div[id^='PageSeoRelatedGroupsPagelet_']"}
-		,{"id":216,"name":"Right Col: Seo Related Events pagelet","selector":"div[id^='PageSeoRelatedEventsPagelet_']"}
-		,{"id":217,"name":"Right Col: Locations pagelet","selector":"div[id^='PageLocationsPagelet_']"}
-		,{"id":218,"name":"Right Col: Coupons pagelet","selector":"div[id^='PageCouponsPagelet_']"}
-		,{"id":219,"name":"Right Col: Photos Container pagelet","selector":"div[id^='PagePhotosContainerPagelet_']"}
-		,{"id":220,"name":"Right Col: Videos pagelet","selector":"div[id^='PageVideosPagelet_']"}
-		,{"id":221,"name":"Right Col: Notes Container pagelet","selector":"div[id^='PageNotesContainerPagelet_']"}
-		,{"id":222,"name":"Right Col: Reviews Container pagelet","selector":"div[id^='PageReviewsContainerPagelet_']"}
-		,{"id":223,"name":"Right Col: Graph Search pagelet","selector":"div[id^='PageGraphSearchPagelet_']"}
-		,{"id":224,"name":"Right Col: Pages Liked By Page Secondary pagelet","selector":"div[id^='PagePagesLikedByPageSecondaryPagelet_']"}
-		,{"id":225,"name":"Right Col: Related Pages Secondary pagelet","selector":"div[id^='PageRelatedPagesSecondaryPagelet_']"}
-		,{"id":226,"name":"Right Col: Popular Shares pagelet","selector":"div[id^='PagePopularSharesPagelet_']"}
 		,{"id":231,"name":"Right Col: Shop for Vehicles on Marketplace","selector":"a[href*='/marketplace/'][href*='/autos/']","parent":".pagelet"}
 		,{"id":232,"name":"Page: post-component widgets","selector":"#CREATE_OFFER","parent":"._20i8"}
 		,{"id":233,"name":"Page: post-component widgets 'See All'","selector":"._1nan","parent":"._ov0"}
@@ -80,21 +60,6 @@
 		,{"id":323,"name":"Page Owner: Get Started With Automated Ads","selector":"#PagesProfileHomePrimaryColumnPagelet ._6vhx"}
 		,{"id":325,"name":"Page Owner: Set Up FAQs","selector":"#pageMessagingTipCard ._hjq"}
 		,{"id":326,"name":"Page Owner: Set Up FAQ answers","selector":"#pageMessagingTipCard ._hjf"}
-		,{"id":327,"name":"Page Owner: Page Timeline Create Page","selector":"[id^=PageTimelineCreatePagePagelet]"}
-		,{"id":328,"name":"Page Owner: Page Fundraiser Campaigns","selector":"[id^=PageFundraiserCampaignsPagelet]"}
-		,{"id":329,"name":"Page Owner: Page People","selector":"[id^=PagePeoplePagelet]"}
-		,{"id":330,"name":"Page Owner: Page Review Needy Place Card","selector":"[id^=PageReviewNeedyPlaceCardPagelet]"}
-		,{"id":331,"name":"Page Owner: Page Locations","selector":"[id^=PageLocationsPagelet]"}
-		,{"id":332,"name":"Page Owner: Page Photos Container","selector":"[id^=PagePhotosContainerPagelet]"}
-		,{"id":333,"name":"Page Owner: Page Videos","selector":"[id^=PageVideosPagelet]"}
-		,{"id":334,"name":"Page Owner: Page Notes Container","selector":"[id^=PageNotesContainerPagelet]"}
-		,{"id":335,"name":"Page Owner: Page Reviews Container","selector":"[id^=PageReviewsContainerPagelet]"}
-		,{"id":336,"name":"Page Owner: Page Places People Also Visited Secondary","selector":"[id^=PagePlacesPeopleAlsoVisitedSecondaryPagelet]"}
-		,{"id":337,"name":"Page Owner: Page Related Pages Secondary","selector":"[id^=PageRelatedPagesSecondaryPagelet]"}
-		,{"id":338,"name":"Page Owner: Page Graph Search","selector":"[id^=PageGraphSearchPagelet]"}
-		,{"id":339,"name":"Page Owner: Page Pages Liked By Page Secondary","selector":"[id^=PagePagesLikedByPageSecondaryPagelet]"}
-		,{"id":340,"name":"Page Owner: Pages Suggested By Page Secondary","selector":"[id^=PagesSuggestedByPageSecondaryPagelet]"}
-		,{"id":341,"name":"Page Owner: Page SEO Interlinking Related Element","selector":"[id^=PageSEOInterlinkingRelatedElementPagelet]"}
 		,{"id":342,"name":"News Feed: Video Chats","selector":"#video_chats"}
 		,{"id":356,"name":"Post Header: Founding Member Badge","selector":"a[href*='/groups/'][href*='FOUNDING_MEMBER']"}
 		,{"id":2020082301,"name":"News Feed: Stories","selector":"[href*='stories/create']","parent":"[role=region]"}

@@ -362,5 +362,7 @@
 		,{"id":2023032401,"name":"Header: 'Feeds' button","selector":"[role=banner] [role=navigation] a[href*='filter=all']"}
 		,{"id":2023060399,"name":"Profile: Create with avatar","selector":"[aria-label][href*='set='] ~ div [aria-label*=avatar]"}
 		,{"id":2023071201,"name":"Groups Feed: Chats you should join","selector":"html[sfx_url*='/groups/'] [aria-label][role=grid] a[href*='/messages/'] .S2F_col_tx2","parent":".S2F_oscry_cont"}
+		,{"id":2023081700,"name":"Left Rail: Meta Quest","selector":"[role=banner] ~ * [role=navigation] a[href*='meta.com'][href*=quest]"}
+		,{"id":2023081701,"name":"Left Rail: Feeds","selector":"[role=banner] ~ * [role=navigation] a[href*='filter=all']"}
 	]
 }

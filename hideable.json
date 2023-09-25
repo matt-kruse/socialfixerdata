@@ -173,5 +173,8 @@
 		,{"id":2023091300,"name":"NOT LOGGED IN: See more on Facebook (overlay)","selector":"form[action*=login] a[href*='/recover/initiate'].S2F_col_acc","parent":".S2F_zi_0 > .S2F_disp_flex"}
 		,{"id":2023091301,"name":"NOT LOGGED IN: Create Account (form)","selector":"a[href*='/login/?next=']","parent":".S2F_bg_surf.S2F_pos_fix > *"}
 		,{"id":2023091302,"name":"NOT LOGGED IN: Create Account (shelf)","selector":"a[href*='/login/?next=']","parent":".S2F_bg_surf.S2F_pos_fix"}
+                ,{"id":2023092501,"name":"Media 1","selector":".S2F_padl_16 > .S2F_flex_wrap > .S2F_bb_dark:nth-of-type(1) > div:first-of-type"}
+                ,{"id":2023092502,"name":"Media 2","selector":".S2F_padl_16 > .S2F_flex_wrap > .S2F_bb_dark:nth-of-type(2) > div:first-of-type"}
+                ,{"id":2023092503,"name":"Media 3","selector":".S2F_padl_16 > .S2F_flex_wrap > .S2F_bb_dark:nth-of-type(3) > div:first-of-type"}
 	]
 }

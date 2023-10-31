@@ -501,7 +501,7 @@
 			}
 		},
 		{
-			"target": "any",
+			"target": "content",
 			"operator": "startswith",
 			"condition": {
 				"modifier": "I",

@@ -506,7 +506,7 @@
 			"condition": {
 				"modifier": "I",
 				"matcher": "re",
-				"text": ".{0,80}Connections +Puzzle #\\d+"
+				"text": ".{0,80}(Connections +Puzzle #\\d+)"
 			}
 		},
 		{

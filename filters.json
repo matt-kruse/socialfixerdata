@@ -117,7 +117,7 @@
 			"condition": {
 				"modifier": "i",
 				"matcher": "re",
-				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|.{0,160}·\\s*(?:Follow|Join)\\s*·|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|More like|Suggested groups)(?:.(?!Facebook *Facebook *)){0,40}"
+				"text": ".{0,120}(?:Facebook ?){0,30}.{0,120}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|.{0,160}·\\s*(?:Follow|Join)\\s*·|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|More like|Suggested groups)(?:.(?!Facebook *Facebook *)){0,40}"
 			}
 		},
 		{
@@ -126,17 +126,17 @@
 			"condition": {
 				"modifier": "i",
 				"matcher": "re",
-				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|.{0,160}·\\s*(?:Follow|Join)\\s*·|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
+				"text": ".{0,120}(?:Facebook ?){0,30}.{0,120}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|.{0,160}·\\s*(?:Follow|Join)\\s*·|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
 		{
-			"DOC": "Temporary for SFx 30.0.0 having sometimes-blank ${all_content}",
+			"DOC": "because ${all_content} is sometimes unexpectedly blank",
 			"target": "content",
 			"operator": "startswith",
 			"condition": {
 				"modifier": "i",
 				"matcher": "re",
-				"text": ".{0,5}(?:Facebook ?){0,30}.{0,5}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|.{0,160}·\\s*(?:Follow|Join)\\s*·|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
+				"text": ".{0,120}(?:Facebook ?){0,30}.{0,120}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|.{0,160}·\\s*(?:Follow|Join)\\s*·|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
 		{

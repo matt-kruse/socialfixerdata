@@ -143,7 +143,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "span.S2F_font_400.S2F_col_tx2:contains(\\s+is\\s+a\\s+member\\s*|\\s+are\\s+members\\s*$)"
+				"text": "span.S2F_font_400.S2F_col_tx2:contains((.*\\s+is\\s+a\\s+member\\s*|.*\\s+are\\s+members\\s*$))"
 			},
 			"DOC": "This is targeted at Group posts which are not specifically shared by, posted by, or commented on by a friend, but just slipstreamed into the feed because 'such-and-such friend is a member'"
 		},

@@ -202,7 +202,7 @@
 		"configurable_actions": true,
 		"title": "Hide Suggested Posts",
 		"stop_on_match": true,
-		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2022-11-06, supports 2020 & 2022 layouts."
+		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2024-01-07 to catch 'Join' and 'Follow'."
 	}, {
 		"id": 2023011201,
 		"match": "ANY",

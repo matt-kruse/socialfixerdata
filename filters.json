@@ -140,6 +140,26 @@
 			}
 		},
 		{
+			"DOC": "catch suggested Group / Page posts -- without catching posts forwarded / 'shared' by actual friends",
+			"target": "any",
+			"operator": "startswith",
+			"condition": {
+				"modifier": "I",
+				"matcher": "re",
+				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(Join|Follow)"
+			}
+		},
+		{
+			"DOC": "catch suggested Group / Page posts -- without catching posts forwarded / 'shared' by actual friends; in cases where ${all_content} is unexpectedly blank",
+			"target": "content",
+			"operator": "startswith",
+			"condition": {
+				"modifier": "I",
+				"matcher": "re",
+				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(Join|Follow)"
+			}
+		},
+		{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
@@ -182,7 +202,7 @@
 		"configurable_actions": true,
 		"title": "Hide Suggested Posts",
 		"stop_on_match": true,
-		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2022-11-06, supports 2020 & 2022 layouts."
+		"description": "Hide various sorts of 'Suggested' posts in News & Groups Feeds (NOTE: English-language FB only).  Updated 2024-01-07 to catch 'Join' and 'Follow'."
 	}, {
 		"id": 2023011201,
 		"match": "ANY",

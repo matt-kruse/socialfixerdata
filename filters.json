@@ -195,7 +195,7 @@
 			"action": "hide",
 			"show_note": true,
 			"tab": "Suggested",
-			"custom_note": "Suggested: click to show/hide '${1:60}' ${group:30}"
+			"custom_note": "Suggested: click to show/hide '${1:60}' ${group:30} / ${author:40}"
 		}, {
 			"tab": "Suggested"
 		}],

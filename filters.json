@@ -146,7 +146,7 @@
 			"condition": {
 				"modifier": "I",
 				"matcher": "re",
-				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(Join|Follow)"
+				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(?:Join|Follow)\\b"
 			}
 		},
 		{
@@ -156,7 +156,7 @@
 			"condition": {
 				"modifier": "I",
 				"matcher": "re",
-				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(Join|Follow)"
+				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(?:Join|Follow)\\b"
 			}
 		},
 		{

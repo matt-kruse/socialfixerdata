@@ -241,8 +241,12 @@
 		}],
 		"actions": [{
 			"action": "copy-to-tab",
-			"tab": "$1"
+			"tab": "APP: ${app:12}",
+			"show_note": true,
+			"custom_note": "Click to see post from ${author:30}, posted with app '${app:40}'",
+			"custom_nyet": "Click to re-hide post by ${author:30}, posted with app '${app:40}'"
 		}],
+		"configurable_actions": true,
 		"title": "Create Game/App Tabs",
 		"description": "Create tabs for filtered views of posts by apps or games, but don't remove them from the News Feed"
 	}, {

@@ -114,18 +114,18 @@
 		"rules": [{
 			"target": "action",
 			"operator": "startswith",
+			"matcher": "re",
 			"condition": {
 				"modifier": "i",
-				"matcher": "re",
 				"text": ".{0,120}(?:Facebook ?){0,30}.{0,120}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|More like|Suggested groups)(?:.(?!Facebook *Facebook *)){0,40}"
 			}
 		},
 		{
 			"target": "any",
 			"operator": "startswith",
+			"matcher": "re",
 			"condition": {
 				"modifier": "i",
-				"matcher": "re",
 				"text": ".{0,120}(?:Facebook ?){0,30}.{0,120}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
@@ -133,9 +133,9 @@
 			"DOC": "because ${all_content} is sometimes unexpectedly blank",
 			"target": "content",
 			"operator": "startswith",
+			"matcher": "re",
 			"condition": {
 				"modifier": "i",
-				"matcher": "re",
 				"text": ".{0,120}(?:Facebook ?){0,30}.{0,120}(Based on your recent|Because you may be interested in|Because you recently viewed|Because you viewed|Events you may like|From a group that|From a group with members who like|From a group you|Post from a public group|Suggested Events|Suggested for you|Suggested pages|Suggested post|You recently viewed a similar group|(?:More like|Suggested groups).{1,250}posts? a (?:day|week|month)(?:.(?!Facebook *Facebook *)){0,40})"
 			}
 		},
@@ -143,9 +143,9 @@
 			"DOC": "catch suggested Group / Page posts -- without catching posts forwarded / 'shared' by actual friends",
 			"target": "any",
 			"operator": "startswith",
+			"matcher": "re",
 			"condition": {
 				"modifier": "I",
-				"matcher": "re",
 				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(?:Join|Follow)\\b"
 			}
 		},
@@ -153,9 +153,9 @@
 			"DOC": "DISABLED this clause (by wrong 'matcher') 2024-05-09 to try to fix false matches -- catch suggested Group / Page posts -- without catching posts forwarded / 'shared' by actual friends; in cases where ${all_content} is unexpectedly blank",
 			"target": "content",
 			"operator": "startswith",
+			"matcher": "str",
 			"condition": {
 				"modifier": "I",
-				"matcher": "str",
 				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(?:Join|Follow)\\b"
 			}
 		},

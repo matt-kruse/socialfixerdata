@@ -150,12 +150,12 @@
 			}
 		},
 		{
-			"DOC": "catch suggested Group / Page posts -- without catching posts forwarded / 'shared' by actual friends; in cases where ${all_content} is unexpectedly blank",
+			"DOC": "DISABLED this clause (by wrong 'matcher') 2024-05-09 to try to fix false matches -- catch suggested Group / Page posts -- without catching posts forwarded / 'shared' by actual friends; in cases where ${all_content} is unexpectedly blank",
 			"target": "content",
 			"operator": "startswith",
 			"condition": {
 				"modifier": "I",
-				"matcher": "re",
+				"matcher": "str",
 				"text": "[^·]{0,120}(?:Facebook ?){0,30}[^·]{0,120}·\\s*(?:Join|Follow)\\b"
 			}
 		},

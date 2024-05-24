@@ -146,7 +146,7 @@
 		,{"id":2022082354,"name":"Profile: Add to Story (2022)","selector":"[href*='stories/create']","parent":"[data-pagelet] .S2F_flex_shr1 > .S2F_wid_100"}
 		,{"id":2022082355,"name":"Profile: People You May Know (2022)","selector":"a[aria-hidden][href*='friends/suggestions'].S2F_top_0.S2F_ryt_0.S2F_pos_abs","parent":"div.S2F_mw_100.S2F_fldr_col > div.S2F_mw_100.S2F_bxs_bbox"}
 		,{"id":2022082356,"name":"Right Rail: Birthdays (2022)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div [href*='/events/birthdays']","parent":"[role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div > * > *"}
-		,{"id":2022082357,"name":"Right Rail (entire block) (2022)","selector":"[role=complementary] :not(.S2F_bg_surf) > .S2F_oscry_cont > .S2F_flgr_1 > div"}
+		,{"id":2022082357,"name":"Right Rail (entire block) (2022)","selector":"[role=complementary] .S2F_fldr_col:not(.S2F_bg_surf) > .S2F_oscry_cont > .S2F_flgr_1 > div"}
 		,{"id":2022082358,"name":"Right Rail: Friend Requests (entire block) (2022)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div [href*='/friends/'][href*=profile_id]","parent":"[role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div > * > *"}
 		,{"id":2022082359,"name":"Right Rail: Friend Requests (list) (2022)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div [href*='/friends/'][href*=profile_id]"}
 		,{"id":2022082360,"name":"Right Rail: Group conversations (2022)","selector":".S2F_fhd_wide.S2F_flwr_no [role=complementary] .S2F_oscry_cont > .S2F_flgr_1 > div > [data-visualcompletion] + [data-visualcompletion]"}

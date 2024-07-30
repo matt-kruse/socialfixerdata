@@ -551,6 +551,15 @@
 			}
 		},
 		{
+			"target": "content",
+			"operator": "startswith",
+			"condition": {
+				"modifier": "I",
+				"matcher": "re",
+				"text": ".{0,80}(Strands #[\\d]+(?:\\s*[“\"][^”\"]*.)?)"
+			}
+		},
+		{
 			"DOC": "This captures (the first 160 chars of) the entire text of the post, minus various crud at the front, into ${1}, while not actually matching; thus providing slightly more sensible output for the hide-prompt, if the 'alt' matcher below catches.  Users of non-English FB user interfaces will see extra gibberish which can't be trimmed.",
 			"target": "any",
 			"operator": "contains_selector",

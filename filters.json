@@ -408,7 +408,7 @@
 			"condition": {
 				"modifier": "i",
 				"matcher": "re",
-				"text": "(Wordle[\\d\\sX]*/\\s*6)"
+				"text": "(Wordle[\\d\\s,X]*/\\s*6)"
 			}
 		},
 		{

@@ -179,5 +179,6 @@
 		,{"id":2023100301,"name":"Profile: People You May Know (2023)","selector":"h2 ~ span.S2F_col_acc a[href*='friends/suggestions'].S2F_font_600","parent":".S2F_disp_flex.S2F_wid_100"}
 		,{"id":2023100501,"name":"Profile: get Meta Verified","selector":".S2F_mw_100 > a.S2F_disp_infl[href*='/meta_verified']","parent":".S2F_disp_flex.S2F_wid_100"}
 		,{"id":2023101301,"name":"Left Rail: Dating","selector":"[role=banner] ~ * [role=navigation] a[href*='/dating']"}
+		,{"id":2024082001,"name":"Pop-Up Refresh button","selector":"[role=main] [aria-hidden] a[href^='/?'"}
 	]
 }

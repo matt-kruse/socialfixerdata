@@ -181,5 +181,6 @@
 		,{"id":2023101301,"name":"Left Rail: Dating","selector":"[role=banner] ~ * [role=navigation] a[href*='/dating']"}
 		,{"id":2024082001,"name":"Pop-Up Refresh button","selector":"[role=main] [aria-hidden] a[href^='/?']"}
 		,{"id":2024092301,"name":"Left Rail: Birthdays","selector":"[role=banner] ~ * [role=navigation] a[href*='/events/birthdays']"}
+		,{"id":2025041801,"name":"Left Rail: Meta AI","selector":"[role=banner] ~ * [role=navigation] a[href*='www.meta.ai'][href*=utm_source]"}
 	]
 }

@@ -184,5 +184,6 @@
 		,{"id":2025041801,"name":"Left Rail: Meta AI","selector":"[role=banner] ~ * [role=navigation] a[href*='www.meta.ai'][href*=utm_source]"}
 		,{"id":2025062601,"name":"Chat Sidebar: Contacts: Meta AI bot","selector":"a[role=link][href*='/messages/'] image[*|href*='/gen-ai']","parent":"li"}
 		,{"id":2025102301,"name":"Left Rail: Chat with AIs","selector":"[role=banner] ~ * [role=navigation] a[href*='aistudio.facebook']"}
+		,{"id":2025110301,"name":"Header: 'Reels' button","selector":"[role=banner] [role=navigation] a[href*='/reel/']"}
 	]
 }

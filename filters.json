@@ -171,17 +171,17 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": ".tkr6xdv7 .bnpdmtie .oo9gr5id.lrazzd5p.c1et5uql,.b0ur3jhr .s4swhuz0 .pbevjfx6.innypi6y.gh25dzvf,.x1vjfegm .xt0e3qv .xzsf02u.x1s688f.x1vvkbs,.S2F_zi_1 .S2F_curs_def .S2F_col_tx1.S2F_font_600.S2F_ow_bw:contains((.+))"
+				"text": "[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/']"
 			},
-			"DOC": "This is targeted at the 'Reels' fakeposts; it uses a particularly weak selector, hopefully will not have false matches.  Relies on 'x,y:contains(z)' improperly applying to both x & y"
+			"DOC": "This is targeted at the 'Reels' fakeposts"
 		},
 		{
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[sfx_post] .qan41l3s a.k4urcfbm.qensuy8j[href*='/reel/'],a.ns4ygwem[href*='/reel/'],[sfx_post] .o565dech a.mfclru0v.tghlliq5[href*='/reel/'],a.r5a47i9s[href*='/reel/'],[sfx_post] .x7p5m3t a.xh8yej3.xqeqjp1[href*='/reel/'],a.xgk8upj[href*='/reel/'],[sfx_post] .S2F_oscrx_cont a.S2F_wid_100.S2F_bb_dark[href*='/reel/'],a.S2F_bbl_rad10[href*='/reel/']"
+				"text": "[sfx_post] [role=region] div.S2F_snap_st.S2F_flsh_0 + div.S2F_snap_st.S2F_flsh_0 > a[href*='/reel/']"
 			},
-			"DOC": "Different sorts of 'Reels' fakeposts"
+			"DOC": "Current 'Reels' fakeposts as of 2026-01-21"
 		},
 		{
 			"target": "any",

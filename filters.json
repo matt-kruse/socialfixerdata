@@ -72,7 +72,7 @@
 			"target": "any",
 			"operator": "contains_selector",
 			"condition": {
-				"text": "[role=button],[role=link]:has-visible-text(^[\\\\u034f\\\\u2060]*(A[\\\\u034f\\\\u2060]*d[\\\\u034f\\\\u2060]*$|Anzeig|Chartered$|Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|S[\\\\u034f\\\\u2060]*p[\\\\u034f\\\\u2060]*o[\\\\u034f\\\\u2060]*n[\\\\u034f\\\\u2060]*[sz]|Χορηγ|広告|贊助|赞助|ממומ))"
+				"text": "[role=button],[role=link]:has-visible-text(^[\\u034f\\u2060]*(A[\\u034f\\u2060]*d[\\u034f\\u2060]*$|Anzeig|Chartered$|Спонз|Спонс|Được|Gespons|Hirdetés|Patrocin|Реклам|Publicid|S[\\u034f\\u2060]*p[\\u034f\\u2060]*o[\\u034f\\u2060]*n[\\u034f\\u2060]*[sz]|Χορηγ|広告|贊助|赞助|ממומ))"
 			},
 			"DOC": "Relies on 'x,y:has-visible-text(z)' improperly applying to both x & y"
 		}, {
@@ -101,7 +101,7 @@
 		"configurable_actions": true,
 		"title": "Hide Sponsored Posts",
 		"stop_on_match": true,
-		"description": "Hide 'Sponsored' posts from the News Feed.  Updated 2022-08-23, supports 2020 & 2022 layouts."
+		"description": "Hide 'Sponsored' posts from the News Feed.  Updated 2026-08-09."
 	}, {
 		"id": 2021082601,
 		"match": "ANY",

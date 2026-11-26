@@ -588,5 +588,24 @@
 		"configurable_actions": true,
 		"title": "Wordle",
 		"description": "Hide (or move to tab) posts from Wordle, Quordle, Nerdle, and various similar games"
+	}, {
+		"id": 2026112501,
+		"match": "ALL",
+		"stop_on_match": true,
+		"configurable_actions": true,
+		"rules": [{
+			"target": "any",
+			"operator": "contains_selector",
+			"condition": {
+				"text": "[role=button]:contains(^AI content$)"
+			}
+		}],
+		"actions": [{
+			"action": "hide",
+			"show_note": true,
+			"custom_note": "FB tagged this post 'AI content'"
+		}],
+		"title": "AI content",
+		"description": "hide posts with 'AI content' button in the header (facebook.com/1880708830001652)"
 	}]
 }
